@@ -1,4 +1,5 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawlerV1;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,11 +13,11 @@ import java.util.Map;
 @RequestMapping("/crawler")
 public class CrawlerController {
     @Autowired
-    private LCKCrawlerV1 lckCrawlerV1;
+    private LCKCrawler lckCrawler;
 
     @GetMapping()
     public Map<String, String> test() {
-        lckCrawlerV1.crawl();
+        lckCrawler.crawl();
         Map<String, String> data = new HashMap<>();
         data.put("message", "Hello World");
         return data;

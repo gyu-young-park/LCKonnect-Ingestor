@@ -1,8 +1,11 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.model;
 
+import lombok.Data;
+
 import java.time.LocalDate;
 
-public class LCKCrawlingRawData {
+@Data
+public class LCKRawDataModel {
     private String id;
     private String winTeam;
     private String loseTeam;
