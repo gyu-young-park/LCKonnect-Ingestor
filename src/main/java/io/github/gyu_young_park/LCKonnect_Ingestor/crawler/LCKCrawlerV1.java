@@ -1,10 +1,9 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.LCKCrawlingProperties;
-import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKRawDataModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKMatchRawDataModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.model.Team;
 import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.context.annotation.Primary;
@@ -24,13 +23,14 @@ public class LCKCrawlerV1 implements LCKCrawler {
         this.lckCrawlingProperties = lckCrawlingProperties;
     }
 
-    public List<LCKRawDataModel> crawl() {
-        List<LCKRawDataModel> lckRawDataModelList = new ArrayList<>();
+    public List<LCKMatchRawDataModel> crawl() {
+        List<LCKMatchRawDataModel> lckRawDataModelList = new ArrayList<>();
         try {
             for (String url : lckCrawlingProperties.getTargetUrl()) {
+                String league = Jsoup.connect(url).get().selectFirst("h1").text();
                 Elements table = Jsoup.connect(url).get().select("table.table_list").select("tbody > tr");
                 for (Element tableRow: table) {
-                    LCKRawDataModel model = parseLCkRawDataModelFromElements(tableRow.select("td"));
+                    LCKMatchRawDataModel model = parseLCkRawDataModelFromTableData(tableRow.select("td"), league);
                     lckRawDataModelList.add(model);
                 }
             }
@@ -52,7 +52,7 @@ public class LCKCrawlerV1 implements LCKCrawler {
         return id;
     }
 
-    private LCKRawDataModel parseLCkRawDataModelFromElements(Elements tableData) {
+    private LCKMatchRawDataModel parseLCkRawDataModelFromTableData(Elements tableData, String league) {
         boolean isPlayed = false;
         int leftScore = 0;
         int rightScore = 0;
@@ -64,8 +64,9 @@ public class LCKCrawlerV1 implements LCKCrawler {
             isPlayed = true;
         }
 
-        return new LCKRawDataModel(
+        return new LCKMatchRawDataModel(
                 getIdFromElement(tableData.get(0)),
+                league,
                 new Team(tableData.get(1).text(), leftScore),
                 new Team(tableData.get(3).text(), rightScore),
                 isPlayed,

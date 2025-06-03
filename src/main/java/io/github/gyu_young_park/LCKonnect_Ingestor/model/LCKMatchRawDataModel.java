@@ -7,8 +7,9 @@ import java.time.LocalDate;
 
 @Data
 @AllArgsConstructor
-public class LCKRawDataModel {
+public class LCKMatchRawDataModel {
     private String id;
+    private String league;
     private Team leftTeam;
     private Team rightTeam;
     private boolean isPlayed;
