@@ -2,7 +2,7 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.crawler;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.LCKCrawlingProperties;
 import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKRawDataModel;
-import lombok.NoArgsConstructor;
+import io.github.gyu_young_park.LCKonnect_Ingestor.model.Team;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -10,9 +10,10 @@ import org.jsoup.select.Elements;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Optional;
 
 @Primary
 @Component
@@ -27,16 +28,12 @@ public class LCKCrawlerV1 implements LCKCrawler {
         try {
             for (String url : lckCrawlingProperties.getTargetUrl()) {
                 Document doc = Jsoup.connect(url).get();
+                System.out.println("url " + url);
                 Elements elements = doc.select("table.table_list").select("tbody > tr");
                 for (Element row: elements) {
-                    LCKRawDataModel lckRawDataModel = new LCKRawDataModel();
-                    Elements cols = row.select("td");
-                    lckRawDataModel.setId(getIdFromElement(cols.get(0)));
-
-                    String leftTeam = cols.get(1).text();
-                    String score = cols.get(2).text();
-                    String rightTeam = cols.get(3).text();
-                    String date = cols.get(6).text();
+                    Elements columns = row.select("td");
+                    LCKRawDataModel model = parseLCkRawDataModelFromElements(columns);
+                    lckRawDataModelList.add(model);
                 }
             }
         } catch (Exception e) {
@@ -55,5 +52,23 @@ public class LCKCrawlerV1 implements LCKCrawler {
             System.out.println(nullPointerException);
         }
         return id;
+    }
+
+    private LCKRawDataModel parseLCkRawDataModelFromElements(Elements columns) {
+        boolean isPlayed = false;
+        String leftScore = "0";
+        String rightScore = "0";
+        String[] scores = columns.get(2).text().split(" ");
+        if (scores.length >= 3) {
+            leftScore = scores[0];
+            rightScore = scores[2];
+            isPlayed = true;
+        }
+
+        LocalDate date = LocalDate.parse(columns.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+        return new LCKRawDataModel(getIdFromElement(columns.get(0)),
+                new Team(columns.get(1).text(), Integer.parseInt(leftScore)),
+                new Team(columns.get(3).text(), Integer.parseInt(rightScore)),
+                isPlayed, date);
     }
 }
