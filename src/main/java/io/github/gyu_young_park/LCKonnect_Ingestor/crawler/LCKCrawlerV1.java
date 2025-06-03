@@ -19,6 +19,7 @@ import java.util.List;
 @Component
 public class LCKCrawlerV1 implements LCKCrawler {
     private final LCKCrawlingProperties lckCrawlingProperties;
+
     public LCKCrawlerV1(LCKCrawlingProperties lckCrawlingProperties) {
         this.lckCrawlingProperties = lckCrawlingProperties;
     }
@@ -27,12 +28,9 @@ public class LCKCrawlerV1 implements LCKCrawler {
         List<LCKRawDataModel> lckRawDataModelList = new ArrayList<>();
         try {
             for (String url : lckCrawlingProperties.getTargetUrl()) {
-                Document doc = Jsoup.connect(url).get();
-                System.out.println("url " + url);
-                Elements elements = doc.select("table.table_list").select("tbody > tr");
-                for (Element row: elements) {
-                    Elements columns = row.select("td");
-                    LCKRawDataModel model = parseLCkRawDataModelFromElements(columns);
+                Elements table = Jsoup.connect(url).get().select("table.table_list").select("tbody > tr");
+                for (Element tableRow: table) {
+                    LCKRawDataModel model = parseLCkRawDataModelFromElements(tableRow.select("td"));
                     lckRawDataModelList.add(model);
                 }
             }
@@ -54,21 +52,23 @@ public class LCKCrawlerV1 implements LCKCrawler {
         return id;
     }
 
-    private LCKRawDataModel parseLCkRawDataModelFromElements(Elements columns) {
+    private LCKRawDataModel parseLCkRawDataModelFromElements(Elements tableData) {
         boolean isPlayed = false;
-        String leftScore = "0";
-        String rightScore = "0";
-        String[] scores = columns.get(2).text().split(" ");
+        int leftScore = 0;
+        int rightScore = 0;
+
+        String[] scores = tableData.get(2).text().split(" ");
         if (scores.length >= 3) {
-            leftScore = scores[0];
-            rightScore = scores[2];
+            leftScore = Integer.parseInt(scores[0]);
+            rightScore = Integer.parseInt(scores[2]);
             isPlayed = true;
         }
 
-        LocalDate date = LocalDate.parse(columns.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-        return new LCKRawDataModel(getIdFromElement(columns.get(0)),
-                new Team(columns.get(1).text(), Integer.parseInt(leftScore)),
-                new Team(columns.get(3).text(), Integer.parseInt(rightScore)),
-                isPlayed, date);
+        return new LCKRawDataModel(
+                getIdFromElement(tableData.get(0)),
+                new Team(tableData.get(1).text(), leftScore),
+                new Team(tableData.get(3).text(), rightScore),
+                isPlayed,
+                LocalDate.parse(tableData.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
     }
 }
