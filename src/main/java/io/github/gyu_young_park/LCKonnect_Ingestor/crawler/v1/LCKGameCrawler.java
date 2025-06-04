@@ -4,7 +4,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKGameRawDataModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
 import org.springframework.data.util.Pair;
 import org.springframework.web.util.UriComponentsBuilder;
 

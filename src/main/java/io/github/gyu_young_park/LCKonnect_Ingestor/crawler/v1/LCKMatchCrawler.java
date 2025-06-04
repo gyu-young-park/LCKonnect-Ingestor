@@ -1,6 +1,5 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKGameRawDataModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKMatchRawDataModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
