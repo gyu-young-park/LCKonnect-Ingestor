@@ -10,7 +10,6 @@ import java.util.List;
 @AllArgsConstructor
 public class LCKMatchRawDataModel {
     private String id;
-    private String league;
     private String leftTeam;
     private int leftTeamTotalScore;
     private String rightTeam;

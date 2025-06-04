@@ -5,28 +5,23 @@ import org.jsoup.Jsoup;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
 
 public class LCKMatchCrawler {
-    public List<LCKMatchRawDataModel> crawLCKMatchData(String url) {
+    public List<LCKMatchRawDataModel> crawLCKMatchData(String url) throws IOException {
         List<LCKMatchRawDataModel> lckMatchRawDataModelList = new ArrayList<>();
-        try {
-            String league = Jsoup.connect(url).get().selectFirst("h1").text();
-            Elements table = Jsoup.connect(url).get().select("table.table_list").select("tbody > tr");
-            for (Element tableRow: table) {
-                lckMatchRawDataModelList.add(parseLCkRawDataModelFromTableData(tableRow.select("td"), league));
-            }
-
-        } catch (Exception e) {
-            System.out.println(e);
+        Elements table = Jsoup.connect(url).get().select("table.table_list").select("tbody > tr");
+        for (Element tableRow: table) {
+            lckMatchRawDataModelList.add(parseLCkMatchRawDataModelFromTableData(tableRow.select("td")));
         }
         return lckMatchRawDataModelList;
     }
 
-    private String getIdFromElement(Element element) {
+    private String paeseIdFromElement(Element element) {
         String id = "";
         try {
             String href = element.selectFirst("a").attr("href");
@@ -38,7 +33,7 @@ public class LCKMatchCrawler {
         return id;
     }
 
-    private LCKMatchRawDataModel parseLCkRawDataModelFromTableData(Elements tableData, String league) {
+    private LCKMatchRawDataModel parseLCkMatchRawDataModelFromTableData(Elements tableData) {
         boolean isPlayed = false;
         int leftScore = 0;
         int rightScore = 0;
@@ -51,8 +46,7 @@ public class LCKMatchCrawler {
         }
 
         return new LCKMatchRawDataModel(
-                getIdFromElement(tableData.get(0)),
-                league,
+                paeseIdFromElement(tableData.get(0)),
                 tableData.get(1).text(),
                 leftScore,
                 tableData.get(3).text(),

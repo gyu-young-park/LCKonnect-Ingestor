@@ -19,19 +19,18 @@ import java.util.List;
 @Component
 public class LCKCrawlerV1 implements LCKCrawler {
     private final LCKCrawlingProperties lckCrawlingProperties;
-    private final LCKMatchCrawler lckMatchCrawler;
+    private final LCKLeagueCrawler lckLeagueCrawler;
 
     public LCKCrawlerV1(LCKCrawlingProperties lckCrawlingProperties) {
         this.lckCrawlingProperties = lckCrawlingProperties;
-        this.lckMatchCrawler = new LCKMatchCrawler();
+        this.lckLeagueCrawler = new LCKLeagueCrawler();
     }
 
     public List<LCKLeagueRawDataModel> crawl() {
         List<LCKLeagueRawDataModel> lckLeagueRawDataModelList = new ArrayList<>();
         try {
             for (String url : lckCrawlingProperties.getTargetUrl()) {
-                lckLeagueRawDataModelList.add(new LCKLeagueRawDataModel(url, lckMatchCrawler.crawLCKMatchData(url)
-                ));
+                lckLeagueRawDataModelList.add(lckLeagueCrawler.crawLCKLeague(url));
             }
         } catch (Exception e) {
             System.out.println(e);
