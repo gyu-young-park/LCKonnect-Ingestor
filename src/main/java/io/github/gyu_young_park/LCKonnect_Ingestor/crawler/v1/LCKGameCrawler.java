@@ -24,6 +24,7 @@ public class LCKGameCrawler {
 
         int round = 1;
         for (Element gameRoundHTML: gameRoundHTMLList) {
+            List<Element> imgTagList = gameRoundHTML.select("img.champion_icon_medium").asList();
             LCKGameRawDataModel lckGameRawDataModel = new LCKGameRawDataModel();
             lckGameRawDataModel.setGameRound(round);
             lckGameRawDataModel.setLeftTeam(teamPair.getFirst());
@@ -31,29 +32,10 @@ public class LCKGameCrawler {
             lckGameRawDataModel.setLeftTeamScore(parseLeftTeamScore(gameRoundHTML));
             lckGameRawDataModel.setRightTeamScore(parseRightTeamScore(gameRoundHTML));
             lckGameRawDataModel.setGameDuration(parseGameTime(gameRoundHTML));
-            Elements imageTagList = gameRoundHTML.select("img.champion_icon_medium");
-
-            List<String> leftTeamBans = new ArrayList<>();
-            List<String> leftTeamPicks = new ArrayList<>();
-            List<String> rightTeamBans = new ArrayList<>();
-            List<String> rightTeamPicks = new ArrayList<>();
-            for (int i = 0; i < imageTagList.size(); i++) {
-                String[] srcPath = imageTagList.get(i).attr("src").split("/");
-                String champion = srcPath[srcPath.length - 1].replace(".png", "");
-                if (i < 5) {
-                    leftTeamBans.add(champion);
-                }else if(i < 10) {
-                    leftTeamPicks.add(champion);
-                } else if (i < 15) {
-                    rightTeamBans.add(champion);
-                } else {
-                    rightTeamPicks.add(champion);
-                }
-            }
-            lckGameRawDataModel.setLeftTeamBans(leftTeamBans);
-            lckGameRawDataModel.setLeftTeamPicks(leftTeamPicks);
-            lckGameRawDataModel.setRightTeamBans(rightTeamBans);
-            lckGameRawDataModel.setRightTeamPicks(rightTeamPicks);
+            lckGameRawDataModel.setLeftTeamBans(parseChampions(imgTagList, 0, 5));
+            lckGameRawDataModel.setLeftTeamPicks(parseChampions(imgTagList, 5, 10));
+            lckGameRawDataModel.setRightTeamBans(parseChampions(imgTagList, 10, 15));
+            lckGameRawDataModel.setRightTeamPicks(parseChampions(imgTagList, 15, 20));
             lckGameRawDataModelList.add(lckGameRawDataModel);
             round += 1;
         }
@@ -100,5 +82,20 @@ public class LCKGameCrawler {
             return 1;
         }
         return 0;
+    }
+
+    private List<String> parseChampions(List<Element> imageTags, int start, int end) {
+        List<String> champions = new ArrayList<>();
+        for (int i = start; i < end && i < imageTags.size(); i++) {
+            String champion = extractChampionNameFromSrc(imageTags.get(i).attr("src"));
+            champions.add(champion);
+        }
+        return champions;
+    }
+
+    private String extractChampionNameFromSrc(String src) {
+        String[] parts = src.split("/");
+        String filename = parts[parts.length - 1];
+        return filename.replace(".png", "");
     }
 }
