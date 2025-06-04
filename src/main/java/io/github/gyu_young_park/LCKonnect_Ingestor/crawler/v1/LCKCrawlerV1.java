@@ -6,6 +6,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKLeagueRawDataModel;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -23,9 +24,12 @@ public class LCKCrawlerV1 implements LCKCrawler {
     public List<LCKLeagueRawDataModel> crawl() {
         List<LCKLeagueRawDataModel> lckLeagueRawDataModelList = new ArrayList<>();
         try {
-            for (String url : lckCrawlingProperties.getTargetMatchUrl()) {
+            for (String url: lckCrawlingProperties.getTargetMatchUrl()) {
                 lckLeagueRawDataModelList.add(lckLeagueCrawler.crawLCKLeague(url));
             }
+        } catch (NullPointerException | IOException e) {
+            // TODO: set up LOGGER and process exception processing
+            System.out.println(e);
         } catch (Exception e) {
             System.out.println(e);
         }

@@ -18,7 +18,7 @@ public class LCKMatchCrawler {
         lckGameCrawler = new LCKGameCrawler();
     }
 
-    public List<LCKMatchRawDataModel> crawLCKMatchData(String url) throws IOException {
+    public List<LCKMatchRawDataModel> crawLCKMatchData(String url) throws IOException, NullPointerException {
         List<LCKMatchRawDataModel> lckMatchRawDataModelList = new ArrayList<>();
         Elements table = Jsoup.connect(url).get().select("table.table_list").select("tbody > tr");
         for (Element tableRow: table) {
@@ -31,27 +31,20 @@ public class LCKMatchCrawler {
         return element.selectFirst("a").attr("href").split("/")[3];
     }
 
-    private LCKMatchRawDataModel parseLCkMatchRawDataModelFromTableData(Elements tableData) throws IOException {
+    private LCKMatchRawDataModel parseLCkMatchRawDataModelFromTableData(Elements tableData) throws IOException, NullPointerException {
+        LCKMatchRawDataModel lckMatchRawDataModel = new LCKMatchRawDataModel();
         String matchId = parseIdFromElement(tableData.get(0));
-        boolean isPlayed = false;
-        int leftScore = 0;
-        int rightScore = 0;
-
         String[] scores = tableData.get(2).text().split(" ");
         if (scores.length >= 3) {
-            leftScore = Integer.parseInt(scores[0]);
-            rightScore = Integer.parseInt(scores[2]);
-            isPlayed = true;
+            lckMatchRawDataModel.setLeftTeamTotalScore(Integer.parseInt(scores[0]));
+            lckMatchRawDataModel.setRightTeamTotalScore(Integer.parseInt(scores[2]));
+            lckMatchRawDataModel.setPlayed(true);
         }
-
-        return new LCKMatchRawDataModel(
-                matchId,
-                tableData.get(1).text(),
-                leftScore,
-                tableData.get(3).text(),
-                rightScore,
-                isPlayed,
-                LocalDate.parse(tableData.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd")),
-                lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
+        lckMatchRawDataModel.setId(matchId);
+        lckMatchRawDataModel.setLeftTeam(tableData.get(1).text());
+        lckMatchRawDataModel.setRightTeam(tableData.get(3).text());
+        lckMatchRawDataModel.setDate(LocalDate.parse(tableData.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
+        lckMatchRawDataModel.setLckGameRawDataModelList(lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
+        return lckMatchRawDataModel;
     }
 }

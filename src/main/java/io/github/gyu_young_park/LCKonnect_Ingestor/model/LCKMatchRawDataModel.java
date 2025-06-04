@@ -2,12 +2,14 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDate;
 import java.util.List;
 
 @Data
 @AllArgsConstructor
+@NoArgsConstructor
 public class LCKMatchRawDataModel {
     private String id;
     private String leftTeam;

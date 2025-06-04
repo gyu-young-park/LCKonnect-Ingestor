@@ -13,9 +13,7 @@ public class LCKLeagueCrawler {
     }
 
     public LCKLeagueRawDataModel crawLCKLeague(String url) throws IOException {
-        return new LCKLeagueRawDataModel(
-                parseLeagueName(url),
-                lckMatchCrawler.crawLCKMatchData(url));
+        return new LCKLeagueRawDataModel(parseLeagueName(url), lckMatchCrawler.crawLCKMatchData(url));
     }
 
     private String parseLeagueName(String url) throws IOException {
