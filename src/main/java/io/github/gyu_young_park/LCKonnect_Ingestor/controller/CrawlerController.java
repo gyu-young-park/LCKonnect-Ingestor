@@ -1,5 +1,6 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
+import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKLeagueRawDataModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKMatchRawDataModel;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -17,10 +18,10 @@ public class CrawlerController {
     private LCKCrawler lckCrawler;
 
     @GetMapping()
-    public Map<String, List<LCKMatchRawDataModel>> getLCkRawDataModelList() {
-        List<LCKMatchRawDataModel> lckRawDataModelList = lckCrawler.crawl();
-        Map<String, List<LCKMatchRawDataModel>> data = new HashMap<>();
-        data.put("message", lckRawDataModelList);
+    public Map<String, List<LCKLeagueRawDataModel>> getLCkRawDataModelList() {
+        List<LCKLeagueRawDataModel> lckLeagueRawDataModelList = lckCrawler.crawl();
+        Map<String, List<LCKLeagueRawDataModel>> data = new HashMap<>();
+        data.put("message", lckLeagueRawDataModelList);
         return data;
     }
 }
