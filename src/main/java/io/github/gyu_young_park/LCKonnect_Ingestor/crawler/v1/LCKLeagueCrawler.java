@@ -21,6 +21,4 @@ public class LCKLeagueCrawler {
     private String parseLeagueName(String url) throws IOException {
         return Jsoup.connect(url).get().selectFirst("h1").text();
     }
-
-
 }

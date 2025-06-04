@@ -16,9 +16,10 @@ public class LCKGameCrawler {
     private static String GAME_ROUND_URL = "https://gol.gg/game/stats/{id}/page-summary/";
 
     public List<LCKGameRawDataModel> crawlLCKGameRawDataModelList(String matchId) throws IOException {
+        List<LCKGameRawDataModel> lckGameRawDataModelList = new ArrayList<>();
+
         Document doc = Jsoup.connect(buildGameUrlWithMatchId(matchId)).get();
         Pair<String, String> teamPair = parseTeamName(doc);
-        List<LCKGameRawDataModel> lckGameRawDataModelList = new ArrayList<>();
         List<Element> gameRoundHTMLList = parseGameRoundList(doc);
 
         int round = 1;
@@ -28,8 +29,8 @@ public class LCKGameCrawler {
             lckGameRawDataModel.setGameRound(round);
             lckGameRawDataModel.setLeftTeam(teamPair.getFirst());
             lckGameRawDataModel.setRightTeam(teamPair.getSecond());
-            lckGameRawDataModel.setLeftTeamScore(parseLeftTeamScore(gameRoundHTML));
-            lckGameRawDataModel.setRightTeamScore(parseRightTeamScore(gameRoundHTML));
+            lckGameRawDataModel.setLeftTeamScore(parseTeamScore(gameRoundHTML, 0));
+            lckGameRawDataModel.setRightTeamScore(parseTeamScore(gameRoundHTML, 1));
             lckGameRawDataModel.setGameDuration(parseGameTime(gameRoundHTML));
             lckGameRawDataModel.setLeftTeamBans(parseChampions(imgTagList, 0, 5));
             lckGameRawDataModel.setLeftTeamPicks(parseChampions(imgTagList, 5, 10));
@@ -38,6 +39,7 @@ public class LCKGameCrawler {
             lckGameRawDataModelList.add(lckGameRawDataModel);
             round += 1;
         }
+
         return lckGameRawDataModelList;
     }
 
@@ -54,12 +56,9 @@ public class LCKGameCrawler {
         return doc.select("div.row.pb-1").asList();
     }
 
-    private int parseLeftTeamScore(Element rawGameResultHTML) {
-        return convertStringScoreToInt(rawGameResultHTML.select("h1").get(0).text());
-    }
-
-    private int parseRightTeamScore(Element rawGameResultHTML) {
-        return convertStringScoreToInt(rawGameResultHTML.select("h1").get(2).text());
+    private int parseTeamScore(Element gameRound, int h1Index) {
+        String scoreText = gameRound.select("h1").get(h1Index).text();
+        return "WIN".equals(scoreText) ? 1 : 0;
     }
 
     private Duration parseGameTime(Element rawGameResultHTML) {
@@ -74,13 +73,6 @@ public class LCKGameCrawler {
         int minutes = Integer.parseInt(minutesAndSeconds[0]);
         int seconds = Integer.parseInt(minutesAndSeconds[1]);
         return Duration.ofMillis(minutes).plusSeconds(seconds);
-    }
-
-    private int convertStringScoreToInt(String score) {
-        if (score.equals("WIN")) {
-            return 1;
-        }
-        return 0;
     }
 
     private List<String> parseChampions(List<Element> imageTags, int start, int end) {

@@ -28,18 +28,11 @@ public class LCKMatchCrawler {
     }
 
     private String parseIdFromElement(Element element) {
-        String id = "";
-        try {
-            String href = element.selectFirst("a").attr("href");
-            id = href.split("/")[3];
-        } catch (NullPointerException e) {
-            // TODO: SET LOGGER
-            System.out.println(e);
-        }
-        return id;
+        return element.selectFirst("a").attr("href").split("/")[3];
     }
 
     private LCKMatchRawDataModel parseLCkMatchRawDataModelFromTableData(Elements tableData) throws IOException {
+        String matchId = parseIdFromElement(tableData.get(0));
         boolean isPlayed = false;
         int leftScore = 0;
         int rightScore = 0;
@@ -50,8 +43,6 @@ public class LCKMatchCrawler {
             rightScore = Integer.parseInt(scores[2]);
             isPlayed = true;
         }
-
-        String matchId = parseIdFromElement(tableData.get(0));
 
         return new LCKMatchRawDataModel(
                 matchId,
