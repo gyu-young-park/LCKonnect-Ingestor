@@ -21,7 +21,7 @@ public class LCKMatchCrawler {
         return lckMatchRawDataModelList;
     }
 
-    private String paeseIdFromElement(Element element) {
+    private String parseIdFromElement(Element element) {
         String id = "";
         try {
             String href = element.selectFirst("a").attr("href");
@@ -46,7 +46,7 @@ public class LCKMatchCrawler {
         }
 
         return new LCKMatchRawDataModel(
-                paeseIdFromElement(tableData.get(0)),
+                parseIdFromElement(tableData.get(0)),
                 tableData.get(1).text(),
                 leftScore,
                 tableData.get(3).text(),
