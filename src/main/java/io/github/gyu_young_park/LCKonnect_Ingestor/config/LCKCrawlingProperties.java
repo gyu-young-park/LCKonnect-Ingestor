@@ -13,5 +13,5 @@ import java.util.List;
 @Getter
 @Setter
 public class LCKCrawlingProperties {
-    private List<String> targetUrl;
+    private List<String> targetMatchUrl;
 }

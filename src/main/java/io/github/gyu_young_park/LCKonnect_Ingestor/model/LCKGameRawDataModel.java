@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.Duration;
 import java.time.LocalTime;
 import java.util.List;
 
@@ -15,9 +16,11 @@ public class LCKGameRawDataModel {
     private int gameRound;
     private String leftTeam;
     private int leftTeamScore;
+    private List<String> leftTeamBans;
     private List<String> leftTeamPicks;
     private String rightTeam;
     private int rightTeamScore;
+    private List<String> rightTeamBans;
     private List<String> rightTeamPicks;
-    private LocalTime gameTime;
+    private Duration gameDuration;
 }

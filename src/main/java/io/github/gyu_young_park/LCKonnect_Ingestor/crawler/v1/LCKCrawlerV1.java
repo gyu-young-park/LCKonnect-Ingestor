@@ -29,7 +29,7 @@ public class LCKCrawlerV1 implements LCKCrawler {
     public List<LCKLeagueRawDataModel> crawl() {
         List<LCKLeagueRawDataModel> lckLeagueRawDataModelList = new ArrayList<>();
         try {
-            for (String url : lckCrawlingProperties.getTargetUrl()) {
+            for (String url : lckCrawlingProperties.getTargetMatchUrl()) {
                 lckLeagueRawDataModelList.add(lckLeagueCrawler.crawLCKLeague(url));
             }
         } catch (Exception e) {

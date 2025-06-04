@@ -7,6 +7,5 @@ spring:
 
 crawling:
   lck:
-    target_url:
+    target_match_url:
       - "https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Rounds%201-2/"
-      - "https://gol.gg/tournament/tournament-matchlist/Worlds%20Main%20Event%202024/"
