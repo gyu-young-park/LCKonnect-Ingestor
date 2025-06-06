@@ -38,13 +38,13 @@ public class LCKMatchCrawler {
         if (scores.length >= 3) {
             lckMatchRawDataModel.setLeftTeamTotalScore(Integer.parseInt(scores[0]));
             lckMatchRawDataModel.setRightTeamTotalScore(Integer.parseInt(scores[2]));
+            lckMatchRawDataModel.setLckGameRawDataModelList(lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
             lckMatchRawDataModel.setPlayed(true);
         }
         lckMatchRawDataModel.setId(matchId);
         lckMatchRawDataModel.setLeftTeam(tableData.get(1).text());
         lckMatchRawDataModel.setRightTeam(tableData.get(3).text());
         lckMatchRawDataModel.setDate(LocalDate.parse(tableData.get(6).text(), DateTimeFormatter.ofPattern("yyyy-MM-dd")));
-        lckMatchRawDataModel.setLckGameRawDataModelList(lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
         return lckMatchRawDataModel;
     }
 }
