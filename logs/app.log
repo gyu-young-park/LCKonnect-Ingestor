@@ -1,0 +1,39 @@
+23:51:29.659 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 5228 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+23:51:29.659 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+23:51:29.969 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+23:51:29.971 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:51:29.986 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+23:51:30.168 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+23:51:30.180 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:51:30.182 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:51:30.182 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+23:51:30.216 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:51:30.217 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 537 ms
+23:51:30.600 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:51:30.610 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+23:51:30.616 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.182 seconds (process running for 1.434)
+23:52:41.634 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+23:52:41.642 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+23:52:43.370 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 5465 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+23:52:43.371 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+23:52:43.695 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+23:52:43.697 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+23:52:43.713 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+23:52:43.906 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+23:52:43.914 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+23:52:43.915 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+23:52:43.915 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+23:52:43.947 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+23:52:43.948 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 549 ms
+23:52:44.390 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+23:52:44.399 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+23:52:44.406 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.286 seconds (process running for 1.536)
+23:52:48.483 [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+23:52:48.483 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+23:52:48.484 [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+23:52:48.500 [http-nio-8081-exec-1] INFO  i.g.g.L.crawler.v1.LCKCrawlerV1 - LckcrawlerV1: Start crawling...
+23:53:09.086 [http-nio-8081-exec-2] INFO  i.g.g.L.crawler.v1.LCKCrawlerV1 - LckcrawlerV1: Start crawling...
+23:55:09.964 [http-nio-8081-exec-1] INFO  i.g.g.L.crawler.v1.LCKCrawlerV1 - LckcrawlerV1: crawling done
+23:55:30.035 [http-nio-8081-exec-2] INFO  i.g.g.L.crawler.v1.LCKCrawlerV1 - LckcrawlerV1: crawling done
+23:55:40.879 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+23:55:40.884 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
