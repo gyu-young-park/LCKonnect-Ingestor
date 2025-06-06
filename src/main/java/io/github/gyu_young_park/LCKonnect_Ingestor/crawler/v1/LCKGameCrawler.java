@@ -4,6 +4,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKGameRawDataModel;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.util.Pair;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -13,7 +15,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LCKGameCrawler {
-    private static String GAME_ROUND_URL = "https://gol.gg/game/stats/{id}/page-summary/";
+    private static final Logger logger = LoggerFactory.getLogger(LCKGameCrawler.class);
+    private final String GAME_ROUND_URL = "https://gol.gg/game/stats/{id}/page-summary/";
 
     public List<LCKGameRawDataModel> crawlLCKGameRawDataModelList(String matchId) throws IOException {
         List<LCKGameRawDataModel> lckGameRawDataModelList = new ArrayList<>();
@@ -21,11 +24,14 @@ public class LCKGameCrawler {
         Document doc = Jsoup.connect(buildGameUrlWithMatchId(matchId)).get();
         Pair<String, String> teamPair = parseTeamName(doc);
         List<Element> gameRoundHTMLList = parseGameRoundList(doc);
+        List<String> gameIdList = parseGameIdList(doc);
 
+        // verify: gameIdList length must be the same as gameRoundHTMLList
         int round = 1;
         for (Element gameRoundHTML: gameRoundHTMLList) {
             List<Element> imgTagList = gameRoundHTML.select("img.champion_icon_medium").asList();
             LCKGameRawDataModel lckGameRawDataModel = new LCKGameRawDataModel();
+            lckGameRawDataModel.setId(gameIdList.get(round-1));
             lckGameRawDataModel.setGameRound(round);
             lckGameRawDataModel.setLeftTeam(teamPair.getFirst());
             lckGameRawDataModel.setRightTeam(teamPair.getSecond());
@@ -88,5 +94,14 @@ public class LCKGameCrawler {
         String[] parts = src.split("/");
         String filename = parts[parts.length - 1];
         return filename.replace(".png", "");
+    }
+
+    private List<String> parseGameIdList(Document doc) {
+        List<String> gameIdList = new ArrayList<>();
+        List<Element> gameNavList = doc.select("li.nav-item.game-menu-button").asList();
+        for (int i = 1; i < gameNavList.size(); i++) {
+            gameIdList.add(gameNavList.get(i).selectFirst("a").attr("href").split("/")[3]);
+        }
+        return gameIdList;
     }
 }
