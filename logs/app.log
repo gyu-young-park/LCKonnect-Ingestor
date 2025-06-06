@@ -1896,3 +1896,97 @@ java.lang.IndexOutOfBoundsException: Index 1 out of bounds for length 1
 02:16:51.198 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.131 seconds (process running for 1.369)
 02:16:59.937 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
 02:16:59.944 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+02:29:49.563 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 29013 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+02:29:49.564 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+02:29:49.877 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+02:29:49.878 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+02:29:49.893 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+02:29:50.083 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+02:29:50.091 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+02:29:50.093 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:29:50.093 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02:29:50.120 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:29:50.121 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 536 ms
+02:29:50.531 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+02:29:50.540 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+02:29:50.546 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.182 seconds (process running for 1.45)
+02:31:42.422 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+02:31:42.431 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+02:37:46.630 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 30366 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+02:37:46.631 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+02:37:46.955 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+02:37:46.956 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+02:37:46.972 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+02:37:47.164 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+02:37:47.173 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+02:37:47.174 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:37:47.174 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02:37:47.202 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:37:47.203 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 551 ms
+02:37:47.610 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+02:37:47.621 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+02:37:47.626 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.217 seconds (process running for 1.482)
+02:41:47.958 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+02:41:47.965 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+02:41:49.982 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 31040 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+02:41:49.983 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+02:41:50.281 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+02:41:50.283 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+02:41:50.297 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+02:41:50.480 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+02:41:50.487 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+02:41:50.489 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:41:50.489 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02:41:50.516 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:41:50.517 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 514 ms
+02:41:50.915 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+02:41:50.925 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+02:41:50.930 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.148 seconds (process running for 1.405)
+02:44:18.330 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+02:44:18.335 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+02:44:20.086 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 31457 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+02:44:20.087 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+02:44:20.391 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+02:44:20.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+02:44:20.408 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+02:44:20.595 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+02:44:20.604 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+02:44:20.605 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+02:44:20.605 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+02:44:20.636 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+02:44:20.637 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 529 ms
+02:44:21.040 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+02:44:21.049 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+02:44:21.055 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.163 seconds (process running for 1.414)
+03:30:46.397 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+03:30:46.402 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+03:30:48.145 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 36445 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+03:30:48.147 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+03:30:48.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+03:30:48.459 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+03:30:48.473 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+03:30:48.658 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+03:30:48.666 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+03:30:48.667 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:30:48.667 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+03:30:48.695 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:30:48.695 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 521 ms
+03:30:49.101 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+03:30:49.111 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+03:30:49.117 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.171 seconds (process running for 1.426)
+03:47:03.253 [SpringApplicationShutdownHook] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+03:47:03.259 [tomcat-shutdown] INFO  o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+03:47:05.173 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Starting LcKonnectIngestorApplication using Java 21.0.2 with PID 39085 (/Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor/build/classes/java/main started by gyuyoungpark in /Users/gyuyoungpark/Desktop/project/LCKonnect-Ingestor)
+03:47:05.174 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - No active profile set, falling back to 1 default profile: "default"
+03:47:05.487 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+03:47:05.488 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+03:47:05.503 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.
+03:47:05.686 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8081 (http)
+03:47:05.693 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+03:47:05.695 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+03:47:05.695 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.41]
+03:47:05.722 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+03:47:05.722 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 528 ms
+03:47:06.129 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+03:47:06.140 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8081 (http) with context path '/'
+03:47:06.146 [main] INFO  i.g.g.L.LcKonnectIngestorApplication - Started LcKonnectIngestorApplication in 1.167 seconds (process running for 1.431)
