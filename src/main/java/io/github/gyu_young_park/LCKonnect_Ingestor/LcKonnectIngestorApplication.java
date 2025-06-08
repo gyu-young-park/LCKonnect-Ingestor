@@ -16,7 +16,6 @@ public class LcKonnectIngestorApplication {
 		SpringApplication.run(LcKonnectIngestorApplication.class, args);
 		Dotenv dotenv = Dotenv.load();
 		String youtubeApiKey = dotenv.get("YOUTUBE_API_KEY");
-		System.out.println("YOUTUBE API_KEY: " + youtubeApiKey);
 
 		try {
 			String urlStr = String.format(
