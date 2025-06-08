@@ -1,6 +1,7 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.YoutubeChannelService;
+import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.ChannelResponseDTO;
+import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.service.YoutubeChannelService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -14,7 +15,7 @@ public class YoutubeAPIController {
     private YoutubeChannelService youtubeChannelService;
 
     @GetMapping("/channel")
-    public Mono<String> getChannelInfo() {
-        return youtubeChannelService.getChannelData("UCw1DsweY9b2AKGjV4kGJP1A");
+    public Mono<ChannelResponseDTO> getChannelInfo() {
+        return youtubeChannelService.getChannelData("lck");
     }
 }

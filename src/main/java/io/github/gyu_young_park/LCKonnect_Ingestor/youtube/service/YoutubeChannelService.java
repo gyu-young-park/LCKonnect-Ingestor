@@ -1,7 +1,8 @@
-package io.github.gyu_young_park.LCKonnect_Ingestor.youtube;
+package io.github.gyu_young_park.LCKonnect_Ingestor.youtube.service;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.EnvConfigManager;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.YoutubeAPIConfiguration;
+import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.ChannelResponseDTO;
 import lombok.Data;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
@@ -23,12 +24,12 @@ public class YoutubeChannelService {
         this.youtubeAPIConfiguration= youtubeAPIConfiguration;
     }
 
-    public Mono<String> getChannelData(String channelName) {
+    public Mono<ChannelResponseDTO> getChannelData(String channelName) {
         return webClient.get().uri(uriBuilder -> uriBuilder
                 .path(youtubeAPIConfiguration.getPath().getChannel())
                 .queryParam("part", "snippet")
                 .queryParam("forUsername", channelName)
                 .queryParam("key", envConfigManager.getYoutubeAPIkey())
-                .build()).retrieve().bodyToMono(String.class);
+                .build()).retrieve().bodyToMono(ChannelResponseDTO.class);
     }
 }
