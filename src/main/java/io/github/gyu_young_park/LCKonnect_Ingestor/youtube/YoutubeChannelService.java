@@ -23,11 +23,11 @@ public class YoutubeChannelService {
         this.youtubeAPIConfiguration= youtubeAPIConfiguration;
     }
 
-    public Mono<String> getChannelData(String channelId) {
+    public Mono<String> getChannelData(String channelName) {
         return webClient.get().uri(uriBuilder -> uriBuilder
                 .path(youtubeAPIConfiguration.getPath().getChannel())
                 .queryParam("part", "snippet")
-                .queryParam("id", channelId)
+                .queryParam("forUsername", channelName)
                 .queryParam("key", envConfigManager.getYoutubeAPIkey())
                 .build()).retrieve().bodyToMono(String.class);
     }

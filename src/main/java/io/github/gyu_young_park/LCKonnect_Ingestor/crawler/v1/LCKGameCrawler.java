@@ -1,6 +1,6 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKGameRawDataModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto.LCKGameRawDataDTO;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -18,8 +18,8 @@ public class LCKGameCrawler {
     private static final Logger logger = LoggerFactory.getLogger(LCKGameCrawler.class);
     private final String GAME_ROUND_URL = "https://gol.gg/game/stats/{id}/page-summary/";
 
-    public List<LCKGameRawDataModel> crawlLCKGameRawDataModelList(String matchId) throws IOException {
-        List<LCKGameRawDataModel> lckGameRawDataModelList = new ArrayList<>();
+    public List<LCKGameRawDataDTO> crawlLCKGameRawDataModelList(String matchId) throws IOException {
+        List<LCKGameRawDataDTO> lckGameRawDataDTOList = new ArrayList<>();
 
         Document doc = Jsoup.connect(buildGameUrlWithMatchId(matchId)).get();
         Pair<String, String> teamPair = parseTeamName(doc);
@@ -30,23 +30,23 @@ public class LCKGameCrawler {
         int round = 1;
         for (Element gameRoundHTML: gameRoundHTMLList) {
             List<Element> imgTagList = gameRoundHTML.select("img.champion_icon_medium").asList();
-            LCKGameRawDataModel lckGameRawDataModel = new LCKGameRawDataModel();
-            lckGameRawDataModel.setId(gameIdList.get(round-1));
-            lckGameRawDataModel.setGameRound(round);
-            lckGameRawDataModel.setLeftTeam(teamPair.getFirst());
-            lckGameRawDataModel.setRightTeam(teamPair.getSecond());
-            lckGameRawDataModel.setLeftTeamScore(parseTeamScore(gameRoundHTML, 0));
-            lckGameRawDataModel.setRightTeamScore(parseTeamScore(gameRoundHTML, 1));
-            lckGameRawDataModel.setGameDuration(parseGameTime(gameRoundHTML));
-            lckGameRawDataModel.setLeftTeamBans(parseChampions(imgTagList, 0, 5));
-            lckGameRawDataModel.setLeftTeamPicks(parseChampions(imgTagList, 5, 10));
-            lckGameRawDataModel.setRightTeamBans(parseChampions(imgTagList, 10, 15));
-            lckGameRawDataModel.setRightTeamPicks(parseChampions(imgTagList, 15, 20));
-            lckGameRawDataModelList.add(lckGameRawDataModel);
+            LCKGameRawDataDTO lckGameRawDataDTO = new LCKGameRawDataDTO();
+            lckGameRawDataDTO.setId(gameIdList.get(round-1));
+            lckGameRawDataDTO.setGameRound(round);
+            lckGameRawDataDTO.setLeftTeam(teamPair.getFirst());
+            lckGameRawDataDTO.setRightTeam(teamPair.getSecond());
+            lckGameRawDataDTO.setLeftTeamScore(parseTeamScore(gameRoundHTML, 0));
+            lckGameRawDataDTO.setRightTeamScore(parseTeamScore(gameRoundHTML, 1));
+            lckGameRawDataDTO.setGameDuration(parseGameTime(gameRoundHTML));
+            lckGameRawDataDTO.setLeftTeamBans(parseChampions(imgTagList, 0, 5));
+            lckGameRawDataDTO.setLeftTeamPicks(parseChampions(imgTagList, 5, 10));
+            lckGameRawDataDTO.setRightTeamBans(parseChampions(imgTagList, 10, 15));
+            lckGameRawDataDTO.setRightTeamPicks(parseChampions(imgTagList, 15, 20));
+            lckGameRawDataDTOList.add(lckGameRawDataDTO);
             round += 1;
         }
 
-        return lckGameRawDataModelList;
+        return lckGameRawDataDTOList;
     }
 
     private String buildGameUrlWithMatchId(String matchId) {

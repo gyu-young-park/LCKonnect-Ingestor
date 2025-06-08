@@ -1,6 +1,6 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.model.LCKLeagueRawDataModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto.LCKLeagueRawDataDTO;
 import org.jsoup.Jsoup;
 
 import java.io.IOException;
@@ -12,8 +12,8 @@ public class LCKLeagueCrawler {
         this.lckMatchCrawler = new LCKMatchCrawler();
     }
 
-    public LCKLeagueRawDataModel crawLCKLeague(String url) throws IOException {
-        return new LCKLeagueRawDataModel(parseLeagueName(url), lckMatchCrawler.crawLCKMatchData(url));
+    public LCKLeagueRawDataDTO crawLCKLeague(String url) throws IOException {
+        return new LCKLeagueRawDataDTO(parseLeagueName(url), lckMatchCrawler.crawLCKMatchData(url));
     }
 
     private String parseLeagueName(String url) throws IOException {

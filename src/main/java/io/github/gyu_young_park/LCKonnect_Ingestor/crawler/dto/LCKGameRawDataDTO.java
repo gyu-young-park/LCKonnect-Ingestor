@@ -1,4 +1,4 @@
-package io.github.gyu_young_park.LCKonnect_Ingestor.model;
+package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class LCKGameRawDataModel {
+public class LCKGameRawDataDTO {
     private String id;
     private int gameRound;
     private String leftTeam;
