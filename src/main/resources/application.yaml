@@ -9,3 +9,9 @@ crawling:
   lck:
     target_match_url:
       - "https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Rounds%201-2/"
+
+youtube:
+  api:
+    base_url: "https://www.googleapis.com"
+    path:
+      channel: "/youtube/v3/channels"
