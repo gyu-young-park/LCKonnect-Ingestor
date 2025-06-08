@@ -28,7 +28,7 @@ public class YoutubeChannelService {
         return webClient.get().uri(uriBuilder -> uriBuilder
                 .path(youtubeAPIConfiguration.getPath().getChannel())
                 .queryParam("part", "snippet")
-                .queryParam("forUsername", channelName)
+                .queryParam("forHandle", channelName)
                 .queryParam("key", envConfigManager.getYoutubeAPIkey())
                 .build()).retrieve().bodyToMono(ChannelResponseDTO.class);
     }
