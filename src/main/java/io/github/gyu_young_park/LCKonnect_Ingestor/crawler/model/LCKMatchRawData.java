@@ -1,4 +1,4 @@
-package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto;
+package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -10,7 +10,7 @@ import java.util.List;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class LCKMatchRawDataDTO {
+public class LCKMatchRawData {
     private String id;
     private String leftTeam;
     private int leftTeamTotalScore;
@@ -18,5 +18,5 @@ public class LCKMatchRawDataDTO {
     private int rightTeamTotalScore;
     private boolean isPlayed;
     private LocalDate date;
-    private List<LCKGameRawDataDTO> lckGameRawDataDTOList;
+    private List<LCKGameRawData> lckGameRawDataDTOList;
 }

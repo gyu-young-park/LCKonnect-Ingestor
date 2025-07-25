@@ -2,7 +2,7 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.LCKCrawlingProperties;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
-import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto.LCKLeagueRawDataDTO;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Primary;
@@ -24,18 +24,18 @@ public class LCKCrawlerV1 implements LCKCrawler {
         this.lckLeagueCrawler = new LCKLeagueCrawler();
     }
 
-    public List<LCKLeagueRawDataDTO> crawl() {
+    public List<LCKLeagueRawData> crawl() {
         logger.info("LckcrawlerV1: Start crawling...");
-        List<LCKLeagueRawDataDTO> lckLeagueRawDataDTOList = new ArrayList<>();
+        List<LCKLeagueRawData> lckLeagueRawDataList = new ArrayList<>();
         try {
             for (String url: lckCrawlingProperties.getTargetMatchUrl()) {
-                lckLeagueRawDataDTOList.add(lckLeagueCrawler.crawLCKLeague(url));
+                lckLeagueRawDataList.add(lckLeagueCrawler.crawLCKLeague(url));
             }
         } catch (NullPointerException | IOException e) {
             logger.error(e.getStackTrace().toString());
         }
         logger.info("LckcrawlerV1: crawling done");
 
-        return lckLeagueRawDataDTOList;
+        return lckLeagueRawDataList;
     }
 }

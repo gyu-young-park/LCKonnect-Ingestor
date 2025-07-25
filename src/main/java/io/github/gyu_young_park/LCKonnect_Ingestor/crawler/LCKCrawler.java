@@ -1,9 +1,9 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.dto.LCKLeagueRawDataDTO;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 
 import java.util.List;
 
 public interface LCKCrawler {
-    List<LCKLeagueRawDataDTO> crawl();
+    List<LCKLeagueRawData> crawl();
 }
