@@ -11,11 +11,13 @@ import org.springframework.web.reactive.function.client.WebClient;
 @ConfigurationProperties(prefix = "youtube.api")
 public class YoutubeAPIConfiguration {
     private String baseUrl;
+    private String channelId;
     private YoutubeAPIPath path;
 
     @Data
     public static class YoutubeAPIPath {
         private String channel;
+        private String playlist;
     }
 
     @Bean

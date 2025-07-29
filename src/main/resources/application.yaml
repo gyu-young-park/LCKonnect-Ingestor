@@ -9,9 +9,13 @@ crawling:
   lck:
     target_match_url:
       - "https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Rounds%201-2/"
+      - "https://gol.gg/tournament/tournament-stats/LCK%202025%20Road%20to%20MSI/"
+      - "https://gol.gg/tournament/tournament-stats/LCK%202025%20Rounds%203-5/"
 
 youtube:
   api:
     base_url: "https://www.googleapis.com"
+    channel_id: "UCw1DsweY9b2AKGjV4kGJP1A"
     path:
       channel: "/youtube/v3/channels"
+      playlist: "/youtube/v3/playlists"

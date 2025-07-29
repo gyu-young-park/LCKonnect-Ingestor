@@ -4,7 +4,7 @@ import lombok.Data;
 import java.util.List;
 
 @Data
-public class ChannelResponseDTO {
+public class LCKChannelAPIRespDTO {
     private String kind;
     private String etag;
     private PageInfo pageInfo;
