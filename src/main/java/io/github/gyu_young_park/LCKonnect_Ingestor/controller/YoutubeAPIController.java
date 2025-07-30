@@ -20,7 +20,8 @@ public class YoutubeAPIController {
 //    }
 
     @GetMapping("/playlist")
-    public ResponseEntity<LCKPlayListAPIRespDTO> getPlayList() {
-        return ResponseEntity.ok(youtubeChannelService.getLCKPlayList());
+    public ResponseEntity<?> getPlayList() {
+        youtubeChannelService.getLCKPlayList();
+        return ResponseEntity.ok("hello");
     }
 }
