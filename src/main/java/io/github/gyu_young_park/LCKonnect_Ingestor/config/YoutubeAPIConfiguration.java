@@ -18,6 +18,7 @@ public class YoutubeAPIConfiguration {
     public static class YoutubeAPIPath {
         private String channel;
         private String playlist;
+        private String playlistItemList;
     }
 
     @Bean

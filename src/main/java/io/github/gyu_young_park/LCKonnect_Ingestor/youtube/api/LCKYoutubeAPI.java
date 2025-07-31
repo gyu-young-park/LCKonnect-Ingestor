@@ -4,6 +4,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.config.EnvConfigManager;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.YoutubeAPIConfiguration;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.LCKChannelAPIRespDTO;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.LCKPlayListAPIRespDTO;
+import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.LCKPlayListItemListRespDTO;
 import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -34,6 +35,16 @@ public class LCKYoutubeAPI {
                 .queryParam("key", envConfigManager.getYoutubeAPIkey())
                 .queryParam("channelId", youtubeAPIConfiguration.getChannelId()).build()).retrieve().bodyToMono(LCKPlayListAPIRespDTO.class).block();
     }
+
+    public LCKPlayListItemListRespDTO getLCKPlaylistItemList(String playlistId) {
+        return youtubeWebClient.get().uri(uriBuilder -> uriBuilder
+                .path(youtubeAPIConfiguration.getPath().getPlaylistItemList())
+                .queryParam("part", "snippet")
+                .queryParam("playlistId", playlistId)
+                .queryParam("key", envConfigManager.getYoutubeAPIkey())
+                .build()).retrieve().bodyToMono(LCKPlayListItemListRespDTO.class).block();
+    }
+
 
     public LCKChannelAPIRespDTO getLCkChannelData(String channelName) {
         return youtubeWebClient.get().uri(uriBuilder -> uriBuilder

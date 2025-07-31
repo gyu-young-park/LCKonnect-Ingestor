@@ -19,3 +19,4 @@ youtube:
     path:
       channel: "/youtube/v3/channels"
       playlist: "/youtube/v3/playlists"
+      playlist_item_list: "/youtube/v3/playlistItems"
