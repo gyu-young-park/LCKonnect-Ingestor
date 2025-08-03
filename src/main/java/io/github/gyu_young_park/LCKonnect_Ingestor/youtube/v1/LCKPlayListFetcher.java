@@ -18,11 +18,11 @@ public class LCKPlayListFetcher {
         do {
             LCKPlayListAPIRespDTO lckPlayListAPIRespDTO = lckYoutubeAPI.getLCKPlayList(pageToken);
             for (LCKPlayListAPIRespDTO.Item item : lckPlayListAPIRespDTO.getItems()) {
-                System.out.println(item.getSnippet().getTitle() + " " + item.getId());
+                if (!item.getSnippet().getTitle().endsWith("게임 하이라이트")) continue;
+                // TODO: api dto <-> model 간 변환 작업
+                System.out.println("Playlist Title: " + item.getSnippet().getTitle() + " " + item.getId());
                 LCKPlayListItemListRespDTO lckPlayListItemListRespDTO = lckYoutubeAPI.getLCKPlaylistItemList(item.getId());
-                for (LCKPlayListItemListRespDTO.PlaylistItem playlistItem : lckPlayListItemListRespDTO.getItems()) {
-                    System.out.println("Title:" + playlistItem.getSnippet().getTitle() + ", video id:" + playlistItem.getId());
-                }
+
             }
             System.out.println();
             pageToken = lckPlayListAPIRespDTO.getNextPageToken();

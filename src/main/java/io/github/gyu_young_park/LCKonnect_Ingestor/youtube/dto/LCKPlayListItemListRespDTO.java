@@ -9,11 +9,11 @@ public class LCKPlayListItemListRespDTO {
     private String kind;
     private String etag;
     private String nextPageToken;
-    private List<PlaylistItem> items;
+    private List<PlaylistVideo> items;
     private PageInfo pageInfo;
 
     @Data
-    public static class PlaylistItem {
+    public static class PlaylistVideo {
         private String kind;
         private String etag;
         private String id;
