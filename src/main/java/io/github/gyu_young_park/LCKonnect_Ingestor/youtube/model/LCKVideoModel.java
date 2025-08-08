@@ -1,5 +1,8 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model;
 
+import lombok.Data;
+
+@Data
 public class LCKVideoModel {
     private String title;
     private String videoId;
