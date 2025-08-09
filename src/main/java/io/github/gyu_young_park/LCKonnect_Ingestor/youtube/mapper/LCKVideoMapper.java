@@ -11,15 +11,15 @@ import java.util.List;
 @Mapper(componentModel = "spring")
 public interface LCKVideoMapper {
 
-    @Mapping(source = "snippet.title", target = "title")
-    @Mapping(source = "snippet.resourceId.videoId", target = "videoId")
-    @Mapping(source = "snippet.thumbnails.defaultThumbnail", target = "defaultThumbnail")
-    @Mapping(source = "snippet.thumbnails.medium", target = "medium")
-    @Mapping(source = "snippet.thumbnails.high", target = "high")
-    @Mapping(source = "snippet.thumbnails.standard", target = "standard")
-    LCKVideoModel toModel(LCKPlayListItemListRespDTO.PlaylistVideo playlistVideoDto);
+    @Mapping(source = "title", target = "title")
+    @Mapping(source = "resourceId.videoId", target = "videoId")
+    @Mapping(source = "thumbnails.defaultThumbnail", target = "defaultThumbnail")
+    @Mapping(source = "thumbnails.medium", target = "medium")
+    @Mapping(source = "thumbnails.high", target = "high")
+    @Mapping(source = "thumbnails.standard", target = "standard")
+    LCKVideoModel toModel(LCKPlayListItemListRespDTO.PlaylistVideo.Snippet videoSnippet);
 
-    List<LCKVideoModel> toModelList(List<LCKPlayListItemListRespDTO.PlaylistVideo> dtoList);
+    List<LCKVideoModel> toModelList(List<LCKPlayListItemListRespDTO.PlaylistVideo.Snippet> dtoList);
 
     ThumbnailModel toThumbnailModel(LCKPlayListItemListRespDTO.PlaylistVideo.Snippet.Thumbnails.ThumbnailDetail detail);
 }
