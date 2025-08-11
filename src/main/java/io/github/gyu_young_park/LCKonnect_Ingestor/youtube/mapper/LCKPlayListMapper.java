@@ -4,31 +4,34 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.LCKPlayListItemLi
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import org.mapstruct.Mapper;
-import org.mapstruct.Mapping;
+import org.mapstruct.ap.shaded.freemarker.template.utility.NullArgumentException;
 
-import java.util.List;
+import java.util.NoSuchElementException;
 
 @Mapper(componentModel = "spring", uses = { LCKVideoMapper.class })
 public interface LCKPlayListMapper {
-    default LCKPlayListModel toModel(LCKPlayListItemListRespDTO dto) {
-        if (dto == null) return null;
-
-        LCKPlayListModel model = new LCKPlayListModel();
-
-        if (dto.getItems() != null && !dto.getItems().isEmpty()) {
-            var first = dto.getItems().getFirst();
-            model.setPlaylistName(first.getSnippet().getTitle());
-            model.setPlayListId(first.getSnippet().getPlaylistId());
+    default LCKPlayListModel toModel(LCKPlayListItemListRespDTO lckPlayListItemListRespDTO) {
+        if (lckPlayListItemListRespDTO == null) {
+            throw new NullArgumentException("LCKPlayListItemListRespDTO is null");
         }
 
-        model.setLckVideoList(
-                dto.getItems() == null ? List.of() :
-                        dto.getItems().stream()
+        LCKPlayListModel lckPlayListModel = new LCKPlayListModel();
+
+        if (lckPlayListItemListRespDTO.getItems() != null && !lckPlayListItemListRespDTO.getItems().isEmpty()) {
+            var first = lckPlayListItemListRespDTO.getItems().getFirst();
+            lckPlayListModel.setPlaylistName(first.getSnippet().getTitle());
+            lckPlayListModel.setPlayListId(first.getSnippet().getPlaylistId());
+        } else {
+            throw new NoSuchElementException("LCKPlayListItemListRespDTO item is empty, please check your request");
+        }
+
+        lckPlayListModel.setLckVideoList(
+                lckPlayListItemListRespDTO.getItems().stream()
                                 .map(this::mapLCKVideoModel) // 아래 메서드 사용
                                 .toList()
         );
 
-        return model;
+        return lckPlayListModel;
     }
 
     // 메서드 시그니처가 이미 구현된 mpastruct라면 적용된다.
