@@ -13,8 +13,11 @@ import java.util.Map;
 @RestController
 @RequestMapping("/crawler")
 public class CrawlerController {
-    @Autowired
-    private LCKCrawler lckCrawler;
+    final private LCKCrawler lckCrawler;
+
+    public CrawlerController(LCKCrawler lckCrawler) {
+        this.lckCrawler = lckCrawler;
+    }
 
     @GetMapping()
     public Map<String, List<LCKLeagueRawData>> getLCkRawDataModelList() {

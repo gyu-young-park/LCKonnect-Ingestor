@@ -8,7 +8,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.mapper.LCKVideoMapper
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 
@@ -38,18 +37,11 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
         List<LCKPlayListModel> lckPlayListModelList = new ArrayList<>();
         do {
             LCKPlayListAPIRespDTO lckPlayListAPIRespDTO = lckYoutubeAPI.getLCKPlayList(pageToken);
-            for (LCKPlayListAPIRespDTO.Item item : lckPlayListAPIRespDTO.getItems()) {
-                if (filterPlayList(item.getSnippet().getTitle())) continue;
-                System.out.println("Playlist Title: " + item.getSnippet().getTitle() + " " + item.getId());
-
-                List<LCKVideoModel> lckVideoModelList = new ArrayList<>();
-                String videoPageToken = "";
-                do {
-                    LCKPlayListItemListRespDTO lckPlayListItemListRespDTO = lckYoutubeAPI.getLCKPlaylistItemList(item.getId(), videoPageToken);
-                    lckVideoModelList.addAll(lckVideoMapper.toModelList(lckPlayListItemListRespDTO.getItems()));
-                    videoPageToken = lckPlayListItemListRespDTO.getNextPageToken();
-                } while (videoPageToken != null);
-                LCKPlayListModel lckPlayListModel = new LCKPlayListModel(item.getSnippet().getTitle(),item.getId(), lckVideoModelList);
+            for (LCKPlayListAPIRespDTO.Item playList : lckPlayListAPIRespDTO.getItems()) {
+                if (filterPlayList(playList.getSnippet().getTitle())) continue;
+                System.out.println("Playlist Title: " + playList.getSnippet().getTitle() + " " + playList.getId());
+                LCKPlayListModel lckPlayListModel = lckPlayListMapper.toModel(playList);
+                lckPlayListModel.setLckVideoList(getLckVideos(playList.getId()));
                 lckPlayListModelList.add(lckPlayListModel);
             }
             pageToken = lckPlayListAPIRespDTO.getNextPageToken();
@@ -65,5 +57,17 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
 
     private boolean filterPlayList(String playListTitle) {
         return !playListTitle.endsWith("게임 하이라이트");
+    }
+
+    private List<LCKVideoModel> getLckVideos(String playListId) {
+        List<LCKVideoModel> lckVideoModelList = new ArrayList<>();
+        String videoPageToken = "";
+        do {
+            LCKPlayListItemListRespDTO lckPlayListItemListRespDTO = lckYoutubeAPI.getLCKPlaylistItemList(playListId, videoPageToken);
+            lckVideoModelList.addAll(lckVideoMapper.toModelList(lckPlayListItemListRespDTO.getItems()));
+            videoPageToken = lckPlayListItemListRespDTO.getNextPageToken();
+        } while (videoPageToken != null);
+
+        return lckVideoModelList;
     }
 }
