@@ -10,12 +10,5 @@ import java.util.List;
 @NoArgsConstructor
 public class LCKYoutubeModel {
     private String name;
-    private int totalPlayList;
     private List<LCKPlayListModel> lckPlayListList;
-
-    public LCKYoutubeModel(LCKYoutubeModel lckYoutubeModel) {
-        this.name = lckYoutubeModel.getName();
-        this.totalPlayList = lckYoutubeModel.getTotalPlayList();
-        this.lckPlayListList = lckYoutubeModel.getLckPlayListList();
-    }
 }

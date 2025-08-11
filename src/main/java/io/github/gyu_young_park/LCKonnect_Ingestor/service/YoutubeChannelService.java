@@ -16,6 +16,7 @@ public class YoutubeChannelService {
     }
 
     public void getLCKPlayList() {
+        // TODO: lck video mapping crawled data
         LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
         for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
             System.out.println("playlist: " + lckPlayListModel.getPlaylistName() + ", videos: " + lckPlayListModel.getLckVideoList().size());

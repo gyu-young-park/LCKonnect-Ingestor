@@ -4,7 +4,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.dto.LCKPlayListItemLi
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import org.mapstruct.Mapper;
-import org.mapstruct.ap.shaded.freemarker.template.utility.NullArgumentException;
 
 import java.util.NoSuchElementException;
 
@@ -12,19 +11,9 @@ import java.util.NoSuchElementException;
 public interface LCKPlayListMapper {
     default LCKPlayListModel toModel(LCKPlayListItemListRespDTO lckPlayListItemListRespDTO) {
         if (lckPlayListItemListRespDTO == null) {
-            throw new NullArgumentException("LCKPlayListItemListRespDTO is null");
+            throw new IllegalArgumentException("LCKPlayListItemListRespDTO is null");
         }
-
         LCKPlayListModel lckPlayListModel = new LCKPlayListModel();
-
-        if (lckPlayListItemListRespDTO.getItems() != null && !lckPlayListItemListRespDTO.getItems().isEmpty()) {
-            var first = lckPlayListItemListRespDTO.getItems().getFirst();
-            lckPlayListModel.setPlaylistName(first.getSnippet().getTitle());
-            lckPlayListModel.setPlayListId(first.getSnippet().getPlaylistId());
-        } else {
-            throw new NoSuchElementException("LCKPlayListItemListRespDTO item is empty, please check your request");
-        }
-
         lckPlayListModel.setLckVideoList(
                 lckPlayListItemListRespDTO.getItems().stream()
                                 .map(this::mapLCKVideoModel) // 아래 메서드 사용

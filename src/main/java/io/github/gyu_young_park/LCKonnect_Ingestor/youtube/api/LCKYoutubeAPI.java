@@ -36,11 +36,12 @@ public class LCKYoutubeAPI {
                 .queryParam("channelId", youtubeAPIConfiguration.getChannelId()).build()).retrieve().bodyToMono(LCKPlayListAPIRespDTO.class).block();
     }
 
-    public LCKPlayListItemListRespDTO getLCKPlaylistItemList(String playlistId) {
+    public LCKPlayListItemListRespDTO getLCKPlaylistItemList(String playlistId, String pageToken) {
         return youtubeWebClient.get().uri(uriBuilder -> uriBuilder
                 .path(youtubeAPIConfiguration.getPath().getPlaylistItemList())
                 .queryParam("part", "snippet")
                 .queryParam("playlistId", playlistId)
+                .queryParam("pageToken", pageToken)
                 .queryParam("key", envConfigManager.getYoutubeAPIkey())
                 .build()).retrieve().bodyToMono(LCKPlayListItemListRespDTO.class).block();
     }
