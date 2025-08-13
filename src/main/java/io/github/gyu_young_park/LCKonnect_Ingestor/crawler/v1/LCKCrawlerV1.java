@@ -12,8 +12,8 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-@Primary
 @Component
+@Primary
 public class LCKCrawlerV1 implements LCKCrawler {
     private static final Logger logger = LoggerFactory.getLogger(LCKCrawlerV1.class);
     private final LCKCrawlingProperties lckCrawlingProperties;

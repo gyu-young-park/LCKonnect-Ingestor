@@ -8,7 +8,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.mapper.LCKVideoMapper
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
-import org.springframework.context.annotation.Profile;
+import lombok.RequiredArgsConstructor;
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
@@ -16,19 +17,12 @@ import java.util.List;
 import java.util.NoSuchElementException;
 
 @Component
-@Profile("v1")
+@Primary
+@RequiredArgsConstructor
 public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
     final private LCKYoutubeAPI lckYoutubeAPI;
     final private LCKPlayListMapper lckPlayListMapper;
     final private LCKVideoMapper lckVideoMapper;
-
-    public LCKYoutubeFetcherV1(LCKYoutubeAPI lckYoutubeAPI,
-                               LCKPlayListMapper lckPlayListMapper,
-                               LCKVideoMapper lckVideoMapper) {
-        this.lckYoutubeAPI = lckYoutubeAPI;
-        this.lckPlayListMapper = lckPlayListMapper;
-        this.lckVideoMapper = lckVideoMapper;
-    }
 
     @Override
     public LCKYoutubeModel fetch() {
@@ -39,7 +33,6 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
             LCKPlayListAPIRespDTO lckPlayListAPIRespDTO = lckYoutubeAPI.getLCKPlayList(pageToken);
             for (LCKPlayListAPIRespDTO.Item playList : lckPlayListAPIRespDTO.getItems()) {
                 if (filterPlayList(playList.getSnippet().getTitle())) continue;
-                System.out.println("Playlist Title: " + playList.getSnippet().getTitle() + " " + playList.getId());
                 LCKPlayListModel lckPlayListModel = lckPlayListMapper.toModel(playList);
                 lckPlayListModel.setLckVideoList(getLckVideos(playList.getId()));
                 lckPlayListModelList.add(lckPlayListModel);
