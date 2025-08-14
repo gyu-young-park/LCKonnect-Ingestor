@@ -13,6 +13,7 @@ public class LCKLeagueCrawler {
     }
 
     public LCKLeagueRawData crawLCKLeague(String url) throws IOException {
+        System.out.println("crawling: " + url);
         return new LCKLeagueRawData(parseLeagueName(url), lckMatchCrawler.crawLCKMatchData(url));
     }
 

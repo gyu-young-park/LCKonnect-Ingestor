@@ -18,15 +18,15 @@ public class LCKDataTransformer {
     final private LCKCrawler lckCrawler;
 
     public LCKChampionshipModel transform() {
-        LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
+        System.out.println("Start transform");
         List<LCKLeagueRawData> lckLeagueRawDataList = lckCrawler.crawl();
 
         for (LCKLeagueRawData lckLeagueRawData : lckLeagueRawDataList) {
             System.out.println("crawl: " + lckLeagueRawData.getLeague());
         }
 
-        System.out.println("------------------------Done-------------------");
-
+        System.out.println("Start lck youtubue fetcher");
+        LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
         for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
             System.out.println("lck yotubue: " + lckPlayListModel.getPlaylistName());
         }

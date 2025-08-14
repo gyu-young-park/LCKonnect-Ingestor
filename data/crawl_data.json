@@ -1,0 +1,4460 @@
+{
+  "message": [
+    {
+      "league": "LCK Cup 2025",
+      "lckMatchRawDataList": [
+        {
+          "id": "64475",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 3,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 2,
+          "date": "2025-02-23",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "64475",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Rumble",
+                "Poppy",
+                "KSante",
+                "Jax",
+                "Renekton"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "Sejuani",
+                "Yone",
+                "Kaisa",
+                "Alistar"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Rell",
+                "Rakan"
+              ],
+              "rightTeamPicks": [
+                "Mordekaiser",
+                "Nidalee",
+                "Ambessa",
+                "Ezreal",
+                "Leona"
+              ],
+              "gameDuration": "PT48.031S"
+            },
+            {
+              "id": "64476",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Jinx",
+                "Lulu"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "XinZhao",
+                "Azir",
+                "Ashe",
+                "Poppy"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Maokai",
+                "Galio",
+                "Varus",
+                "Xayah",
+                "Rakan"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Taliyah",
+                "Corki",
+                "Nautilus"
+              ],
+              "gameDuration": "PT18.026S"
+            },
+            {
+              "id": "64477",
+              "gameRound": 3,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Aurora",
+                "Sylas",
+                "Varus",
+                "Lulu",
+                "Jax"
+              ],
+              "leftTeamPicks": [
+                "Aatrox",
+                "Maokai",
+                "Ahri",
+                "MissFortune",
+                "Rell"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Smolder",
+                "Gnar"
+              ],
+              "rightTeamPicks": [
+                "Vayne",
+                "LeeSin",
+                "Galio",
+                "Zeri",
+                "Rakan"
+              ],
+              "gameDuration": "PT28.03S"
+            },
+            {
+              "id": "64478",
+              "gameRound": 4,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Jax",
+                "Sett"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Zyra",
+                "Sylas",
+                "Jhin",
+                "Pantheon"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nocturne",
+                "Wukong",
+                "Aurora",
+                "Pyke",
+                "Olaf"
+              ],
+              "rightTeamPicks": [
+                "Sion",
+                "Karthus",
+                "Viego",
+                "Varus",
+                "Bard"
+              ],
+              "gameDuration": "PT3.03S"
+            },
+            {
+              "id": "64479",
+              "gameRound": 5,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Lillia",
+                "Aurora",
+                "Jax",
+                "Kindred",
+                "Ryze"
+              ],
+              "leftTeamPicks": [
+                "Gwen",
+                "Wukong",
+                "Viktor",
+                "Caitlyn",
+                "Karma"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Anivia",
+                "Olaf"
+              ],
+              "rightTeamPicks": [
+                "Ornn",
+                "Trundle",
+                "AurelionSol",
+                "Jinx",
+                "Lulu"
+              ],
+              "gameDuration": "PT59.038S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "64395",
+          "leftTeam": "Dplus KIA",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 3,
+          "date": "2025-02-22",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "64395",
+              "gameRound": 1,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "KSante",
+                "Poppy",
+                "Xayah",
+                "Yone",
+                "Azir"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Galio",
+                "Zeri",
+                "Rakan"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Ambessa",
+                "Kaisa",
+                "Varus"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Sylas",
+                "Ezreal",
+                "Alistar"
+              ],
+              "gameDuration": "PT50.023S"
+            },
+            {
+              "id": "64396",
+              "gameRound": 2,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Nidalee",
+                "Poppy",
+                "Yone",
+                "RenataGlasc",
+                "Zyra"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Sejuani",
+                "Azir",
+                "Kaisa",
+                "Rell"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Lillia",
+                "Wukong",
+                "Nocturne"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Maokai",
+                "Aurora",
+                "Varus",
+                "Braum"
+              ],
+              "gameDuration": "PT5.028S"
+            },
+            {
+              "id": "64397",
+              "gameRound": 3,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "LeeSin",
+                "Yone",
+                "Nocturne",
+                "Hwei",
+                "Smolder"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Lillia",
+                "Ryze",
+                "MissFortune",
+                "Nautilus"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "LeBlanc",
+                "Pantheon"
+              ],
+              "rightTeamPicks": [
+                "Gangplank",
+                "Zyra",
+                "Ahri",
+                "Ashe",
+                "Poppy"
+              ],
+              "gameDuration": "PT16.027S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "64178",
+          "leftTeam": "Nongshim RedForce",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 3,
+          "date": "2025-02-20",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "64178",
+              "gameRound": 1,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "KSante",
+                "Poppy",
+                "Xayah",
+                "Ambessa",
+                "Camille"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Yone",
+                "Ashe",
+                "Braum"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Kaisa",
+                "Zeri"
+              ],
+              "rightTeamPicks": [
+                "Galio",
+                "Nidalee",
+                "Sett",
+                "Ezreal",
+                "Leona"
+              ],
+              "gameDuration": "PT33.037S"
+            },
+            {
+              "id": "64179",
+              "gameRound": 2,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "KSante",
+                "Varus",
+                "Xayah",
+                "Karma",
+                "Sylas"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Sejuani",
+                "Mel",
+                "MissFortune",
+                "Nautilus"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Lillia",
+                "Maokai"
+              ],
+              "rightTeamPicks": [
+                "Camille",
+                "XinZhao",
+                "Aurora",
+                "Kaisa",
+                "Poppy"
+              ],
+              "gameDuration": "PT13.044S"
+            },
+            {
+              "id": "64180",
+              "gameRound": 3,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "KSante",
+                "Varus",
+                "Azir",
+                "Twitch",
+                "Xayah"
+              ],
+              "leftTeamPicks": [
+                "Anivia",
+                "Lillia",
+                "Corki",
+                "Jinx",
+                "RenataGlasc"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Rell",
+                "TahmKench"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Wukong",
+                "Sylas",
+                "Ziggs",
+                "Rakan"
+              ],
+              "gameDuration": "PT41.033S"
+            },
+            {
+              "id": "64181",
+              "gameRound": 4,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Zyra",
+                "Azir",
+                "Taliyah"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Zac",
+                "Orianna",
+                "Varus",
+                "Alistar"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Shen",
+                "Maokai",
+                "Lulu",
+                "Ahri",
+                "LeeSin"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Nocturne",
+                "Viktor",
+                "Jhin",
+                "Rell"
+              ],
+              "gameDuration": "PT27.036S"
+            },
+            {
+              "id": "64182",
+              "gameRound": 5,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Zyra",
+                "Viego",
+                "LeeSin"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Maokai",
+                "Smolder",
+                "Lucian",
+                "Nami"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Lulu",
+                "Shen",
+                "Caitlyn",
+                "Taliyah",
+                "Aatrox"
+              ],
+              "rightTeamPicks": [
+                "Ornn",
+                "Pantheon",
+                "Azir",
+                "Zeri",
+                "Yuumi"
+              ],
+              "gameDuration": "PT35.032S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "64183",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 3,
+          "rightTeam": "Dplus KIA",
+          "rightTeamTotalScore": 2,
+          "date": "2025-02-19",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "64183",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Rumble",
+                "Poppy",
+                "Ambessa",
+                "Ahri",
+                "Jax"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Maokai",
+                "Yone",
+                "Xayah",
+                "Nautilus"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Jayce",
+                "Kalista",
+                "Alistar",
+                "Elise"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Vi",
+                "TwistedFate",
+                "Kaisa",
+                "Rakan"
+              ],
+              "gameDuration": "PT34.028S"
+            },
+            {
+              "id": "64184",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Jax",
+                "Leona"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "XinZhao",
+                "Galio",
+                "Ezreal",
+                "Karma"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Rumble",
+                "Poppy",
+                "Azir",
+                "Shen",
+                "Lulu"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Lillia",
+                "Pantheon",
+                "Varus",
+                "Braum"
+              ],
+              "gameDuration": "PT14.037S"
+            },
+            {
+              "id": "64185",
+              "gameRound": 3,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "LeBlanc",
+                "Nidalee",
+                "Ahri",
+                "Wukong",
+                "LeeSin"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Sejuani",
+                "Aurora",
+                "Jhin",
+                "Leona"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Azir",
+                "Lulu",
+                "Ashe"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Viego",
+                "Ryze",
+                "Zeri",
+                "Poppy"
+              ],
+              "gameDuration": "PT11.038S"
+            },
+            {
+              "id": "64186",
+              "gameRound": 4,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "LeeSin",
+                "Jax",
+                "Ahri",
+                "LeBlanc",
+                "Rell"
+              ],
+              "leftTeamPicks": [
+                "Aatrox",
+                "Nidalee",
+                "Sylas",
+                "Ashe",
+                "RenataGlasc"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Azir",
+                "Pyke",
+                "Alistar"
+              ],
+              "rightTeamPicks": [
+                "Kennen",
+                "Nocturne",
+                "Viktor",
+                "Corki",
+                "Shen"
+              ],
+              "gameDuration": "PT55.03S"
+            },
+            {
+              "id": "64187",
+              "gameRound": 5,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "LeBlanc",
+                "Ziggs",
+                "Taliyah"
+              ],
+              "leftTeamPicks": [
+                "Olaf",
+                "Jax",
+                "Ahri",
+                "MissFortune",
+                "Rell"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Zyra",
+                "Diana",
+                "Ivern",
+                "LeeSin"
+              ],
+              "rightTeamPicks": [
+                "Gragas",
+                "Wukong",
+                "Kled",
+                "Mel",
+                "Alistar"
+              ],
+              "gameDuration": "PT57.031S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63998",
+          "leftTeam": "Gen.G eSports",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Hanwha Life eSports",
+          "rightTeamTotalScore": 3,
+          "date": "2025-02-16",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63998",
+              "gameRound": 1,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Mel",
+                "Jayce",
+                "Poppy",
+                "Camille",
+                "Ambessa"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Vi",
+                "Aurora",
+                "Corki",
+                "Alistar"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Galio",
+                "Xayah",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Sejuani",
+                "Yone",
+                "Kaisa",
+                "Rakan"
+              ],
+              "gameDuration": "PT53.029S"
+            },
+            {
+              "id": "63999",
+              "gameRound": 2,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Mel",
+                "Poppy",
+                "Karma",
+                "Leona",
+                "Bard"
+              ],
+              "leftTeamPicks": [
+                "Ornn",
+                "Wukong",
+                "Jayce",
+                "Varus",
+                "Rell"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "Azir",
+                "Hwei"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "XinZhao",
+                "Galio",
+                "Ezreal",
+                "Braum"
+              ],
+              "gameDuration": "PT36.032S"
+            },
+            {
+              "id": "64000",
+              "gameRound": 3,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "Lulu",
+                "Elise"
+              ],
+              "leftTeamPicks": [
+                "Gangplank",
+                "Lillia",
+                "Mel",
+                "MissFortune",
+                "Leona"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "LeeSin",
+                "Ambessa",
+                "Nocturne",
+                "Renekton",
+                "Poppy"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Maokai",
+                "Azir",
+                "Jhin",
+                "Pyke"
+              ],
+              "gameDuration": "PT10.028S"
+            },
+            {
+              "id": "64001",
+              "gameRound": 4,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Nocturne",
+                "Poppy",
+                "Nautilus",
+                "Elise",
+                "Pantheon"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Karthus",
+                "Smolder",
+                "Ashe",
+                "Camille"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "Lulu",
+                "Ziggs"
+              ],
+              "rightTeamPicks": [
+                "Fiora",
+                "Zyra",
+                "Renekton",
+                "Xayah",
+                "Shen"
+              ],
+              "gameDuration": "PT59.029S"
+            },
+            {
+              "id": "64002",
+              "gameRound": 5,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Caitlyn",
+                "Olaf",
+                "Anivia"
+              ],
+              "leftTeamPicks": [
+                "Kennen",
+                "Viego",
+                "Sylas",
+                "Twitch",
+                "Pantheon"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "LeeSin",
+                "Nautilus",
+                "Nocturne",
+                "Lulu",
+                "Jinx"
+              ],
+              "rightTeamPicks": [
+                "Aatrox",
+                "Nidalee",
+                "Ahri",
+                "Zeri",
+                "Poppy"
+              ],
+              "gameDuration": "PT0.026S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63993",
+          "leftTeam": "Dplus KIA",
+          "leftTeamTotalScore": 3,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 1,
+          "date": "2025-02-15",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63993",
+              "gameRound": 1,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Aurora",
+                "Elise",
+                "RenataGlasc",
+                "Yone",
+                "Blitzcrank"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Skarner",
+                "Ahri",
+                "Ezreal",
+                "Poppy"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Mel",
+                "Vi",
+                "Ziggs",
+                "Varus",
+                "Kaisa"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Maokai",
+                "Corki",
+                "Kalista",
+                "Nautilus"
+              ],
+              "gameDuration": "PT10.029S"
+            },
+            {
+              "id": "63994",
+              "gameRound": 2,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Aurora",
+                "Vi",
+                "Jayce",
+                "Elise",
+                "Shen"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "Lillia",
+                "Pantheon",
+                "Xayah",
+                "Rakan"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Mel",
+                "Zyra",
+                "KSante",
+                "Azir",
+                "Braum"
+              ],
+              "rightTeamPicks": [
+                "Gangplank",
+                "Sejuani",
+                "Yone",
+                "Kaisa",
+                "Alistar"
+              ],
+              "gameDuration": "PT44.026S"
+            },
+            {
+              "id": "63995",
+              "gameRound": 3,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Aurora",
+                "Jayce",
+                "Vi",
+                "Gnar",
+                "Nilah"
+              ],
+              "leftTeamPicks": [
+                "Aatrox",
+                "Wukong",
+                "Zilean",
+                "Ziggs",
+                "Camille"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "KSante",
+                "XinZhao",
+                "Zyra",
+                "Taliyah",
+                "Azir"
+              ],
+              "rightTeamPicks": [
+                "Kennen",
+                "Nocturne",
+                "Galio",
+                "Sivir",
+                "Shen"
+              ],
+              "gameDuration": "PT53.027S"
+            },
+            {
+              "id": "63996",
+              "gameRound": 4,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Elise",
+                "Aurora",
+                "XinZhao",
+                "Rell",
+                "Braum"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Viego",
+                "LeBlanc",
+                "Varus",
+                "Leona"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "KSante",
+                "Jayce",
+                "Vi",
+                "Taliyah",
+                "Zyra"
+              ],
+              "rightTeamPicks": [
+                "Sylas",
+                "LeeSin",
+                "Azir",
+                "Aphelios",
+                "Taric"
+              ],
+              "gameDuration": "PT32.03S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63781",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 3,
+          "rightTeam": "T1",
+          "rightTeamTotalScore": 2,
+          "date": "2025-02-13",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63781",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Rumble",
+                "Poppy",
+                "Galio",
+                "Rakan",
+                "Elise"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "Ezreal",
+                "Alistar"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Ashe",
+                "Xayah",
+                "Varus"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Vi",
+                "Aurora",
+                "Kaisa",
+                "Pyke"
+              ],
+              "gameDuration": "PT3.027S"
+            },
+            {
+              "id": "63782",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "Zeri",
+                "Rakan"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Zyra",
+                "Hwei",
+                "Ashe",
+                "Leona"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Yone",
+                "Varus",
+                "Galio",
+                "Corki",
+                "Braum"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Wukong",
+                "Viktor",
+                "Jhin",
+                "Poppy"
+              ],
+              "gameDuration": "PT22.029S"
+            },
+            {
+              "id": "63783",
+              "gameRound": 3,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "LeeSin",
+                "Corki",
+                "Galio",
+                "Jax",
+                "Camille"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Nidalee",
+                "Sylas",
+                "Varus",
+                "Pantheon"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Yone",
+                "Skarner",
+                "Rell",
+                "Nautilus"
+              ],
+              "rightTeamPicks": [
+                "Irelia",
+                "Sejuani",
+                "Mel",
+                "MissFortune",
+                "LeBlanc"
+              ],
+              "gameDuration": "PT13.034S"
+            },
+            {
+              "id": "63784",
+              "gameRound": 4,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Galio",
+                "LeeSin",
+                "Lillia"
+              ],
+              "leftTeamPicks": [
+                "Aatrox",
+                "Diana",
+                "Yasuo",
+                "Corki",
+                "Elise"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Yone",
+                "Nautilus",
+                "Maokai",
+                "Ziggs",
+                "Rakan"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Viego",
+                "Ahri",
+                "Caitlyn",
+                "Karma"
+              ],
+              "gameDuration": "PT35.034S"
+            },
+            {
+              "id": "63785",
+              "gameRound": 5,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "LeeSin",
+                "Lillia",
+                "Galio",
+                "Orianna",
+                "TwistedFate"
+              ],
+              "leftTeamPicks": [
+                "Olaf",
+                "Amumu",
+                "Taliyah",
+                "Kalista",
+                "RenataGlasc"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Yone",
+                "Maokai",
+                "Neeko",
+                "Nocturne",
+                "Camille"
+              ],
+              "rightTeamPicks": [
+                "Akali",
+                "Skarner",
+                "Zoe",
+                "Draven",
+                "Soraka"
+              ],
+              "gameDuration": "PT8.043S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63776",
+          "leftTeam": "KT Rolster",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 3,
+          "date": "2025-02-12",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63776",
+              "gameRound": 1,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Rumble",
+                "Vi",
+                "Skarner",
+                "Elise",
+                "Shen"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Maokai",
+                "Azir",
+                "Varus",
+                "Braum"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Mel",
+                "Taliyah",
+                "Kalista",
+                "Poppy",
+                "RenataGlasc"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Sejuani",
+                "Aurora",
+                "Kaisa",
+                "Nautilus"
+              ],
+              "gameDuration": "PT27.035S"
+            },
+            {
+              "id": "63777",
+              "gameRound": 2,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Galio",
+                "Nidalee",
+                "Skarner",
+                "Xayah",
+                "Ezreal"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Vi",
+                "Ahri",
+                "Jinx",
+                "Leona"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Mel",
+                "Taliyah",
+                "Kalista",
+                "Ashe",
+                "Caitlyn"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Poppy",
+                "Yone",
+                "MissFortune",
+                "Alistar"
+              ],
+              "gameDuration": "PT40.031S"
+            },
+            {
+              "id": "63778",
+              "gameRound": 3,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Ashe",
+                "Ziggs",
+                "LeeSin",
+                "Elise",
+                "Shen"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Nidalee",
+                "Zeri",
+                "Tristana",
+                "Rell"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Mel",
+                "Kalista",
+                "Skarner",
+                "Taliyah",
+                "Syndra"
+              ],
+              "rightTeamPicks": [
+                "Ornn",
+                "Lillia",
+                "Corki",
+                "Ezreal",
+                "Rakan"
+              ],
+              "gameDuration": "PT26.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63772",
+          "leftTeam": "DRX",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 3,
+          "date": "2025-02-09",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63772",
+              "gameRound": 1,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Ambessa",
+                "Rumble",
+                "Shen",
+                "Kaisa",
+                "Ziggs"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "XinZhao",
+                "Akali",
+                "Varus",
+                "Elise"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Zyra",
+                "Xayah",
+                "Azir"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Vi",
+                "Yone",
+                "Ezreal",
+                "Nautilus"
+              ],
+              "gameDuration": "PT59.026S"
+            },
+            {
+              "id": "63773",
+              "gameRound": 2,
+              "leftTeam": "DRX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Sejuani",
+                "Rumble",
+                "Shen",
+                "MissFortune",
+                "Rell"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "Nidalee",
+                "Jayce",
+                "Kaisa",
+                "Leona"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Zyra",
+                "Poppy",
+                "Renekton"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Lillia",
+                "Corki",
+                "Ashe",
+                "Braum"
+              ],
+              "gameDuration": "PT37.036S"
+            },
+            {
+              "id": "63774",
+              "gameRound": 3,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Sejuani",
+                "Kalista",
+                "LeeSin",
+                "Viego"
+              ],
+              "leftTeamPicks": [
+                "Galio",
+                "Wukong",
+                "Sylas",
+                "Zeri",
+                "Lulu"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Poppy",
+                "Zyra",
+                "Xayah",
+                "MissFortune",
+                "Lucian"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Maokai",
+                "Tristana",
+                "Jinx",
+                "Blitzcrank"
+              ],
+              "gameDuration": "PT0.026S"
+            },
+            {
+              "id": "63775",
+              "gameRound": 4,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Shen",
+                "Nocturne",
+                "Azir",
+                "Xayah",
+                "Caitlyn"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "Sejuani",
+                "Orianna",
+                "Senna",
+                "Ornn"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Zyra",
+                "Lucian",
+                "MissFortune"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Poppy",
+                "Taliyah",
+                "Aphelios",
+                "Rell"
+              ],
+              "gameDuration": "PT29.026S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63743",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "DRX",
+          "rightTeamTotalScore": 0,
+          "date": "2025-02-08",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63743",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "XinZhao",
+                "Zyra",
+                "Leona",
+                "Lillia"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Nidalee",
+                "Corki",
+                "Ashe",
+                "Pantheon"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Vi",
+                "Ezreal",
+                "Caitlyn"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Sejuani",
+                "Jayce",
+                "Kaisa",
+                "Elise"
+              ],
+              "gameDuration": "PT13.033S"
+            },
+            {
+              "id": "63744",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Ambessa",
+                "Taliyah",
+                "Rell"
+              ],
+              "leftTeamPicks": [
+                "Aurora",
+                "Wukong",
+                "Galio",
+                "Varus",
+                "Nautilus"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "XinZhao",
+                "Poppy",
+                "Ezreal",
+                "Anivia",
+                "Akali"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Yone",
+                "MissFortune",
+                "Rakan"
+              ],
+              "gameDuration": "PT4.038S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63740",
+          "leftTeam": "T1",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 0,
+          "date": "2025-02-08",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63740",
+              "gameRound": 1,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Ambessa",
+                "Rumble",
+                "Elise",
+                "Nautilus",
+                "Kaisa"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "MissFortune",
+                "Poppy"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "RenataGlasc",
+                "Varus",
+                "Xayah"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Vi",
+                "Aurora",
+                "Ezreal",
+                "Blitzcrank"
+              ],
+              "gameDuration": "PT32.03S"
+            },
+            {
+              "id": "63741",
+              "gameRound": 2,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Sejuani",
+                "Xayah",
+                "Caitlyn"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "LeeSin",
+                "Corki",
+                "Kaisa",
+                "Pyke"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Viktor",
+                "Varus",
+                "Ambessa",
+                "Nautilus",
+                "Leona"
+              ],
+              "rightTeamPicks": [
+                "Anivia",
+                "Viego",
+                "Yone",
+                "Ashe",
+                "Elise"
+              ],
+              "gameDuration": "PT59.03S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63527",
+          "leftTeam": "Nongshim RedForce",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "OK BRION",
+          "rightTeamTotalScore": 0,
+          "date": "2025-02-07",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63527",
+              "gameRound": 1,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "KSante",
+                "Aurora",
+                "Zyra",
+                "Azir",
+                "Yone"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Vi",
+                "Taliyah",
+                "Kaisa",
+                "Nautilus"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Elise",
+                "Shen",
+                "Galio"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Wukong",
+                "Ahri",
+                "Ezreal",
+                "Poppy"
+              ],
+              "gameDuration": "PT33.033S"
+            },
+            {
+              "id": "63528",
+              "gameRound": 2,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "KSante",
+                "Kalista",
+                "Xayah",
+                "Alistar"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "Sejuani",
+                "Hwei",
+                "Caitlyn",
+                "Shen"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Elise",
+                "Aurora",
+                "Galio",
+                "Akali",
+                "Ziggs"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "Corki",
+                "Rell"
+              ],
+              "gameDuration": "PT29.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63524",
+          "leftTeam": "DRX",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "DN Freecs",
+          "rightTeamTotalScore": 0,
+          "date": "2025-02-07",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63524",
+              "gameRound": 1,
+              "leftTeam": "DRX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "Ambessa",
+                "Vi",
+                "Leona",
+                "Braum"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Zyra",
+                "Corki",
+                "Kaisa",
+                "Poppy"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Elise",
+                "MissFortune",
+                "Sylas"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Nidalee",
+                "Hwei",
+                "Ezreal",
+                "Rell"
+              ],
+              "gameDuration": "PT31.033S"
+            },
+            {
+              "id": "63525",
+              "gameRound": 2,
+              "leftTeam": "DRX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Vi",
+                "Rakan",
+                "Lulu"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "XinZhao",
+                "Aurora",
+                "Ashe",
+                "Braum"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Varus",
+                "Rumble",
+                "Elise",
+                "Viego",
+                "Renekton"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Wukong",
+                "Galio",
+                "Ziggs",
+                "Leona"
+              ],
+              "gameDuration": "PT7.033S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63446",
+          "leftTeam": "Nongshim RedForce",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "BNK FearX",
+          "rightTeamTotalScore": 0,
+          "date": "2025-02-02",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63446",
+              "gameRound": 1,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Zyra",
+                "Vi",
+                "KSante",
+                "Lillia",
+                "Azir"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Sejuani",
+                "Aurora",
+                "Xayah",
+                "Elise"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Rumble",
+                "Caitlyn",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Wukong",
+                "Viktor",
+                "Kaisa",
+                "Poppy"
+              ],
+              "gameDuration": "PT35.027S"
+            },
+            {
+              "id": "63447",
+              "gameRound": 2,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "KSante",
+                "RenataGlasc",
+                "Zeri"
+              ],
+              "leftTeamPicks": [
+                "Camille",
+                "XinZhao",
+                "Galio",
+                "Ezreal",
+                "Shen"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Yone",
+                "Rumble",
+                "Gnar",
+                "Gangplank",
+                "Leona"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Vi",
+                "Azir",
+                "MissFortune",
+                "Rell"
+              ],
+              "gameDuration": "PT48.029S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63443",
+          "leftTeam": "OK BRION",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "Dplus KIA",
+          "rightTeamTotalScore": 2,
+          "date": "2025-02-01",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63443",
+              "gameRound": 1,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Nidalee",
+                "Rumble",
+                "Ambessa",
+                "Poppy",
+                "Zilean"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Vi",
+                "Ahri",
+                "Ashe",
+                "Elise"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Azir",
+                "Aurora",
+                "Kaisa"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Pantheon",
+                "Swain",
+                "Varus",
+                "Karma"
+              ],
+              "gameDuration": "PT27.029S"
+            },
+            {
+              "id": "63444",
+              "gameRound": 2,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Ambessa",
+                "Kalista",
+                "Yone",
+                "Sett"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Maokai",
+                "Corki",
+                "Ziggs",
+                "Alistar"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Aurora",
+                "Azir",
+                "LeeSin",
+                "Leona",
+                "Jax"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Nidalee",
+                "Tryndamere",
+                "Kaisa",
+                "Poppy"
+              ],
+              "gameDuration": "PT22.027S"
+            },
+            {
+              "id": "63445",
+              "gameRound": 3,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Rumble",
+                "Jax",
+                "Lillia",
+                "Kindred",
+                "Sejuani"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "LeeSin",
+                "Aurora",
+                "MissFortune",
+                "Rell"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Rakan",
+                "Azir",
+                "Brand"
+              ],
+              "rightTeamPicks": [
+                "Camille",
+                "Wukong",
+                "LeBlanc",
+                "Ezreal",
+                "Braum"
+              ],
+              "gameDuration": "PT14.036S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63440",
+          "leftTeam": "T1",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 1,
+          "date": "2025-02-01",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63440",
+              "gameRound": 1,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Nidalee",
+                "Ashe",
+                "Ambessa",
+                "Zyra",
+                "Lillia"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Vi",
+                "Viktor",
+                "Kaisa",
+                "Poppy"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Aurora",
+                "Ezreal",
+                "Rakan"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Maokai",
+                "Yone",
+                "Varus",
+                "Elise"
+              ],
+              "gameDuration": "PT37.032S"
+            },
+            {
+              "id": "63441",
+              "gameRound": 2,
+              "leftTeam": "T1",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Ashe",
+                "Kalista",
+                "Wukong",
+                "Nocturne"
+              ],
+              "leftTeamPicks": [
+                "Sion",
+                "XinZhao",
+                "Azir",
+                "Ezreal",
+                "Leona"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Galio",
+                "Ambessa",
+                "Corki",
+                "Zyra",
+                "Nidalee"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Jax",
+                "Sylas",
+                "Xayah",
+                "Rakan"
+              ],
+              "gameDuration": "PT7.032S"
+            },
+            {
+              "id": "63442",
+              "gameRound": 3,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Nidalee",
+                "Ashe",
+                "Ambessa",
+                "Nautilus",
+                "Rell"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Wukong",
+                "Galio",
+                "Zeri",
+                "Lulu"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Corki",
+                "MissFortune",
+                "Jhin"
+              ],
+              "rightTeamPicks": [
+                "Udyr",
+                "LeeSin",
+                "Hwei",
+                "Jinx",
+                "Thresh"
+              ],
+              "gameDuration": "PT40.04S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63437",
+          "leftTeam": "DRX",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "Hanwha Life eSports",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-31",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63437",
+              "gameRound": 1,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Yone",
+                "Zyra",
+                "KSante",
+                "Rell",
+                "Azir"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Nidalee",
+                "Corki",
+                "Ashe",
+                "Leona"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Vi",
+                "Ezreal",
+                "Rumble"
+              ],
+              "rightTeamPicks": [
+                "Camille",
+                "Sejuani",
+                "Jayce",
+                "Varus",
+                "Poppy"
+              ],
+              "gameDuration": "PT45.029S"
+            },
+            {
+              "id": "63438",
+              "gameRound": 2,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Yone",
+                "Gnar",
+                "Rumble",
+                "Braum",
+                "Rakan"
+              ],
+              "leftTeamPicks": [
+                "Gragas",
+                "Vi",
+                "Aurora",
+                "Caitlyn",
+                "Neeko"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "KSante",
+                "Jax",
+                "Karma"
+              ],
+              "rightTeamPicks": [
+                "Anivia",
+                "XinZhao",
+                "Galio",
+                "Ezreal",
+                "Elise"
+              ],
+              "gameDuration": "PT19.032S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63434",
+          "leftTeam": "DN Freecs",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "KT Rolster",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-31",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63434",
+              "gameRound": 1,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Yone",
+                "Azir",
+                "Galio",
+                "Ahri",
+                "Aurora"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Taliyah",
+                "Corki",
+                "Rakan"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Skarner",
+                "KSante",
+                "Varus",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Pantheon",
+                "TwistedFate",
+                "Ashe",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT24.028S"
+            },
+            {
+              "id": "63435",
+              "gameRound": 2,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Azir",
+                "KSante",
+                "Renekton",
+                "Poppy"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "LeeSin",
+                "Ahri",
+                "MissFortune",
+                "Leona"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Jayce",
+                "Gnar",
+                "Varus",
+                "Akali",
+                "LeBlanc"
+              ],
+              "rightTeamPicks": [
+                "Gragas",
+                "Nidalee",
+                "Yone",
+                "Kalista",
+                "Rell"
+              ],
+              "gameDuration": "PT52.029S"
+            },
+            {
+              "id": "63436",
+              "gameRound": 3,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Azir",
+                "Galio",
+                "Varus",
+                "Nautilus",
+                "Aurora"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Sejuani",
+                "Hwei",
+                "Caitlyn",
+                "Elise"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Ezreal",
+                "Wukong",
+                "Nocturne",
+                "XinZhao"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Viego",
+                "Syndra",
+                "Jhin",
+                "Karma"
+              ],
+              "gameDuration": "PT2.039S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63185",
+          "leftTeam": "KT Rolster",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "OK BRION",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-26",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63185",
+              "gameRound": 1,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Ashe",
+                "Vi",
+                "Rumble",
+                "Braum",
+                "Wukong"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "Ezreal",
+                "Poppy"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "KSante",
+                "Nidalee",
+                "Leona"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "LeeSin",
+                "Aurora",
+                "Varus",
+                "Nautilus"
+              ],
+              "gameDuration": "PT17.039S"
+            },
+            {
+              "id": "63186",
+              "gameRound": 2,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Skarner",
+                "KSante",
+                "Rell",
+                "Kaisa"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Zyra",
+                "Yone",
+                "Caitlyn",
+                "Elise"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Ashe",
+                "Rumble",
+                "Gnar",
+                "Nocturne",
+                "Sejuani"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Vi",
+                "Taliyah",
+                "Jhin",
+                "Leona"
+              ],
+              "gameDuration": "PT55.033S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63182",
+          "leftTeam": "T1",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-26",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63182",
+              "gameRound": 1,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Rumble",
+                "Yone",
+                "Ambessa",
+                "Akali",
+                "Kaisa"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Viktor",
+                "Caitlyn",
+                "Elise"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "KSante",
+                "RenataGlasc",
+                "Xayah"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Vi",
+                "Hwei",
+                "Ezreal",
+                "Nautilus"
+              ],
+              "gameDuration": "PT2.03S"
+            },
+            {
+              "id": "63183",
+              "gameRound": 2,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Rumble",
+                "Leona",
+                "Alistar",
+                "Ashe"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Lillia",
+                "Ambessa",
+                "Jinx",
+                "Lulu"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Poppy",
+                "Kalista",
+                "Azir",
+                "RenataGlasc",
+                "Varus"
+              ],
+              "rightTeamPicks": [
+                "Renekton",
+                "Sejuani",
+                "Akali",
+                "Xayah",
+                "Rell"
+              ],
+              "gameDuration": "PT8.029S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63179",
+          "leftTeam": "Gen.G eSports",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "DN Freecs",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-25",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63179",
+              "gameRound": 1,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "Vi",
+                "Jayce",
+                "Taliyah",
+                "Orianna"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "LeeSin",
+                "Azir",
+                "Corki",
+                "Rakan"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nidalee",
+                "Kalista",
+                "Skarner",
+                "XinZhao",
+                "Sejuani"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Wukong",
+                "Viktor",
+                "Ashe",
+                "Braum"
+              ],
+              "gameDuration": "PT9.028S"
+            },
+            {
+              "id": "63180",
+              "gameRound": 2,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Varus",
+                "Xayah",
+                "MissFortune"
+              ],
+              "leftTeamPicks": [
+                "Poppy",
+                "Vi",
+                "Galio",
+                "Ezreal",
+                "Rell"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nidalee",
+                "Jayce",
+                "Rumble",
+                "Jinx",
+                "Leona"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "XinZhao",
+                "Aurora",
+                "Kaisa",
+                "Nautilus"
+              ],
+              "gameDuration": "PT31.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63176",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "Dplus KIA",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-25",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63176",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Vi",
+                "Ambessa",
+                "KSante",
+                "Elise",
+                "Leona"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "Ezreal",
+                "Poppy"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Zyra",
+                "Kalista",
+                "Sejuani",
+                "Wukong"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Nidalee",
+                "Yone",
+                "Varus",
+                "Maokai"
+              ],
+              "gameDuration": "PT19.032S"
+            },
+            {
+              "id": "63177",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Vi",
+                "Ambessa",
+                "Lillia",
+                "Ashe",
+                "MissFortune"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Sejuani",
+                "Taliyah",
+                "Kalista",
+                "Neeko"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "KSante",
+                "Zyra",
+                "Sylas",
+                "Akali"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Wukong",
+                "Ahri",
+                "KogMaw",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT5.038S"
+            },
+            {
+              "id": "63178",
+              "gameRound": 3,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Vi",
+                "Ashe",
+                "Lucian",
+                "Rakan"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Viego",
+                "Sylas",
+                "Jinx",
+                "Braum"
+              ],
+              "rightTeam": "Dplus KIA",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Zyra",
+                "Nocturne",
+                "Corki",
+                "Ivern",
+                "Viktor"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Kindred",
+                "Galio",
+                "Ziggs",
+                "Rell"
+              ],
+              "gameDuration": "PT29.037S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63173",
+          "leftTeam": "T1",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "KT Rolster",
+          "rightTeamTotalScore": 1,
+          "date": "2025-01-24",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63173",
+              "gameRound": 1,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Ashe",
+                "Yone",
+                "Ambessa",
+                "Taliyah",
+                "RenataGlasc"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Skarner",
+                "Viktor",
+                "Kaisa",
+                "Poppy"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Azir",
+                "Lillia",
+                "Xayah",
+                "Elise"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Vi",
+                "Sylas",
+                "Varus",
+                "Rell"
+              ],
+              "gameDuration": "PT37.028S"
+            },
+            {
+              "id": "63174",
+              "gameRound": 2,
+              "leftTeam": "T1",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Yone",
+                "Ashe",
+                "Kalista",
+                "Zyra",
+                "Sejuani"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "Nidalee",
+                "Galio",
+                "Ezreal",
+                "Karma"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Ambessa",
+                "Rumble",
+                "Braum",
+                "Corki"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Wukong",
+                "Ahri",
+                "Jinx",
+                "Leona"
+              ],
+              "gameDuration": "PT19.039S"
+            },
+            {
+              "id": "63175",
+              "gameRound": 3,
+              "leftTeam": "T1",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Yone",
+                "Ashe",
+                "Caitlyn",
+                "Alistar",
+                "Taliyah"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Pantheon",
+                "Aurora",
+                "Xayah",
+                "Rakan"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Kalista",
+                "Zyra",
+                "Nocturne",
+                "LeeSin"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "XinZhao",
+                "Swain",
+                "Ziggs",
+                "Nautilus"
+              ],
+              "gameDuration": "PT30.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63170",
+          "leftTeam": "DRX",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "BNK FearX",
+          "rightTeamTotalScore": 1,
+          "date": "2025-01-24",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63170",
+              "gameRound": 1,
+              "leftTeam": "DRX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Zyra",
+                "Kalista",
+                "Rumble",
+                "Sejuani",
+                "Azir"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Nidalee",
+                "Jayce",
+                "Kaisa",
+                "Rell"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "KSante",
+                "Vi",
+                "Lillia",
+                "Viktor"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Wukong",
+                "Taliyah",
+                "Ezreal",
+                "Leona"
+              ],
+              "gameDuration": "PT9.03S"
+            },
+            {
+              "id": "63171",
+              "gameRound": 2,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Kalista",
+                "Skarner",
+                "KSante",
+                "Poppy",
+                "RenataGlasc"
+              ],
+              "leftTeamPicks": [
+                "Gnar",
+                "Vi",
+                "Xerath",
+                "MissFortune",
+                "Rakan"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Rumble",
+                "Zyra",
+                "Aurora",
+                "Ahri",
+                "Akali"
+              ],
+              "rightTeamPicks": [
+                "Renekton",
+                "XinZhao",
+                "Azir",
+                "Varus",
+                "Elise"
+              ],
+              "gameDuration": "PT34.027S"
+            },
+            {
+              "id": "63172",
+              "gameRound": 3,
+              "leftTeam": "DRX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Zyra",
+                "Galio",
+                "Kalista",
+                "Lulu",
+                "Bard"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Lillia",
+                "LeeSin",
+                "Ashe",
+                "Braum"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "KSante",
+                "Yone",
+                "Nocturne",
+                "Viego"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Sejuani",
+                "Corki",
+                "Zeri",
+                "Yuumi"
+              ],
+              "gameDuration": "PT4.034S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63167",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-23",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63167",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Rumble",
+                "Sejuani",
+                "Varus",
+                "Leona",
+                "Jinx"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Maokai",
+                "Yone",
+                "Xayah",
+                "Poppy"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Ashe",
+                "Ezreal",
+                "Ziggs"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Vi",
+                "Ambessa",
+                "Kaisa",
+                "Nautilus"
+              ],
+              "gameDuration": "PT40.035S"
+            },
+            {
+              "id": "63168",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Varus",
+                "Leona",
+                "MissFortune"
+              ],
+              "leftTeamPicks": [
+                "Galio",
+                "XinZhao",
+                "Azir",
+                "Caitlyn",
+                "Lux"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Zyra",
+                "Jayce",
+                "Ashe",
+                "Ezreal",
+                "Jinx"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Sejuani",
+                "Corki",
+                "Lucian",
+                "Nami"
+              ],
+              "gameDuration": "PT33.037S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63164",
+          "leftTeam": "OK BRION",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-23",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63164",
+              "gameRound": 1,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "Nidalee",
+                "Ashe",
+                "MissFortune",
+                "Ezreal"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Vi",
+                "Aurora",
+                "Kaisa",
+                "Alistar"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Corki",
+                "Rakan",
+                "Rell"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Zyra",
+                "Yone",
+                "Jhin",
+                "Leona"
+              ],
+              "gameDuration": "PT22.046S"
+            },
+            {
+              "id": "63165",
+              "gameRound": 2,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Nidalee",
+                "Poppy",
+                "Gnar"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "LeeSin",
+                "Azir",
+                "Ashe",
+                "Rell"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Ambessa",
+                "Renekton",
+                "RenataGlasc",
+                "Sejuani",
+                "Wukong"
+              ],
+              "rightTeamPicks": [
+                "Urgot",
+                "XinZhao",
+                "Galio",
+                "Varus",
+                "Lulu"
+              ],
+              "gameDuration": "PT33.033S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63161",
+          "leftTeam": "DN Freecs",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "DRX",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-22",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63161",
+              "gameRound": 1,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "Corki",
+                "Poppy",
+                "Xayah",
+                "Ezreal"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Vi",
+                "Taliyah",
+                "Kaisa",
+                "Rell"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "KSante",
+                "Caitlyn",
+                "Ashe"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Pantheon",
+                "Aurora",
+                "MissFortune",
+                "Leona"
+              ],
+              "gameDuration": "PT54.031S"
+            },
+            {
+              "id": "63162",
+              "gameRound": 2,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Poppy",
+                "Viktor",
+                "Azir"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Maokai",
+                "Corki",
+                "Ashe",
+                "Seraphine"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nocturne",
+                "Caitlyn",
+                "Varus",
+                "Sejuani",
+                "XinZhao"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Nidalee",
+                "Yone",
+                "Ezreal",
+                "Braum"
+              ],
+              "gameDuration": "PT14.03S"
+            },
+            {
+              "id": "63163",
+              "gameRound": 3,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "LeBlanc",
+                "Poppy",
+                "Elise",
+                "Viktor",
+                "Akali"
+              ],
+              "leftTeamPicks": [
+                "Gragas",
+                "XinZhao",
+                "Orianna",
+                "Kalista",
+                "Neeko"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Nocturne",
+                "RenataGlasc",
+                "Gnar",
+                "Azir"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Sejuani",
+                "Sylas",
+                "Varus",
+                "Nautilus"
+              ],
+              "gameDuration": "PT56.034S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63158",
+          "leftTeam": "Dplus KIA",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "BNK FearX",
+          "rightTeamTotalScore": 1,
+          "date": "2025-01-22",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63158",
+              "gameRound": 1,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Zyra",
+                "KSante",
+                "Poppy",
+                "Akali"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Skarner",
+                "Ahri",
+                "Ziggs",
+                "Leona"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Jayce",
+                "Pantheon",
+                "Ezreal",
+                "Sylas",
+                "LeBlanc"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Yone",
+                "Varus",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT29.027S"
+            },
+            {
+              "id": "63159",
+              "gameRound": 2,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Zyra",
+                "Kalista",
+                "Poppy",
+                "Kaisa",
+                "Rakan"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Sejuani",
+                "Viktor",
+                "Ezreal",
+                "Pantheon"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nidalee",
+                "Lillia",
+                "Corki",
+                "Braum",
+                "Taliyah"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "Wukong",
+                "Azir",
+                "Zeri",
+                "Alistar"
+              ],
+              "gameDuration": "PT38.031S"
+            },
+            {
+              "id": "63160",
+              "gameRound": 3,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Zyra",
+                "Nocturne",
+                "Corki",
+                "Jax",
+                "Gnar"
+              ],
+              "leftTeamPicks": [
+                "Sion",
+                "Viego",
+                "Zoe",
+                "Ashe",
+                "Braum"
+              ],
+              "rightTeam": "BNK FearX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Nidalee",
+                "Lillia",
+                "Maokai",
+                "Gragas",
+                "Taliyah"
+              ],
+              "rightTeamPicks": [
+                "Renekton",
+                "XinZhao",
+                "Galio",
+                "Kalista",
+                "Neeko"
+              ],
+              "gameDuration": "PT8.026S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63038",
+          "leftTeam": "BNK FearX",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-19",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63038",
+              "gameRound": 1,
+              "leftTeam": "BNK FearX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Jayce",
+                "Galio",
+                "Rumble",
+                "Jax",
+                "Renekton"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Zyra",
+                "Corki",
+                "Ezreal",
+                "Alistar"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Vi",
+                "Kalista",
+                "LeBlanc",
+                "Rell"
+              ],
+              "rightTeamPicks": [
+                "Aurora",
+                "Nidalee",
+                "Yone",
+                "Varus",
+                "Leona"
+              ],
+              "gameDuration": "PT5.04S"
+            },
+            {
+              "id": "63039",
+              "gameRound": 2,
+              "leftTeam": "BNK FearX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Ashe",
+                "Azir",
+                "Rumble",
+                "Xayah",
+                "Lulu"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Wukong",
+                "Galio",
+                "Jinx",
+                "TahmKench"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Vi",
+                "Kalista",
+                "Rakan",
+                "Poppy"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "XinZhao",
+                "Sylas",
+                "MissFortune",
+                "Rell"
+              ],
+              "gameDuration": "PT11.029S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63035",
+          "leftTeam": "KT Rolster",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "Hanwha Life eSports",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-19",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63035",
+              "gameRound": 1,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Yone",
+                "Varus",
+                "KSante",
+                "Poppy",
+                "Caitlyn"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Vi",
+                "Galio",
+                "Kaisa",
+                "Leona"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Ashe",
+                "MissFortune",
+                "Jinx"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Azir",
+                "Xayah",
+                "Rakan"
+              ],
+              "gameDuration": "PT54.026S"
+            },
+            {
+              "id": "63036",
+              "gameRound": 2,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Varus",
+                "Corki",
+                "Poppy",
+                "Wukong",
+                "Nocturne"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Viego",
+                "Yone",
+                "Ziggs",
+                "Alistar"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Kalista",
+                "Sejuani",
+                "Maokai",
+                "Zyra"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "LeeSin",
+                "Akali",
+                "Ashe",
+                "Rell"
+              ],
+              "gameDuration": "PT48.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63032",
+          "leftTeam": "DRX",
+          "leftTeamTotalScore": 0,
+          "rightTeam": "T1",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-18",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63032",
+              "gameRound": 1,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Sejuani",
+                "Caitlyn",
+                "Aurora",
+                "RenataGlasc",
+                "Varus"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Vi",
+                "Taliyah",
+                "Ezreal",
+                "Poppy"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "KSante",
+                "Skarner",
+                "Leona",
+                "Kaisa"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Galio",
+                "Xayah",
+                "Rakan"
+              ],
+              "gameDuration": "PT6.034S"
+            },
+            {
+              "id": "63033",
+              "gameRound": 2,
+              "leftTeam": "DRX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Sejuani",
+                "Varus",
+                "Kalista",
+                "Nocturne",
+                "Braum"
+              ],
+              "leftTeamPicks": [
+                "Ornn",
+                "Wukong",
+                "Viktor",
+                "Corki",
+                "Leona"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Yone",
+                "KSante",
+                "Jax",
+                "Akali"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "LeeSin",
+                "Aurora",
+                "Caitlyn",
+                "Elise"
+              ],
+              "gameDuration": "PT17.028S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63029",
+          "leftTeam": "Dplus KIA",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "DN Freecs",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-18",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63029",
+              "gameRound": 1,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Nocturne",
+                "KSante",
+                "Ziggs",
+                "Kaisa"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "Lillia",
+                "Sett",
+                "Varus",
+                "Poppy"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Vi",
+                "Nidalee",
+                "Renekton",
+                "Rell"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Sejuani",
+                "Corki",
+                "MissFortune",
+                "Leona"
+              ],
+              "gameDuration": "PT25.028S"
+            },
+            {
+              "id": "63030",
+              "gameRound": 2,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Skarner",
+                "Yone",
+                "Braum",
+                "Ahri"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Pantheon",
+                "Zilean",
+                "Ezreal",
+                "Elise"
+              ],
+              "rightTeam": "DN Freecs",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "LeBlanc",
+                "Nidalee",
+                "KSante",
+                "Sylas",
+                "Rell"
+              ],
+              "rightTeamPicks": [
+                "Gnar",
+                "Vi",
+                "Taliyah",
+                "Ashe",
+                "Nautilus"
+              ],
+              "gameDuration": "PT7.034S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63026",
+          "leftTeam": "Nongshim RedForce",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "OK BRION",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-17",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63026",
+              "gameRound": 1,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "KSante",
+                "Yone",
+                "Vi",
+                "Draven",
+                "XinZhao"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Sejuani",
+                "Smolder",
+                "Kalista",
+                "Elise"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Corki",
+                "Skarner",
+                "Neeko",
+                "Blitzcrank",
+                "Jayce"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Nocturne",
+                "Aurora",
+                "Varus",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT8.041S"
+            },
+            {
+              "id": "63027",
+              "gameRound": 2,
+              "leftTeam": "Nongshim RedForce",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Vi",
+                "Renekton",
+                "Yone",
+                "MissFortune"
+              ],
+              "leftTeamPicks": [
+                "Gangplank",
+                "Maokai",
+                "Azir",
+                "Ashe",
+                "Rell"
+              ],
+              "rightTeam": "OK BRION",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "KSante",
+                "Jayce",
+                "Viktor",
+                "Braum",
+                "Nautilus"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Zyra",
+                "Corki",
+                "Ezreal",
+                "Leona"
+              ],
+              "gameDuration": "PT52.033S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63023",
+          "leftTeam": "Gen.G eSports",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Hanwha Life eSports",
+          "rightTeamTotalScore": 0,
+          "date": "2025-01-17",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63023",
+              "gameRound": 1,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Yone",
+                "Varus",
+                "Vi",
+                "Rell",
+                "Poppy"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Nidalee",
+                "Hwei",
+                "Ashe",
+                "Leona"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "KSante",
+                "Skarner",
+                "Kalista",
+                "Jayce",
+                "Azir"
+              ],
+              "rightTeamPicks": [
+                "Ambessa",
+                "Zyra",
+                "Corki",
+                "Caitlyn",
+                "Bard"
+              ],
+              "gameDuration": "PT12.029S"
+            },
+            {
+              "id": "63024",
+              "gameRound": 2,
+              "leftTeam": "Gen.G eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Skarner",
+                "Yone",
+                "Kalista",
+                "MissFortune",
+                "Jhin"
+              ],
+              "leftTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Galio",
+                "Jinx",
+                "Lulu"
+              ],
+              "rightTeam": "Hanwha Life eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "KSante",
+                "Poppy",
+                "Varus",
+                "Xayah",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Ornn",
+                "Vi",
+                "Aurora",
+                "Tristana",
+                "Rakan"
+              ],
+              "gameDuration": "PT10.023S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63020",
+          "leftTeam": "Dplus KIA",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "T1",
+          "rightTeamTotalScore": 1,
+          "date": "2025-01-16",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63020",
+              "gameRound": 1,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Sejuani",
+                "Varus",
+                "Braum",
+                "Poppy"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Nidalee",
+                "Jayce",
+                "Ezreal",
+                "Leona"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Vi",
+                "Skarner",
+                "KSante",
+                "LeBlanc",
+                "Jax"
+              ],
+              "rightTeamPicks": [
+                "Gragas",
+                "Zyra",
+                "Yone",
+                "Ashe",
+                "Rell"
+              ],
+              "gameDuration": "PT24.023S"
+            },
+            {
+              "id": "63021",
+              "gameRound": 2,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Kalista",
+                "Azir",
+                "Skarner",
+                "Nocturne",
+                "Sejuani"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Wukong",
+                "Xerath",
+                "Corki",
+                "Rakan"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Maokai",
+                "Poppy",
+                "Vi",
+                "Aurora",
+                "Elise"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "XinZhao",
+                "Viktor",
+                "Varus",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT49.031S"
+            },
+            {
+              "id": "63022",
+              "gameRound": 3,
+              "leftTeam": "Dplus KIA",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Kalista",
+                "Caitlyn",
+                "Aurora",
+                "Xayah",
+                "Sejuani"
+              ],
+              "leftTeamPicks": [
+                "Sion",
+                "Vi",
+                "Ahri",
+                "Jinx",
+                "Braum"
+              ],
+              "rightTeam": "T1",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Maokai",
+                "Kaisa",
+                "Skarner",
+                "Gnar",
+                "Lulu"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Poppy",
+                "Azir",
+                "Jhin",
+                "Bard"
+              ],
+              "gameDuration": "PT4.034S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "63017",
+          "leftTeam": "BNK FearX",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "KT Rolster",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-16",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "63017",
+              "gameRound": 1,
+              "leftTeam": "BNK FearX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "KSante",
+                "Ambessa",
+                "Skarner",
+                "Jax",
+                "Ornn"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Maokai",
+                "Corki",
+                "Kaisa",
+                "Leona"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Jayce",
+                "Vi",
+                "Varus",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Renekton",
+                "Zyra",
+                "Yone",
+                "Ashe",
+                "Braum"
+              ],
+              "gameDuration": "PT54.031S"
+            },
+            {
+              "id": "63018",
+              "gameRound": 2,
+              "leftTeam": "BNK FearX",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Sejuani",
+                "Ambessa",
+                "Skarner",
+                "Azir",
+                "Aurora"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Wukong",
+                "Taliyah",
+                "Zeri",
+                "Rell"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Varus",
+                "Vi",
+                "Rakan",
+                "Ezreal"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "XinZhao",
+                "Viktor",
+                "Caitlyn",
+                "Poppy"
+              ],
+              "gameDuration": "PT39.027S"
+            },
+            {
+              "id": "63019",
+              "gameRound": 3,
+              "leftTeam": "BNK FearX",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Vi",
+                "Kalista",
+                "Ezreal",
+                "Lucian"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "JarvanIV",
+                "Akali",
+                "Xayah",
+                "Rakan"
+              ],
+              "rightTeam": "KT Rolster",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Viego",
+                "Nocturne",
+                "Varus",
+                "LeeSin",
+                "Sylas"
+              ],
+              "rightTeamPicks": [
+                "Jax",
+                "Sejuani",
+                "Azir",
+                "Jinx",
+                "Lulu"
+              ],
+              "gameDuration": "PT31.029S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "62970",
+          "leftTeam": "DN Freecs",
+          "leftTeamTotalScore": 2,
+          "rightTeam": "Nongshim RedForce",
+          "rightTeamTotalScore": 1,
+          "date": "2025-01-15",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "62970",
+              "gameRound": 1,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Varus",
+                "Aurora",
+                "Corki",
+                "Leona",
+                "Nautilus"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Wukong",
+                "Akali",
+                "Kalista",
+                "RenataGlasc"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Vi",
+                "KSante",
+                "Rumble",
+                "Maokai"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Sejuani",
+                "Yone",
+                "Ziggs",
+                "Alistar"
+              ],
+              "gameDuration": "PT14.046S"
+            },
+            {
+              "id": "62971",
+              "gameRound": 2,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Skarner",
+                "Vi",
+                "Corki",
+                "Ezreal",
+                "Ashe"
+              ],
+              "leftTeamPicks": [
+                "Aurora",
+                "Nocturne",
+                "Orianna",
+                "Kaisa",
+                "Rell"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Rumble",
+                "Poppy",
+                "Jax",
+                "Caitlyn",
+                "Varus"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "XinZhao",
+                "Viktor",
+                "Xayah",
+                "Rakan"
+              ],
+              "gameDuration": "PT39.033S"
+            },
+            {
+              "id": "62972",
+              "gameRound": 3,
+              "leftTeam": "DN Freecs",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Leona",
+                "Nautilus",
+                "Rumble",
+                "Gragas",
+                "Maokai"
+              ],
+              "leftTeamPicks": [
+                "Jax",
+                "Ivern",
+                "Smolder",
+                "Ashe",
+                "Braum"
+              ],
+              "rightTeam": "Nongshim RedForce",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Skarner",
+                "Vi",
+                "Kindred",
+                "LeeSin",
+                "Viego"
+              ],
+              "rightTeamPicks": [
+                "Sion",
+                "Nidalee",
+                "Corki",
+                "Ezreal",
+                "Blitzcrank"
+              ],
+              "gameDuration": "PT33.034S"
+            }
+          ],
+          "played": true
+        },
+        {
+          "id": "62967",
+          "leftTeam": "OK BRION",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "DRX",
+          "rightTeamTotalScore": 2,
+          "date": "2025-01-15",
+          "lckGameRawDataDTOList": [
+            {
+              "id": "62967",
+              "gameRound": 1,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Ashe",
+                "Varus",
+                "Aurora",
+                "Ambessa",
+                "Jax"
+              ],
+              "leftTeamPicks": [
+                "KSante",
+                "Skarner",
+                "Yone",
+                "MissFortune",
+                "Rell"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Kalista",
+                "Rumble",
+                "Azir",
+                "Ziggs",
+                "Kaisa"
+              ],
+              "rightTeamPicks": [
+                "Jayce",
+                "Sejuani",
+                "Viktor",
+                "Corki",
+                "Leona"
+              ],
+              "gameDuration": "PT2.029S"
+            },
+            {
+              "id": "62968",
+              "gameRound": 2,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Nocturne",
+                "Vi",
+                "Kalista",
+                "Ornn",
+                "Ambessa"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Viego",
+                "Taliyah",
+                "Xayah",
+                "Rakan"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Ashe",
+                "Varus",
+                "Nautilus",
+                "Caitlyn"
+              ],
+              "rightTeamPicks": [
+                "Galio",
+                "Wukong",
+                "Aurora",
+                "Kaisa",
+                "Poppy"
+              ],
+              "gameDuration": "PT35.027S"
+            },
+            {
+              "id": "62969",
+              "gameRound": 3,
+              "leftTeam": "OK BRION",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Nocturne",
+                "LeeSin",
+                "LeBlanc",
+                "Orianna",
+                "Ornn"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Brand",
+                "Yasuo",
+                "Varus",
+                "Nautilus"
+              ],
+              "rightTeam": "DRX",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Vi",
+                "Azir",
+                "Ashe",
+                "Nidalee",
+                "Zyra"
+              ],
+              "rightTeamPicks": [
+                "Gragas",
+                "XinZhao",
+                "Ambessa",
+                "Kalista",
+                "RenataGlasc"
+              ],
+              "gameDuration": "PT20.041S"
+            }
+          ],
+          "played": true
+        }
+      ]
+    }
+  ]
+}

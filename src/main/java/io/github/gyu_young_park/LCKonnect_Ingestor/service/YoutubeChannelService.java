@@ -6,6 +6,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel
 import lombok.Data;
 import org.springframework.stereotype.Component;
 
+import java.util.List;
+
 @Data
 @Component
 public class YoutubeChannelService {
@@ -15,11 +17,7 @@ public class YoutubeChannelService {
         this.lckYoutubeFetcher = lckYoutubeFetcher;
     }
 
-    public void getLCKPlayList() {
-        // TODO: lck video mapping crawled data
-        LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
-        for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
-            System.out.println("playlist: " + lckPlayListModel.getPlaylistName() + ", videos: " + lckPlayListModel.getLckVideoList().size());
-        }
+    public LCKYoutubeModel getLCKPlayList() {
+        return lckYoutubeFetcher.fetch();
     }
 }

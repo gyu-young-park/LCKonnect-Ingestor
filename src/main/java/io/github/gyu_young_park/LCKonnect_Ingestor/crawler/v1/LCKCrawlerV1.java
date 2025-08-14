@@ -32,7 +32,8 @@ public class LCKCrawlerV1 implements LCKCrawler {
                 lckLeagueRawDataList.add(lckLeagueCrawler.crawLCKLeague(url));
             }
         } catch (NullPointerException | IOException e) {
-            logger.error(e.getStackTrace().toString());
+            e.printStackTrace();
+            logger.error(e.getMessage());
         }
         logger.info("LckcrawlerV1: crawling done");
 
