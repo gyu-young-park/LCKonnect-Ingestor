@@ -23,3 +23,6 @@ youtube:
       channel: "/youtube/v3/channels"
       playlist: "/youtube/v3/playlists"
       playlist_item_list: "/youtube/v3/playlistItems"
+
+transform:
+  map_data_path: ./data/lck_crawl_and_youtube_map.json

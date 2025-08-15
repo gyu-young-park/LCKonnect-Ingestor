@@ -1,6 +1,5 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.fetcher.LCKYoutubeFetcher;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 

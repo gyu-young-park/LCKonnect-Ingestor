@@ -1,14 +1,13 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.config;
 
 import lombok.Data;
+import lombok.Getter;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
-import java.util.List;
-
 @Component
-@ConfigurationProperties(prefix = "crawling.lck")
+@ConfigurationProperties("transform")
 @Data
-public class LCKCrawlingProperties {
-    private List<String> targetMatchUrl;
+public class TransformConfiguration {
+    private String mapDataPath;
 }
