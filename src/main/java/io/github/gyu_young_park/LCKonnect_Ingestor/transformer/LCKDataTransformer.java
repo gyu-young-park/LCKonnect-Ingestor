@@ -10,6 +10,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.fetcher.LCKYoutubeFet
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
@@ -20,6 +22,7 @@ import java.util.Map;
 @Component
 @RequiredArgsConstructor
 public class LCKDataTransformer {
+    final private Logger LOGGER = LoggerFactory.getLogger(LCKDataTransformer.class);
     final private TransformConfiguration transformConfiguration;
     final private LCKYoutubeFetcher lckYoutubeFetcher;
     final private LCKCrawler lckCrawler;
@@ -27,20 +30,20 @@ public class LCKDataTransformer {
     public LCKChampionshipModel transform() {
         Map<String, String> mappingData = getMappingData();
         for (String key : mappingData.keySet()) {
-            System.out.println("key:" + key + ", value:" + mappingData.get(key));
+            LOGGER.info("key:{}, value:{}", key, mappingData.get(key));
         }
 
-        System.out.println("Start transform");
+        LOGGER.info("Start transform");
         List<LCKLeagueRawData> lckLeagueRawDataList = lckCrawler.crawl();
 
         for (LCKLeagueRawData lckLeagueRawData : lckLeagueRawDataList) {
-            System.out.println("crawl: " + lckLeagueRawData.getLeague());
+            LOGGER.info("crawl: {}", lckLeagueRawData.getLeague());
         }
 
-        System.out.println("Start lck youtubue fetcher");
+        LOGGER.info("Start lck youtubue fetcher");
         LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
         for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
-            System.out.println("lck yotubue: " + lckPlayListModel.getPlaylistName());
+            LOGGER.info("lck yotubue: {}", lckPlayListModel.getPlaylistName());
         }
 
 
