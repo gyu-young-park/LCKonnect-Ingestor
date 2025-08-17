@@ -38,7 +38,7 @@ public class LCKMatchCrawler {
         if (scores.length >= 3) {
             lckMatchRawData.setLeftTeamTotalScore(Integer.parseInt(scores[0]));
             lckMatchRawData.setRightTeamTotalScore(Integer.parseInt(scores[2]));
-            lckMatchRawData.setLckGameRawDataDTOList(lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
+            lckMatchRawData.setLckGameRawDataList(lckGameCrawler.crawlLCKGameRawDataModelList(matchId));
             lckMatchRawData.setPlayed(true);
         }
         lckMatchRawData.setId(matchId);

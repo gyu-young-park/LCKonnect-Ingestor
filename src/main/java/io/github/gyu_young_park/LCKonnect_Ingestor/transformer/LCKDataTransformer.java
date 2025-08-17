@@ -5,6 +5,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.TransformConfiguration;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
+import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.fetcher.LCKYoutubeFetcher;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
@@ -23,16 +24,11 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class LCKDataTransformer {
     final private Logger LOGGER = LoggerFactory.getLogger(LCKDataTransformer.class);
-    final private TransformConfiguration transformConfiguration;
+    final private LCKDataMerger lckDataMerger;
     final private LCKYoutubeFetcher lckYoutubeFetcher;
     final private LCKCrawler lckCrawler;
 
     public LCKChampionshipModel transform() {
-        Map<String, String> mappingData = getMappingData();
-        for (String key : mappingData.keySet()) {
-            LOGGER.info("key:{}, value:{}", key, mappingData.get(key));
-        }
-
         LOGGER.info("Start transform");
         List<LCKLeagueRawData> lckLeagueRawDataList = lckCrawler.crawl();
 
@@ -46,18 +42,8 @@ public class LCKDataTransformer {
             LOGGER.info("lck yotubue: {}", lckPlayListModel.getPlaylistName());
         }
 
+        lckDataMerger.merge(lckLeagueRawDataList, lckYoutubeModel);
 
         return new LCKChampionshipModel();
-    }
-
-    private Map<String, String> getMappingData() {
-        Map<String, String> crawlAndYoutubeMap = Map.of();
-        ObjectMapper objectMapper = new ObjectMapper();
-        try {
-            crawlAndYoutubeMap = objectMapper.readValue(new File(transformConfiguration.getMapDataPath()), new TypeReference<Map<String, String>>() {});
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return crawlAndYoutubeMap;
     }
 }

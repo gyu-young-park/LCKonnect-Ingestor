@@ -18,5 +18,5 @@ public class LCKMatchRawData {
     private int rightTeamTotalScore;
     private boolean isPlayed;
     private LocalDate date;
-    private List<LCKGameRawData> lckGameRawDataDTOList;
+    private List<LCKGameRawData> lckGameRawDataList;
 }
