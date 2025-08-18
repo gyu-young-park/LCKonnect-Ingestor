@@ -28,7 +28,7 @@ public class LCKDataTransformer {
     final private LCKYoutubeFetcher lckYoutubeFetcher;
     final private LCKCrawler lckCrawler;
 
-    public LCKChampionshipModel transform() {
+    public List<LCKChampionshipModel> transform() {
         LOGGER.info("Start transform");
         List<LCKLeagueRawData> lckLeagueRawDataList = lckCrawler.crawl();
 
@@ -41,9 +41,7 @@ public class LCKDataTransformer {
         for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
             LOGGER.info("lck yotubue: {}", lckPlayListModel.getPlaylistName());
         }
-
-        lckDataMerger.merge(lckLeagueRawDataList, lckYoutubeModel);
-
-        return new LCKChampionshipModel();
+        // TODO change List<LCKChampionshipModel> to LCKData and change the return of transform to LCKChampionshipModel
+        return lckDataMerger.merge(lckLeagueRawDataList, lckYoutubeModel);
     }
 }
