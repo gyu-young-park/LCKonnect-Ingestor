@@ -14,6 +14,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.io.File;
@@ -24,6 +26,7 @@ import java.util.*;
 @Data
 @RequiredArgsConstructor
 public class LCKDataMerger {
+    final private Logger LOGGER = LoggerFactory.getLogger(LCKDataMerger.class);
     final private TransformConfiguration transformConfiguration;
 
     public List<LCKChampionshipModel> merge(List<LCKLeagueRawData> lckLeagueRawDataList, LCKYoutubeModel lckYoutubeModel) {
@@ -102,7 +105,7 @@ public class LCKDataMerger {
                     lckVideoAndInfoModel.setVideoTitle(lckVideoModel.getTitle());
                     // 데이터를 json으로 바꾸기
                     lckVideoAndInfoModelList.add(lckVideoAndInfoModel);
-                    System.out.println("LCK Game name: " + lckVideoModel.getTitle() + " left team: " + lckGameRawData.getLeftTeam() + " left score: " + lckGameRawData.getLeftTeamScore() + " right team: " + lckGameRawData.getRightTeam() + " right score: " + lckGameRawData.getRightTeamScore());
+                    LOGGER.debug("LCK Game name: " + lckVideoModel.getTitle() + " left team: " + lckGameRawData.getLeftTeam() + " left score: " + lckGameRawData.getLeftTeamScore() + " right team: " + lckGameRawData.getRightTeam() + " right score: " + lckGameRawData.getRightTeamScore());
                     videoIndex++;
                 }
                 lckChampionshipModel.setLckVideoAndInfoModelList(lckVideoAndInfoModelList);
