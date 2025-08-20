@@ -4,8 +4,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKGameRawData;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.data.util.Pair;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -15,7 +13,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class LCKGameCrawler {
-    private static final Logger logger = LoggerFactory.getLogger(LCKGameCrawler.class);
     private final String GAME_ROUND_URL = "https://gol.gg/game/stats/{id}/page-summary/";
 
     public List<LCKGameRawData> crawlLCKGameRawDataModelList(String matchId) throws IOException {
