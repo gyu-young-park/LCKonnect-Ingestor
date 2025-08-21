@@ -103,6 +103,22 @@ public class LCKDataMerger {
                     lckVideoAndInfoModel.setDate(lckMatchRawData.getDate());
                     lckVideoAndInfoModel.setVideoId(lckVideoModel.getVideoId());
                     lckVideoAndInfoModel.setVideoTitle(lckVideoModel.getTitle());
+                    lckVideoAndInfoModel.setMedium(new LCKVideoAndInfoModel.Thumbnail(
+                            lckVideoModel.getMedium().getUrl(),
+                            lckVideoModel.getMedium().getWidth(),
+                            lckVideoModel.getMedium().getHeight()
+                    ));
+                    lckVideoAndInfoModel.setHigh(new LCKVideoAndInfoModel.Thumbnail(
+                            lckVideoModel.getHigh().getUrl(),
+                            lckVideoModel.getHigh().getWidth(),
+                            lckVideoModel.getHigh().getHeight()
+                    ));
+                    lckVideoAndInfoModel.setStandard(new LCKVideoAndInfoModel.Thumbnail(
+                            lckVideoModel.getStandard().getUrl(),
+                            lckVideoModel.getStandard().getWidth(),
+                            lckVideoModel.getStandard().getHeight()
+                    ));
+
                     // 데이터를 json으로 바꾸기
                     lckVideoAndInfoModelList.add(lckVideoAndInfoModel);
                     LOGGER.debug("LCK Game name: " + lckVideoModel.getTitle() + " left team: " + lckGameRawData.getLeftTeam() + " left score: " + lckGameRawData.getLeftTeamScore() + " right team: " + lckGameRawData.getRightTeam() + " right score: " + lckGameRawData.getRightTeamScore());
