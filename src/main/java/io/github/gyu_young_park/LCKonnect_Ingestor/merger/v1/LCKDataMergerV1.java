@@ -1,14 +1,16 @@
-package io.github.gyu_young_park.LCKonnect_Ingestor.transformer.merger;
+package io.github.gyu_young_park.LCKonnect_Ingestor.merger.v1;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.TransformConfiguration;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKGameRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
-import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model.LCKChampionshipModel;
-import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model.LCKTeamModel;
-import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model.LCKVideoAndInfoModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKTeamModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
@@ -26,8 +28,8 @@ import java.util.*;
 @Component
 @Data
 @RequiredArgsConstructor
-public class LCKDataMerger {
-    final private Logger LOGGER = LoggerFactory.getLogger(LCKDataMerger.class);
+public class LCKDataMergerV1 implements LCKDataMerger {
+    final private Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
     final private TransformConfiguration transformConfiguration;
 
     private Map<String, List<LCKMatchRawData>> arrangeLCKLeagueRawDataMapWithLeagueKey(List<LCKLeagueRawData> lckLeagueRawDataList) {
@@ -43,7 +45,6 @@ public class LCKDataMerger {
         for (LCKPlayListModel lckPlayListModel: lckYoutubeModelList) {
             lckVideoDataWithLeagueNameMap.put(lckPlayListModel.getPlaylistName().trim(), lckPlayListModel.getLckVideoList());
         }
-
         return lckVideoDataWithLeagueNameMap;
     }
 
@@ -84,9 +85,9 @@ public class LCKDataMerger {
         );
     }
 
-    public List<LCKChampionshipModel> merge(List<LCKLeagueRawData> lckLeagueRawDataList, LCKYoutubeModel lckYoutubeModel) {
+    public List<LCKChampionshipModel> merge(LCKCrawlRawData lckCrawlRawData, LCKYoutubeModel lckYoutubeModel) {
         List<LCKChampionshipModel> lckChampionshipModelList = new ArrayList<>();
-        Map<String, List<LCKMatchRawData>> lckCrawlDataWithLeagueNameMap = arrangeLCKLeagueRawDataMapWithLeagueKey(lckLeagueRawDataList);
+        Map<String, List<LCKMatchRawData>> lckCrawlDataWithLeagueNameMap = arrangeLCKLeagueRawDataMapWithLeagueKey(lckCrawlRawData.getLckLeagueRawDataList());
         Map<String, List<LCKVideoModel>> lckVideoDataWithLeagueNameMap = arrangeLCKPlayListMapWithPlayListKey(lckYoutubeModel.getLckPlayListList());
 
         for (Map.Entry<String, String> lckCrawlDataAndLCKVideoDataEntry : getLCKCrawlDataAndLCKVideoData().entrySet()) {

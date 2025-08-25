@@ -1,6 +1,5 @@
-package io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model;
+package io.github.gyu_young_park.LCKonnect_Ingestor.merger.model;
 
-import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 

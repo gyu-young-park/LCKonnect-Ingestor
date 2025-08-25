@@ -2,6 +2,7 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.LCKCrawlingProperties;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
+import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,7 +25,7 @@ public class LCKCrawlerV1 implements LCKCrawler {
         this.lckLeagueCrawler = new LCKLeagueCrawler();
     }
 
-    public List<LCKLeagueRawData> crawl() {
+    public LCKCrawlRawData crawl() {
         logger.info("LckcrawlerV1: Start crawling...");
         List<LCKLeagueRawData> lckLeagueRawDataList = new ArrayList<>();
         try {
@@ -37,6 +38,6 @@ public class LCKCrawlerV1 implements LCKCrawler {
         }
         logger.info("LckcrawlerV1: crawling done");
 
-        return lckLeagueRawDataList;
+        return new LCKCrawlRawData(lckLeagueRawDataList);
     }
 }
