@@ -12,6 +12,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.transformer.model.LCKVideoAnd
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.ThumbnailModel;
 import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -29,21 +30,66 @@ public class LCKDataMerger {
     final private Logger LOGGER = LoggerFactory.getLogger(LCKDataMerger.class);
     final private TransformConfiguration transformConfiguration;
 
-    public List<LCKChampionshipModel> merge(List<LCKLeagueRawData> lckLeagueRawDataList, LCKYoutubeModel lckYoutubeModel) {
+    private Map<String, List<LCKMatchRawData>> arrangeLCKLeagueRawDataMapWithLeagueKey(List<LCKLeagueRawData> lckLeagueRawDataList) {
         Map<String, List<LCKMatchRawData>> lckCrawlDataWithLeagueNameMap = new HashMap<>();
         for (LCKLeagueRawData lckLeagueRawData : lckLeagueRawDataList) {
             lckCrawlDataWithLeagueNameMap.put(lckLeagueRawData.getLeague().trim(), lckLeagueRawData.getLckMatchRawDataList());
         }
+        return lckCrawlDataWithLeagueNameMap;
+    }
 
+    private Map<String, List<LCKVideoModel>> arrangeLCKPlayListMapWithPlayListKey(List<LCKPlayListModel> lckYoutubeModelList) {
         Map<String, List<LCKVideoModel>> lckVideoDataWithLeagueNameMap = new HashMap<>();
-        for (LCKPlayListModel lckPlayListModel: lckYoutubeModel.getLckPlayListList()) {
+        for (LCKPlayListModel lckPlayListModel: lckYoutubeModelList) {
             lckVideoDataWithLeagueNameMap.put(lckPlayListModel.getPlaylistName().trim(), lckPlayListModel.getLckVideoList());
         }
 
-        // TODO: refactor
+        return lckVideoDataWithLeagueNameMap;
+    }
+
+    private LCKVideoAndInfoModel mergeLCKVideoAndInfoModel(LCKVideoModel lckVideoModel, LCKGameRawData lckGameRawData) {
+        LCKVideoAndInfoModel result = new LCKVideoAndInfoModel();
+
+        boolean isLeftWin = lckGameRawData.getLeftTeamScore() != 0;
+        LCKTeamModel leftTeam = LCKTeamModel.builder()
+                .teamName(lckGameRawData.getLeftTeam())
+                .banList(lckGameRawData.getLeftTeamBans())
+                .pickList(lckGameRawData.getLeftTeamPicks())
+                .build();
+
+        LCKTeamModel rightTeam = LCKTeamModel.builder()
+                .teamName(lckGameRawData.getRightTeam())
+                .banList(lckGameRawData.getRightTeamBans())
+                .pickList(lckGameRawData.getRightTeamPicks())
+                .build();
+
+        result.setWinTeam(isLeftWin ? leftTeam : rightTeam);
+        result.setLoseTeam(isLeftWin ? rightTeam : leftTeam);
+
+        result.setVideoId(lckVideoModel.getVideoId());
+        result.setVideoTitle(lckVideoModel.getTitle());
+
+        result.setMedium(toThumbnail(lckVideoModel.getMedium()));
+        result.setHigh(toThumbnail(lckVideoModel.getHigh()));
+        result.setStandard(toThumbnail(lckVideoModel.getStandard()));
+
+        return result;
+    }
+
+    private LCKVideoAndInfoModel.Thumbnail toThumbnail(ThumbnailModel thumbnailModel) {
+        return new LCKVideoAndInfoModel.Thumbnail(
+                thumbnailModel.getUrl(),
+                thumbnailModel.getWidth(),
+                thumbnailModel.getHeight()
+        );
+    }
+
+    public List<LCKChampionshipModel> merge(List<LCKLeagueRawData> lckLeagueRawDataList, LCKYoutubeModel lckYoutubeModel) {
         List<LCKChampionshipModel> lckChampionshipModelList = new ArrayList<>();
-        Map<String, String> lckCrawlDataAndLCKVideoDataMap = getLCKCrawlDataAndLCKVideoData();
-        for (Map.Entry<String, String> lckCrawlDataAndLCKVideoDataEntry : lckCrawlDataAndLCKVideoDataMap.entrySet()) {
+        Map<String, List<LCKMatchRawData>> lckCrawlDataWithLeagueNameMap = arrangeLCKLeagueRawDataMapWithLeagueKey(lckLeagueRawDataList);
+        Map<String, List<LCKVideoModel>> lckVideoDataWithLeagueNameMap = arrangeLCKPlayListMapWithPlayListKey(lckYoutubeModel.getLckPlayListList());
+
+        for (Map.Entry<String, String> lckCrawlDataAndLCKVideoDataEntry : getLCKCrawlDataAndLCKVideoData().entrySet()) {
             String lckCrawlDataLeagueName = lckCrawlDataAndLCKVideoDataEntry.getKey();
             String lckVideoDataLeagueName = lckCrawlDataAndLCKVideoDataEntry.getValue();
             List<LCKMatchRawData> lckMatchRawDataList = lckCrawlDataWithLeagueNameMap.get(lckCrawlDataLeagueName);
@@ -51,7 +97,6 @@ public class LCKDataMerger {
                 throw new NoSuchElementException("LCK Crawl Data league is not matched with: " + lckCrawlDataLeagueName);
             }
 
-            int videoIndex = 0;
             List<LCKVideoModel> lckVideoModelList = lckVideoDataWithLeagueNameMap.get(lckVideoDataLeagueName);
             if (lckVideoModelList == null || lckVideoModelList.isEmpty()) {
                 throw new NoSuchElementException("LCK Youtube Data league is not matched with: " + lckVideoDataLeagueName);
@@ -63,6 +108,8 @@ public class LCKDataMerger {
 
             // TODO2: List<LCKVideoAndInfoModel> 시작
             List<LCKVideoAndInfoModel> lckVideoAndInfoModelList = new ArrayList<>();
+            int videoIndex = 0;
+
             for (LCKMatchRawData lckMatchRawData : lckMatchRawDataList) {
                 if (videoIndex == 0) {
                     lckChampionshipModel.setStartDate(lckMatchRawData.getDate());
@@ -70,59 +117,14 @@ public class LCKDataMerger {
                 lckChampionshipModel.setLastDate(lckMatchRawData.getDate());
 
                 List<LCKGameRawData> lckGameRawDataList = lckMatchRawData.getLckGameRawDataList();
-                for (int i = lckGameRawDataList.size() - 1; i >= 0; i--) {
+                for (int i = lckGameRawDataList.size() - 1; i >= 0; i--, videoIndex++) {
                     // // TODO3: LCKVideoAndInfoModel 시작
-                    LCKVideoAndInfoModel lckVideoAndInfoModel = new LCKVideoAndInfoModel();
                     LCKGameRawData lckGameRawData = lckGameRawDataList.get(i);
                     LCKVideoModel lckVideoModel = lckVideoModelList.get(videoIndex);
-
-                    if (lckGameRawData.getLeftTeamScore() == 0) {
-                        lckVideoAndInfoModel.setLoseTeam(LCKTeamModel.builder()
-                                .teamName(lckGameRawData.getLeftTeam())
-                                .banList(lckGameRawData.getLeftTeamBans())
-                                .pickList(lckGameRawData.getLeftTeamPicks())
-                                .build());
-                        lckVideoAndInfoModel.setWinTeam(LCKTeamModel.builder()
-                                .teamName(lckGameRawData.getRightTeam())
-                                .banList(lckGameRawData.getRightTeamBans())
-                                .pickList(lckGameRawData.getRightTeamPicks())
-                                .build());
-                    } else {
-                        lckVideoAndInfoModel.setWinTeam(LCKTeamModel.builder()
-                                .teamName(lckGameRawData.getLeftTeam())
-                                .banList(lckGameRawData.getLeftTeamBans())
-                                .pickList(lckGameRawData.getLeftTeamPicks())
-                                .build());
-                        lckVideoAndInfoModel.setLoseTeam(LCKTeamModel.builder()
-                                .teamName(lckGameRawData.getRightTeam())
-                                .banList(lckGameRawData.getRightTeamBans())
-                                .pickList(lckGameRawData.getRightTeamPicks())
-                                .build());
-                    }
-
+                    LCKVideoAndInfoModel lckVideoAndInfoModel = mergeLCKVideoAndInfoModel(lckVideoModel, lckGameRawData);
                     lckVideoAndInfoModel.setDate(lckMatchRawData.getDate());
-                    lckVideoAndInfoModel.setVideoId(lckVideoModel.getVideoId());
-                    lckVideoAndInfoModel.setVideoTitle(lckVideoModel.getTitle());
-                    lckVideoAndInfoModel.setMedium(new LCKVideoAndInfoModel.Thumbnail(
-                            lckVideoModel.getMedium().getUrl(),
-                            lckVideoModel.getMedium().getWidth(),
-                            lckVideoModel.getMedium().getHeight()
-                    ));
-                    lckVideoAndInfoModel.setHigh(new LCKVideoAndInfoModel.Thumbnail(
-                            lckVideoModel.getHigh().getUrl(),
-                            lckVideoModel.getHigh().getWidth(),
-                            lckVideoModel.getHigh().getHeight()
-                    ));
-                    lckVideoAndInfoModel.setStandard(new LCKVideoAndInfoModel.Thumbnail(
-                            lckVideoModel.getStandard().getUrl(),
-                            lckVideoModel.getStandard().getWidth(),
-                            lckVideoModel.getStandard().getHeight()
-                    ));
-
-                    // 데이터를 json으로 바꾸기
                     lckVideoAndInfoModelList.add(lckVideoAndInfoModel);
                     LOGGER.debug("LCK Game name: " + lckVideoModel.getTitle() + " left team: " + lckGameRawData.getLeftTeam() + " left score: " + lckGameRawData.getLeftTeamScore() + " right team: " + lckGameRawData.getRightTeam() + " right score: " + lckGameRawData.getRightTeamScore());
-                    videoIndex++;
                 }
                 lckChampionshipModel.setLckVideoAndInfoModelList(lckVideoAndInfoModelList);
             }
