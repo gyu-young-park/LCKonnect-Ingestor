@@ -21,7 +21,7 @@ public class MatchTeamEntity {
     private TeamResultEnum result;
 
     @ManyToOne
-    @JoinColumn(name = "match_id")
+    @JoinColumn(name = "matches_id")
     private MatchEntity matchEntity;
 
     @ManyToOne

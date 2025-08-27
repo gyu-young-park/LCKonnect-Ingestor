@@ -9,8 +9,8 @@ import java.time.LocalDate;
 @Setter
 @Getter
 @NoArgsConstructor
-@Table(name = "match")
-@Entity(name = "match")
+@Table(name = "matches")
+@Entity(name = "matches")
 public class MatchEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
