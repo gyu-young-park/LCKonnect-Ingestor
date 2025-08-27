@@ -6,11 +6,11 @@ spring:
     active: v1
   application:
     name: LCKonnect-Ingestor
-#  datasource:
-#    url: jdbc:mariadb://localhost:3306/lckdb
-#    username: youruser
-#    password: yourpassword
-#    driver-class-name: org.mariadb.jdbc.Driver
+  datasource:
+    url: jdbc:mariadb://localhost:3306/lck
+    username: lck
+    password: 1234
+    driver-class-name: org.mariadb.jdbc.Driver
 
 crawling:
   lck:

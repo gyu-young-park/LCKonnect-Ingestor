@@ -11,3 +11,13 @@ youtube:
 lckdata:
 	curl -s localhost:8081/lckdata | jq . > $(DATA_DIR)/lck_data.tmp && mv $(DATA_DIR)/lck_data.tmp $(DATA_DIR)/lck_data.json
 
+db:
+	docker pull mariadb
+	docker run -d \
+      --name mariadb \
+      -e MARIADB_ROOT_PASSWORD=1234 \
+      -e MARIADB_DATABASE=lck \
+      -e MARIADB_USER=lck \
+      -e MARIADB_PASSWORD=1234 \
+      -p 3306:3306 \
+      mariadb:latest
