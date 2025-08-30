@@ -5,6 +5,8 @@ import jakarta.persistence.*;
 import lombok.*;
 
 import java.time.LocalDate;
+import java.util.ArrayList;
+import java.util.List;
 
 @Setter
 @Getter
@@ -28,6 +30,9 @@ public class MatchEntity {
     @ManyToOne
     @JoinColumn(name = "championship_id")
     private ChampionshipEntity championship;
+
+    @OneToMany(mappedBy = "matchEntity", cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<MatchTeamEntity> matchTeamEntityList = new ArrayList();
 
     @Embedded
     @AttributeOverrides({
