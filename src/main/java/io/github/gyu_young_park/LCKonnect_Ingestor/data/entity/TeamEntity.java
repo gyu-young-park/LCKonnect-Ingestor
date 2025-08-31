@@ -5,9 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
-import java.util.List;
-
 @Setter
 @Getter
 @NoArgsConstructor
@@ -20,7 +17,4 @@ public class TeamEntity {
 
     @Column
     private String name;
-
-    @OneToMany(mappedBy = "teamEntity", cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<MatchEntity> matchEntityList = new ArrayList<>();
 }

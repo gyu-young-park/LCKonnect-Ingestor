@@ -57,4 +57,13 @@ public class MatchEntity {
             @AttributeOverride(name = "height", column = @Column(name = "standard_height"))
     })
     private Thumbnail standard;
+
+    public void addMatchTeamEntity(MatchTeamEntity matchTeamEntity) {
+        matchTeamEntityList.add(matchTeamEntity);
+        matchTeamEntity.setMatchEntity(this);
+    }
+
+    public void addAllMatchTeamEntityList(List<MatchTeamEntity> matchTeamEntityList) {
+        matchTeamEntityList.forEach(this::addMatchTeamEntity);
+    }
 }
