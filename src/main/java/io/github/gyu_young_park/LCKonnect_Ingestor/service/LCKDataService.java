@@ -3,6 +3,7 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.service;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.convertor.DataModelToEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.ChampionshipEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
@@ -15,10 +16,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.Thumbnail;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKTeamModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoModel;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.v1.LCKDataMergerV1;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.fetcher.LCKYoutubeFetcher;
-import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
@@ -39,28 +38,29 @@ public class LCKDataService {
     final private LCKCrawler lckCrawler;
     final private ChampionshipEntityRepository championshipEntityRepository;
     final private TeamEntityRepository teamEntityRepository;
-    private Map<String, TeamEntity> teamEntityCache = new HashMap<>();
+    final private DataModelToEntity<LCKTeamModel, TeamEntity> lckTeamModelToTeamEntityConvertor;
+    private Map<String, Boolean> teamEntityCheck = new HashMap<>();
 
     public List<LCKChampionshipModel> getLCKData() {
         LOGGER.info("Start transform");
         LCKCrawlRawData lckCrawlRawData = lckCrawler.crawl();
 
-        for (LCKLeagueRawData lckLeagueRawData : lckCrawlRawData.getLckLeagueRawDataList()) {
-            LOGGER.info("crawl: {}", lckLeagueRawData.getLeague());
-        }
-
         LOGGER.info("Start lck youtubue fetcher");
         LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
-        for (LCKPlayListModel lckPlayListModel : lckYoutubeModel.getLckPlayListList()) {
-            LOGGER.info("lck yotubue: {}", lckPlayListModel.getPlaylistName());
-        }
 
         List<LCKChampionshipModel> mergedLCKChampionshipModelList = lckDataMerger.merge(lckCrawlRawData, lckYoutubeModel);
         for (LCKChampionshipModel mergedLCKChampionshipModel : mergedLCKChampionshipModelList) {
             ChampionshipEntity championshipEntity = new ChampionshipEntity();
+            championshipEntity.setName(mergedLCKChampionshipModel.getChampionshipName());
+            championshipEntity.setStartDate(mergedLCKChampionshipModel.getStartDate());
+            championshipEntity.setLastDate(mergedLCKChampionshipModel.getLastDate());
+
             for (LCKVideoAndInfoModel lckVideoAndInfoModel: mergedLCKChampionshipModel.getLckVideoAndInfoModelList()) {
-                TeamEntity winTeamEntity = makeTeamEntity(lckVideoAndInfoModel.getWinTeam().getTeamName());
-                TeamEntity loseTeamEntity = makeTeamEntity(lckVideoAndInfoModel.getLoseTeam().getTeamName());
+                TeamEntity winTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
+                TeamEntity loseTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
+
+                storeTeamEntity(winTeamEntity);
+                storeTeamEntity(loseTeamEntity);
 
                 MatchTeamEntity winMatchTeamEntity = new MatchTeamEntity();
                 winMatchTeamEntity.setTeamEntity(winTeamEntity);
@@ -73,7 +73,6 @@ public class LCKDataService {
                 loseMatchTeamEntity.setResult(TeamResultEnum.LOSE);
                 loseMatchTeamEntity.setBans(makeChampions(lckVideoAndInfoModel.getLoseTeam().getBanList()));
                 loseMatchTeamEntity.setPicks(makeChampions(lckVideoAndInfoModel.getLoseTeam().getPickList()));
-
 
                 MatchEntity matchEntity = new MatchEntity();
                 matchEntity.setTitle(lckVideoAndInfoModel.getVideoTitle());
@@ -93,25 +92,18 @@ public class LCKDataService {
 
                 championshipEntity.appendMatch(matchEntity);
             }
-            championshipEntity.setName(mergedLCKChampionshipModel.getChampionshipName());
-            championshipEntity.setStartDate(mergedLCKChampionshipModel.getStartDate());
-            championshipEntity.setLastDate(mergedLCKChampionshipModel.getLastDate());
             championshipEntityRepository.save(championshipEntity);
         }
 
         return mergedLCKChampionshipModelList;
     }
 
-    private TeamEntity makeTeamEntity(String teamName) {
-        if (teamEntityCache.containsKey(teamName)) {
-            return teamEntityCache.get(teamName);
+    private void storeTeamEntity(TeamEntity teamEntity) {
+        if (teamEntityCheck.containsKey(teamEntity.getName())) {
+            return;
         }
-
-        TeamEntity teamEntity = new TeamEntity();
-        teamEntity.setName(teamName);
-        teamEntityCache.put(teamName,teamEntity);
         teamEntityRepository.save(teamEntity);
-        return teamEntity;
+        teamEntityCheck.put(teamEntity.getName(), Boolean.TRUE);
     }
 
     private Champions makeChampions(List<String> championList) {
