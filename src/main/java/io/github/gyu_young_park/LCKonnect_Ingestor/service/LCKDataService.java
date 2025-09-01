@@ -10,7 +10,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.TeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.ChampionshipEntityRepository;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.TeamEntityRepository;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
-import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.Thumbnail;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKTeamModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoModel;
@@ -35,9 +34,11 @@ public class LCKDataService {
     final private LCKCrawler lckCrawler;
     final private ChampionshipEntityRepository championshipEntityRepository;
     final private TeamEntityRepository teamEntityRepository;
+    final private DataModelToEntity<LCKChampionshipModel, ChampionshipEntity> lckChampionshipModelToChampionshipEntityConvertor;
     final private DataModelToEntity<LCKTeamModel, TeamEntity> lckTeamModelToTeamEntityConvertor;
     final private DataModelToEntity<LCKTeamModel, MatchTeamEntity> lckTeamModelToMatchTeamEntityConvertor;
-    private Map<String, Boolean> teamEntityCheck = new HashMap<>();
+    final private DataModelToEntity<LCKVideoAndInfoModel, MatchEntity> lckVideoAndInfoModelToMatchEntityConvertor;
+    final private Map<String, Boolean> teamEntityCheck = new HashMap<>();
 
     public List<LCKChampionshipModel> getLCKData() {
         LOGGER.info("Start transform");
@@ -46,50 +47,22 @@ public class LCKDataService {
         LOGGER.info("Start lck youtubue fetcher");
         LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
 
-        List<LCKChampionshipModel> mergedLCKChampionshipModelList = lckDataMerger.merge(lckCrawlRawData, lckYoutubeModel);
-        for (LCKChampionshipModel mergedLCKChampionshipModel : mergedLCKChampionshipModelList) {
-            ChampionshipEntity championshipEntity = new ChampionshipEntity();
-            championshipEntity.setName(mergedLCKChampionshipModel.getChampionshipName());
-            championshipEntity.setStartDate(mergedLCKChampionshipModel.getStartDate());
-            championshipEntity.setLastDate(mergedLCKChampionshipModel.getLastDate());
+        List<LCKChampionshipModel> lckChampionshipModelList = lckDataMerger.merge(lckCrawlRawData, lckYoutubeModel);
+        for (LCKChampionshipModel lckChampionshipModel : lckChampionshipModelList) {
+            ChampionshipEntity championshipEntity = lckChampionshipModelToChampionshipEntityConvertor.convert(lckChampionshipModel);
 
-            for (LCKVideoAndInfoModel lckVideoAndInfoModel: mergedLCKChampionshipModel.getLckVideoAndInfoModelList()) {
+            for (LCKVideoAndInfoModel lckVideoAndInfoModel: lckChampionshipModel.getLckVideoAndInfoModelList()) {
                 TeamEntity winTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
                 TeamEntity loseTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
-
                 storeTeamEntity(winTeamEntity);
                 storeTeamEntity(loseTeamEntity);
 
-                MatchTeamEntity winMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
-                winMatchTeamEntity.setTeamEntity(winTeamEntity);
-                winMatchTeamEntity.setResult(TeamResultEnum.WIN);
-
-                MatchTeamEntity loseMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
-                loseMatchTeamEntity.setTeamEntity(loseTeamEntity);
-                loseMatchTeamEntity.setResult(TeamResultEnum.LOSE);
-
-                MatchEntity matchEntity = new MatchEntity();
-                matchEntity.setTitle(lckVideoAndInfoModel.getVideoTitle());
-                matchEntity.setDate(lckVideoAndInfoModel.getDate());
-                matchEntity.setVideoId(lckVideoAndInfoModel.getVideoId());
-                matchEntity.setHigh(new Thumbnail(lckVideoAndInfoModel.getHigh().getUrl(),
-                        lckVideoAndInfoModel.getHigh().getWidth(),
-                        lckVideoAndInfoModel.getHigh().getHeight()));
-                matchEntity.setMedium(new Thumbnail(lckVideoAndInfoModel.getMedium().getUrl(),
-                        lckVideoAndInfoModel.getMedium().getWidth(),
-                        lckVideoAndInfoModel.getMedium().getHeight()));
-                matchEntity.setStandard(new Thumbnail(lckVideoAndInfoModel.getStandard().getUrl(),
-                        lckVideoAndInfoModel.getStandard().getWidth(),
-                        lckVideoAndInfoModel.getStandard().getHeight()));
-                matchEntity.addMatchTeamEntity(winMatchTeamEntity);
-                matchEntity.addMatchTeamEntity(loseMatchTeamEntity);
-
-                championshipEntity.appendMatch(matchEntity);
+                championshipEntity.appendMatch(createMatchEntity(lckVideoAndInfoModel, winTeamEntity, loseTeamEntity));
             }
             championshipEntityRepository.save(championshipEntity);
         }
 
-        return mergedLCKChampionshipModelList;
+        return lckChampionshipModelList;
     }
 
     private void storeTeamEntity(TeamEntity teamEntity) {
@@ -99,4 +72,20 @@ public class LCKDataService {
         teamEntityRepository.save(teamEntity);
         teamEntityCheck.put(teamEntity.getName(), Boolean.TRUE);
     }
+
+    private MatchEntity createMatchEntity(LCKVideoAndInfoModel lckVideoAndInfoModel, TeamEntity winTeamEntity, TeamEntity loseTeamEntity) {
+        MatchTeamEntity winMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
+        winMatchTeamEntity.setTeamEntity(winTeamEntity);
+        winMatchTeamEntity.setResult(TeamResultEnum.WIN);
+
+        MatchTeamEntity loseMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
+        loseMatchTeamEntity.setTeamEntity(loseTeamEntity);
+        loseMatchTeamEntity.setResult(TeamResultEnum.LOSE);
+
+        MatchEntity matchEntity = lckVideoAndInfoModelToMatchEntityConvertor.convert(lckVideoAndInfoModel);
+        matchEntity.addMatchTeamEntity(winMatchTeamEntity);
+        matchEntity.addMatchTeamEntity(loseMatchTeamEntity);
+        return matchEntity;
+    }
+
 }
