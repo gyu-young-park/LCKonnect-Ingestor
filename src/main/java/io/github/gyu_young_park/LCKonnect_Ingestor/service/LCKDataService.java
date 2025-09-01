@@ -2,7 +2,6 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.service;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
-import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.convertor.DataModelToEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.ChampionshipEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchEntity;
@@ -10,7 +9,6 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.TeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.ChampionshipEntityRepository;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.TeamEntityRepository;
-import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.Champions;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.Thumbnail;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
@@ -27,7 +25,6 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.Set;
 
 @Service
 @RequiredArgsConstructor
@@ -39,6 +36,7 @@ public class LCKDataService {
     final private ChampionshipEntityRepository championshipEntityRepository;
     final private TeamEntityRepository teamEntityRepository;
     final private DataModelToEntity<LCKTeamModel, TeamEntity> lckTeamModelToTeamEntityConvertor;
+    final private DataModelToEntity<LCKTeamModel, MatchTeamEntity> lckTeamModelToMatchTeamEntityConvertor;
     private Map<String, Boolean> teamEntityCheck = new HashMap<>();
 
     public List<LCKChampionshipModel> getLCKData() {
@@ -62,17 +60,13 @@ public class LCKDataService {
                 storeTeamEntity(winTeamEntity);
                 storeTeamEntity(loseTeamEntity);
 
-                MatchTeamEntity winMatchTeamEntity = new MatchTeamEntity();
+                MatchTeamEntity winMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
                 winMatchTeamEntity.setTeamEntity(winTeamEntity);
                 winMatchTeamEntity.setResult(TeamResultEnum.WIN);
-                winMatchTeamEntity.setBans(makeChampions(lckVideoAndInfoModel.getWinTeam().getBanList()));
-                winMatchTeamEntity.setPicks(makeChampions(lckVideoAndInfoModel.getWinTeam().getPickList()));
 
-                MatchTeamEntity loseMatchTeamEntity = new MatchTeamEntity();
+                MatchTeamEntity loseMatchTeamEntity = lckTeamModelToMatchTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
                 loseMatchTeamEntity.setTeamEntity(loseTeamEntity);
                 loseMatchTeamEntity.setResult(TeamResultEnum.LOSE);
-                loseMatchTeamEntity.setBans(makeChampions(lckVideoAndInfoModel.getLoseTeam().getBanList()));
-                loseMatchTeamEntity.setPicks(makeChampions(lckVideoAndInfoModel.getLoseTeam().getPickList()));
 
                 MatchEntity matchEntity = new MatchEntity();
                 matchEntity.setTitle(lckVideoAndInfoModel.getVideoTitle());
@@ -104,15 +98,5 @@ public class LCKDataService {
         }
         teamEntityRepository.save(teamEntity);
         teamEntityCheck.put(teamEntity.getName(), Boolean.TRUE);
-    }
-
-    private Champions makeChampions(List<String> championList) {
-        return new Champions(
-                championList.get(0),
-                championList.get(1),
-                championList.get(2),
-                championList.get(3),
-                championList.get(4)
-        );
     }
 }
