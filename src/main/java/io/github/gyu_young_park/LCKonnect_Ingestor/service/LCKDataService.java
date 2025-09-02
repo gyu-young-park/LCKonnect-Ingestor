@@ -52,17 +52,21 @@ public class LCKDataService {
             ChampionshipEntity championshipEntity = lckChampionshipModelToChampionshipEntityConvertor.convert(lckChampionshipModel);
 
             for (LCKVideoAndInfoModel lckVideoAndInfoModel: lckChampionshipModel.getLckVideoAndInfoModelList()) {
-                TeamEntity winTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getWinTeam());
-                TeamEntity loseTeamEntity = lckTeamModelToTeamEntityConvertor.convert(lckVideoAndInfoModel.getLoseTeam());
-                storeTeamEntity(winTeamEntity);
-                storeTeamEntity(loseTeamEntity);
-
-                championshipEntity.appendMatch(createMatchEntity(lckVideoAndInfoModel, winTeamEntity, loseTeamEntity));
+                championshipEntity.appendMatch(
+                        createMatchEntity(lckVideoAndInfoModel,
+                        createAndStoreTeamEntity(lckVideoAndInfoModel.getWinTeam()),
+                        createAndStoreTeamEntity(lckVideoAndInfoModel.getLoseTeam())));
             }
             championshipEntityRepository.save(championshipEntity);
         }
 
         return lckChampionshipModelList;
+    }
+
+    private TeamEntity createAndStoreTeamEntity(LCKTeamModel lckTeamModel) {
+        TeamEntity teamEntity = lckTeamModelToTeamEntityConvertor.convert(lckTeamModel);
+        storeTeamEntity(teamEntity);
+        return teamEntity;
     }
 
     private void storeTeamEntity(TeamEntity teamEntity) {
