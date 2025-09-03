@@ -1,5 +1,7 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1;
 
+import io.github.gyu_young_park.LCKonnect_Ingestor.concurrent.ConcurrentManager;
+import io.github.gyu_young_park.LCKonnect_Ingestor.concurrent.Task;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.LCKCrawlingProperties;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
@@ -12,11 +14,15 @@ import org.springframework.stereotype.Component;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.TimeUnit;
+import java.util.concurrent.TimeoutException;
 
 @Component
 @Primary
 public class LCKCrawlerV1 implements LCKCrawler {
-    private static final Logger logger = LoggerFactory.getLogger(LCKCrawlerV1.class);
+    private static final Logger LOGGER = LoggerFactory.getLogger(LCKCrawlerV1.class);
     private final LCKCrawlingProperties lckCrawlingProperties;
     private final LCKLeagueCrawler lckLeagueCrawler;
 
@@ -26,18 +32,24 @@ public class LCKCrawlerV1 implements LCKCrawler {
     }
 
     public LCKCrawlRawData crawl() {
-        logger.info("LckcrawlerV1: Start crawling...");
+        LOGGER.info("LckcrawlerV1: Start crawling...");
         List<LCKLeagueRawData> lckLeagueRawDataList = new ArrayList<>();
-        try {
+        try(ConcurrentManager<LCKLeagueRawData> concurrentManager = new ConcurrentManager<>(getClass().getName() + " Concurrent manager", lckCrawlingProperties.getTargetMatchUrl().size())) {
             for (String url: lckCrawlingProperties.getTargetMatchUrl()) {
-                lckLeagueRawDataList.add(lckLeagueCrawler.crawLCKLeague(url));
+                concurrentManager.submitTask(new Task<>("task " + url,
+                        new Callable<LCKLeagueRawData>() {
+                            @Override
+                            public LCKLeagueRawData call() throws Exception {
+                                return lckLeagueCrawler.crawLCKLeague(url);
+                            }}, 5, TimeUnit.SECONDS));
             }
-        } catch (NullPointerException | IOException e) {
-            e.printStackTrace();
-            logger.error(e.getMessage());
+            lckLeagueRawDataList = concurrentManager.execute();
+        } catch (ExecutionException | InterruptedException | TimeoutException e) {
+            LOGGER.error("failed to call lck data crawl");
+            throw new RuntimeException(e);
         }
-        logger.info("LckcrawlerV1: crawling done");
 
+        LOGGER.info("LckcrawlerV1: crawling done");
         return new LCKCrawlRawData(lckLeagueRawDataList);
     }
 }

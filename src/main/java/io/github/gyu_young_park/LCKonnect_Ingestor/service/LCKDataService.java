@@ -16,6 +16,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoM
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.fetcher.LCKYoutubeFetcher;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
+import jakarta.transaction.Transactional;
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +26,7 @@ import org.springframework.stereotype.Service;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.concurrent.*;
 
 @Service
 @RequiredArgsConstructor
@@ -40,14 +43,10 @@ public class LCKDataService {
     final private DataModelToEntity<LCKVideoAndInfoModel, MatchEntity> lckVideoAndInfoModelToMatchEntityConvertor;
     final private Map<String, Boolean> teamEntityCheck = new HashMap<>();
 
-    public List<LCKChampionshipModel> getLCKData() {
-        LOGGER.info("Start transform");
-        LCKCrawlRawData lckCrawlRawData = lckCrawler.crawl();
-
-        LOGGER.info("Start lck youtubue fetcher");
-        LCKYoutubeModel lckYoutubeModel = lckYoutubeFetcher.fetch();
-
-        List<LCKChampionshipModel> lckChampionshipModelList = lckDataMerger.merge(lckCrawlRawData, lckYoutubeModel);
+    @Transactional
+    public List<LCKChampionshipModel> getLCKData() throws ExecutionException, InterruptedException {
+        LCKIngredient ingredient = getIngredient();
+        List<LCKChampionshipModel> lckChampionshipModelList = lckDataMerger.merge(ingredient.lckCrawlRawData, ingredient.lckYoutubeModel);
         for (LCKChampionshipModel lckChampionshipModel : lckChampionshipModelList) {
             ChampionshipEntity championshipEntity = lckChampionshipModelToChampionshipEntityConvertor.convert(lckChampionshipModel);
 
@@ -59,16 +58,41 @@ public class LCKDataService {
             }
             championshipEntityRepository.save(championshipEntity);
         }
-
         return lckChampionshipModelList;
     }
 
+    private LCKIngredient getIngredient() throws ExecutionException, InterruptedException {
+        try(ExecutorService executorService = Executors.newFixedThreadPool(2)) {
+            LOGGER.info("Start transform");
+            Future<LCKCrawlRawData> lckCrawlRawDataFuture = executorService.submit(new Callable<>() {
+                @Override
+                public LCKCrawlRawData call() throws Exception {
+                    return lckCrawler.crawl();
+                }
+            });
+
+            LOGGER.info("Start lck youtubue fetcher");
+            Future<LCKYoutubeModel> lckYoutubeModelFuture = executorService.submit(new Callable<>() {
+                @Override
+                public LCKYoutubeModel call() throws Exception {
+                    return lckYoutubeFetcher.fetch();
+                }
+            });
+
+            LCKCrawlRawData lckCrawlRawData = lckCrawlRawDataFuture.get();
+            LCKYoutubeModel lckYoutubeModel = lckYoutubeModelFuture.get();
+            return new LCKIngredient(lckCrawlRawData, lckYoutubeModel);
+        }
+    }
+
+    @Transactional
     private TeamEntity createAndStoreTeamEntity(LCKTeamModel lckTeamModel) {
         TeamEntity teamEntity = lckTeamModelToTeamEntityConvertor.convert(lckTeamModel);
         storeTeamEntity(teamEntity);
         return teamEntity;
     }
 
+    @Transactional
     private void storeTeamEntity(TeamEntity teamEntity) {
         if (teamEntityCheck.containsKey(teamEntity.getName())) {
             return;
@@ -90,6 +114,12 @@ public class LCKDataService {
         matchEntity.addMatchTeamEntity(winMatchTeamEntity);
         matchEntity.addMatchTeamEntity(loseMatchTeamEntity);
         return matchEntity;
+    }
+
+    @AllArgsConstructor
+    private static class LCKIngredient {
+        LCKCrawlRawData lckCrawlRawData;
+        LCKYoutubeModel lckYoutubeModel;
     }
 
 }

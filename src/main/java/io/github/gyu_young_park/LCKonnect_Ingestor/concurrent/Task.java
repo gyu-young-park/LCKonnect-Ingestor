@@ -9,15 +9,15 @@ public class Task <T>{
     public TimeUnit timeUnit;
     public Callable<T> callable;
 
-    public Task(Callable<T> callable,String taskName) {
+    public Task(String taskName, Callable<T> callable) {
         this.callable = callable;
         this.taskName = taskName;
-        this.timeout = 0;
+        this.timeout = 10;
         this.timeUnit = TimeUnit.SECONDS;
     }
 
-    public Task(Callable<T> callable, String taskName,int timeout, TimeUnit timeUnit) {
-        this(callable, taskName);
+    public Task(String taskName, Callable<T> callable,int timeout, TimeUnit timeUnit) {
+        this(taskName, callable);
         this.timeout = timeout;
         this.timeUnit = timeUnit;
     }

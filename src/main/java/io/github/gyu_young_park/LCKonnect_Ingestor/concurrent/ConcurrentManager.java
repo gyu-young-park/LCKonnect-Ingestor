@@ -9,13 +9,15 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-public class ConcurrentManager<T> {
+public class ConcurrentManager<T> implements AutoCloseable {
     final private Logger LOGGER = LoggerFactory.getLogger(ConcurrentManager.class);
     final private ExecutorService threadPool;
-    private List<SubmittedTask<T>> submittedTasks;
+    final private String concurrentName;
+    private List<SubmittedTask<T>> submittedTasks = new ArrayList<>();
 
-    public ConcurrentManager(int nThread) {
-        threadPool = Executors.newFixedThreadPool(nThread);
+    public ConcurrentManager(String concurrentName, int nThread) {
+        this.concurrentName = concurrentName;
+        this.threadPool = Executors.newFixedThreadPool(nThread);
     }
 
     public void submitTask(Task<T> task) {
@@ -23,13 +25,37 @@ public class ConcurrentManager<T> {
         submittedTasks.add(new SubmittedTask<>(task, future));
     }
 
-    public List<T> executeWithException() throws ExecutionException, InterruptedException, TimeoutException {
+    public List<T> execute() throws ExecutionException, InterruptedException, TimeoutException {
         List<T> results = new ArrayList<>();
-        for (SubmittedTask<T> submittedTask: submittedTasks) {
-            LOGGER.debug("Starts task[" + submittedTask.task.taskName + "]");
-            results.add(submittedTask.future.get(submittedTask.task.timeout, submittedTask.task.timeUnit));
+        try {
+            for (SubmittedTask<T> submittedTask: submittedTasks) {
+                LOGGER.debug("[{}]Starts task[{}]", this.concurrentName, submittedTask.task.taskName);
+                results.add(submittedTask.future.get(submittedTask.task.timeout, submittedTask.task.timeUnit));
+            }
+        } finally {
+            submittedTasks.clear();
         }
         return results;
+    }
+
+    @Override
+    public void close() {
+        gracefullyShutdown();
+    }
+
+    private void gracefullyShutdown() {
+        threadPool.shutdown();
+        try {
+            if(!threadPool.awaitTermination(10, TimeUnit.SECONDS)) {
+                threadPool.shutdownNow();
+                if (!threadPool.awaitTermination(10, TimeUnit.SECONDS)) {
+                    LOGGER.error("[{}]Failed to shutdown concurrent manager", this.concurrentName);
+                }
+            }
+        } catch (InterruptedException e) {
+            threadPool.shutdownNow();
+            LOGGER.debug("[{}] got interrupted", this.concurrentName);
+        }
     }
 
     @AllArgsConstructor
