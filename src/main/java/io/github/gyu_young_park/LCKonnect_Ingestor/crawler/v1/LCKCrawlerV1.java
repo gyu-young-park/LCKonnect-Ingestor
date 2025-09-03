@@ -41,7 +41,7 @@ public class LCKCrawlerV1 implements LCKCrawler {
                             @Override
                             public LCKLeagueRawData call() throws Exception {
                                 return lckLeagueCrawler.crawLCKLeague(url);
-                            }}, 5, TimeUnit.SECONDS));
+                            }}, 5, TimeUnit.MINUTES));
             }
             lckLeagueRawDataList = concurrentManager.execute();
         } catch (ExecutionException | InterruptedException | TimeoutException e) {

@@ -44,7 +44,7 @@ public class LCKDataService {
     final private Map<String, Boolean> teamEntityCheck = new HashMap<>();
 
     @Transactional
-    public List<LCKChampionshipModel> getLCKData() throws ExecutionException, InterruptedException {
+    public List<LCKChampionshipModel> getLCKData() {
         LCKIngredient ingredient = getIngredient();
         List<LCKChampionshipModel> lckChampionshipModelList = lckDataMerger.merge(ingredient.lckCrawlRawData, ingredient.lckYoutubeModel);
         for (LCKChampionshipModel lckChampionshipModel : lckChampionshipModelList) {
@@ -61,7 +61,7 @@ public class LCKDataService {
         return lckChampionshipModelList;
     }
 
-    private LCKIngredient getIngredient() throws ExecutionException, InterruptedException {
+    private LCKIngredient getIngredient() {
         try(ExecutorService executorService = Executors.newFixedThreadPool(2)) {
             LOGGER.info("Start transform");
             Future<LCKCrawlRawData> lckCrawlRawDataFuture = executorService.submit(new Callable<>() {
@@ -79,9 +79,14 @@ public class LCKDataService {
                 }
             });
 
-            LCKCrawlRawData lckCrawlRawData = lckCrawlRawDataFuture.get();
-            LCKYoutubeModel lckYoutubeModel = lckYoutubeModelFuture.get();
-            return new LCKIngredient(lckCrawlRawData, lckYoutubeModel);
+            try {
+                LCKCrawlRawData lckCrawlRawData = lckCrawlRawDataFuture.get();
+                LCKYoutubeModel lckYoutubeModel = lckYoutubeModelFuture.get();
+                return new LCKIngredient(lckCrawlRawData, lckYoutubeModel);
+            } catch (InterruptedException | ExecutionException  e) {
+                LOGGER.error("Failed to get lck data ingredient task in service");
+                throw new RuntimeException(e);
+            }
         }
     }
 
