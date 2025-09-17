@@ -9,19 +9,12 @@ import java.util.List;
 @Setter
 @Getter
 public class LCKCrawlAndYoutubeMapModel {
-    @JsonProperty("mappings")
-    private Mappings mappings;
+    @JsonProperty("name")
+    private String name;
 
-    @Getter
-    @Setter
-    public static class Mappings {
-        @JsonProperty("name")
-        private String name;
+    @JsonProperty("crawl_list")
+    private List<String> crawlList;
 
-        @JsonProperty("crawl_list")
-        private List<String> crawlList;
-
-        @JsonProperty("youtube_list")
-        private List<String> youtubeList;
-    }
+    @JsonProperty("youtube_list")
+    private List<String> youtubeList;
 }

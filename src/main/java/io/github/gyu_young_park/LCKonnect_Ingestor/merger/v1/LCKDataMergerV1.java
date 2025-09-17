@@ -8,7 +8,9 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKGameRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper.LCKCrawlAndYoutubeMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKCrawlAndYoutubeMapModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKTeamModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
@@ -30,6 +32,7 @@ import java.util.*;
 @RequiredArgsConstructor
 public class LCKDataMergerV1 implements LCKDataMerger {
     final private Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
+    final private LCKCrawlAndYoutubeMapper lckCrawlAndYoutubeMapper;
     final private TransformConfiguration transformConfiguration;
 
     private Map<String, List<LCKMatchRawData>> arrangeLCKLeagueRawDataMapWithLeagueKey(List<LCKLeagueRawData> lckLeagueRawDataList) {
@@ -143,5 +146,9 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             e.printStackTrace();
         }
         return crawlAndYoutubeMap;
+    }
+
+    private List<LCKCrawlAndYoutubeMapModel> getLCKCrawlDataAndLCKVideoData2() {
+        return lckCrawlAndYoutubeMapper.get();
     }
 }
