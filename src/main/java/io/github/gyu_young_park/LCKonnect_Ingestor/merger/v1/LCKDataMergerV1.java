@@ -23,8 +23,6 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
-import java.io.File;
-import java.io.IOException;
 import java.util.*;
 
 @Component
@@ -93,22 +91,29 @@ public class LCKDataMergerV1 implements LCKDataMerger {
         Map<String, List<LCKMatchRawData>> lckCrawlDataWithLeagueNameMap = arrangeLCKLeagueRawDataMapWithLeagueKey(lckCrawlRawData.getLckLeagueRawDataList());
         Map<String, List<LCKVideoModel>> lckVideoDataWithLeagueNameMap = arrangeLCKPlayListMapWithPlayListKey(lckYoutubeModel.getLckPlayListList());
 
-        for (Map.Entry<String, String> lckCrawlDataAndLCKVideoDataEntry : getLCKCrawlDataAndLCKVideoData().entrySet()) {
-            String lckCrawlDataLeagueName = lckCrawlDataAndLCKVideoDataEntry.getKey();
-            String lckVideoDataLeagueName = lckCrawlDataAndLCKVideoDataEntry.getValue();
-            List<LCKMatchRawData> lckMatchRawDataList = lckCrawlDataWithLeagueNameMap.get(lckCrawlDataLeagueName);
-            if (lckMatchRawDataList == null || lckMatchRawDataList.isEmpty()) {
-                throw new NoSuchElementException("LCK Crawl Data league is not matched with: " + lckCrawlDataLeagueName);
+        for (LCKCrawlAndYoutubeMapModel lckCrawlAndYoutubeMapModel  : lckCrawlAndYoutubeMapper.get()) {
+            List<String> lckCrawlDataLeagueNameList = lckCrawlAndYoutubeMapModel.getCrawlList();
+            List<String> lckVideoDataLeagueNameList = lckCrawlAndYoutubeMapModel.getYoutubeList();
+
+            List<LCKMatchRawData> lckMatchRawDataList = new ArrayList<>();
+            for(String lckCrawlDataLeagueName : lckCrawlDataLeagueNameList) {
+                if (!lckCrawlDataWithLeagueNameMap.containsKey(lckCrawlDataLeagueName)) {
+                    throw new NoSuchElementException("LCK Crawl Data league is not matched with: " + lckCrawlDataLeagueName);
+                }
+                lckMatchRawDataList.addAll(lckCrawlDataWithLeagueNameMap.get(lckCrawlDataLeagueName));
             }
 
-            List<LCKVideoModel> lckVideoModelList = lckVideoDataWithLeagueNameMap.get(lckVideoDataLeagueName);
-            if (lckVideoModelList == null || lckVideoModelList.isEmpty()) {
-                throw new NoSuchElementException("LCK Youtube Data league is not matched with: " + lckVideoDataLeagueName);
+            List<LCKVideoModel> lckVideoModelList = new ArrayList<>();
+            for(String lckVideoDataLeagueName : lckVideoDataLeagueNameList) {
+                if (!lckVideoDataWithLeagueNameMap.containsKey(lckVideoDataLeagueName)) {
+                    throw new NoSuchElementException("LCK Youtube Data league is not matched with: " + lckVideoDataLeagueName);
+                }
+                lckVideoModelList.addAll(lckVideoDataWithLeagueNameMap.get(lckVideoDataLeagueName));
             }
 
             // TODO1: lckChampionshipModel 시작
             LCKChampionshipModel lckChampionshipModel = new LCKChampionshipModel();
-            lckChampionshipModel.setChampionshipName(lckVideoDataLeagueName);
+            lckChampionshipModel.setChampionshipName(lckCrawlAndYoutubeMapModel.getName());
 
             // TODO2: List<LCKVideoAndInfoModel> 시작
             List<LCKVideoAndInfoModel> lckVideoAndInfoModelList = new ArrayList<>();
@@ -135,20 +140,5 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             lckChampionshipModelList.add(lckChampionshipModel);
         }
         return lckChampionshipModelList;
-    }
-
-    private Map<String, String> getLCKCrawlDataAndLCKVideoData() {
-        Map<String, String> crawlAndYoutubeMap = Map.of();
-        ObjectMapper objectMapper = new ObjectMapper();
-        try {
-            crawlAndYoutubeMap = objectMapper.readValue(new File(transformConfiguration.getMapDataPath()), new TypeReference<Map<String, String>>() {});
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        return crawlAndYoutubeMap;
-    }
-
-    private List<LCKCrawlAndYoutubeMapModel> getLCKCrawlDataAndLCKVideoData2() {
-        return lckCrawlAndYoutubeMapper.get();
     }
 }

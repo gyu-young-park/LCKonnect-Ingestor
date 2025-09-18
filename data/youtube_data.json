@@ -1019,6 +1019,2274 @@
         "playListId": "PLIWtfvmBcNofXW-gpSAHfO3c6pv51EXzI",
         "lckVideoList": [
           {
+            "title": "우리도 간다 월즈! | T1 vs DK | 게임 4 하이라이트 | 09.18 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "9HElZOzZLmY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9HElZOzZLmY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9HElZOzZLmY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/9HElZOzZLmY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "케란이 왔어유~ | T1 vs DK | 게임 3 하이라이트 | 09.18 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "2wyhovGuQ9E",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/2wyhovGuQ9E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/2wyhovGuQ9E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/2wyhovGuQ9E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "펜타킬 못해솔로 탈출! | T1 vs DK | 게임 2 하이라이트 | 09.18 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "GmBSMMoNlxo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GmBSMMoNlxo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GmBSMMoNlxo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GmBSMMoNlxo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "시야의 마술사 | T1 vs DK | 게임 1 하이라이트 | 09.18 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "0_FpXSC82Is",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0_FpXSC82Is/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0_FpXSC82Is/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0_FpXSC82Is/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "비 내리는 여름밤, 쇼메이커가 다시 들려드립니다 | DK vs BFX | 게임 4 하이라이트 | 09.17 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "DyaPoq_QAO8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/DyaPoq_QAO8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/DyaPoq_QAO8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/DyaPoq_QAO8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "게임 🐶같이 하네 | DK vs BFX | 게임 3 하이라이트 | 09.17 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "rUUYu9PecpY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rUUYu9PecpY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rUUYu9PecpY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rUUYu9PecpY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "작고 강한 마법사 | DK vs BFX | 게임 2 하이라이트 | 09.17 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "g80p5PIOH04",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/g80p5PIOH04/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/g80p5PIOH04/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/g80p5PIOH04/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "귀염둥이 거니 | DK vs BFX | 게임 1 하이라이트 | 09.17 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "XFmSkGXPZDw",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XFmSkGXPZDw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XFmSkGXPZDw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XFmSkGXPZDw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "그래도 소용 없다(있음) | HLE vs T1 | 게임 3 하이라이트 | 09.14 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "gvVuAEUKWl4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/gvVuAEUKWl4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/gvVuAEUKWl4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/gvVuAEUKWl4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "레먹튀 | HLE vs T1 | 게임 2 하이라이트 | 09.14 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "bvOiv086LkU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bvOiv086LkU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bvOiv086LkU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bvOiv086LkU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "쉭 따당 뿌슝 따당 뚜두두두두두 | HLE vs T1 | 게임 1 하이라이트 | 09.14 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "WryXims6DhU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WryXims6DhU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WryXims6DhU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WryXims6DhU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "가자, 별들을 향해 | GEN vs KT | 게임 5 하이라이트 | 09.13 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "CVo6CfDbgrQ",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CVo6CfDbgrQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CVo6CfDbgrQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/CVo6CfDbgrQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "포킹의 정석 | GEN vs KT | 게임 4 하이라이트 | 09.13 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "0HmkmpyC1e4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0HmkmpyC1e4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0HmkmpyC1e4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0HmkmpyC1e4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "쵸갈 필승 | GEN vs KT | 게임 3 하이라이트 | 09.13 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "v8EJf8ahLP4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/v8EJf8ahLP4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/v8EJf8ahLP4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/v8EJf8ahLP4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "기럼 기렇지 (Positive) | GEN vs KT | 게임 2 하이라이트 | 09.13 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "Y66Mui9gStE",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Y66Mui9gStE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Y66Mui9gStE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Y66Mui9gStE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "감독님의 못다 한 꿈..! | GEN vs KT | 게임 1 하이라이트 | 09.13 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "V90Fuj1BKwo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/V90Fuj1BKwo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/V90Fuj1BKwo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/V90Fuj1BKwo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "일단 한 대 맞아 | KT vs BFX | 게임 4 하이라이트 | 09.11 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "OyyW5xKgTfY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OyyW5xKgTfY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OyyW5xKgTfY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OyyW5xKgTfY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "금빛 사슬 | KT vs BFX | 게임 3 하이라이트 | 09.11 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "BfBVlUSNcE0",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/BfBVlUSNcE0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/BfBVlUSNcE0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/BfBVlUSNcE0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "기(가 막힌 퍼펙트의 크)산테 | KT vs BFX | 게임 2 하이라이트 | 09.11 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "jS92wiGYg7Q",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/jS92wiGYg7Q/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/jS92wiGYg7Q/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/jS92wiGYg7Q/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "I can do this all day | KT vs BFX | 게임 1 하이라이트 | 09.11 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "WTTC7tCiw_k",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WTTC7tCiw_k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WTTC7tCiw_k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WTTC7tCiw_k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "I am inevitable | T1 vs DK | 게임 5 하이라이트 | 09.10 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "FK-ozgnEmow",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/FK-ozgnEmow/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/FK-ozgnEmow/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/FK-ozgnEmow/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "이 선글라스가 네 선글라스냐 | T1 vs DK | 게임 4 하이라이트 | 09.10 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "DS6izugzeqM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/DS6izugzeqM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/DS6izugzeqM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/DS6izugzeqM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "\"내 성격 까먹었나 보네\" | T1 vs DK | 게임 3 하이라이트 | 09.10 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "wT7YsEO9gbw",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/wT7YsEO9gbw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/wT7YsEO9gbw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/wT7YsEO9gbw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "우주류 봉술! | T1 vs DK | 게임 2 하이라이트 | 09.10 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "OudmZGRDkis",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/OudmZGRDkis/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/OudmZGRDkis/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/OudmZGRDkis/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "할마에 | T1 vs DK | 게임 1 하이라이트 | 09.10 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "LBvq1bzXoIg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/LBvq1bzXoIg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/LBvq1bzXoIg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/LBvq1bzXoIg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "『오네무리 - 』  | NS vs DK | 게임 3 하이라이트 | 09.07 | 2025 LCK 플레이-인",
+            "videoId": "-RvhixALc78",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-RvhixALc78/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-RvhixALc78/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-RvhixALc78/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "동요하지 마시오 | NS vs DK | 게임 2 하이라이트 | 09.07 | 2025 LCK 플레이-인",
+            "videoId": "16MQ1WwGpsU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/16MQ1WwGpsU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/16MQ1WwGpsU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/16MQ1WwGpsU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "쇼메웨이브 | NS vs DK | 게임 1 하이라이트 | 09.07 | 2025 LCK 플레이-인",
+            "videoId": "pHfRTKNxm6k",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pHfRTKNxm6k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pHfRTKNxm6k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pHfRTKNxm6k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "하현의 3? 내가 이겨. | BRO vs DK | 게임 4 하이라이트 | 09.06 | 2025 LCK 플레이-인",
+            "videoId": "eyr06MWA6Sk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eyr06MWA6Sk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eyr06MWA6Sk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eyr06MWA6Sk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "그림자 분신술 | BRO vs DK | 게임 3 하이라이트 | 09.06 | 2025 LCK 플레이-인",
+            "videoId": "Cjm8ah6BlW8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Cjm8ah6BlW8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Cjm8ah6BlW8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Cjm8ah6BlW8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "축신 모리블 | BRO vs DK | 게임 2 하이라이트 | 09.06 | 2025 LCK 플레이-인",
+            "videoId": "UU1WE6vhR_I",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/UU1WE6vhR_I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/UU1WE6vhR_I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/UU1WE6vhR_I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "루시왕 | BRO vs DK | 게임 1 하이라이트 | 09.06 | 2025 LCK 플레이-인",
+            "videoId": "qLyL7MNLGPA",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qLyL7MNLGPA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qLyL7MNLGPA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/qLyL7MNLGPA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "너구리 사냥 | NS vs BFX | 게임 4 하이라이트 | 09.05 | 2025 LCK 플레이-인",
+            "videoId": "HxDJJzbM14A",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HxDJJzbM14A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HxDJJzbM14A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HxDJJzbM14A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "상현이 우스워? | NS vs BFX | 게임 3 하이라이트 | 09.05 | 2025 LCK 플레이-인",
+            "videoId": "fZfdrOTMOIU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/fZfdrOTMOIU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/fZfdrOTMOIU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/fZfdrOTMOIU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "LCK 지각 변동 | NS vs BFX | 게임 2 하이라이트 | 09.05 | 2025 LCK 플레이-인",
+            "videoId": "0A2ZDkGMMEE",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0A2ZDkGMMEE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0A2ZDkGMMEE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0A2ZDkGMMEE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "십의귀월 대소동 | NS vs BFX | 게임 1 하이라이트 | 09.05 | 2025 LCK 플레이-인",
+            "videoId": "xoC0dFlKI3o",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xoC0dFlKI3o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xoC0dFlKI3o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/xoC0dFlKI3o/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "자, 누가 왕이지? | DK vs BFX | 게임 5 하이라이트 | 09.04 | 2025 LCK 플레이-인",
+            "videoId": "rnHHTVHJlrs",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rnHHTVHJlrs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rnHHTVHJlrs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rnHHTVHJlrs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "슈 라이라이! | DK vs BFX | 게임 4 하이라이트 | 09.04 | 2025 LCK 플레이-인",
+            "videoId": "HUk2Yh1eAG0",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HUk2Yh1eAG0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HUk2Yh1eAG0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HUk2Yh1eAG0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "[퍼피교육] 강아지 산책이 달라집니다. | DK vs BFX | 게임 3 하이라이트 | 09.04 | 2025 LCK 플레이-인",
+            "videoId": "tnHHYOpLV8c",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tnHHYOpLV8c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tnHHYOpLV8c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/tnHHYOpLV8c/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "차렷 메이커 | DK vs BFX | 게임 2 하이라이트 | 09.04 | 2025 LCK 플레이-인",
+            "videoId": "lAozSsf_vwo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lAozSsf_vwo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lAozSsf_vwo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/lAozSsf_vwo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "슈탱 코르키 | DK vs BFX | 게임 1 하이라이트 | 09.04 | 2025 LCK 플레이-인",
+            "videoId": "n9o5N4E5iMo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/n9o5N4E5iMo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/n9o5N4E5iMo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/n9o5N4E5iMo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "이게 차이다, 지하도시 녀석들. | NS vs BRO | 게임 5 하이라이트 | 09.03 | 2025 LCK 플레이-인",
+            "videoId": "-kxRvR7nO1s",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-kxRvR7nO1s/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-kxRvR7nO1s/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-kxRvR7nO1s/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "기다려라, 윗동네 녀석들. | NS vs BRO | 게임 4 하이라이트 | 09.03 | 2025 LCK 플레이-인",
+            "videoId": "SZeU-5RzoBE",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SZeU-5RzoBE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SZeU-5RzoBE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SZeU-5RzoBE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "원딜발견! | NS vs BRO | 게임 3 하이라이트 | 09.03 | 2025 LCK 플레이-인",
+            "videoId": "aeWYt_f2hqc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/aeWYt_f2hqc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/aeWYt_f2hqc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/aeWYt_f2hqc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "포탈 오브 레전드 | NS vs BRO | 게임 2 하이라이트 | 09.03 | 2025 LCK 플레이-인",
+            "videoId": "NRoA6CUVE5k",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NRoA6CUVE5k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NRoA6CUVE5k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/NRoA6CUVE5k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "가자 마스터오른! | NS vs BRO | 게임 1 하이라이트 | 09.03 | 2025 LCK 플레이-인",
+            "videoId": "hRoXsIK1jIM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hRoXsIK1jIM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hRoXsIK1jIM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hRoXsIK1jIM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "야 레전드, 떨고있냐. | DRX vs BRO | 게임 3 하이라이트 | 08.31 | 2025 LCK",
+            "videoId": "FiIk1T4bi0Q",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/FiIk1T4bi0Q/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/FiIk1T4bi0Q/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/FiIk1T4bi0Q/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "3꽉으로! | DRX vs BRO | 게임 2 하이라이트 | 08.31 | 2025 LCK",
+            "videoId": "GaZGe1DufUE",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GaZGe1DufUE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GaZGe1DufUE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GaZGe1DufUE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "암베사가 손에 촥촥 감기는구만 | DRX vs BRO | 게임 1 하이라이트 | 08.31 | 2025 LCK",
+            "videoId": "i0_U9uPZAjQ",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/i0_U9uPZAjQ/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/i0_U9uPZAjQ/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/i0_U9uPZAjQ/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "형, 오늘은 가만히 타 있어! | NS vs KT | 게임 2 하이라이트 | 08.31 | 2025 LCK",
+            "videoId": "-RYb1cbFB-w",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-RYb1cbFB-w/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-RYb1cbFB-w/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-RYb1cbFB-w/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "For the King! | NS vs KT | 게임 1 하이라이트 | 08.31 | 2025 LCK",
+            "videoId": "E4hJU6fkgZY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/E4hJU6fkgZY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/E4hJU6fkgZY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/E4hJU6fkgZY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "출사표, 드높아라 DK의 매운 얼이여. | DNF vs DK | 게임 3 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "WntxSnRBAVo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WntxSnRBAVo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WntxSnRBAVo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WntxSnRBAVo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "너가 왕이야? | DNF vs DK | 게임 2 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "XEOf1ZEQ7s4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XEOf1ZEQ7s4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XEOf1ZEQ7s4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XEOf1ZEQ7s4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "I am a good Kai'Sa | DNF vs DK | 게임 1 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "XvFV8AyWgRk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XvFV8AyWgRk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XvFV8AyWgRk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XvFV8AyWgRk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "Chovy 선수의 LCK 500승 달성을 축하드립니다. | T1 vs GEN | 게임 3 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "AV7GS4duUzc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AV7GS4duUzc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AV7GS4duUzc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AV7GS4duUzc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "기마척탄병 | T1 vs GEN | 게임 2 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "z8FvZZWvvdY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/z8FvZZWvvdY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/z8FvZZWvvdY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/z8FvZZWvvdY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "도란헤도로 | T1 vs GEN | 게임 1 하이라이트 | 08.30 | 2025 LCK",
+            "videoId": "63nBnk6yI7c",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/63nBnk6yI7c/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/63nBnk6yI7c/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/63nBnk6yI7c/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "Viper 선수의 LCK 2,000킬 달성을 축하드립니다. | HLE vs NS | 게임 2 하이라이트 | 08.29 | 2025 LCK",
+            "videoId": "hEocm052Bpw",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/hEocm052Bpw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/hEocm052Bpw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/hEocm052Bpw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "LCK9 자주포 | HLE vs NS | 게임 1 하이라이트 | 08.29 | 2025 LCK",
+            "videoId": "_OUXqpsbudk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_OUXqpsbudk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_OUXqpsbudk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_OUXqpsbudk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "축제인가요? | BFX vs DRX | 게임 3 하이라이트 | 08.29 | 2025 LCK",
+            "videoId": "-fUDl93d374",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/-fUDl93d374/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/-fUDl93d374/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/-fUDl93d374/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "K/DA 퍼펙트 빅칼리 | BFX vs DRX | 게임 2 하이라이트 | 08.29 | 2025 LCK",
+            "videoId": "GAz2L-PvOzg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GAz2L-PvOzg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GAz2L-PvOzg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GAz2L-PvOzg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "대도 스폰지 | BFX vs DRX | 게임 1 하이라이트 | 08.29 | 2025 LCK",
+            "videoId": "u12emNKeh4Y",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/u12emNKeh4Y/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/u12emNKeh4Y/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/u12emNKeh4Y/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "밀어붙여! | GEN vs KT | 게임 2 하이라이트 | 08.28 | 2025 LCK",
+            "videoId": "rFd8BsN28lM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rFd8BsN28lM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rFd8BsN28lM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rFd8BsN28lM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "듀림자검 | GEN vs KT | 게임 1 하이라이트 | 08.28 | 2025 LCK",
+            "videoId": "HV4qUT5Vz4k",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HV4qUT5Vz4k/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HV4qUT5Vz4k/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HV4qUT5Vz4k/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "왕이라고 왕! | DK vs BRO | 게임 2 하이라이트 | 08.28 | 2025 LCK",
+            "videoId": "BvyL2lGxIfg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/BvyL2lGxIfg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/BvyL2lGxIfg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/BvyL2lGxIfg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "라이즈의 왕이시여...! | DK vs BRO | 게임 1 하이라이트 | 08.28 | 2025 LCK",
+            "videoId": "mLs84P0xB5Y",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mLs84P0xB5Y/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mLs84P0xB5Y/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/mLs84P0xB5Y/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "자르반 1억4천5백만세 | DNF vs BFX | 게임 2 하이라이트 | 08.27 | 2025 LCK",
+            "videoId": "cD5TN2hQkdo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/cD5TN2hQkdo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/cD5TN2hQkdo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/cD5TN2hQkdo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "남 대 근 | DNF vs BFX | 게임 1 하이라이트 | 08.27 | 2025 LCK",
+            "videoId": "JpQjXTmm9zI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/JpQjXTmm9zI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/JpQjXTmm9zI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/JpQjXTmm9zI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "밴 할 것인가? | T1 vs HLE | 게임 3 하이라이트 | 08.27 | 2025 LCK",
+            "videoId": "lBgkZd1zZUc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/lBgkZd1zZUc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/lBgkZd1zZUc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/lBgkZd1zZUc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "바위마을 츠제카게 | T1 vs HLE | 게임 2 하이라이트 | 08.27 | 2025 LCK",
+            "videoId": "8rIS3uhQp9E",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8rIS3uhQp9E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8rIS3uhQp9E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8rIS3uhQp9E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "대 도 독 | T1 vs HLE | 게임 1 하이라이트 | 08.27 | 2025 LCK",
+            "videoId": "ByzimpBrjNc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ByzimpBrjNc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ByzimpBrjNc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/ByzimpBrjNc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "최저26° - 최고33° - 어제보다 1.1° 높음 - 자외선지수 높음 | KT vs T1 | 게임 2 하이라이트 | 08.24 | 2025 LCK",
+            "videoId": "pimjgg8VPls",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pimjgg8VPls/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pimjgg8VPls/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pimjgg8VPls/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "킅장판 보성의 돌날: 무한열차편 | KT vs T1 | 게임 1 하이라이트 | 08.24 | 2025 LCK",
+            "videoId": "6FwUnRzg0wg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/6FwUnRzg0wg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/6FwUnRzg0wg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/6FwUnRzg0wg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "매 혹 핑 | BFX vs DK | 게임 2 하이라이트 | 08.24 | 2025 LCK",
+            "videoId": "tSKqUceCx-I",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tSKqUceCx-I/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tSKqUceCx-I/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/tSKqUceCx-I/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "내가 하늘을 가르겠다 | BFX vs DK | 게임 1 하이라이트 | 08.24 | 2025 LCK",
+            "videoId": "Y7wFEGxza-E",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Y7wFEGxza-E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Y7wFEGxza-E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Y7wFEGxza-E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "안드레아 표를로 | BRO vs DNF | 게임 3 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "l5GDb0mv0ws",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/l5GDb0mv0ws/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/l5GDb0mv0ws/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/l5GDb0mv0ws/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "요네 잘했나요? | BRO vs DNF | 게임 2 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "Uqwubr_dgm8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Uqwubr_dgm8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Uqwubr_dgm8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Uqwubr_dgm8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "이건 첫 번째 레슨 | BRO vs DNF | 게임 1 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "TlWkfB3h2tk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TlWkfB3h2tk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TlWkfB3h2tk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/TlWkfB3h2tk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "어, 기사님은 안 타세요? | HLE vs GEN | 게임 3 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "M8es9e_1uAw",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/M8es9e_1uAw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/M8es9e_1uAw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/M8es9e_1uAw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "터보 할멈 | HLE vs GEN | 게임 2 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "ivfupzK2wzk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ivfupzK2wzk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ivfupzK2wzk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/ivfupzK2wzk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "오곰 | HLE vs GEN | 게임 1 하이라이트 | 08.23 | 2025 LCK",
+            "videoId": "Ic1WlkRjd7Q",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Ic1WlkRjd7Q/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Ic1WlkRjd7Q/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Ic1WlkRjd7Q/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "Private video",
+            "videoId": "T44Fl-Delh4",
+            "defaultThumbnail": null,
+            "medium": null,
+            "high": null,
+            "standard": null
+          },
+          {
+            "title": "청소기 파괴자 | DRX vs DK | 게임 3 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "tFhY8AEYJOU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/tFhY8AEYJOU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/tFhY8AEYJOU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/tFhY8AEYJOU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "돌메이커 | DRX vs DK | 게임 2 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "GUSsiT_i22A",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/GUSsiT_i22A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/GUSsiT_i22A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/GUSsiT_i22A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "화로구이 몬타그 | DRX vs DK | 게임 1 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "0oup2Z6izuI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/0oup2Z6izuI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/0oup2Z6izuI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/0oup2Z6izuI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "오레노 턴! 반격! | NS vs T1 | 게임 3 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "AAmR8i0Yfbc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/AAmR8i0Yfbc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/AAmR8i0Yfbc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/AAmR8i0Yfbc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "지옥 라면 폭탄 | NS vs T1 | 게임 2 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "mEnURSXNkr8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/mEnURSXNkr8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/mEnURSXNkr8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/mEnURSXNkr8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "단 한 줄기 치욕의 상처도 없었다 | NS vs T1 | 게임 1 하이라이트 | 08.22 | 2025 LCK",
+            "videoId": "SgCg80CXnfY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/SgCg80CXnfY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/SgCg80CXnfY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/SgCg80CXnfY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "BFX 파워 업: 총공세 | BRO vs BFX | 게임 3 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "bMK8MuwhF1A",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/bMK8MuwhF1A/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/bMK8MuwhF1A/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/bMK8MuwhF1A/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "사이 온 상 | BRO vs BFX | 게임 2 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "pjMvlAExi7o",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/pjMvlAExi7o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/pjMvlAExi7o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/pjMvlAExi7o/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "라이즈 최고의 창 | BRO vs BFX | 게임 1 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "RLcLSZYJOXI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/RLcLSZYJOXI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/RLcLSZYJOXI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/RLcLSZYJOXI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "구황작물 아이번 | KT vs HLE | 게임 3 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "fMEjFYVeAnM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/fMEjFYVeAnM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/fMEjFYVeAnM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/fMEjFYVeAnM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "원 딜 발 견 🧡 | KT vs HLE | 게임 2 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "XT7W_6t7CWA",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XT7W_6t7CWA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XT7W_6t7CWA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XT7W_6t7CWA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "Blue Daemeori Daisuki 💙 | KT vs HLE | 게임 1 하이라이트 | 08.21 | 2025 LCK",
+            "videoId": "sSXM8NRkRTs",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/sSXM8NRkRTs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/sSXM8NRkRTs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/sSXM8NRkRTs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "안녕, 친구들! | GEN vs NS | 게임 2 하이라이트 | 08.20 | 2025 LCK",
+            "videoId": "osksG-HmlIk",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/osksG-HmlIk/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/osksG-HmlIk/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/osksG-HmlIk/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "종소리 거인 | GEN vs NS | 게임 1 하이라이트 | 08.20 | 2025 LCK",
+            "videoId": "9Z13r3uxSj8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/9Z13r3uxSj8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/9Z13r3uxSj8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/9Z13r3uxSj8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "피버타이무다! | DRX vs DNF | 게임 2 하이라이트 | 08.20 | 2025 LCK",
+            "videoId": "kAqmBKzV4cg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kAqmBKzV4cg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kAqmBKzV4cg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kAqmBKzV4cg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "\"상승과 하강으로 명징하게 직조한 처연한 혈투\" | DRX vs DNF | 게임 1 하이라이트 | 08.20 | 2025 LCK",
+            "videoId": "8qMMeKZXzok",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/8qMMeKZXzok/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/8qMMeKZXzok/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/8qMMeKZXzok/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "\"1픽 요네\" | BRO vs DK | 게임 2 하이라이트 | 08.17 | 2025 LCK",
+            "videoId": "19U2P6hvwSg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/19U2P6hvwSg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/19U2P6hvwSg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/19U2P6hvwSg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "악동 등장 | BRO vs DK | 게임 1 하이라이트 | 08.17 | 2025 LCK",
+            "videoId": "Oqy2IvJo1HM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Oqy2IvJo1HM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Oqy2IvJo1HM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Oqy2IvJo1HM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "우리가 진다고? 뻥이요~! | HLE vs GEN | 게임 3 하이라이트 | 08.17 | 2025 LCK",
+            "videoId": "k4bqzr1pvig",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/k4bqzr1pvig/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/k4bqzr1pvig/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/k4bqzr1pvig/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "암바 들어갑니다! | HLE vs GEN | 게임 2 하이라이트 | 08.17 | 2025 LCK",
+            "videoId": "O2BBsDr0cF4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/O2BBsDr0cF4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/O2BBsDr0cF4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/O2BBsDr0cF4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "폭발은 예술이다 | HLE vs GEN | 게임 1 하이라이트 | 08.17 | 2025 LCK",
+            "videoId": "W1ufVKoJL7g",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/W1ufVKoJL7g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/W1ufVKoJL7g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/W1ufVKoJL7g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "날 붙잡은 게 너야? | DRX vs BFX | 게임 3 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "NZw8E-ex5Y0",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NZw8E-ex5Y0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NZw8E-ex5Y0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/NZw8E-ex5Y0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "어디가, 3꽉 가야지 | DRX vs BFX | 게임 2 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "XHoK4S80Cb0",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/XHoK4S80Cb0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/XHoK4S80Cb0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/XHoK4S80Cb0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "너를 찾아서 오 애 오 | DRX vs BFX | 게임 1 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "_ZTAAmFRuAo",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_ZTAAmFRuAo/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_ZTAAmFRuAo/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_ZTAAmFRuAo/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "롤러코스터 수리 완료··· \"안전 운행 약속\" | NS vs KT | 게임 3 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "3CLIajAuCx0",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/3CLIajAuCx0/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/3CLIajAuCx0/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/3CLIajAuCx0/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "너구리가 레일 끊어··· 롤러코스터 긴급 운영 중단 | NS vs KT | 게임 2 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "73WTda_f7zw",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/73WTda_f7zw/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/73WTda_f7zw/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/73WTda_f7zw/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "전장의 왕자 시비르 | NS vs KT | 게임 1 하이라이트 | 08.16 | 2025 LCK",
+            "videoId": "kTikVM-QCZU",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/kTikVM-QCZU/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/kTikVM-QCZU/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/kTikVM-QCZU/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "'도'파민 | HLE vs T1 | 게임 2 하이라이트 | 08.15 | 2025 LCK",
+            "videoId": "qMVC4i4OHVY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/qMVC4i4OHVY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/qMVC4i4OHVY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/qMVC4i4OHVY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "제 바드 믿으셔야 합니다! | HLE vs T1 | 게임 1 하이라이트 | 08.15 | 2025 LCK",
+            "videoId": "Yx7VveqBqDs",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Yx7VveqBqDs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Yx7VveqBqDs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Yx7VveqBqDs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "마이 리틀 불독팝! | BRO vs DNF | 게임 3 하이라이트 | 08.15 | 2025 LCK",
+            "videoId": "Utx-0NXAh9o",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Utx-0NXAh9o/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Utx-0NXAh9o/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Utx-0NXAh9o/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "든프 신화: 오공 | BRO vs DNF | 게임 2 하이라이트 | 08.15 | 2025 LCK",
+            "videoId": "rKATCvNsBaY",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/rKATCvNsBaY/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/rKATCvNsBaY/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/rKATCvNsBaY/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "오케이 운명 봉인 | BRO vs DNF | 게임 1 하이라이트 | 08.15 | 2025 LCK",
+            "videoId": "xMmrpB1N3UA",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/xMmrpB1N3UA/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/xMmrpB1N3UA/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/xMmrpB1N3UA/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
             "title": "진 - 출 | DK vs DRX | 게임 2 하이라이트 | 08.14 | 2025 LCK",
             "videoId": "hkhFT5LMnaw",
             "defaultThumbnail": null,
