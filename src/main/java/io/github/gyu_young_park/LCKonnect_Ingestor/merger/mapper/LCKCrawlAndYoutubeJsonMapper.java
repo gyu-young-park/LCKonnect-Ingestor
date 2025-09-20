@@ -10,6 +10,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.List;
 import java.util.NoSuchElementException;
 
@@ -24,10 +26,10 @@ public class LCKCrawlAndYoutubeJsonMapper implements LCKCrawlAndYoutubeMapper {
         ObjectMapper objectMapper = new ObjectMapper();
         try {
             return objectMapper.readValue(
-                    transformConfiguration.getMapDataPath(),
+                    new File(transformConfiguration.getMapDataPath()),
                     new TypeReference<>() {}
             );
-        }catch (JsonProcessingException e) {
+        }catch (IOException e) {
             LOGGER.error("failed to get map data: " + transformConfiguration.getMapDataPath());
             throw new NoSuchElementException(e);
         }
