@@ -1019,6 +1019,166 @@
         "playListId": "PLIWtfvmBcNofXW-gpSAHfO3c6pv51EXzI",
         "lckVideoList": [
           {
+            "title": "저승사자 쵸진우 | GEN vs T1 | 게임 5 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "_dyQDFSRqu8",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/_dyQDFSRqu8/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/_dyQDFSRqu8/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/_dyQDFSRqu8/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "난 혼자가 아냐 | GEN vs T1 | 게임 4 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "r6ytenTMWbc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/r6ytenTMWbc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/r6ytenTMWbc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/r6ytenTMWbc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "'내가 넘겨줄게' | GEN vs T1 | 게임 3 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "NHDoL_cfGNM",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/NHDoL_cfGNM/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/NHDoL_cfGNM/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/NHDoL_cfGNM/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "깃창섭의 은혜 | GEN vs T1 | 게임 2 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "HrmIFkF9-tg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/HrmIFkF9-tg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/HrmIFkF9-tg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/HrmIFkF9-tg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "GEN야, 타! 캐리해줄게! | GEN vs T1 | 게임 1 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "TqaFYfQBYD4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/TqaFYfQBYD4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/TqaFYfQBYD4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/TqaFYfQBYD4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "인천 상륙 작전 | KT vs HLE | 게임 3 하이라이트 | 09.20 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "Vra_8WdALrI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Vra_8WdALrI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Vra_8WdALrI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Vra_8WdALrI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "왕호의 도약 | KT vs HLE | 게임 2 하이라이트 | 09.20 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "CTkcZwiz2cc",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/CTkcZwiz2cc/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/CTkcZwiz2cc/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/CTkcZwiz2cc/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "전투토끼 제카 | KT vs HLE | 게임 1 하이라이트 | 09.20 | 우리은행 2025 LCK 플레이오프",
+            "videoId": "IjET_zVlaGE",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/IjET_zVlaGE/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/IjET_zVlaGE/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/IjET_zVlaGE/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
             "title": "우리도 간다 월즈! | T1 vs DK | 게임 4 하이라이트 | 09.18 | 우리은행 2025 LCK 플레이오프",
             "videoId": "9HElZOzZLmY",
             "defaultThumbnail": null,

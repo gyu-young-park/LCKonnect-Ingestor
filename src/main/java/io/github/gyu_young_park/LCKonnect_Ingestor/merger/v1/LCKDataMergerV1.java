@@ -22,6 +22,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
+import java.util.stream.Collectors;
 
 @Component
 @Data
@@ -100,11 +101,15 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             // 1. Crawl Data 매핑
             List<LCKMatchRawData> matchList = new ArrayList<>();
             for(String leagueName : mapping.getCrawlList()) {
+                leagueName = leagueName.trim();
                 if (!crawlMap.containsKey(leagueName)) {
                     throw new NoSuchElementException("Missing crawl league: " + leagueName);
                 }
                 matchList.addAll(crawlMap.get(leagueName));
             }
+
+            // filter: 플레이 되지 않은 match는 걸러낸다. isPlayed가 false인 것만 골라낸다.
+            matchList.removeIf(match -> !match.isPlayed());
             LOGGER.info("Collected {} matches for championship [{}]", matchList.size(), mapping.getName());
 
             // 2. Video Data 매핑
@@ -137,7 +142,6 @@ public class LCKDataMergerV1 implements LCKDataMerger {
 
                     LCKVideoAndInfoModel videoAndInfo = mergeLCKVideoAndInfoModel(video, game);
                     videoAndInfo.setDate(match.getDate());
-
                     videoAndInfoList.add(videoAndInfo);
 
                     LOGGER.debug("Mapped video [{}] to game [{} vs {}] on {}",
