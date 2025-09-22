@@ -120,6 +120,8 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 }
                 videoList.addAll(videoMap.get(playListName));
             }
+            // filter: Private video 영상 삭제
+            videoList.removeIf(video -> video.getTitle().equalsIgnoreCase("Private video"));
             LOGGER.info("Collected {} videos for championship [{}]", videoList.size(), mapping.getName());
 
             // 3. Championship Model 생성
@@ -140,12 +142,12 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                     LCKGameRawData game = gameList.get(i);
                     LCKVideoModel video = videoList.get(videoIndex);
 
+                    LOGGER.info("Mapped video [{}] to game [{} vs {}] on {}",
+                            video.getTitle(), game.getLeftTeam(), game.getRightTeam(), match.getDate());
+
                     LCKVideoAndInfoModel videoAndInfo = mergeLCKVideoAndInfoModel(video, game);
                     videoAndInfo.setDate(match.getDate());
                     videoAndInfoList.add(videoAndInfo);
-
-                    LOGGER.debug("Mapped video [{}] to game [{} vs {}] on {}",
-                            video.getTitle(), game.getLeftTeam(), game.getRightTeam(), match.getDate());
                 }
                 championship.setLckVideoAndInfoModelList(videoAndInfoList);
             }

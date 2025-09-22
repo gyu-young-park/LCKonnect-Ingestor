@@ -84,6 +84,11 @@ public class LCKGameCrawler {
             String champion = extractChampionNameFromSrc(imageTags.get(i).attr("src"));
             champions.add(champion);
         }
+
+        // null 방지
+        while(champions.size() < 5) {
+            champions.add(null);
+        }
         return champions;
     }
 

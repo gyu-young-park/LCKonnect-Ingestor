@@ -51,6 +51,9 @@ public class LCKDataService {
             ChampionshipEntity championshipEntity = lckChampionshipModelToChampionshipEntityConvertor.convert(lckChampionshipModel);
 
             for (LCKVideoAndInfoModel lckVideoAndInfoModel: lckChampionshipModel.getLckVideoAndInfoModelList()) {
+                LOGGER.info("Convert team model to entity: {}, winteam: {}, loseteam: {}", lckVideoAndInfoModel.getVideoTitle(),
+                        lckVideoAndInfoModel.getWinTeam().getTeamName(),
+                        lckVideoAndInfoModel.getLoseTeam().getTeamName());
                 championshipEntity.appendMatch(
                         createMatchEntity(lckVideoAndInfoModel,
                         createAndStoreTeamEntity(lckVideoAndInfoModel.getWinTeam()),
