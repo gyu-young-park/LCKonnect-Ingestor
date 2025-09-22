@@ -38,4 +38,4 @@ youtube:
       playlist_item_list: "/youtube/v3/playlistItems"
 
 transform:
-  map_data_path: ./data/lck_crawl_and_youtube_map.json
+  map_data_path: ./data/lck_crawl_and_youtube_map2.json
