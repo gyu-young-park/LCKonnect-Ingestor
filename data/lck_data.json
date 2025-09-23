@@ -5893,6 +5893,985 @@
     ]
   },
   {
+    "championshipName": "2025 LCK MSI 대표 선발전",
+    "startDate": "2025-06-15",
+    "lastDate": "2025-06-07",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "돌고돌고돌고돌고돌고돌고돌고돌아 | HLE vs T1 게임 3 하이라이트 | 06.15 | 2025 LCK MSI 대표 선발전",
+        "videoId": "gZpBjhBPh_w",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Taliyah",
+            "Ornn",
+            "TwistedFate",
+            "Trundle"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Annie",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Yorick",
+            "Azir",
+            "Rumble",
+            "Nocturne",
+            "Zed"
+          ],
+          "pickList": [
+            "Gnar",
+            "Nidalee",
+            "Galio",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "date": "2025-06-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gZpBjhBPh_w/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gZpBjhBPh_w/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gZpBjhBPh_w/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "★≫ㄱr입ㅅ1 전원 짺팟★ㅅr직 실Lㅐ 주사위$$ | HLE vs T1 게임 2 하이라이트 | 06.15 | 2025 LCK MSI 대표 선발전",
+        "videoId": "spyed-JXqQE",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Taliyah",
+            "Rumble",
+            "Xayah",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Pantheon",
+            "Ryze",
+            "Varus",
+            "Poppy"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Azir",
+            "Ornn",
+            "Trundle",
+            "Camille",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Viktor",
+            "Jhin",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-06-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/spyed-JXqQE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/spyed-JXqQE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/spyed-JXqQE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "저는 님을 돕기 위해 온 사람입니다 | HLE vs T1 게임 1 하이라이트 | 06.15 | 2025 LCK MSI 대표 선발전",
+        "videoId": "Jp-dib3OPTQ",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Poppy",
+            "Taliyah",
+            "Varus",
+            "Xayah"
+          ],
+          "pickList": [
+            "Gwen",
+            "Wukong",
+            "Sylas",
+            "Kalista",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Pantheon",
+            "Rumble",
+            "Azir",
+            "Nocturne",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Jayce",
+            "Vi",
+            "Ahri",
+            "MissFortune",
+            "Rell"
+          ]
+        },
+        "date": "2025-06-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Jp-dib3OPTQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Jp-dib3OPTQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Jp-dib3OPTQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "안녕하세요? 강도입니다~ | T1 vs KT 게임 4 하이라이트 | 06.14 | 2025 LCK MSI 대표 선발전",
+        "videoId": "i0wsod4xDfU",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Vi",
+            "Nidalee",
+            "Nautilus",
+            "MissFortune"
+          ],
+          "pickList": [
+            "Camille",
+            "Trundle",
+            "TwistedFate",
+            "Ziggs",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Poppy",
+            "Jayce",
+            "Senna",
+            "Caitlyn",
+            "Ashe"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Pantheon",
+            "Aurora",
+            "Xayah",
+            "Braum"
+          ]
+        },
+        "date": "2025-06-14",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i0wsod4xDfU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i0wsod4xDfU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/i0wsod4xDfU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "꿈 깨 | T1 vs KT 게임 3 하이라이트 | 06.14 | 2025 LCK MSI 대표 선발전",
+        "videoId": "x1hBzdx5Ufc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Vi",
+            "Trundle",
+            "Rell",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "Skarner",
+            "Azir",
+            "Lucian",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Poppy",
+            "Pantheon",
+            "Senna",
+            "Braum",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Yorick",
+            "Sejuani",
+            "Taliyah",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "date": "2025-06-14",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/x1hBzdx5Ufc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/x1hBzdx5Ufc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/x1hBzdx5Ufc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "한다이 할래? | T1 vs KT 게임 2 하이라이트 | 06.14 | 2025 LCK MSI 대표 선발전",
+        "videoId": "MM9obkWdRq0",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Taliyah",
+            "Trundle",
+            "Yone",
+            "TahmKench",
+            "Poppy"
+          ],
+          "pickList": [
+            "Gwen",
+            "Nocturne",
+            "Akali",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Azir",
+            "Pantheon",
+            "Annie",
+            "Sylas"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Ahri",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "date": "2025-06-14",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MM9obkWdRq0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MM9obkWdRq0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MM9obkWdRq0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "자, 드가자! | T1 vs KT 게임 1 하이라이트 | 06.14 | 2025 LCK MSI 대표 선발전",
+        "videoId": "r6nKzJxFp-s",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Azir",
+            "Gwen",
+            "Xayah",
+            "Alistar"
+          ],
+          "pickList": [
+            "Ornn",
+            "Wukong",
+            "Ryze",
+            "Kalista",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Taliyah",
+            "Trundle",
+            "Rumble",
+            "Kaisa",
+            "Varus"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Viktor",
+            "Corki",
+            "Elise"
+          ]
+        },
+        "date": "2025-06-14",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r6nKzJxFp-s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r6nKzJxFp-s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r6nKzJxFp-s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "쵸비는 거품이지 | GEN vs HLE 게임 5 하이라이트 | 06.13 | 2025 LCK MSI 대표 선발전",
+        "videoId": "bnJ4cd_PDJo",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Vi",
+            "Viktor",
+            "Nidalee",
+            "Pantheon",
+            "Akali"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Wukong",
+            "Zoe",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Galio",
+            "Renekton",
+            "Ornn",
+            "Annie",
+            "Orianna"
+          ],
+          "pickList": [
+            "Gnar",
+            "Lillia",
+            "Jayce",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "date": "2025-06-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bnJ4cd_PDJo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bnJ4cd_PDJo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bnJ4cd_PDJo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "미러부 | GEN vs HLE 게임 4 하이라이트 | 06.13 | 2025 LCK MSI 대표 선발전",
+        "videoId": "AkvcX-92c08",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Vi",
+            "Jayce",
+            "Viktor",
+            "Braum",
+            "Rakan"
+          ],
+          "pickList": [
+            "Chogath",
+            "LeeSin",
+            "TwistedFate",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Galio",
+            "Nidalee",
+            "Renekton",
+            "Zed",
+            "Naafiri"
+          ],
+          "pickList": [
+            "Yorick",
+            "Maokai",
+            "Yone",
+            "Jinx",
+            "Lulu"
+          ]
+        },
+        "date": "2025-06-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AkvcX-92c08/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AkvcX-92c08/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AkvcX-92c08/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "북극전갈 | GEN vs HLE 게임 3 하이라이트 | 06.13 | 2025 LCK MSI 대표 선발전",
+        "videoId": "zKzXe-4NGCQ",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Yone",
+            "Jayce",
+            "Alistar",
+            "Rakan",
+            "Braum"
+          ],
+          "pickList": [
+            "KSante",
+            "Skarner",
+            "Aurora",
+            "Kaisa",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Vi",
+            "Nidalee",
+            "Viktor",
+            "Renekton",
+            "Galio"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Sylas",
+            "Corki",
+            "Leona"
+          ]
+        },
+        "date": "2025-06-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zKzXe-4NGCQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zKzXe-4NGCQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zKzXe-4NGCQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "마! 붓싼하면 승게 아이가! | GEN vs HLE 게임 2 하이라이트 | 06.13 | 2025 LCK MSI 대표 선발전",
+        "videoId": "3tGV-NFTGLM",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Vi",
+            "Nidalee",
+            "Viktor",
+            "Xayah",
+            "Lucian"
+          ],
+          "pickList": [
+            "Camille",
+            "JarvanIV",
+            "Ahri",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Yone",
+            "Neeko",
+            "Wukong",
+            "Nocturne",
+            "Aatrox"
+          ],
+          "pickList": [
+            "Sion",
+            "Trundle",
+            "Ryze",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "date": "2025-06-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3tGV-NFTGLM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3tGV-NFTGLM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3tGV-NFTGLM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "'바'의 의지 | GEN vs HLE 게임 1 하이라이트 | 06.13 | 2025 LCK MSI 대표 선발전",
+        "videoId": "ejlhKIycaik",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Vi",
+            "Pantheon",
+            "Kalista",
+            "Braum",
+            "Rakan"
+          ],
+          "pickList": [
+            "Rumble",
+            "Poppy",
+            "Azir",
+            "Varus",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Yone",
+            "Neeko",
+            "Ahri",
+            "Senna",
+            "Alistar"
+          ],
+          "pickList": [
+            "Gwen",
+            "XinZhao",
+            "Taliyah",
+            "Jhin",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-06-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ejlhKIycaik/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ejlhKIycaik/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ejlhKIycaik/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "제너럴 덕 | NS vs KT 게임 3 하이라이트 | 06.08 | 2025 LCK MSI 대표 선발전",
+        "videoId": "V3gv4_1g4Tg",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Jayce",
+            "Azir",
+            "Gnar",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nocturne",
+            "Ahri",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Nongshim RedForce",
+          "banList": [
+            "Kalista",
+            "Yorick",
+            "Nidalee",
+            "Neeko",
+            "Lucian"
+          ],
+          "pickList": [
+            "Kennen",
+            "Pantheon",
+            "Annie",
+            "Ezreal",
+            "Elise"
+          ]
+        },
+        "date": "2025-06-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/V3gv4_1g4Tg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/V3gv4_1g4Tg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/V3gv4_1g4Tg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "테킅놀로지아~! | NS vs KT 게임 2 하이라이트 | 06.08 | 2025 LCK MSI 대표 선발전",
+        "videoId": "fjKy-Y02t88",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Poppy",
+            "Azir",
+            "Shen",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Ryze",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Nongshim RedForce",
+          "banList": [
+            "Pantheon",
+            "Kalista",
+            "Nidalee",
+            "Neeko",
+            "Braum"
+          ],
+          "pickList": [
+            "Camille",
+            "Wukong",
+            "Viktor",
+            "Caitlyn",
+            "Morgana"
+          ]
+        },
+        "date": "2025-06-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fjKy-Y02t88/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fjKy-Y02t88/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fjKy-Y02t88/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "형용사 (결함·흠 등이 없는) 완벽한[완전한/온전한] | NS vs KT 게임 1 하이라이트 | 06.08 | 2025 LCK MSI 대표 선발전",
+        "videoId": "Ls1vSyHrceM",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Pantheon",
+            "Poppy",
+            "Senna",
+            "Elise"
+          ],
+          "pickList": [
+            "Rumble",
+            "Trundle",
+            "Taliyah",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Nongshim RedForce",
+          "banList": [
+            "Ryze",
+            "Azir",
+            "Sion",
+            "Xayah",
+            "Kalista"
+          ],
+          "pickList": [
+            "Gwen",
+            "Sejuani",
+            "Yone",
+            "Jhin",
+            "Rell"
+          ]
+        },
+        "date": "2025-06-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ls1vSyHrceM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ls1vSyHrceM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Ls1vSyHrceM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "은하열차 킅킅킅 | KT vs DK 게임 3 하이라이트 | 06.07 | 2025 LCK MSI 대표 선발전",
+        "videoId": "73IIzS4kO00",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Taliyah",
+            "Poppy",
+            "Wukong",
+            "Skarner"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Cassiopeia",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Yone",
+            "Neeko",
+            "Nocturne",
+            "Orianna",
+            "Gnar"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Viktor",
+            "Smolder",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-06-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/73IIzS4kO00/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/73IIzS4kO00/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/73IIzS4kO00/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "끝낼래 말래 | KT vs DK 게임 2 하이라이트 | 06.07 | 2025 LCK MSI 대표 선발전",
+        "videoId": "FRr8sqP2qcQ",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Vi",
+            "Poppy",
+            "Taliyah",
+            "Renekton",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Yorick",
+            "Pantheon",
+            "Ahri",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Yone",
+            "Neeko",
+            "Sion",
+            "Elise",
+            "Karma"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Azir",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-06-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FRr8sqP2qcQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FRr8sqP2qcQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FRr8sqP2qcQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "신 | KT vs DK 게임 1 하이라이트 | 06.07 | 2025 LCK MSI 대표 선발전",
+        "videoId": "vc6H2IzDPYw",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Pantheon",
+            "Neeko",
+            "Taliyah",
+            "Senna",
+            "Alistar"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Ryze",
+            "Varus",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Vi",
+            "Yone",
+            "Azir",
+            "Rakan",
+            "Kalista"
+          ],
+          "pickList": [
+            "Gwen",
+            "Trundle",
+            "Galio",
+            "Lucian",
+            "Milio"
+          ]
+        },
+        "date": "2025-06-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vc6H2IzDPYw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vc6H2IzDPYw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vc6H2IzDPYw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2025 LCK All",
     "startDate": "2025-09-21",
     "lastDate": "2025-04-02",

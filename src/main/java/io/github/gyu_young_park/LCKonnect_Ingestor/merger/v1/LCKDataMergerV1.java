@@ -6,6 +6,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKGameRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.LCKDataFilter;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper.LCKCrawlAndYoutubeMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKCrawlAndYoutubeMapModel;
@@ -22,14 +23,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
-import java.util.stream.Collectors;
 
 @Component
 @Data
 @RequiredArgsConstructor
 public class LCKDataMergerV1 implements LCKDataMerger {
     private static final Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
-
+    private final LCKDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
+    private final LCKDataFilter<LCKVideoModel> lckVideoFilter;
     private final LCKCrawlAndYoutubeMapper lckCrawlAndYoutubeMapper;
     private final TransformConfiguration transformConfiguration;
 
@@ -109,7 +110,7 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             }
 
             // filter: 플레이 되지 않은 match는 걸러낸다. isPlayed가 false인 것만 골라낸다.
-            matchList.removeIf(match -> !match.isPlayed());
+            matchList = lckMatchRawDataFilter.filter(matchList);
             LOGGER.info("Collected {} matches for championship [{}]", matchList.size(), mapping.getName());
 
             // 2. Video Data 매핑
@@ -121,7 +122,7 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 videoList.addAll(videoMap.get(playListName));
             }
             // filter: Private video 영상 삭제
-            videoList.removeIf(video -> video.getTitle().equalsIgnoreCase("Private video"));
+            videoList = lckVideoFilter.filter(videoList);
             LOGGER.info("Collected {} videos for championship [{}]", videoList.size(), mapping.getName());
 
             // 3. Championship Model 생성

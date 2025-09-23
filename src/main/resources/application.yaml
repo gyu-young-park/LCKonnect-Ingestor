@@ -23,6 +23,7 @@ crawling:
   lck:
     target_match_url:
       - https://gol.gg/tournament/tournament-matchlist/LCK%20Cup%202025/
+      - https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Road%20to%20MSI/
       - https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Rounds%201-2/
       - https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Rounds%203-5/
       - https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Season%20Play-In/
