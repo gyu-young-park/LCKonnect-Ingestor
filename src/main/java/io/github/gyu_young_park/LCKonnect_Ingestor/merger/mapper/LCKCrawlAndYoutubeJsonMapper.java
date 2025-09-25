@@ -1,6 +1,5 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.config.TransformConfiguration;

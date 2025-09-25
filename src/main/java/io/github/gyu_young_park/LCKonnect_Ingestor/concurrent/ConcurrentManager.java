@@ -1,6 +1,5 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.concurrent;
 
-import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.v1.LCKLeagueCrawler;
 import lombok.AllArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
