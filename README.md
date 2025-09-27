@@ -7,4 +7,5 @@ It crawls match results, champion picks and bans, and maps them with official LC
 1. crawl + youtube data -> RDB
 2. mapping the crawl data and youtube video (one-to-one, many-to-many, many-to-one)
 3. add scheduler code or spring batch
-4. REST API to call crawl and mapping data
+4. REST API to call crawl and mapping data 
+5. Calibrate youtube video and crawl data matching
