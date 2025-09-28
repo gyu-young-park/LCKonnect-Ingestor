@@ -1,12 +1,10 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKDataFilterRule;
-import org.springframework.stereotype.Component;
 
 import java.util.ArrayList;
 import java.util.List;
 
-@Component
 public class LCKDataFilter<T> {
     final private List<LCKDataFilterRule<T>> rules = new ArrayList<>();
 
