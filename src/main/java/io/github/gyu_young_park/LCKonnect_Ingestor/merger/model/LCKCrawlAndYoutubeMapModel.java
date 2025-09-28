@@ -17,4 +17,7 @@ public class LCKCrawlAndYoutubeMapModel {
 
     @JsonProperty("youtube_list")
     private List<String> youtubeList;
+
+    @JsonProperty("crawl_match_filter_list")
+    private List<String> crawlMatchDataFilterList;
 }

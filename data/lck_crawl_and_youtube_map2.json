@@ -12,6 +12,7 @@
   {
     "name": "2025 LCK MSI",
     "crawl_list": ["2025 Mid-Season Invitational"],
+    "crawl_match_filter_list": ["69315", "69305", "69300", "69292", "69282", "69282", "69272", "69257", "69254", "69249", "69232", "69227"],
     "youtube_list": ["MSI 2025 게임 하이라이트"]
   },
   {

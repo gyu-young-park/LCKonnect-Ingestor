@@ -6,7 +6,10 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKGameRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.LCKDataFilter;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.*;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKCrawlDataPlayedGameFilterRule;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKCrawlMatchDataFilterRule;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKVideoDataWastedVideoFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper.LCKCrawlAndYoutubeMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKCrawlAndYoutubeMapModel;
@@ -29,8 +32,8 @@ import java.util.*;
 @RequiredArgsConstructor
 public class LCKDataMergerV1 implements LCKDataMerger {
     private static final Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
-    private final LCKDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
-    private final LCKDataFilter<LCKVideoModel> lckVideoFilter;
+    private final LCKCrawlDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
+    private final LCKVideoDataFilter<LCKVideoModel> lckVideoFilter;
     private final LCKCrawlAndYoutubeMapper lckCrawlAndYoutubeMapper;
     private final TransformConfiguration transformConfiguration;
 
@@ -89,8 +92,18 @@ public class LCKDataMergerV1 implements LCKDataMerger {
         );
     }
 
+    public void setupFilter() {
+        lckVideoFilter.addRules(new LCKVideoDataWastedVideoFilterRule<LCKVideoModel>());
+        lckMatchRawDataFilter.addRules(new LCKCrawlDataPlayedGameFilterRule<>());
+        for (LCKCrawlAndYoutubeMapModel mapping : lckCrawlAndYoutubeMapper.get()) {
+            if (mapping.getCrawlMatchDataFilterList() == null || mapping.getCrawlMatchDataFilterList().isEmpty()) continue;
+            lckMatchRawDataFilter.addRules(new LCKCrawlMatchDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
+        }
+    }
+
     public List<LCKChampionshipModel> merge(LCKCrawlRawData lckCrawlRawData, LCKYoutubeModel lckYoutubeModel) {
         LOGGER.info("Starting merge of crawl and YouTube data.");
+        setupFilter();
 
         List<LCKChampionshipModel> championshipList = new ArrayList<>();
         Map<String, List<LCKMatchRawData>> crawlMap = arrangeLCKLeagueRawDataMapWithLeagueKey(lckCrawlRawData.getLckLeagueRawDataList());
