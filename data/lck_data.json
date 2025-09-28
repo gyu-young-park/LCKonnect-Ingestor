@@ -6872,10 +6872,2123 @@
     ]
   },
   {
+    "championshipName": "2025 LCK MSI",
+    "startDate": "2025-07-12",
+    "lastDate": "2025-06-27",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "BACK TO BACK | GEN vs T1 게임 5 하이라이트 | 07.13 | MSI 2025",
+        "videoId": "HF7rHmc7vEo",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "LeeSin",
+            "TwistedFate",
+            "Yasuo"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Nidalee",
+            "Aurora",
+            "MissFortune",
+            "Pyke"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Neeko",
+            "Kaisa",
+            "Blitzcrank",
+            "Leona"
+          ],
+          "pickList": [
+            "Renekton",
+            "Viego",
+            "Ahri",
+            "Caitlyn",
+            "Karma"
+          ]
+        },
+        "date": "2025-07-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HF7rHmc7vEo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HF7rHmc7vEo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HF7rHmc7vEo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "싱글벙글 라이엇 | GEN vs T1 게임 4 하이라이트 | 07.13 | MSI 2025",
+        "videoId": "I3QPQH09O2Y",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Neeko",
+            "Sylas",
+            "Yorick",
+            "Gragas",
+            "Ambessa"
+          ],
+          "pickList": [
+            "Jayce",
+            "Trundle",
+            "Viktor",
+            "Zeri",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Blitzcrank",
+            "Ziggs",
+            "Lulu"
+          ],
+          "pickList": [
+            "KSante",
+            "Skarner",
+            "Hwei",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "date": "2025-07-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/I3QPQH09O2Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/I3QPQH09O2Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/I3QPQH09O2Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "흠뻑쇼 여신 류나타 | GEN vs T1 게임 3 하이라이트 | 07.13 | MSI 2025",
+        "videoId": "6NCmnn-VQpI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Viktor",
+            "Neeko",
+            "KSante",
+            "TahmKench",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Ornn",
+            "Nocturne",
+            "Azir",
+            "Xayah",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Varus",
+            "Pantheon",
+            "Skarner",
+            "Bard",
+            "Rakan"
+          ],
+          "pickList": [
+            "Rumble",
+            "XinZhao",
+            "Annie",
+            "Sivir",
+            "Rell"
+          ]
+        },
+        "date": "2025-07-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6NCmnn-VQpI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6NCmnn-VQpI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6NCmnn-VQpI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "태 산 | GEN vs T1 게임 2 하이라이트 | 07.13 | MSI 2025",
+        "videoId": "hJ5alAOt4Ow",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Neeko",
+            "Rumble",
+            "Annie",
+            "Ambessa",
+            "Bard"
+          ],
+          "pickList": [
+            "Sion",
+            "Vi",
+            "Ryze",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Azir",
+            "Kaisa",
+            "Xayah"
+          ],
+          "pickList": [
+            "Camille",
+            "Wukong",
+            "Galio",
+            "Corki",
+            "Poppy"
+          ]
+        },
+        "date": "2025-07-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hJ5alAOt4Ow/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hJ5alAOt4Ow/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hJ5alAOt4Ow/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "T1 오리진 | GEN vs T1 게임 1 하이라이트 | 07.13 | MSI 2025",
+        "videoId": "CuGrd_QVWPI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Varus",
+            "XinZhao",
+            "Wukong"
+          ],
+          "pickList": [
+            "Gwen",
+            "JarvanIV",
+            "Orianna",
+            "Jhin",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Neeko",
+            "Azir",
+            "Viktor",
+            "Senna",
+            "Rakan"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Taliyah",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "date": "2025-07-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CuGrd_QVWPI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CuGrd_QVWPI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CuGrd_QVWPI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "티동설 | T1 vs AL 게임 5 하이라이트 | 07.12 | MSI 2025",
+        "videoId": "ZwrbA7SLjQE",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Pantheon",
+            "Azir",
+            "Sion",
+            "Camille",
+            "Bard"
+          ],
+          "pickList": [
+            "Gragas",
+            "Skarner",
+            "Hwei",
+            "Jinx",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Nocturne",
+            "Taliyah",
+            "Caitlyn",
+            "Ahri",
+            "LeBlanc"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Olaf",
+            "TwistedFate",
+            "Ziggs",
+            "Poppy"
+          ]
+        },
+        "date": "2025-07-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZwrbA7SLjQE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZwrbA7SLjQE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZwrbA7SLjQE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "여러분 서커스는 재밌으셨나요? | T1 vs AL 게임 4 하이라이트 | 07.12 | MSI 2025",
+        "videoId": "2jq4g8OPftA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "TwistedFate",
+            "Poppy",
+            "Sion",
+            "Alistar",
+            "Jinx"
+          ],
+          "pickList": [
+            "Jax",
+            "Lillia",
+            "Corki",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Azir",
+            "Taliyah",
+            "Skarner",
+            "Cassiopeia"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Maokai",
+            "Sylas",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2025-07-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2jq4g8OPftA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2jq4g8OPftA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2jq4g8OPftA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "내가 하늘을 가르겠다 | T1 vs AL 게임 3 하이라이트 | 07.12 | MSI 2025",
+        "videoId": "oDVteSgZaL8",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Ambessa",
+            "Taliyah",
+            "TwistedFate",
+            "Corki",
+            "Sivir"
+          ],
+          "pickList": [
+            "Rumble",
+            "XinZhao",
+            "Viktor",
+            "Varus",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Pantheon",
+            "Azir",
+            "Bard",
+            "Poppy",
+            "Sylas"
+          ],
+          "pickList": [
+            "Ornn",
+            "JarvanIV",
+            "Aurora",
+            "MissFortune",
+            "Neeko"
+          ]
+        },
+        "date": "2025-07-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oDVteSgZaL8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oDVteSgZaL8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/oDVteSgZaL8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "도황 진짜 X간지네 | T1 vs AL 게임 2 하이라이트 | 07.12 | MSI 2025",
+        "videoId": "1nvF3cLZfJs",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Taliyah",
+            "Neeko",
+            "JarvanIV",
+            "Rakan",
+            "Alistar"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Ryze",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Azir",
+            "Nocturne",
+            "Jax"
+          ],
+          "pickList": [
+            "Yorick",
+            "Trundle",
+            "Orianna",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "date": "2025-07-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1nvF3cLZfJs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1nvF3cLZfJs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1nvF3cLZfJs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "여기가 카이사의 나라입니까? | T1 vs AL 게임 1 하이라이트 | 07.12 | MSI 2025",
+        "videoId": "qM8laX9Co2c",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Azir",
+            "Varus",
+            "Rakan",
+            "Alistar"
+          ],
+          "pickList": [
+            "Jayce",
+            "Wukong",
+            "Annie",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Taliyah",
+            "Neeko",
+            "Ryze",
+            "Poppy",
+            "Lucian"
+          ],
+          "pickList": [
+            "Gwen",
+            "Vi",
+            "Galio",
+            "Jhin",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-07-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qM8laX9Co2c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qM8laX9Co2c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qM8laX9Co2c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "나만의 작은 갤럭시 | T1 vs GEN 게임 5 하이라이트 | 07.10 | MSI 2025",
+        "videoId": "Kix1rqFEaao",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Ambessa",
+            "Poppy",
+            "Alistar",
+            "Viktor"
+          ],
+          "pickList": [
+            "Gwen",
+            "Vi",
+            "Annie",
+            "Sivir",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "XinZhao",
+            "Galio",
+            "Jayce",
+            "Cassiopeia",
+            "Karma"
+          ],
+          "pickList": [
+            "Fiora",
+            "Skarner",
+            "Akali",
+            "Varus",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-07-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Kix1rqFEaao/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Kix1rqFEaao/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Kix1rqFEaao/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "그래도 티젠은 돈다 | T1 vs GEN 게임 4 하이라이트 | 07.10 | MSI 2025",
+        "videoId": "ll5NdRud7Y4",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Varus",
+            "Yone",
+            "Skarner"
+          ],
+          "pickList": [
+            "Sion",
+            "JarvanIV",
+            "Ryze",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Poppy",
+            "Galio",
+            "XinZhao",
+            "Ornn",
+            "Maokai"
+          ],
+          "pickList": [
+            "Rumble",
+            "Nocturne",
+            "Aurora",
+            "Ezreal",
+            "Rell"
+          ]
+        },
+        "date": "2025-07-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ll5NdRud7Y4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ll5NdRud7Y4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ll5NdRud7Y4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "인간 와드 구하기 | T1 vs GEN 게임 3 하이라이트 | 07.10 | MSI 2025",
+        "videoId": "yA7lTh8trkY",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Gwen",
+            "Vi",
+            "Rumble",
+            "Renekton",
+            "Sion"
+          ],
+          "pickList": [
+            "Yorick",
+            "Wukong",
+            "Taliyah",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Karma",
+            "Rell",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Jax",
+            "Trundle",
+            "Azir",
+            "Corki",
+            "Neeko"
+          ]
+        },
+        "date": "2025-07-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yA7lTh8trkY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yA7lTh8trkY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yA7lTh8trkY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "깃 창 섭 | T1 vs GEN 게임 2 하이라이트 | 07.10 | MSI 2025",
+        "videoId": "alKX62X87Es",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Caitlyn",
+            "Yorick",
+            "TwistedFate",
+            "Nautilus",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Aurora",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Varus",
+            "Vi",
+            "Maokai",
+            "Leona",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Ambessa",
+            "LeeSin",
+            "Sylas",
+            "Draven",
+            "Pyke"
+          ]
+        },
+        "date": "2025-07-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/alKX62X87Es/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/alKX62X87Es/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/alKX62X87Es/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "내가 진짜 자야 | T1 vs GEN 게임 1 하이라이트 | 07.10 | MSI 2025",
+        "videoId": "K2ZUCZTbgrw",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Nautilus",
+            "Maokai",
+            "TwistedFate",
+            "LeeSin",
+            "Aurora"
+          ],
+          "pickList": [
+            "Gragas",
+            "Nocturne",
+            "Orianna",
+            "Corki",
+            "Karma"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Varus",
+            "Vi",
+            "Caitlyn",
+            "Elise",
+            "Pyke"
+          ],
+          "pickList": [
+            "Poppy",
+            "Zed",
+            "Ahri",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-07-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/K2ZUCZTbgrw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/K2ZUCZTbgrw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/K2ZUCZTbgrw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "네. 또 나 입니다. | BLG vs T1 게임 3 하이라이트 | 07.06 | MSI 2025",
+        "videoId": "ksxxRum9Mzg",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Poppy",
+            "Trundle",
+            "Caitlyn",
+            "RenataGlasc",
+            "Corki"
+          ],
+          "pickList": [
+            "KSante",
+            "Pantheon",
+            "Galio",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Varus",
+            "Vi",
+            "Ambessa",
+            "Nautilus",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Viktor",
+            "MissFortune",
+            "Bard"
+          ]
+        },
+        "date": "2025-07-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ksxxRum9Mzg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ksxxRum9Mzg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ksxxRum9Mzg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "방송은 화질 좋아지면 그때부터 다시 시작할게요 | BLG vs T1 게임 2 하이라이트 | 07.06 | MSI 2025",
+        "videoId": "6BqryGivUkA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Sion",
+            "Vi",
+            "Galio",
+            "Senna",
+            "Alistar"
+          ],
+          "pickList": [
+            "Ornn",
+            "JarvanIV",
+            "Taliyah",
+            "Lucian",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Orianna",
+            "XinZhao",
+            "Trundle"
+          ],
+          "pickList": [
+            "Rumble",
+            "Skarner",
+            "Ryze",
+            "Ezreal",
+            "Rell"
+          ]
+        },
+        "date": "2025-07-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6BqryGivUkA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6BqryGivUkA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6BqryGivUkA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "06년생 세최미끼 | BLG vs T1 게임 1 하이라이트 | 07.06 | MSI 2025",
+        "videoId": "P_tynJ0cO9g",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Skarner",
+            "Bard",
+            "Karma"
+          ],
+          "pickList": [
+            "Gwen",
+            "Wukong",
+            "Annie",
+            "Jhin",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Taliyah",
+            "Vi",
+            "Maokai",
+            "Lucian",
+            "Poppy"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Azir",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "date": "2025-07-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/P_tynJ0cO9g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/P_tynJ0cO9g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/P_tynJ0cO9g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "그랩거인 | GEN vs AL 게임 5 하이라이트 | 07.05 | MSI 2025",
+        "videoId": "-0eoas1ofIg",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Cassiopeia",
+            "Azir",
+            "Orianna",
+            "Gragas",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "Rumble",
+            "Nocturne",
+            "Galio",
+            "Ashe",
+            "Shen"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Nami",
+            "Skarner",
+            "Yone",
+            "Caitlyn",
+            "Braum"
+          ],
+          "pickList": [
+            "Urgot",
+            "LeeSin",
+            "Zilean",
+            "Lucian",
+            "Leona"
+          ]
+        },
+        "date": "2025-07-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-0eoas1ofIg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-0eoas1ofIg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-0eoas1ofIg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "저쪽 신사분께서 보낸 5꽉입니다 | GEN vs AL 게임 4 하이라이트 | 07.05 | MSI 2025",
+        "videoId": "A4eQXSMpMRg",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "TwistedFate",
+            "Lucian",
+            "Rumble",
+            "Syndra",
+            "Akali"
+          ],
+          "pickList": [
+            "Sett",
+            "Trundle",
+            "Hwei",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Cassiopeia",
+            "Azir",
+            "Galio",
+            "Orianna",
+            "Sylas"
+          ],
+          "pickList": [
+            "Yorick",
+            "Maokai",
+            "Tristana",
+            "Varus",
+            "Rakan"
+          ]
+        },
+        "date": "2025-07-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/A4eQXSMpMRg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/A4eQXSMpMRg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/A4eQXSMpMRg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "자 이게 주먹이야 | GEN vs AL 게임 3 하이라이트 | 07.05 | MSI 2025",
+        "videoId": "QyuyqcBm6sM",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Cassiopeia",
+            "Azir",
+            "Galio",
+            "Bard",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Vi",
+            "Ahri",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Varus",
+            "TwistedFate",
+            "Rumble",
+            "Ziggs",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Poppy",
+            "Ryze",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "date": "2025-07-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QyuyqcBm6sM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QyuyqcBm6sM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QyuyqcBm6sM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "너 가위바위보 몰라? | GEN vs AL 게임 2 하이라이트 | 07.05 | MSI 2025",
+        "videoId": "SPvQthJbF9o",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Cassiopeia",
+            "Azir",
+            "Galio",
+            "Rakan",
+            "Alistar"
+          ],
+          "pickList": [
+            "Ornn",
+            "Pantheon",
+            "Viktor",
+            "Corki",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "TwistedFate",
+            "Varus",
+            "Rumble",
+            "Jayce",
+            "KSante"
+          ],
+          "pickList": [
+            "Renekton",
+            "Wukong",
+            "Annie",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-07-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SPvQthJbF9o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SPvQthJbF9o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/SPvQthJbF9o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "원조 정글의 왕 | GEN vs AL 게임 1 하이라이트 | 07.05 | MSI 2025",
+        "videoId": "gm7jIlpYwJI",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Yone",
+            "TwistedFate",
+            "Vi",
+            "Gwen",
+            "Ambessa"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Sejuani",
+            "Taliyah",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Pantheon",
+            "Varus",
+            "Renekton",
+            "Trundle",
+            "Wukong"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "Aurora",
+            "MissFortune",
+            "Neeko"
+          ]
+        },
+        "date": "2025-07-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gm7jIlpYwJI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gm7jIlpYwJI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gm7jIlpYwJI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "시차 적응 완료 | CFO vs T1 게임 5 하이라이트 | 07.04 | MSI 2025",
+        "videoId": "Jb9S9JvClko",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Caitlyn",
+            "Viktor",
+            "Sion",
+            "Draven",
+            "Leona"
+          ],
+          "pickList": [
+            "Jayce",
+            "Maokai",
+            "Sylas",
+            "Jinx",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Vi",
+            "Pantheon",
+            "Varus",
+            "TahmKench",
+            "Sejuani"
+          ],
+          "pickList": [
+            "KSante",
+            "JarvanIV",
+            "Aurora",
+            "Sivir",
+            "Thresh"
+          ]
+        },
+        "date": "2025-07-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Jb9S9JvClko/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Jb9S9JvClko/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Jb9S9JvClko/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "사탕 발린 게임 | CFO vs T1 게임 4 하이라이트 | 07.04 | MSI 2025",
+        "videoId": "PAbH-8YoY-U",
+        "winTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Varus",
+            "Sivir",
+            "Senna"
+          ],
+          "pickList": [
+            "Gnar",
+            "Trundle",
+            "Orianna",
+            "Ezreal",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Caitlyn",
+            "Leona",
+            "Nocturne",
+            "Viktor",
+            "Jayce"
+          ],
+          "pickList": [
+            "Gwen",
+            "LeeSin",
+            "Annie",
+            "Xayah",
+            "Rell"
+          ]
+        },
+        "date": "2025-07-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PAbH-8YoY-U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PAbH-8YoY-U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PAbH-8YoY-U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "날아올라 저 하늘 멋진 굴이 될래요! | CFO vs T1 게임 3 하이라이트 | 07.04 | MSI 2025",
+        "videoId": "ueze0ibRRAQ",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Sion",
+            "Caitlyn",
+            "Leona"
+          ],
+          "pickList": [
+            "Galio",
+            "Wukong",
+            "Ryze",
+            "Lucian",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Varus",
+            "Ezreal",
+            "Trundle",
+            "Kalista",
+            "Sivir"
+          ],
+          "pickList": [
+            "Rumble",
+            "Skarner",
+            "Corki",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-07-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ueze0ibRRAQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ueze0ibRRAQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ueze0ibRRAQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "굴의 심판 | CFO vs T1 게임 2 하이라이트 | 07.04 | MSI 2025",
+        "videoId": "pvNLyjZ_V-c",
+        "winTeam": {
+          "teamName": "Anyone s Legend",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Sion",
+            "Caitlyn",
+            "Leona"
+          ],
+          "pickList": [
+            "Yorick",
+            "Poppy",
+            "Azir",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Rumble",
+            "Varus",
+            "Neeko",
+            "Lucian",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Gragas",
+            "XinZhao",
+            "Taliyah",
+            "MissFortune",
+            "Alistar"
+          ]
+        },
+        "date": "2025-07-07",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/pvNLyjZ_V-c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/pvNLyjZ_V-c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/pvNLyjZ_V-c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아 집에 좀 가자고 | CFO vs T1 게임 1 하이라이트 | 07.04 | MSI 2025",
+        "videoId": "3PTD1Jd8UdI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gwen",
+            "MissFortune",
+            "Aurora",
+            "Rakan",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "Skarner",
+            "Ryze",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "TwistedFate",
+            "Nocturne",
+            "Sylas",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Vi",
+            "Ahri",
+            "Xayah",
+            "Gragas"
+          ]
+        },
+        "date": "2025-07-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3PTD1Jd8UdI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3PTD1Jd8UdI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3PTD1Jd8UdI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "밴쿠버 상황 파악 끝! | GEN vs G2 게임 4 하이라이트 | 07.02 | MSI 2025",
+        "videoId": "jyKgRza4ve0",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gwen",
+            "Varus",
+            "Vi",
+            "Lulu",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Ornn",
+            "XinZhao",
+            "Viktor",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "TwistedFate",
+            "Galio",
+            "Rakan",
+            "Lucian"
+          ],
+          "pickList": [
+            "Rumble",
+            "Wukong",
+            "Annie",
+            "Ezreal",
+            "Rell"
+          ]
+        },
+        "date": "2025-07-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/jyKgRza4ve0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/jyKgRza4ve0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/jyKgRza4ve0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "캐니언 비기 1장 - 전령 승마술 | GEN vs G2 게임 3 하이라이트 | 07.02 | MSI 2025",
+        "videoId": "VsV1sqQ9cao",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gwen",
+            "Vi",
+            "Rumble",
+            "Karma",
+            "Rakan"
+          ],
+          "pickList": [
+            "Yorick",
+            "Pantheon",
+            "Orianna",
+            "Jhin",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Varus",
+            "Azir",
+            "TwistedFate",
+            "Lucian",
+            "Corki"
+          ],
+          "pickList": [
+            "Sion",
+            "Poppy",
+            "Taliyah",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-07-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VsV1sqQ9cao/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VsV1sqQ9cao/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VsV1sqQ9cao/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "끝까지 방심하지 말 것 | GEN vs G2 게임 2 하이라이트 | 07.02 | MSI 2025",
+        "videoId": "spRpSbIez_c",
+        "winTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Maokai",
+            "Gwen",
+            "Varus",
+            "Ahri",
+            "Orianna"
+          ],
+          "pickList": [
+            "KSante",
+            "Pantheon",
+            "Viktor",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Movistar KOI",
+          "banList": [
+            "Gragas",
+            "Jax",
+            "Ornn",
+            "Lucian",
+            "Senna"
+          ],
+          "pickList": [
+            "Renekton",
+            "Vi",
+            "AurelionSol",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2025-07-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/spRpSbIez_c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/spRpSbIez_c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/spRpSbIez_c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "어서와 밴쿠버는 처음이지? | GEN vs G2 게임 1 하이라이트 | 07.02 | MSI 2025",
+        "videoId": "xmYOQYrd0bQ",
+        "winTeam": {
+          "teamName": "Movistar KOI",
+          "banList": [
+            "Jayce",
+            "Pantheon",
+            "KSante",
+            "Lucian",
+            "Neeko"
+          ],
+          "pickList": [
+            "Irelia",
+            "Poppy",
+            "Taliyah",
+            "Xayah",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "CTBC Flying Oyster",
+          "banList": [
+            "Gwen",
+            "Vi",
+            "Maokai",
+            "Varus",
+            "Kalista"
+          ],
+          "pickList": [
+            "Yorick",
+            "Nocturne",
+            "Aurora",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "date": "2025-07-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xmYOQYrd0bQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xmYOQYrd0bQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xmYOQYrd0bQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2025 LCK All",
-    "startDate": "2025-09-21",
+    "startDate": "2025-09-28",
     "lastDate": "2025-04-02",
     "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "Redemption for One Legacy | HLE vs GEN | 게임 4 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+        "videoId": "r3RQLsPiCHI",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Yone",
+            "Sivir",
+            "Maokai",
+            "Jhin",
+            "Jax"
+          ],
+          "pickList": [
+            "Yorick",
+            "Pantheon",
+            "Cassiopeia",
+            "Xayah",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "Annie",
+            "Aatrox",
+            "Kalista"
+          ],
+          "pickList": [
+            "Ornn",
+            "Skarner",
+            "Viktor",
+            "Lucian",
+            "Pyke"
+          ]
+        },
+        "date": "2025-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "캡틴 인스파이어: 슈퍼 솔저 | HLE vs GEN | 게임 3 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+        "videoId": "Qw1e42T5WN4",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Annie",
+            "Renekton",
+            "Pantheon",
+            "Sivir",
+            "Skarner"
+          ],
+          "pickList": [
+            "Ambessa",
+            "JarvanIV",
+            "Sylas",
+            "Smolder",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "Lucian",
+            "Lulu",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Galio",
+            "Ziggs",
+            "Alistar"
+          ]
+        },
+        "date": "2025-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "속죄의 캐리하셨잖아~ | HLE vs GEN | 게임 2 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+        "videoId": "eRS2wK3VfDs",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "JarvanIV",
+            "Alistar",
+            "Lulu"
+          ],
+          "pickList": [
+            "Gwen",
+            "XinZhao",
+            "Taliyah",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Galio",
+            "Annie",
+            "Pantheon",
+            "Sivir",
+            "Xayah"
+          ],
+          "pickList": [
+            "Rumble",
+            "Trundle",
+            "Akali",
+            "Yunara",
+            "Leona"
+          ]
+        },
+        "date": "2025-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "전 늙은 여우죠(피지컬로 다 패며) | HLE vs GEN | 게임 1 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+        "videoId": "ryxDp_PjJBI",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "JarvanIV",
+            "Alistar",
+            "Ambessa"
+          ],
+          "pickList": [
+            "Sion",
+            "Vi",
+            "Ryze",
+            "Ezreal",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Galio",
+            "Yunara",
+            "Pantheon",
+            "Kaisa",
+            "Sivir"
+          ],
+          "pickList": [
+            "Aurora",
+            "Poppy",
+            "Orianna",
+            "Corki",
+            "Rell"
+          ]
+        },
+        "date": "2025-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "엘호젠 | KT vs GEN | 게임 3 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+        "videoId": "w9Kt9VYrF_g",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "Ryze",
+            "Smolder",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "Ornn",
+            "Maokai",
+            "Yone",
+            "Jhin",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Pantheon",
+            "Galio",
+            "Aurora",
+            "Kaisa",
+            "Gwen"
+          ],
+          "pickList": [
+            "Renekton",
+            "Vi",
+            "Ahri",
+            "Ziggs",
+            "Leona"
+          ]
+        },
+        "date": "2025-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "인스파이어 '아레나' | KT vs GEN | 게임 2 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+        "videoId": "WHYtaIMgx1E",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "Ryze",
+            "Kaisa",
+            "Jhin"
+          ],
+          "pickList": [
+            "Aatrox",
+            "XinZhao",
+            "Taliyah",
+            "Sivir",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Pantheon",
+            "Vi",
+            "Alistar",
+            "Xayah",
+            "Gwen"
+          ],
+          "pickList": [
+            "Sion",
+            "Trundle",
+            "Akali",
+            "Zeri",
+            "Neeko"
+          ]
+        },
+        "date": "2025-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "이륙 준비 완료! 최고의 원딜까지 있다고! | KT vs GEN | 게임 1 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+        "videoId": "M-zTTRvlheg",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Azir",
+            "Wukong",
+            "Ryze",
+            "Ornn",
+            "Lulu"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Orianna",
+            "Corki",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Pantheon",
+            "Galio",
+            "Neeko",
+            "Gwen",
+            "Alistar"
+          ],
+          "pickList": [
+            "Ambessa",
+            "Poppy",
+            "Annie",
+            "Yunara",
+            "Nautilus"
+          ]
+        },
+        "date": "2025-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/M-zTTRvlheg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/M-zTTRvlheg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/M-zTTRvlheg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
       {
         "videoTitle": "저승사자 쵸진우 | GEN vs T1 | 게임 5 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
         "videoId": "_dyQDFSRqu8",

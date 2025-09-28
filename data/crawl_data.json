@@ -24447,14 +24447,285 @@
       "league": "LCK 2025 Season Playoffs",
       "lckMatchRawDataList": [
         {
+          "id": "72638",
+          "leftTeam": "Hanwha Life eSports",
+          "leftTeamTotalScore": 1,
+          "rightTeam": "Gen.G eSports",
+          "rightTeamTotalScore": 3,
+          "date": "2025-09-28",
+          "lckGameRawDataList": [
+            {
+              "id": "72638",
+              "gameRound": 1,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Galio",
+                "Yunara",
+                "Pantheon",
+                "Kaisa",
+                "Sivir"
+              ],
+              "leftTeamPicks": [
+                "Aurora",
+                "Poppy",
+                "Orianna",
+                "Corki",
+                "Rell"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "JarvanIV",
+                "Alistar",
+                "Ambessa"
+              ],
+              "rightTeamPicks": [
+                "Sion",
+                "Vi",
+                "Ryze",
+                "Ezreal",
+                "Neeko"
+              ],
+              "gameDuration": "PT34.03S"
+            },
+            {
+              "id": "72639",
+              "gameRound": 2,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Galio",
+                "Annie",
+                "Pantheon",
+                "Sivir",
+                "Xayah"
+              ],
+              "leftTeamPicks": [
+                "Rumble",
+                "Trundle",
+                "Akali",
+                "Yunara",
+                "Leona"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "JarvanIV",
+                "Alistar",
+                "Lulu"
+              ],
+              "rightTeamPicks": [
+                "Gwen",
+                "XinZhao",
+                "Taliyah",
+                "Kaisa",
+                "Rakan"
+              ],
+              "gameDuration": "PT41.039S"
+            },
+            {
+              "id": "72640",
+              "gameRound": 3,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 1,
+              "leftTeamBans": [
+                "Annie",
+                "Renekton",
+                "Pantheon",
+                "Sivir",
+                "Skarner"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "JarvanIV",
+                "Sylas",
+                "Smolder",
+                "Braum"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "Lucian",
+                "Lulu",
+                "RenataGlasc"
+              ],
+              "rightTeamPicks": [
+                "KSante",
+                "LeeSin",
+                "Galio",
+                "Ziggs",
+                "Alistar"
+              ],
+              "gameDuration": "PT56.028S"
+            },
+            {
+              "id": "72641",
+              "gameRound": 4,
+              "leftTeam": "Hanwha Life eSports",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Azir",
+                "Wukong",
+                "Annie",
+                "Aatrox",
+                "Kalista"
+              ],
+              "leftTeamPicks": [
+                "Ornn",
+                "Skarner",
+                "Viktor",
+                "Lucian",
+                "Pyke"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Yone",
+                "Sivir",
+                "Maokai",
+                "Jhin",
+                "Jax"
+              ],
+              "rightTeamPicks": [
+                "Yorick",
+                "Pantheon",
+                "Cassiopeia",
+                "Xayah",
+                "Blitzcrank"
+              ],
+              "gameDuration": "PT21.042S"
+            }
+          ],
+          "played": true
+        },
+        {
           "id": "72551",
           "leftTeam": "KT Rolster",
           "leftTeamTotalScore": 0,
           "rightTeam": "Gen.G eSports",
-          "rightTeamTotalScore": 0,
+          "rightTeamTotalScore": 3,
           "date": "2025-09-27",
-          "lckGameRawDataList": null,
-          "played": false
+          "lckGameRawDataList": [
+            {
+              "id": "72551",
+              "gameRound": 1,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Pantheon",
+                "Galio",
+                "Neeko",
+                "Gwen",
+                "Alistar"
+              ],
+              "leftTeamPicks": [
+                "Ambessa",
+                "Poppy",
+                "Annie",
+                "Yunara",
+                "Nautilus"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "Ryze",
+                "Ornn",
+                "Lulu"
+              ],
+              "rightTeamPicks": [
+                "Rumble",
+                "JarvanIV",
+                "Orianna",
+                "Corki",
+                "Rell"
+              ],
+              "gameDuration": "PT4.033S"
+            },
+            {
+              "id": "72552",
+              "gameRound": 2,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Pantheon",
+                "Vi",
+                "Alistar",
+                "Xayah",
+                "Gwen"
+              ],
+              "leftTeamPicks": [
+                "Sion",
+                "Trundle",
+                "Akali",
+                "Zeri",
+                "Neeko"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "Ryze",
+                "Kaisa",
+                "Jhin"
+              ],
+              "rightTeamPicks": [
+                "Aatrox",
+                "XinZhao",
+                "Taliyah",
+                "Sivir",
+                "Rakan"
+              ],
+              "gameDuration": "PT53.028S"
+            },
+            {
+              "id": "72553",
+              "gameRound": 3,
+              "leftTeam": "KT Rolster",
+              "leftTeamScore": 0,
+              "leftTeamBans": [
+                "Pantheon",
+                "Galio",
+                "Aurora",
+                "Kaisa",
+                "Gwen"
+              ],
+              "leftTeamPicks": [
+                "Renekton",
+                "Vi",
+                "Ahri",
+                "Ziggs",
+                "Leona"
+              ],
+              "rightTeam": "Gen.G eSports",
+              "rightTeamScore": 0,
+              "rightTeamBans": [
+                "Azir",
+                "Wukong",
+                "Ryze",
+                "Smolder",
+                "TwistedFate"
+              ],
+              "rightTeamPicks": [
+                "Ornn",
+                "Maokai",
+                "Yone",
+                "Jhin",
+                "Alistar"
+              ],
+              "gameDuration": "PT12.03S"
+            }
+          ],
+          "played": true
         },
         {
           "id": "72526",

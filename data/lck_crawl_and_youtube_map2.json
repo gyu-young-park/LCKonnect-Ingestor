@@ -10,6 +10,11 @@
     "youtube_list": ["2025 LCK MSI 대표 선발전 게임 하이라이트"]
   },
   {
+    "name": "2025 LCK MSI",
+    "crawl_list": ["2025 Mid-Season Invitational"],
+    "youtube_list": ["MSI 2025 게임 하이라이트"]
+  },
+  {
     "name": "2025 LCK All",
     "crawl_list": ["LCK 2025 Season Playoffs","LCK 2025 Rounds 3-5","LCK 2025 Season Play-In", "LCK 2025 Rounds 1-2"],
     "youtube_list": ["2025 LCK 게임 하이라이트"]

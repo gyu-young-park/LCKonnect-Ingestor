@@ -139,7 +139,7 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 championship.setLastDate(match.getDate());
 
                 List<LCKGameRawData> gameList = match.getLckGameRawDataList();
-                for (int i = gameList.size() - 1; i >= 0; i--, videoIndex++) {
+                for (int i = gameList.size() - 1; i >= 0 && videoIndex < videoList.size(); i--, videoIndex++) {
                     LCKGameRawData game = gameList.get(i);
                     LCKVideoModel video = videoList.get(videoIndex);
 

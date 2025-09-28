@@ -1019,6 +1019,146 @@
         "playListId": "PLIWtfvmBcNofXW-gpSAHfO3c6pv51EXzI",
         "lckVideoList": [
           {
+            "title": "Redemption for One Legacy | HLE vs GEN | 게임 4 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+            "videoId": "r3RQLsPiCHI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/r3RQLsPiCHI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "캡틴 인스파이어: 슈퍼 솔저 | HLE vs GEN | 게임 3 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+            "videoId": "Qw1e42T5WN4",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/Qw1e42T5WN4/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "속죄의 캐리하셨잖아~ | HLE vs GEN | 게임 2 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+            "videoId": "eRS2wK3VfDs",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/eRS2wK3VfDs/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "전 늙은 여우죠(피지컬로 다 패며) | HLE vs GEN | 게임 1 하이라이트 | 09.28 | 우리은행 2025 LCK 결승전",
+            "videoId": "ryxDp_PjJBI",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/ryxDp_PjJBI/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "엘호젠 | KT vs GEN | 게임 3 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+            "videoId": "w9Kt9VYrF_g",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/w9Kt9VYrF_g/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "인스파이어 '아레나' | KT vs GEN | 게임 2 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+            "videoId": "WHYtaIMgx1E",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/WHYtaIMgx1E/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
+            "title": "이륙 준비 완료! 최고의 원딜까지 있다고! | KT vs GEN | 게임 1 하이라이트 | 09.27 | 우리은행 2025 LCK 결승 진출전",
+            "videoId": "M-zTTRvlheg",
+            "defaultThumbnail": null,
+            "medium": {
+              "url": "https://i.ytimg.com/vi/M-zTTRvlheg/mqdefault.jpg",
+              "width": 320,
+              "height": 180
+            },
+            "high": {
+              "url": "https://i.ytimg.com/vi/M-zTTRvlheg/hqdefault.jpg",
+              "width": 480,
+              "height": 360
+            },
+            "standard": {
+              "url": "https://i.ytimg.com/vi/M-zTTRvlheg/sddefault.jpg",
+              "width": 640,
+              "height": 480
+            }
+          },
+          {
             "title": "저승사자 쵸진우 | GEN vs T1 | 게임 5 하이라이트 | 09.21 | 우리은행 2025 LCK 플레이오프",
             "videoId": "_dyQDFSRqu8",
             "defaultThumbnail": null,
@@ -2797,14 +2937,6 @@
               "width": 640,
               "height": 480
             }
-          },
-          {
-            "title": "Private video",
-            "videoId": "T44Fl-Delh4",
-            "defaultThumbnail": null,
-            "medium": null,
-            "high": null,
-            "standard": null
           },
           {
             "title": "청소기 파괴자 | DRX vs DK | 게임 3 하이라이트 | 08.22 | 2025 LCK",
