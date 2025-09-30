@@ -1,5 +1,1956 @@
 [
   {
+    "championshipName": "2024 Worlds",
+    "startDate": "2024-11-02",
+    "lastDate": "2024-10-05",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "Made Them Believe | T1 vs BLG 게임5 하이라이트 | 결승전 | 11.02 | 2024 월드 챔피언십",
+        "videoId": "2lRXA2hN-FY",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Kalista",
+            "Wukong",
+            "Kindred"
+          ],
+          "pickList": [
+            "Gragas",
+            "XinZhao",
+            "Galio",
+            "Xayah",
+            "Poppy"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Varus",
+            "Ashe",
+            "Skarner",
+            "Rakan",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Jax",
+            "JarvanIV",
+            "Ahri",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "date": "2024-11-02",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2lRXA2hN-FY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2lRXA2hN-FY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2lRXA2hN-FY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "League of Legend | T1 vs BLG 게임4 하이라이트 | 결승전 | 11.02 | 2024 월드 챔피언십",
+        "videoId": "NQAj0eF7XBE",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Jax",
+            "Yone",
+            "Varus",
+            "Blitzcrank",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Rumble",
+            "Poppy",
+            "Sylas",
+            "Ashe",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Skarner",
+            "Kalista",
+            "Vi",
+            "Nocturne"
+          ],
+          "pickList": [
+            "Gnar",
+            "Sejuani",
+            "Smolder",
+            "Ziggs",
+            "Rakan"
+          ]
+        },
+        "date": "2024-11-02",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NQAj0eF7XBE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NQAj0eF7XBE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NQAj0eF7XBE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "화력 터빈 | T1 vs BLG 게임3 하이라이트 | 결승전 | 11.02 | 2024 월드 챔피언십",
+        "videoId": "z1QuhtgN3W0",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Varus",
+            "Ashe",
+            "Skarner",
+            "Sejuani",
+            "Draven"
+          ],
+          "pickList": [
+            "Rumble",
+            "Kindred",
+            "Galio",
+            "Kalista",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Neeko",
+            "Akali",
+            "Wukong"
+          ],
+          "pickList": [
+            "Jax",
+            "Vi",
+            "Sylas",
+            "Xayah",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-11-02",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/z1QuhtgN3W0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/z1QuhtgN3W0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/z1QuhtgN3W0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "민석아 알지?😉 | T1 vs BLG 게임2 하이라이트 | 결승전 | 11.02 | 2024 월드 챔피언십",
+        "videoId": "-9XXi2dP0oU",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Jax",
+            "Yone",
+            "Varus",
+            "Kindred",
+            "Wukong"
+          ],
+          "pickList": [
+            "Ornn",
+            "Nocturne",
+            "Sylas",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Skarner",
+            "Vi",
+            "Gnar",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Rumble",
+            "XinZhao",
+            "Galio",
+            "Ashe",
+            "Rakan"
+          ]
+        },
+        "date": "2024-11-02",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-9XXi2dP0oU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-9XXi2dP0oU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-9XXi2dP0oU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "비어강 | T1 vs BLG 게임1 하이라이트 | 결승전 | 11.02 | 2024 월드 챔피언십",
+        "videoId": "lKpMWBBKPd0",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Vi",
+            "Varus",
+            "Ziggs",
+            "Jhin"
+          ],
+          "pickList": [
+            "Rumble",
+            "Skarner",
+            "Sylas",
+            "Ashe",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Jax",
+            "Kaisa",
+            "Kalista",
+            "RenataGlasc",
+            "Rakan"
+          ],
+          "pickList": [
+            "Gnar",
+            "Sejuani",
+            "Yone",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "date": "2024-11-02",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lKpMWBBKPd0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lKpMWBBKPd0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lKpMWBBKPd0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "La Grande Arche de la Fraternité | T1 vs GEN 게임4 하이라이트 | 녹아웃 스테이지 4강 | 10.27 | 2024 월드 챔피언십",
+        "videoId": "_c-XR9CSR7A",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Smolder",
+            "Aurora",
+            "KSante",
+            "Braum"
+          ],
+          "pickList": [
+            "Jax",
+            "Skarner",
+            "Ahri",
+            "Varus",
+            "Pyke"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Kalista",
+            "Xayah",
+            "Sylas",
+            "Bard",
+            "Orianna"
+          ],
+          "pickList": [
+            "Poppy",
+            "Nidalee",
+            "Tristana",
+            "Ashe",
+            "Maokai"
+          ]
+        },
+        "date": "2024-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/_c-XR9CSR7A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/_c-XR9CSR7A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/_c-XR9CSR7A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "서머타임이 끝났습니다. 가을은 고개를 들어주세요. | T1 vs GEN 게임3 하이라이트 | 녹아웃 스테이지 4강 | 10.27 | 2024 월드 챔피언십",
+        "videoId": "axA0U8Iu2Fw",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Nidalee",
+            "Smolder",
+            "Yone",
+            "Kaisa",
+            "Twitch"
+          ],
+          "pickList": [
+            "Gragas",
+            "Vi",
+            "Akali",
+            "Ashe",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Xayah",
+            "Kalista",
+            "Aurora",
+            "Kindred",
+            "Sylas"
+          ],
+          "pickList": [
+            "Jax",
+            "Nocturne",
+            "Ahri",
+            "Ezreal",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/axA0U8Iu2Fw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/axA0U8Iu2Fw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/axA0U8Iu2Fw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "나 강타있는데? | T1 vs GEN 게임2 하이라이트 | 녹아웃 스테이지 4강 | 10.27 | 2024 월드 챔피언십",
+        "videoId": "FWkV8x1y0ps",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Kalista",
+            "Xayah",
+            "Ashe",
+            "Galio",
+            "Orianna"
+          ],
+          "pickList": [
+            "Jax",
+            "Skarner",
+            "Ahri",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Smolder",
+            "Aurora",
+            "Lulu",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Maokai",
+            "Kindred",
+            "Sylas",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "date": "2024-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FWkV8x1y0ps/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FWkV8x1y0ps/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FWkV8x1y0ps/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "프레스티지 불사의 서커스 애쉬 | T1 vs GEN 게임1 하이라이트 | 녹아웃 스테이지 4강 | 10.27 | 2024 월드 챔피언십",
+        "videoId": "2kIy_qMu6JA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Nidalee",
+            "Smolder",
+            "Jax",
+            "Blitzcrank",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Gragas",
+            "Vi",
+            "Yone",
+            "Ashe",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Aurora",
+            "Kalista",
+            "Xayah",
+            "Sejuani",
+            "Rumble"
+          ],
+          "pickList": [
+            "Renekton",
+            "Skarner",
+            "Sylas",
+            "Ziggs",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2kIy_qMu6JA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2kIy_qMu6JA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2kIy_qMu6JA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "쵸로의 하루 | GEN vs FLY 게임5 하이라이트 | 녹아웃 스테이지 8강 | 10.20 | 2024 월드 챔피언십",
+        "videoId": "KQfTyXepIvE",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ivern",
+            "Ashe",
+            "Amumu",
+            "Galio",
+            "Rell"
+          ],
+          "pickList": [
+            "Rumble",
+            "Skarner",
+            "Smolder",
+            "Ziggs",
+            "Maokai"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Nidalee",
+            "Jax",
+            "Rakan",
+            "MissFortune"
+          ],
+          "pickList": [
+            "Sett",
+            "Fiddlesticks",
+            "Yone",
+            "Kalista",
+            "Alistar"
+          ]
+        },
+        "date": "2024-10-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KQfTyXepIvE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KQfTyXepIvE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KQfTyXepIvE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "🙏🙏🙏🙏🙏 | GEN vs FLY 게임4 하이라이트 | 녹아웃 스테이지 8강 | 10.20 | 2024 월드 챔피언십",
+        "videoId": "kEWJrFMj0fY",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Seraphine",
+            "Ivern",
+            "Skarner",
+            "XinZhao",
+            "Vi"
+          ],
+          "pickList": [
+            "KSante",
+            "Nidalee",
+            "Tristana",
+            "Ashe",
+            "Maokai"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Jax",
+            "Rell",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sejuani",
+            "Orianna",
+            "Ezreal",
+            "Rakan"
+          ]
+        },
+        "date": "2024-10-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kEWJrFMj0fY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kEWJrFMj0fY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kEWJrFMj0fY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "월즈 뮤비 나온 거 나 마쑤 | GEN vs FLY 게임3 하이라이트 | 녹아웃 스테이지 8강 | 10.20 | 2024 월드 챔피언십",
+        "videoId": "VaNsvFz835s",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Jax",
+            "Kalista",
+            "KSante",
+            "Rell"
+          ],
+          "pickList": [
+            "Urgot",
+            "Skarner",
+            "Zeri",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ashe",
+            "Ivern",
+            "Yone",
+            "Olaf",
+            "Orianna"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sejuani",
+            "Sylas",
+            "Ezreal",
+            "Braum"
+          ]
+        },
+        "date": "2024-10-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VaNsvFz835s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VaNsvFz835s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VaNsvFz835s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "씰룩씰룩 | GEN vs FLY 게임2 하이라이트 | 녹아웃 스테이지 8강 | 10.20 | 2024 월드 챔피언십",
+        "videoId": "piXk7TJN5JM",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Seraphine",
+            "Ivern",
+            "Skarner",
+            "XinZhao",
+            "Vi"
+          ],
+          "pickList": [
+            "Jax",
+            "Nidalee",
+            "Kassadin",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Nocturne",
+            "Tristana",
+            "Rell"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nunu",
+            "Orianna",
+            "Ezreal",
+            "Rakan"
+          ]
+        },
+        "date": "2024-10-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/piXk7TJN5JM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/piXk7TJN5JM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/piXk7TJN5JM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "\"세상을 바꿔보는 거야!\" | GEN vs FLY 게임1 하이라이트 | 녹아웃 스테이지 8강 | 10.20 | 2024 월드 챔피언십",
+        "videoId": "QJ7sXmbfbbY",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Ezreal",
+            "Rell",
+            "Rakan"
+          ],
+          "pickList": [
+            "Galio",
+            "XinZhao",
+            "Seraphine",
+            "Ashe",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ivern",
+            "Renekton",
+            "Orianna",
+            "Cassiopeia",
+            "Amumu"
+          ],
+          "pickList": [
+            "Rumble",
+            "Skarner",
+            "Ahri",
+            "Jinx",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QJ7sXmbfbbY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QJ7sXmbfbbY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QJ7sXmbfbbY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Beelzebub | TES vs T1 게임3 하이라이트 | 녹아웃 스테이지 8강 | 10.19 | 2024 월드 챔피언십",
+        "videoId": "OlEmArd2zyE",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Skarner",
+            "Jax",
+            "Rell"
+          ],
+          "pickList": [
+            "Gnar",
+            "Poppy",
+            "Galio",
+            "Xayah",
+            "Pyke"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Rakan",
+            "Kalista",
+            "Rumble",
+            "RenataGlasc",
+            "Vi"
+          ],
+          "pickList": [
+            "Kennen",
+            "XinZhao",
+            "Sylas",
+            "Kaisa",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OlEmArd2zyE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OlEmArd2zyE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OlEmArd2zyE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아리아리랑 | TES vs T1 게임2 하이라이트 | 녹아웃 스테이지 8강 | 10.19 | 2024 월드 챔피언십",
+        "videoId": "ccgPrCWIl4Y",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Skarner",
+            "Renekton",
+            "KSante"
+          ],
+          "pickList": [
+            "Rumble",
+            "XinZhao",
+            "Ahri",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Gnar",
+            "Kalista",
+            "Sejuani",
+            "Orianna",
+            "Tristana"
+          ],
+          "pickList": [
+            "Galio",
+            "Viego",
+            "Sylas",
+            "Ezreal",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ccgPrCWIl4Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ccgPrCWIl4Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ccgPrCWIl4Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "주크럭스 | TES vs T1 게임1 하이라이트 | 녹아웃 스테이지 8강 | 10.19 | 2024 월드 챔피언십",
+        "videoId": "tEJYs4Xt0i8",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Skarner",
+            "Ezreal",
+            "Poppy"
+          ],
+          "pickList": [
+            "Camille",
+            "Sejuani",
+            "Sylas",
+            "Caitlyn",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Gnar",
+            "Kalista",
+            "Vi",
+            "Ashe",
+            "Rakan"
+          ],
+          "pickList": [
+            "Rumble",
+            "Ivern",
+            "Tristana",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tEJYs4Xt0i8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tEJYs4Xt0i8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tEJYs4Xt0i8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you, HLE | HLE vs BLG 게임4 하이라이트 | 녹아웃 스테이지 8강 | 10.18 | 2024 월드 챔피언십",
+        "videoId": "PzFtOMYNxJk",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Sejuani",
+            "Ezreal",
+            "Xayah"
+          ],
+          "pickList": [
+            "Jax",
+            "Kindred",
+            "Galio",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Kalista",
+            "Skarner",
+            "Ashe",
+            "Wukong",
+            "Vi"
+          ],
+          "pickList": [
+            "Gnar",
+            "Poppy",
+            "Sylas",
+            "MissFortune",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PzFtOMYNxJk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PzFtOMYNxJk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PzFtOMYNxJk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "꽁꽁 얼어붙은 프렐요드 위로 엘크가 걸어다닙니다 | HLE vs BLG 게임3 하이라이트 | 녹아웃 스테이지 8강 | 10.18 | 2024 월드 챔피언십",
+        "videoId": "7tXVevomg7A",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Ezreal",
+            "Kaisa",
+            "Twitch"
+          ],
+          "pickList": [
+            "Gnar",
+            "Wukong",
+            "Sylas",
+            "Ashe",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Kalista",
+            "Skarner",
+            "Vi",
+            "Sejuani",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Jax",
+            "Nocturne",
+            "Ahri",
+            "Zeri",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7tXVevomg7A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7tXVevomg7A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7tXVevomg7A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "빈 fun fun | HLE vs BLG 게임2 하이라이트 | 녹아웃 스테이지 8강 | 10.18 | 2024 월드 챔피언십",
+        "videoId": "9Omg0oMJQGM",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Poppy",
+            "Sylas",
+            "Jax",
+            "Kalista",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Rumble",
+            "Sejuani",
+            "Yone",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Aurora",
+            "Renekton",
+            "Vi",
+            "Ashe",
+            "Rell"
+          ],
+          "pickList": [
+            "Gnar",
+            "Skarner",
+            "Ahri",
+            "Kaisa",
+            "Alistar"
+          ]
+        },
+        "date": "2024-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9Omg0oMJQGM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9Omg0oMJQGM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9Omg0oMJQGM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "너도 1시드라며? | HLE vs BLG 게임1 하이라이트 | 녹아웃 스테이지 8강 | 10.18 | 2024 월드 챔피언십",
+        "videoId": "Z8ugp60-saM",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Kalista",
+            "Renekton",
+            "Skarner",
+            "Kaisa",
+            "Ashe"
+          ],
+          "pickList": [
+            "Gnar",
+            "Poppy",
+            "Sylas",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Jax",
+            "Xayah",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Ahri",
+            "MissFortune",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z8ugp60-saM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z8ugp60-saM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Z8ugp60-saM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you, DK | DK vs WBG 게임3 하이라이트 | 스위스 스테이지 Day9 | 10.13 | 2024 월드 챔피언십",
+        "videoId": "WuPzTj4vr1I",
+        "winTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "LeBlanc",
+            "Kalista",
+            "Ziggs",
+            "Kaisa",
+            "Rumble"
+          ],
+          "pickList": [
+            "Gnar",
+            "Morgana",
+            "Aurora",
+            "Ezreal",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Skarner",
+            "Orianna",
+            "Renekton",
+            "Poppy",
+            "Leona"
+          ],
+          "pickList": [
+            "Gragas",
+            "Vi",
+            "Yone",
+            "MissFortune",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/WuPzTj4vr1I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/WuPzTj4vr1I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/WuPzTj4vr1I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "영감 미안 하오 | DK vs WBG 게임2 하이라이트 | 스위스 스테이지 Day9 | 10.13 | 2024 월드 챔피언십",
+        "videoId": "AlpzhL6h3ME",
+        "winTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "Vi",
+            "Kalista",
+            "LeBlanc",
+            "Jax",
+            "Rell"
+          ],
+          "pickList": [
+            "Gnar",
+            "Brand",
+            "Yone",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Ashe",
+            "Skarner",
+            "Sejuani",
+            "Leona",
+            "Maokai"
+          ],
+          "pickList": [
+            "Camille",
+            "Nocturne",
+            "Aurora",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-10-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AlpzhL6h3ME/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AlpzhL6h3ME/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AlpzhL6h3ME/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "넥서스타 | DK vs WBG 게임1 하이라이트 | 스위스 스테이지 Day9 | 10.13 | 2024 월드 챔피언십",
+        "videoId": "d-27p3daJaM",
+        "winTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Ashe",
+            "Skarner",
+            "Aurora",
+            "Rell",
+            "Rakan"
+          ],
+          "pickList": [
+            "Rumble",
+            "LeeSin",
+            "LeBlanc",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "Vi",
+            "Gnar",
+            "Yone",
+            "KSante",
+            "Gragas"
+          ],
+          "pickList": [
+            "Jax",
+            "Nocturne",
+            "Orianna",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "date": "2024-10-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/d-27p3daJaM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/d-27p3daJaM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/d-27p3daJaM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "전설을 만들어 갑니다 | G2 vs T1 게임2 하이라이트 | 스위스 스테이지 Day7 | 10.11 | 2024 월드 챔피언십",
+        "videoId": "Lztqm9fenYI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Brand",
+            "Poppy",
+            "Rell"
+          ],
+          "pickList": [
+            "Jax",
+            "Vi",
+            "Ahri",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "RenataGlasc",
+            "Kalista",
+            "Skarner",
+            "Braum",
+            "Xayah"
+          ],
+          "pickList": [
+            "Gnar",
+            "Nocturne",
+            "Orianna",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Lztqm9fenYI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Lztqm9fenYI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Lztqm9fenYI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "귀여워~ | G2 vs T1 게임1 하이라이트 | 스위스 스테이지 Day7 | 10.11 | 2024 월드 챔피언십",
+        "videoId": "qjDsUk2iQ2k",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Brand",
+            "Rell",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Gragas",
+            "Skarner",
+            "Ahri",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "RenataGlasc",
+            "Kalista",
+            "Braum",
+            "Xayah",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Jax",
+            "Nocturne",
+            "Orianna",
+            "Draven",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qjDsUk2iQ2k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qjDsUk2iQ2k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qjDsUk2iQ2k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "학생 왕후루 먹어 | HLE vs FLY 게임3 하이라이트 | 스위스 스테이지 Day6 | 10.10 | 2024 월드 챔피언십",
+        "videoId": "A0mr1eqEf1E",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Ivern",
+            "Renekton",
+            "Kalista",
+            "Olaf",
+            "Leona"
+          ],
+          "pickList": [
+            "Gnar",
+            "Skarner",
+            "Sylas",
+            "Xayah",
+            "Poppy"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Jax",
+            "Rakan",
+            "Alistar"
+          ],
+          "pickList": [
+            "Sion",
+            "Vi",
+            "Cassiopeia",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/A0mr1eqEf1E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/A0mr1eqEf1E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/A0mr1eqEf1E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "프렐요드 신규 챔피언 | HLE vs FLY 게임2 하이라이트 | 스위스 스테이지 Day6 | 10.10 | 2024 월드 챔피언십",
+        "videoId": "OcuwhmeNnMg",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Yone",
+            "Ashe",
+            "Braum",
+            "Smolder"
+          ],
+          "pickList": [
+            "Olaf",
+            "Nunu",
+            "Hwei",
+            "Kalista",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Ivern",
+            "Cassiopeia",
+            "Orianna",
+            "Amumu",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Renekton",
+            "Zyra",
+            "Yasuo",
+            "Ezreal",
+            "Poppy"
+          ]
+        },
+        "date": "2024-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OcuwhmeNnMg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OcuwhmeNnMg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OcuwhmeNnMg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "우리 원딜 월드 클래스 맞습니다 | HLE vs FLY 게임1 하이라이트 | 스위스 스테이지 Day6 | 10.10 | 2024 월드 챔피언십",
+        "videoId": "WtaRdcNTFLk",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Orianna",
+            "Ivern",
+            "Renekton",
+            "Leona",
+            "Poppy"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Yone",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Aurora",
+            "Ziggs",
+            "Ashe",
+            "Rakan",
+            "Alistar"
+          ],
+          "pickList": [
+            "Urgot",
+            "Amumu",
+            "Cassiopeia",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/WtaRdcNTFLk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/WtaRdcNTFLk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/WtaRdcNTFLk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "트리플 9 | TES vs DK 게임2 하이라이트 | 스위스 스테이지 Day6 | 10.10 | 2024 월드 챔피언십",
+        "videoId": "cDnOCrDMDNo",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Gnar",
+            "Vi",
+            "Maokai",
+            "Ziggs",
+            "Kaisa"
+          ],
+          "pickList": [
+            "KSante",
+            "Skarner",
+            "Aurora",
+            "Kalista",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Renekton",
+            "Rumble",
+            "Ashe",
+            "Poppy",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Yone",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cDnOCrDMDNo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cDnOCrDMDNo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cDnOCrDMDNo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "애니비아여 인도하소서 | TES vs DK 게임1 하이라이트 | 스위스 스테이지 Day6 | 10.10 | 2024 월드 챔피언십",
+        "videoId": "AEfi6wgW8_I",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Gnar",
+            "Vi",
+            "LeBlanc",
+            "Sylas",
+            "Kaisa"
+          ],
+          "pickList": [
+            "KSante",
+            "XinZhao",
+            "Aurora",
+            "Ashe",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Yone",
+            "Renekton",
+            "Rumble",
+            "Poppy",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Jax",
+            "Skarner",
+            "Orianna",
+            "Smolder",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AEfi6wgW8_I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AEfi6wgW8_I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AEfi6wgW8_I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "어이 수환, 지금 킬각이다 | HLE vs GEN 게임3 하이라이트 | 스위스 스테이지 Day3 | 10.05 | 2024 월드 챔피언십",
+        "videoId": "Lk2YQ581lR4",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yone",
+            "Aurora",
+            "Smolder",
+            "Kaisa",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Gnar",
+            "Vi",
+            "Sylas",
+            "Kalista",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Orianna",
+            "Sejuani",
+            "Nocturne",
+            "RenataGlasc",
+            "Ashe"
+          ],
+          "pickList": [
+            "Jax",
+            "Skarner",
+            "Ahri",
+            "Jhin",
+            "Poppy"
+          ]
+        },
+        "date": "2024-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Lk2YQ581lR4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Lk2YQ581lR4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Lk2YQ581lR4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "토끼인 | HLE vs GEN 게임2 하이라이트 | 스위스 스테이지 Day3 | 10.05 | 2024 월드 챔피언십",
+        "videoId": "sUBUGyDxsu0",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Orianna",
+            "LeBlanc",
+            "Vi",
+            "Kaisa",
+            "Lucian"
+          ],
+          "pickList": [
+            "Rumble",
+            "Sejuani",
+            "Yone",
+            "MissFortune",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Aurora",
+            "Ziggs",
+            "Zyra",
+            "Ashe",
+            "Kalista"
+          ],
+          "pickList": [
+            "KSante",
+            "Skarner",
+            "Smolder",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "date": "2024-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sUBUGyDxsu0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sUBUGyDxsu0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sUBUGyDxsu0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "베를린 롤피아 | HLE vs GEN 게임1 하이라이트 | 스위스 스테이지 Day3 | 10.05 | 2024 월드 챔피언십",
+        "videoId": "V6u6ZkG_nc8",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Jax",
+            "Yone",
+            "Maokai",
+            "Ezreal",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Aurora",
+            "Nocturne",
+            "Ahri",
+            "Twitch",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Skarner",
+            "Nidalee",
+            "Ziggs",
+            "Kalista",
+            "Ashe"
+          ],
+          "pickList": [
+            "Gnar",
+            "Sejuani",
+            "Smolder",
+            "Varus",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/V6u6ZkG_nc8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/V6u6ZkG_nc8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/V6u6ZkG_nc8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "내 친구 반드시 지켜 | DK vs LNG 게임2 하이라이트 | 스위스 스테이지 Day3 | 10.05 | 2024 월드 챔피언십",
+        "videoId": "OcVWqIADniM",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Jax",
+            "Smolder",
+            "Maokai",
+            "Ezreal",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Aurora",
+            "Nocturne",
+            "Ahri",
+            "Kalista",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Nidalee",
+            "Ziggs",
+            "Yone",
+            "RenataGlasc",
+            "Xayah"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Akali",
+            "Jhin",
+            "Rell"
+          ]
+        },
+        "date": "2024-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OcVWqIADniM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OcVWqIADniM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OcVWqIADniM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GALA놓을 수 없는 우정 | DK vs LNG 게임1 하이라이트 | 스위스 스테이지 Day3 | 10.05 | 2024 월드 챔피언십",
+        "videoId": "5Rgh51eoADI",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Nidalee",
+            "Ziggs",
+            "Skarner",
+            "Kalista",
+            "Ashe"
+          ],
+          "pickList": [
+            "Gnar",
+            "Sejuani",
+            "Yone",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Jax",
+            "Maokai",
+            "Smolder",
+            "Ezreal",
+            "Jhin"
+          ],
+          "pickList": [
+            "Aurora",
+            "Nocturne",
+            "Ahri",
+            "Varus",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5Rgh51eoADI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5Rgh51eoADI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5Rgh51eoADI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2025 LCK Cup",
     "startDate": "2025-02-23",
     "lastDate": "2025-01-15",
