@@ -1,5 +1,15 @@
 [
   {
+    "name": "2024 서머",
+    "crawl_list": ["LCK Summer Playoffs 2024", "LCK Summer 2024"],
+    "youtube_list": ["2024 LCK 서머 게임 하이라이트"]
+  },
+  {
+    "name": "2024 LCK 대표 선발전",
+    "crawl_list": ["LCK Regional Finals 2024"],
+    "youtube_list": ["2024 LCK 대표 선발전 게임 하이라이트"]
+  },
+  {
     "name": "2024 Worlds",
     "crawl_list": ["Worlds Main Event 2024"],
     "crawl_match_filter_list": ["62809","62760", "62761", "62762", "62765", "62776", "62778", "62781", "62787", "62790", "62793",

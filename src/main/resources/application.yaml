@@ -22,6 +22,9 @@ spring:
 crawling:
   lck:
     target_match_url:
+      - https://gol.gg/tournament/tournament-matchlist/LCK%20Summer%202024/
+      - https://gol.gg/tournament/tournament-matchlist/LCK%20Summer%20Playoffs%202024/
+      - https://gol.gg/tournament/tournament-matchlist/LCK%20Regional%20Finals%202024/
       - https://gol.gg/tournament/tournament-matchlist/Worlds%20Main%20Event%202024/
       - https://gol.gg/tournament/tournament-matchlist/LCK%20Cup%202025/
       - https://gol.gg/tournament/tournament-matchlist/LCK%202025%20Road%20to%20MSI/
