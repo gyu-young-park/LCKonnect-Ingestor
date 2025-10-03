@@ -5,6 +5,13 @@
     "youtube_list": ["2024 LCK 스프링 게임 하이라이트"]
   },
   {
+    "name": "2024 MSI",
+    "crawl_match_filter_list": ["58118", "58094", "58084", "58074", "58064", "58062", "58059", "58056", "58053", "58050",
+      "58045", "58042", "58036"],
+    "crawl_list": ["MSI 2024"],
+    "youtube_list": ["2024 MSI LCK 게임 하이라이트"]
+  },
+  {
     "name": "2024 서머",
     "crawl_list": ["LCK Summer Playoffs 2024", "LCK Summer 2024"],
     "youtube_list": ["2024 LCK 서머 게임 하이라이트"]

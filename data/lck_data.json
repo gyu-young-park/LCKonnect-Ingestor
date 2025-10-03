@@ -13075,6 +13075,2227 @@
     ]
   },
   {
+    "championshipName": "2024 MSI",
+    "startDate": "2024-05-19",
+    "lastDate": "2024-05-01",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "오호대장군 | GEN vs. BLG 게임4 하이라이트 | 결승전 | 2024 MSI",
+        "videoId": "OfEm3I-GCzY",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Lucian",
+            "Kalista",
+            "Varus"
+          ],
+          "pickList": [
+            "Rumble",
+            "LeeSin",
+            "Azir",
+            "Senna",
+            "Maokai"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Corki",
+            "AurelionSol",
+            "KSante",
+            "Hwei",
+            "Zac"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Tristana",
+            "Zeri",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OfEm3I-GCzY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OfEm3I-GCzY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OfEm3I-GCzY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "쏴아아아라 | GEN vs. BLG 게임3 하이라이트 | 결승전 | 2024 MSI",
+        "videoId": "OuGH6EdG0XA",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Lucian",
+            "KSante",
+            "Jax"
+          ],
+          "pickList": [
+            "Nidalee",
+            "Jayce",
+            "Senna",
+            "TahmKench",
+            null
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Nautilus",
+            "Camille",
+            "Tristana"
+          ],
+          "pickList": [
+            "Rumble",
+            "LeeSin",
+            "Hwei",
+            "Kalista",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OuGH6EdG0XA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OuGH6EdG0XA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OuGH6EdG0XA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "League of LeHANDS | GEN vs. BLG 게임2 하이라이트 | 결승전 | 2024 MSI",
+        "videoId": "ERjE7-FX95k",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Nautilus",
+            "LeBlanc",
+            "Annie"
+          ],
+          "pickList": [
+            "Zac",
+            "Sejuani",
+            "Yone",
+            "Kalista",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Corki",
+            "AurelionSol",
+            "KSante",
+            "Rumble",
+            "Jax"
+          ],
+          "pickList": [
+            "Camille",
+            "XinZhao",
+            "Orianna",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ERjE7-FX95k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ERjE7-FX95k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ERjE7-FX95k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "건 부우우~ 부부린~ 부우우~ | GEN vs. BLG 게임1 하이라이트 | 결승전 | 2024 MSI",
+        "videoId": "G6vyzutYHK0",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Vayne",
+            "Sejuani",
+            "Maokai"
+          ],
+          "pickList": [
+            "KSante",
+            "Karthus",
+            "Yone",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Nautilus",
+            "Nidalee",
+            "Hwei"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "XinZhao",
+            "Neeko",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2024-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/G6vyzutYHK0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/G6vyzutYHK0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/G6vyzutYHK0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you, T1 | BLG vs. T1 게임5 하이라이트 | 결승 진출전 | 브래킷 Day 11 | 2024 MSI",
+        "videoId": "69M0CniUMfQ",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "Nidalee",
+            "Jax"
+          ],
+          "pickList": [
+            "Camille",
+            "XinZhao",
+            "Neeko",
+            "Senna",
+            "Ornn"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "RenataGlasc",
+            "Lucian",
+            "Vi",
+            "Kindred"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "Taliyah",
+            "Varus",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/69M0CniUMfQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/69M0CniUMfQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/69M0CniUMfQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "한중 공방전 | BLG vs. T1 게임4 하이라이트 | 결승 진출전 | 브래킷 Day 11 | 2024 MSI",
+        "videoId": "KseHtq4VLP4",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "Taliyah",
+            "Kalista",
+            "Tristana",
+            "Nidalee"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "AurelionSol",
+            "Senna",
+            "Ornn"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "Jax",
+            "Camille"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "Vi",
+            "Corki",
+            "Varus",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/KseHtq4VLP4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/KseHtq4VLP4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/KseHtq4VLP4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "티바오야 오지마 | BLG vs. T1 게임3 하이라이트 | 결승 진출전 | 브래킷 Day 11 | 2024 MSI",
+        "videoId": "0CPwbLgJEnU",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "Jax",
+            "Camille"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "XinZhao",
+            "Annie",
+            "Senna",
+            "Ornn"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "Tristana",
+            "Taliyah",
+            "Vi",
+            "Neeko"
+          ],
+          "pickList": [
+            "Yasuo",
+            "Nidalee",
+            "Zac",
+            "Kalista",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0CPwbLgJEnU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0CPwbLgJEnU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0CPwbLgJEnU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "구마유시의 리그에 오신 걸 환영한다 | BLG vs. T1 게임2 하이라이트 | 결승 진출전 | 브래킷 Day 11 | 2024 MSI",
+        "videoId": "MevZmsmIC9U",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "Taliyah",
+            "Tristana",
+            "Vi",
+            "Vayne"
+          ],
+          "pickList": [
+            "Camille",
+            "Sejuani",
+            "Akali",
+            "Draven",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Senna",
+            "LeBlanc",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "KSante",
+            "Wukong",
+            "Neeko",
+            "Varus",
+            "Kalista"
+          ]
+        },
+        "date": "2024-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MevZmsmIC9U/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MevZmsmIC9U/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MevZmsmIC9U/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Xun Zhao | BLG vs.T1 게임1 하이라이트 | 결승 진출전 | 브래킷 Day 11 | 2024 MSI",
+        "videoId": "a7c2rzMi21M",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "Nidalee",
+            "Corki"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "XinZhao",
+            "Taliyah",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "Vi",
+            "Jax",
+            "Vayne",
+            "Camille"
+          ],
+          "pickList": [
+            "KSante",
+            "Sejuani",
+            "Tristana",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/a7c2rzMi21M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/a7c2rzMi21M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/a7c2rzMi21M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "케케케켘ㅋ켘케켘케케켘ㅋ켘켘케케켘ㅋ케케켘ㅋ케ㅔ케켘케케케ㅔ케케켘 | T1 vs. G2 게임3 하이라이트 | 패자조 3라운드 | 브래킷 Day 10 | 2024 MSI",
+        "videoId": "C0uE1EoOzDc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "RekSai",
+            "Zac",
+            "Poppy",
+            "RenataGlasc",
+            "KSante"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Taliyah",
+            "Kalista",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "Azir",
+            "Vayne",
+            "Camille"
+          ],
+          "pickList": [
+            "Jax",
+            "Ivern",
+            "Tristana",
+            "Varus",
+            "Braum"
+          ]
+        },
+        "date": "2024-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/C0uE1EoOzDc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/C0uE1EoOzDc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/C0uE1EoOzDc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "집 나가면 위험한 EU | T1 vs. G2 게임2 하이라이트 | 패자조 3라운드 | 브래킷 Day 10 | 2024 MSI",
+        "videoId": "grh8lAz372E",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "RekSai",
+            "Zac",
+            "Tristana",
+            "Taliyah",
+            "Orianna"
+          ],
+          "pickList": [
+            "KSante",
+            "Poppy",
+            "Azir",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "RenataGlasc",
+            "Vayne",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "Urgot",
+            "Viego",
+            "AurelionSol",
+            "Draven",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/grh8lAz372E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/grh8lAz372E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/grh8lAz372E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "눈 마주치면 죽는다 | T1 vs. G2 게임1 하이라이트 | 패자조 3라운드 | 브래킷 Day 10 | 2024 MSI",
+        "videoId": "MkQtaqgUIHg",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "RekSai",
+            "Zac",
+            "Tristana",
+            "Nidalee",
+            "LeeSin"
+          ],
+          "pickList": [
+            "Camille",
+            "Sejuani",
+            "Orianna",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "Lucian",
+            "KSante",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Jax",
+            "KhaZix",
+            "LeBlanc",
+            "Draven",
+            "Poppy"
+          ]
+        },
+        "date": "2024-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MkQtaqgUIHg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MkQtaqgUIHg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MkQtaqgUIHg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GEN.GPT | GEN vs. BLG 게임4 하이라이트 | 승자조 3라운드 | 브래킷 Day 9 | 2024 MSI",
+        "videoId": "gwKO4cVFZ1I",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Ashe",
+            "Orianna",
+            "Neeko"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "Maokai",
+            "Corki",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Nautilus",
+            "Senna",
+            "Sejuani",
+            "Poppy"
+          ],
+          "pickList": [
+            "KSante",
+            "Vi",
+            "Vex",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-05-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gwKO4cVFZ1I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gwKO4cVFZ1I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gwKO4cVFZ1I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "문 좀 열어주세요~ | GEN vs. BLG 게임3 하이라이트 | 승자조 3라운드 | 브래킷 Day 9 | 2024 MSI",
+        "videoId": "y7OKbpBfVCk",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Ahri",
+            "Ashe",
+            "Maokai",
+            "Vayne"
+          ],
+          "pickList": [
+            "Poppy",
+            "Nidalee",
+            "Hwei",
+            "Kalista",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Azir",
+            "LeeSin",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "KSante",
+            "Diana",
+            "Tristana",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2024-05-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/y7OKbpBfVCk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/y7OKbpBfVCk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/y7OKbpBfVCk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "비밀 얘기 해드릴게요 | GEN vs. BLG 게임2 하이라이트 | 승자조 3라운드 | 브래킷 Day 9 | 2024 MSI",
+        "videoId": "2_KDqu4S4Ww",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Vayne",
+            "Ahri",
+            "Camille",
+            "Renekton"
+          ],
+          "pickList": [
+            "KSante",
+            "Nidalee",
+            "Yone",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Azir",
+            "Tristana",
+            "Hwei"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Orianna",
+            "Kalista",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2_KDqu4S4Ww/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2_KDqu4S4Ww/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2_KDqu4S4Ww/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "빈 공간 | GEN vs. BLG 게임1 하이라이트 | 승자조 3라운드 | 브래킷 Day 9 | 2024 MSI",
+        "videoId": "72Ij4t0wJwI",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Azir",
+            "Tristana",
+            "LeeSin"
+          ],
+          "pickList": [
+            "Camille",
+            "Sejuani",
+            "Ahri",
+            "Kalista",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Taliyah",
+            "Vayne",
+            "Jax",
+            "Vi",
+            "JarvanIV"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "Viego",
+            "Orianna",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/72Ij4t0wJwI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/72Ij4t0wJwI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/72Ij4t0wJwI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "청두삼분지계 | T1 vs. TL 게임4 하이라이트 | 패자조 2라운드 | 브래킷 Day 8 | 2024 MSI",
+        "videoId": "iHvwShNiQBA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Tristana",
+            "Lucian",
+            "Nautilus",
+            "XinZhao",
+            "Vi"
+          ],
+          "pickList": [
+            "Vayne",
+            "Poppy",
+            "Orianna",
+            "Senna",
+            "Ornn"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Azir",
+            "Taliyah",
+            "Ashe",
+            "TwistedFate",
+            "Camille"
+          ],
+          "pickList": [
+            "KSante",
+            "Lillia",
+            "Ziggs",
+            "Kalista",
+            "Rell"
+          ]
+        },
+        "date": "2024-05-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/iHvwShNiQBA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/iHvwShNiQBA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/iHvwShNiQBA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "??: 미국으로 돌아가는 거에요? | T1 vs. TL 게임3 하이라이트 | 패자조 2라운드 | 브래킷 Day 8 | 2024 MSI",
+        "videoId": "avH_xa-yCtM",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "TwistedFate",
+            "Alistar"
+          ],
+          "pickList": [
+            "KSante",
+            "RekSai",
+            "Taliyah",
+            "Kalista",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Lucian",
+            "Tristana",
+            "Senna",
+            "Vi",
+            "Poppy"
+          ],
+          "pickList": [
+            "Vayne",
+            "Sejuani",
+            "Corki",
+            "Varus",
+            "Rell"
+          ]
+        },
+        "date": "2024-05-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/avH_xa-yCtM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/avH_xa-yCtM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/avH_xa-yCtM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "수련회 메타 | T1 vs. TL 게임2 하이라이트 | 패자조 2라운드 | 브래킷 Day 8 | 2024 MSI",
+        "videoId": "cPzrVgZmKxA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Lucian",
+            "Tristana",
+            "Senna",
+            "Sejuani",
+            "Poppy"
+          ],
+          "pickList": [
+            "Vayne",
+            "JarvanIV",
+            "Ahri",
+            "Varus",
+            "Kalista"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "TwistedFate",
+            "Vi"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Taliyah",
+            "Samira",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cPzrVgZmKxA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cPzrVgZmKxA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cPzrVgZmKxA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "우제 기동 | T1 vs. TL 게임1 하이라이트 | 패자조 2라운드 | 브래킷 Day 8 | 2024 MSI",
+        "videoId": "HVd4Rg527kY",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Tristana",
+            "Nautilus",
+            "Lucian",
+            "RenataGlasc",
+            "Rell"
+          ],
+          "pickList": [
+            "Camille",
+            "Poppy",
+            "Taliyah",
+            "Senna",
+            "Ornn"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "TwistedFate",
+            "Vayne"
+          ],
+          "pickList": [
+            "KSante",
+            "XinZhao",
+            "AurelionSol",
+            "Kalista",
+            "Alistar"
+          ]
+        },
+        "date": "2024-05-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HVd4Rg527kY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HVd4Rg527kY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HVd4Rg527kY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "닻줄 ON | BLG vs. T1 게임4 하이라이트 | 승자조 2라운드 | 브래킷 Day 6 | 2024 MSI",
+        "videoId": "LZVXYrmff1g",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Taliyah",
+            "AurelionSol",
+            "Hwei"
+          ],
+          "pickList": [
+            "KSante",
+            "Nidalee",
+            "Tristana",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ahri",
+            "Vi",
+            "Varus",
+            "Maokai",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Zac",
+            "XinZhao",
+            "Akali",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-05-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LZVXYrmff1g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LZVXYrmff1g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LZVXYrmff1g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "탈리장성 | BLG vs. T1 게임3 하이라이트 | 승자조 2라운드 | 브래킷 Day 6 | 2024 MSI",
+        "videoId": "Kg5RS-U3lGw",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "XinZhao",
+            "AurelionSol"
+          ],
+          "pickList": [
+            "Jax",
+            "Maokai",
+            "Taliyah",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Ahri",
+            "Nautilus",
+            "Sejuani",
+            "JarvanIV"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "LeeSin",
+            "Veigar",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2024-05-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Kg5RS-U3lGw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Kg5RS-U3lGw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Kg5RS-U3lGw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "성도의 오자룡 | BLG vs. T1 게임2 하이라이트 | 승자조 2라운드 | 브래킷 Day 6 | 2024 MSI",
+        "videoId": "BzR10M2Etow",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Ahri",
+            "Nautilus",
+            "Neeko",
+            "Tristana"
+          ],
+          "pickList": [
+            "Zac",
+            "XinZhao",
+            "Taliyah",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "TwistedFate",
+            "Vayne"
+          ],
+          "pickList": [
+            "KSante",
+            "Wukong",
+            "Corki",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-05-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BzR10M2Etow/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BzR10M2Etow/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BzR10M2Etow/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "그건 제 잔상입니다만 | BLG vs. T1 게임1 하이라이트 | 승자조 2라운드 | 브래킷 Day 6 | 2024 MSI",
+        "videoId": "HtbYzllm_9g",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Azir",
+            "Orianna",
+            "Ashe",
+            "TwistedFate",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Vayne",
+            "Sejuani",
+            "Taliyah",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Ahri",
+            "Nautilus",
+            "JarvanIV",
+            "Wukong"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "Corki",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2024-05-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HtbYzllm_9g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HtbYzllm_9g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HtbYzllm_9g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "젠지의 창 | GEN vs. TES 게임5 하이라이트 | 승자조 2라운드 | 브래킷 Day 5 | 2024 MSI",
+        "videoId": "i0wAiBziy_Q",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Tristana",
+            "Varus",
+            "Draven",
+            "Sylas",
+            "Yone"
+          ],
+          "pickList": [
+            "KSante",
+            "Nidalee",
+            "Corki",
+            "Kalista",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "AurelionSol",
+            "Senna",
+            "TwistedFate",
+            "LeeSin",
+            "Poppy"
+          ],
+          "pickList": [
+            "Urgot",
+            "Sejuani",
+            "Akali",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2024-05-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i0wAiBziy_Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i0wAiBziy_Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/i0wAiBziy_Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "진짜 대포는 반칙이라니까요 | GEN vs. TES 게임4 하이라이트 | 승자조 2라운드 | 브래킷 Day 5 | 2024 MSI",
+        "videoId": "ZvW915ai1iU",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "AurelionSol",
+            "Senna",
+            "TwistedFate",
+            "Taliyah",
+            "Ahri"
+          ],
+          "pickList": [
+            "Urgot",
+            "Sejuani",
+            "Corki",
+            "Draven",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "XinZhao",
+            "Tristana",
+            "Varus",
+            "Renekton",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "KSante",
+            "Vi",
+            "Azir",
+            "Kalista",
+            "Alistar"
+          ]
+        },
+        "date": "2024-05-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZvW915ai1iU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZvW915ai1iU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZvW915ai1iU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "진짜 대포를 가져오면 어떡해요 | GEN vs. TES 게임3 하이라이트 | 승자조 2라운드 | 브래킷 Day 5 | 2024 MSI",
+        "videoId": "vxuEmH8eNnw",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "AurelionSol",
+            "TwistedFate",
+            "Lucian",
+            "Sejuani",
+            "KSante"
+          ],
+          "pickList": [
+            "Rumble",
+            "Maokai",
+            "Tristana",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Senna",
+            "XinZhao",
+            "Ahri",
+            "RenataGlasc",
+            "Ashe"
+          ],
+          "pickList": [
+            "Ryze",
+            "JarvanIV",
+            "Corki",
+            "Kalista",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/vxuEmH8eNnw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/vxuEmH8eNnw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/vxuEmH8eNnw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "매력적인 남자 손시우 | GEN vs. TES 게임2 하이라이트 | 승자조 2라운드 | 브래킷 Day 5 | 2024 MSI",
+        "videoId": "UDtCw9KJxPs",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Senna",
+            "XinZhao",
+            "Varus",
+            "Tristana",
+            "Hwei"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "LeeSin",
+            "Azir",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "AurelionSol",
+            "Corki",
+            "Kalista",
+            "Vi",
+            "KSante"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sejuani",
+            "Ahri",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2024-05-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UDtCw9KJxPs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UDtCw9KJxPs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UDtCw9KJxPs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "응~ 못 죽이죠? | GEN vs. TES 게임1 하이라이트 | 승자조 2라운드 | 브래킷 Day 5 | 2024 MSI",
+        "videoId": "d7BNtqPToQk",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "XinZhao",
+            "Ahri",
+            "Lucian",
+            "Poppy",
+            "Tristana"
+          ],
+          "pickList": [
+            "Vayne",
+            "Vi",
+            "Corki",
+            "Kalista",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "AurelionSol",
+            "Senna",
+            "TwistedFate",
+            "RenataGlasc",
+            "Zac"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "Akali",
+            "Draven",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/d7BNtqPToQk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/d7BNtqPToQk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/d7BNtqPToQk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "매, 혹 | G2 vs. T1 게임5 하이라이트 | 승자조 1라운드 | 브래킷 Day 4 | 2024 MSI",
+        "videoId": "0sGHpgbypBQ",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Draven",
+            "Lucian",
+            "Orianna",
+            "Nautilus",
+            "RekSai"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Ahri",
+            "Varus",
+            "Kalista"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "Azir",
+            "JarvanIV",
+            "Vi"
+          ],
+          "pickList": [
+            "Zac",
+            "Belveth",
+            "Taliyah",
+            "Jinx",
+            "Poppy"
+          ]
+        },
+        "date": "2024-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0sGHpgbypBQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0sGHpgbypBQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0sGHpgbypBQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "팀이 위험에 빠진다면, 왕자님을 부르세요 | G2 vs. T1 게임4 하이라이트 | 승자조 1라운드 | 브래킷 Day 4 | 2024 MSI",
+        "videoId": "I9O23RTSodI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Draven",
+            "Zac",
+            "Kalista",
+            "TwistedFate",
+            "Lulu"
+          ],
+          "pickList": [
+            "KSante",
+            "XinZhao",
+            "Azir",
+            "Varus",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Lucian",
+            "Ashe",
+            "Rumble",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Poppy",
+            "RekSai",
+            "Orianna",
+            "KogMaw",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/I9O23RTSodI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/I9O23RTSodI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/I9O23RTSodI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "미키 Hammer | G2 vs. T1 게임3 하이라이트 | 승자조 1라운드 | 브래킷 Day 4 | 2024 MSI",
+        "videoId": "-ngywBVMeNQ",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Lucian",
+            "Ashe",
+            "Rumble",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Yasuo",
+            "Vi",
+            "Orianna",
+            "Varus",
+            "Poppy"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Draven",
+            "Zac",
+            "RekSai",
+            "Belveth",
+            "Nautilus"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "JarvanIV",
+            "AurelionSol",
+            "Kalista",
+            "Camille"
+          ]
+        },
+        "date": "2024-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-ngywBVMeNQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-ngywBVMeNQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-ngywBVMeNQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "자 몸풀기는 끝났어 | G2 vs. T1 게임1 하이라이트 | 승자조 1라운드 | 브래킷 Day 4 | 2024 MSI",
+        "videoId": "6MGyQAgS9zY",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "Rumble",
+            "Vayne",
+            "Poppy"
+          ],
+          "pickList": [
+            "Zac",
+            "RekSai",
+            "Orianna",
+            "Kalista",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Draven",
+            "Lucian",
+            "Nautilus",
+            "Camille",
+            "Rell"
+          ],
+          "pickList": [
+            "Ornn",
+            "Viego",
+            "Taliyah",
+            "Varus",
+            "Neeko"
+          ]
+        },
+        "date": "2024-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6MGyQAgS9zY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6MGyQAgS9zY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6MGyQAgS9zY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "분홍 풍선이 하늘을 날면 | G2 vs. T1 게임2 하이라이트 | 승자조 1라운드 | 브래킷 Day 4 | 2024 MSI",
+        "videoId": "EPScaUVPLsc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Draven",
+            "Lucian",
+            "Neeko",
+            "Zac",
+            "Nautilus"
+          ],
+          "pickList": [
+            "TwistedFate",
+            "XinZhao",
+            "Azir",
+            "Varus",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Senna",
+            "Ashe",
+            "Rumble",
+            "RenataGlasc",
+            "Taliyah"
+          ],
+          "pickList": [
+            "Yasuo",
+            "Lillia",
+            "Tristana",
+            "Kalista",
+            "Rell"
+          ]
+        },
+        "date": "2024-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EPScaUVPLsc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EPScaUVPLsc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EPScaUVPLsc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "지금 사이온 선픽한거야? | GEN vs. FNC 게임3 하이라이트 | 승자조 1라운드 | 브래킷 Day 2 | 2024 MSI",
+        "videoId": "Cz8dPZvGhUs",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Vi",
+            "Kalista",
+            "Senna",
+            "Orianna",
+            "Taliyah"
+          ],
+          "pickList": [
+            "Vayne",
+            "Sejuani",
+            "AurelionSol",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Rumble",
+            "KSante",
+            "Nautilus",
+            "Corki",
+            "Tristana"
+          ],
+          "pickList": [
+            "Sion",
+            "XinZhao",
+            "LeBlanc",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Cz8dPZvGhUs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Cz8dPZvGhUs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Cz8dPZvGhUs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "지이이이이이잉 | GEN vs. FNC 게임2 하이라이트 | 승자조 1라운드 | 브래킷 Day 2 | 2024 MSI",
+        "videoId": "GOzP5DClIWw",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Vi",
+            "Kalista",
+            "Varus",
+            "Zac",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "KSante",
+            "KhaZix",
+            "AurelionSol",
+            "Draven",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Rumble",
+            "Senna",
+            "Lulu",
+            "LeBlanc",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Poppy",
+            "XinZhao",
+            "Orianna",
+            "Lucian",
+            "Milio"
+          ]
+        },
+        "date": "2024-05-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/GOzP5DClIWw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/GOzP5DClIWw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/GOzP5DClIWw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "키르코 센 냥그 | GEN vs. FNC 게임1 하이라이트 | 승자조 1라운드 | 브래킷 Day 2 | 2024 MSI",
+        "videoId": "tiwlQGH41is",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Vi",
+            "Orianna",
+            "Zac",
+            "XinZhao",
+            "LeeSin"
+          ],
+          "pickList": [
+            "KSante",
+            "Sejuani",
+            "Corki",
+            "Kalista",
+            "Rumble"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Lucian",
+            "Senna",
+            "Nautilus",
+            "LeBlanc",
+            "Hwei"
+          ],
+          "pickList": [
+            "Camille",
+            "Wukong",
+            "Taliyah",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tiwlQGH41is/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tiwlQGH41is/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tiwlQGH41is/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "내가 사라져볼게~ 하나 둘 셋 얍! | T1 vs. FLY 게임2 하이라이트 | 플레이-인 Day 3 | 2024 MSI",
+        "videoId": "Yog9n2PrDSM",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Senna",
+            "Orianna",
+            "Lucian",
+            "Viego",
+            "XinZhao"
+          ],
+          "pickList": [
+            "KSante",
+            "Sejuani",
+            "Taliyah",
+            "Kalista",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Vi",
+            "TwistedFate",
+            "RenataGlasc",
+            "Rumble",
+            "Rell"
+          ],
+          "pickList": [
+            "Gragas",
+            "Wukong",
+            "Azir",
+            "Varus",
+            "Nautilus"
+          ]
+        },
+        "date": "2024-05-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Yog9n2PrDSM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Yog9n2PrDSM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Yog9n2PrDSM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Quest 깼다! | T1 vs. FLY 게임1 하이라이트 | 플레이-인 Day 3 | 2024 MSI",
+        "videoId": "RRD0iKh9eIY",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Nautilus",
+            "Urgot",
+            "Kalista",
+            "LeeSin",
+            "Udyr"
+          ],
+          "pickList": [
+            "Ornn",
+            "Viego",
+            "Azir",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Vi",
+            "TwistedFate",
+            "KSante",
+            "JarvanIV",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Zac",
+            "Graves",
+            "Orianna",
+            "Varus",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2024-05-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RRD0iKh9eIY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RRD0iKh9eIY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RRD0iKh9eIY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "님들 비에고 하지 마세요 체질이란 게 바뀝니다. | T1 vs. EST 게임2 하이라이트 | 플레이-인 Day 1 | 2024 MSI",
+        "videoId": "IFUFrwiczVo",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Sejuani",
+            "Neeko",
+            "Taliyah",
+            "Udyr"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "Orianna",
+            "Kalista",
+            "Rumble"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Estral Esports",
+          "banList": [
+            "Senna",
+            "TwistedFate",
+            "Varus",
+            "Nocturne",
+            "JarvanIV"
+          ],
+          "pickList": [
+            "Aatrox",
+            "LeeSin",
+            "Ahri",
+            "Draven",
+            "Ashe"
+          ]
+        },
+        "date": "2024-05-01",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IFUFrwiczVo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IFUFrwiczVo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IFUFrwiczVo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "티원적 사고 | T1 vs. EST 게임1 하이라이트 | 플레이-인 Day 1 | 2024 MSI",
+        "videoId": "L2u9yPx_av8",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Nautilus",
+            "Sejuani",
+            "XinZhao",
+            "Rumble"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Orianna",
+            "Kalista",
+            "Neeko"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Estral Esports",
+          "banList": [
+            "Senna",
+            "TwistedFate",
+            "Ashe",
+            "Azir",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Yone",
+            "Volibear",
+            "Ahri",
+            "Draven",
+            "Rell"
+          ]
+        },
+        "date": "2024-05-01",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/L2u9yPx_av8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/L2u9yPx_av8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/L2u9yPx_av8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2024 서머",
     "startDate": "2024-09-08",
     "lastDate": "2024-06-12",
