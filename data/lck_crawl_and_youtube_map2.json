@@ -1,5 +1,10 @@
 [
   {
+    "name": "2023 LCK 서머",
+    "crawl_list": ["LCK Summer Playoffs 2023","LCK Summer 2023"],
+    "youtube_list": ["2023 LCK 서머 게임 하이라이트"]
+  },
+  {
     "name": "2024 스프링",
     "crawl_list": ["LCK Spring Playoffs 2024", "LCK Spring 2024"],
     "youtube_list": ["2024 LCK 스프링 게임 하이라이트"]
