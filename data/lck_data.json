@@ -12805,6 +12805,1741 @@
     ]
   },
   {
+    "championshipName": "2023 Worlds",
+    "startDate": "2023-11-19",
+    "lastDate": "2023-10-21",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "THIS IS MY TEAM | WBG vs. T1 게임 3 하이라이트 | Finals | 11.19 | 2023 월드 챔피언십",
+        "videoId": "v9Pl7BPySao",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Neeko",
+            "Rumble",
+            "Orianna",
+            "Poppy",
+            "KSante"
+          ],
+          "pickList": [
+            "Aatrox",
+            "LeeSin",
+            "Akali",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "JarvanIV",
+            "Ashe",
+            "RenataGlasc",
+            "Wukong",
+            "Jayce"
+          ],
+          "pickList": [
+            "Kennen",
+            "Belveth",
+            "Azir",
+            "Varus",
+            "Bard"
+          ]
+        },
+        "date": "2023-11-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/v9Pl7BPySao/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/v9Pl7BPySao/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/v9Pl7BPySao/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GODS | WBG vs. T1 게임 2 하이라이트 | Finals | 11.19 | 2023 월드 챔피언십",
+        "videoId": "suM3hPUoKug",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Neeko",
+            "Orianna",
+            "Rumble",
+            "Jayce",
+            "KSante"
+          ],
+          "pickList": [
+            "Gwen",
+            "Nocturne",
+            "Sylas",
+            "Draven",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "Azir",
+            "JarvanIV",
+            "Ashe",
+            "Poppy",
+            "Yone"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Maokai",
+            "Ahri",
+            "Kalista",
+            "Senna"
+          ]
+        },
+        "date": "2023-11-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/suM3hPUoKug/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/suM3hPUoKug/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/suM3hPUoKug/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "태권도 종주국 | WBG vs. T1 게임 1 하이라이트 | Finals | 11.19 | 2023 월드 챔피언십",
+        "videoId": "7CKuhmS6VG0",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Neeko",
+            "Orianna",
+            "Rumble",
+            "Ashe",
+            "Varus"
+          ],
+          "pickList": [
+            "Yone",
+            "LeeSin",
+            "Ahri",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "JarvanIV",
+            "Azir",
+            "Sylas",
+            "Sejuani",
+            "Rell"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Maokai",
+            "Jayce",
+            "TahmKench",
+            "Senna"
+          ]
+        },
+        "date": "2023-11-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7CKuhmS6VG0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7CKuhmS6VG0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7CKuhmS6VG0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "골든 로드, 저희가 막았습니다. | T1 vs. JDG 게임 4 하이라이트 | 녹아웃 스테이지 4강 Day 2 | 11.12 | 2023 월드 챔피언십",
+        "videoId": "UWlzaIozpxA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Rakan",
+            "Neeko",
+            "Kalista",
+            "Kaisa",
+            "Xayah"
+          ],
+          "pickList": [
+            "Yone",
+            "JarvanIV",
+            "Azir",
+            "Varus",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Poppy",
+            "Rell",
+            "Ashe",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Belveth",
+            "Orianna",
+            "Zeri",
+            "Lulu"
+          ]
+        },
+        "date": "2023-11-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UWlzaIozpxA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UWlzaIozpxA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UWlzaIozpxA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "페이커가 GOAT라고 생각하면 접어 | T1 vs. JDG 게임 3 하이라이트 | 녹아웃 스테이지 4강 Day 2 | 11.12 | 2023 월드 챔피언십",
+        "videoId": "QOEA1VQFJ6Q",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Rakan",
+            "Neeko",
+            "JarvanIV",
+            "Akali",
+            "KSante"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Rell",
+            "Azir",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Orianna",
+            "Poppy",
+            "Pyke",
+            "Bard"
+          ],
+          "pickList": [
+            "Renekton",
+            "Wukong",
+            "Taliyah",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "date": "2023-11-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QOEA1VQFJ6Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QOEA1VQFJ6Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QOEA1VQFJ6Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "999 | T1 vs. JDG 게임 2 하이라이트 | 녹아웃 스테이지 4강 Day 2 | 11.12 | 2023 월드 챔피언십",
+        "videoId": "FUBljxpKlIs",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Poppy",
+            "Akali",
+            "Gwen",
+            "Rell"
+          ],
+          "pickList": [
+            "KSante",
+            "Vi",
+            "Orianna",
+            "Kalista",
+            "Senna"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Rakan",
+            "Neeko",
+            "JarvanIV",
+            "Nautilus",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Maokai",
+            "Azir",
+            "Caitlyn",
+            "Ashe"
+          ]
+        },
+        "date": "2023-11-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/FUBljxpKlIs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/FUBljxpKlIs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/FUBljxpKlIs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "이리 오너 라 | T1 vs. JDG 게임 1 하이라이트 | 녹아웃 스테이지 4강 Day 2 | 11.12 | 2023 월드 챔피언십",
+        "videoId": "VFU5o96-yfQ",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Rakan",
+            "Neeko",
+            "JarvanIV",
+            "Nautilus",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Rell",
+            "Orianna",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Ashe",
+            "Poppy",
+            "Kalista",
+            "Senna",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Akali",
+            "Xayah",
+            "Alistar"
+          ]
+        },
+        "date": "2023-11-12",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VFU5o96-yfQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VFU5o96-yfQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VFU5o96-yfQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "축제인가요?ㅣLNG vs. T1 게임 3 하이라이트 | 녹아웃 스테이지 8강 Day 4 | 11.05 | 2023 월드 챔피언십",
+        "videoId": "v4nXQjF3VOE",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Xayah",
+            "Neeko",
+            "Maokai",
+            "Caitlyn",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Jayce",
+            "Poppy",
+            "Azir",
+            "Varus",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Rumble",
+            "JarvanIV",
+            "Rell",
+            "Kalista",
+            "Gnar"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sejuani",
+            "Orianna",
+            "Aphelios",
+            "Milio"
+          ]
+        },
+        "date": "2023-11-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/v4nXQjF3VOE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/v4nXQjF3VOE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/v4nXQjF3VOE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "22시즌 서커스단 부활ㅣLNG vs. T1 게임 2 하이라이트 | 녹아웃 스테이지 8강 Day 4 | 11.05 | 2023 월드 챔피언십",
+        "videoId": "PFek0dC957A",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Xayah",
+            "Neeko",
+            "Orianna",
+            "Kaisa",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Rell",
+            "Sylas",
+            "Varus",
+            "Ashe"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Rumble",
+            "JarvanIV",
+            "Azir",
+            "Caitlyn",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "Gwen",
+            "Maokai",
+            "Jayce",
+            "Aphelios",
+            "Rakan"
+          ]
+        },
+        "date": "2023-11-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PFek0dC957A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PFek0dC957A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PFek0dC957A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "제발ㅣLNG vs. T1 게임 1 하이라이트 | 녹아웃 스테이지 8강 Day 4 | 11.05 | 2023 월드 챔피언십",
+        "videoId": "XMXgDULSiWA",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Xayah",
+            "Neeko",
+            "Jax",
+            "Nautilus",
+            "Alistar"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Rell",
+            "Orianna",
+            "Nilah",
+            "Senna"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Caitlyn",
+            "RenataGlasc",
+            "Rumble",
+            "Aphelios",
+            "Rakan"
+          ],
+          "pickList": [
+            "Gwen",
+            "JarvanIV",
+            "Azir",
+            "Kaisa",
+            "Blitzcrank"
+          ]
+        },
+        "date": "2023-11-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XMXgDULSiWA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XMXgDULSiWA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XMXgDULSiWA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank You, KT | JDG vs. KT 게임 4 하이라이트 | 녹아웃 스테이지 8강 Day 3 | 11.04 | 2023 월드 챔피언십",
+        "videoId": "E-tQQ1nvLO0",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Neeko",
+            "Sejuani",
+            "Akali",
+            "Azir"
+          ],
+          "pickList": [
+            "Gragas",
+            "LeeSin",
+            "Orianna",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Kalista",
+            "JarvanIV",
+            "Wukong",
+            "Aatrox",
+            "Rell"
+          ],
+          "pickList": [
+            "Jax",
+            "Vi",
+            "Syndra",
+            "Xayah",
+            "Lulu"
+          ]
+        },
+        "date": "2023-11-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/E-tQQ1nvLO0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/E-tQQ1nvLO0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/E-tQQ1nvLO0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "사람을 찾습니다 | JDG vs. KT 게임 3 하이라이트 | 녹아웃 스테이지 8강 Day 3 | 11.04 | 2023 월드 챔피언십",
+        "videoId": "5efsLWsFqPs",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Neeko",
+            "Sejuani",
+            "Viego",
+            "Poppy"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Wukong",
+            "Orianna",
+            "Sivir",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Kalista",
+            "JarvanIV",
+            "RenataGlasc",
+            "Kaisa",
+            "Zeri"
+          ],
+          "pickList": [
+            "Jax",
+            "Rell",
+            "Azir",
+            "Xayah",
+            "Nautilus"
+          ]
+        },
+        "date": "2023-11-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5efsLWsFqPs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5efsLWsFqPs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5efsLWsFqPs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "룰테리어 신난다 | JDG vs. KT 게임 2 하이라이트 | 녹아웃 스테이지 8강 Day 3 | 11.04 | 2023 월드 챔피언십",
+        "videoId": "rxpWcA1dDoQ",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Sejuani",
+            "Azir",
+            "Poppy",
+            "Rell"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Vi",
+            "Neeko",
+            "Jinx",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Xayah",
+            "Kalista",
+            "JarvanIV",
+            "Kaisa",
+            "Zeri"
+          ],
+          "pickList": [
+            "Renekton",
+            "Viego",
+            "Orianna",
+            "Aphelios",
+            "RenataGlasc"
+          ]
+        },
+        "date": "2023-11-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rxpWcA1dDoQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rxpWcA1dDoQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rxpWcA1dDoQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "부산불꽃축제 많관부 | JDG vs. KT 게임 1 하이라이트 | 녹아웃 스테이지 8강 Day 3 | 11.04 | 2023 월드 챔피언십",
+        "videoId": "7jj_V_-ncRc",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Xayah",
+            "Kalista",
+            "JarvanIV",
+            "Vi",
+            "Wukong"
+          ],
+          "pickList": [
+            "Jax",
+            "Sejuani",
+            "Akali",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Rumble",
+            "Neeko",
+            "Azir",
+            "Nautilus",
+            "Taliyah"
+          ],
+          "pickList": [
+            "Renekton",
+            "Rell",
+            "Orianna",
+            "Zeri",
+            "Rakan"
+          ]
+        },
+        "date": "2023-11-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7jj_V_-ncRc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7jj_V_-ncRc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7jj_V_-ncRc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you, GEN | GEN vs. BLG 게임 5 하이라이트 | 녹아웃 스테이지 8강 Day 2 | 11.03 | 2023 월드 챔피언십",
+        "videoId": "blMF9RTOVdw",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Sylas",
+            "Rakan",
+            "Aatrox",
+            "Nautilus",
+            "Kalista"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Orianna",
+            "TahmKench",
+            "Senna"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Xayah",
+            "RenataGlasc",
+            "Jax",
+            "Caitlyn",
+            "Aphelios"
+          ],
+          "pickList": [
+            "Gnar",
+            "Vi",
+            "Akali",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "date": "2023-11-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/blMF9RTOVdw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/blMF9RTOVdw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/blMF9RTOVdw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Ok.. 그럼 Next Time에 주문할게요 | GEN vs. BLG 게임 4 하이라이트 | 녹아웃 스테이지 8강 Day 2 | 11.03 | 2023 월드 챔피언십",
+        "videoId": "LxgIlsLIwVA",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Xayah",
+            "RenataGlasc",
+            "Jax",
+            "Caitlyn",
+            "Aphelios"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Akali",
+            "Kalista",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Sylas",
+            "Rakan",
+            "Yone",
+            "Nautilus",
+            "Kaisa"
+          ],
+          "pickList": [
+            "KSante",
+            "JarvanIV",
+            "Neeko",
+            "Ashe",
+            "TahmKench"
+          ]
+        },
+        "date": "2023-11-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/LxgIlsLIwVA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/LxgIlsLIwVA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/LxgIlsLIwVA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아트록스, 도란의 검 | GEN vs. BLG 게임 3 하이라이트 | 녹아웃 스테이지 8강 Day 2 | 11.03 | 2023 월드 챔피언십",
+        "videoId": "2ZVPFhehT6E",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Jax",
+            "Xayah",
+            "RenataGlasc",
+            "Aphelios",
+            "Kalista"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Maokai",
+            "Yone",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Rakan",
+            "Sylas",
+            "Rumble",
+            "Zeri",
+            "Draven"
+          ],
+          "pickList": [
+            "Renekton",
+            "JarvanIV",
+            "Orianna",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "date": "2023-11-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2ZVPFhehT6E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2ZVPFhehT6E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2ZVPFhehT6E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "캐리한 건 이 자야 | GEN vs. BLG 게임 2 하이라이트 | 녹아웃 스테이지 8강 Day 2 | 11.03 | 2023 월드 챔피언십",
+        "videoId": "Q_kcdFtmq8Q",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Sylas",
+            "Rakan",
+            "Poppy",
+            "Yone",
+            "Akali"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Orianna",
+            "Xayah",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Jax",
+            "Neeko",
+            "Kalista",
+            "Jinx",
+            "Ashe"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Maokai",
+            "Azir",
+            "Aphelios",
+            "Milio"
+          ]
+        },
+        "date": "2023-11-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Q_kcdFtmq8Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Q_kcdFtmq8Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Q_kcdFtmq8Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "뭔가 ON다 | GEN vs. BLG 게임 1 하이라이트 | 녹아웃 스테이지 8강 Day 2 | 11.03 | 2023 월드 챔피언십",
+        "videoId": "c3vj-fBk-Ac",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Rakan",
+            "Maokai",
+            "Sylas",
+            "Poppy",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Aatrox",
+            "JarvanIV",
+            "Orianna",
+            "Kalista",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Neeko",
+            "Renekton",
+            "Xayah",
+            "Rumble",
+            "KSante"
+          ],
+          "pickList": [
+            "Jax",
+            "Rell",
+            "Azir",
+            "Aphelios",
+            "TahmKench"
+          ]
+        },
+        "date": "2023-11-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c3vj-fBk-Ac/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c3vj-fBk-Ac/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c3vj-fBk-Ac/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Good Game Well Played | KT vs. DK 게임 2 하이라이트 | 스위스 스테이지 Day 9 | 10.29 | 2023 월드 챔피언십",
+        "videoId": "lMuN8ci4q48",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Xayah",
+            "Kalista",
+            "LeeSin",
+            "Azir",
+            "Orianna"
+          ],
+          "pickList": [
+            "Gnar",
+            "Viego",
+            "Neeko",
+            "Zeri",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Kaisa",
+            "Rumble",
+            "Vi",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Renekton",
+            "JarvanIV",
+            "Ahri",
+            "Aphelios",
+            "Alistar"
+          ]
+        },
+        "date": "2023-10-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lMuN8ci4q48/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lMuN8ci4q48/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lMuN8ci4q48/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "거장 곽마에 | KT vs. DK 게임 1 하이라이트 | 스위스 스테이지 Day 9 | 10.29 | 2023 월드 챔피언십",
+        "videoId": "lGq78TzEQ8c",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "RenataGlasc",
+            "LeeSin",
+            "Kalista",
+            "Alistar",
+            "Orianna"
+          ],
+          "pickList": [
+            "Ryze",
+            "Viego",
+            "Azir",
+            "Zeri",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Xayah",
+            "Kaisa",
+            "Sejuani",
+            "KSante"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Neeko",
+            "Aphelios",
+            "Rell"
+          ]
+        },
+        "date": "2023-10-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lGq78TzEQ8c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lGq78TzEQ8c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lGq78TzEQ8c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "✌️-👊 | T1 vs. BLG 게임 2 하이라이트 | 스위스 스테이지 Day 8 | 10.28 | 2023 월드 챔피언십",
+        "videoId": "EiGtqW5E3EI",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Rakan",
+            "Neeko",
+            "Blitzcrank",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Gragas",
+            "JarvanIV",
+            "Orianna",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "RenataGlasc",
+            "Azir",
+            "Rumble",
+            "Caitlyn",
+            "Kaisa"
+          ],
+          "pickList": [
+            "Jax",
+            "Vi",
+            "Syndra",
+            "Xayah",
+            "Alistar"
+          ]
+        },
+        "date": "2023-10-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EiGtqW5E3EI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EiGtqW5E3EI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EiGtqW5E3EI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "군자의 복수 | T1 vs. BLG 게임 1 하이라이트 | 스위스 스테이지 Day 8 | 10.28 | 2023 월드 챔피언십",
+        "videoId": "xX_f6XCZdck",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Neeko",
+            "Jax",
+            "Rakan",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Gnar",
+            "JarvanIV",
+            "Azir",
+            "TahmKench",
+            "Senna"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Rumble",
+            "Xayah",
+            "RenataGlasc",
+            "Alistar",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Orianna",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "date": "2023-10-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xX_f6XCZdck/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xX_f6XCZdck/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xX_f6XCZdck/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "올라 GALA Go | KT vs. LNG 게임 3 하이라이트 | 스위스 스테이지 Day 7 | 10.27 | 2023 월드 챔피언십",
+        "videoId": "IoCA6Np6wLw",
+        "winTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Rumble",
+            "Neeko",
+            "Zeri",
+            "Poppy",
+            "Jax"
+          ],
+          "pickList": [
+            "Renekton",
+            "Wukong",
+            "Orianna",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Maokai",
+            "Xayah",
+            "RenataGlasc",
+            "Sylas",
+            "JarvanIV"
+          ],
+          "pickList": [
+            "Ornn",
+            "Vi",
+            "Azir",
+            "Aphelios",
+            "Alistar"
+          ]
+        },
+        "date": "2023-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IoCA6Np6wLw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IoCA6Np6wLw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IoCA6Np6wLw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "하람이는 이게 일상이야 | KT vs. LNG 게임 2 하이라이트 | 스위스 스테이지 Day 7 | 10.27 | 2023 월드 챔피언십",
+        "videoId": "oswEyLV46_I",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Maokai",
+            "RenataGlasc",
+            "Tristana",
+            "Alistar",
+            "Rakan"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sejuani",
+            "Taliyah",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Xayah",
+            "Rumble",
+            "Neeko",
+            "Viego",
+            "Vi"
+          ],
+          "pickList": [
+            "Jax",
+            "JarvanIV",
+            "Azir",
+            "Sivir",
+            "Leona"
+          ]
+        },
+        "date": "2023-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oswEyLV46_I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oswEyLV46_I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/oswEyLV46_I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "만개의 왕자 | KT vs. LNG 게임 1 하이라이트 | 스위스 스테이지 Day 7 | 10.27 | 2023 월드 챔피언십",
+        "videoId": "yeEgj8NkCDA",
+        "winTeam": {
+          "teamName": "LNG Esports",
+          "banList": [
+            "Xayah",
+            "Rumble",
+            "Azir",
+            "Zeri",
+            "Varus"
+          ],
+          "pickList": [
+            "Jax",
+            "JarvanIV",
+            "Neeko",
+            "Aphelios",
+            "RenataGlasc"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Kalista",
+            "Kaisa",
+            "Orianna",
+            "Rakan",
+            "Nautilus"
+          ],
+          "pickList": [
+            "KSante",
+            "Maokai",
+            "Jayce",
+            "Jinx",
+            "Alistar"
+          ]
+        },
+        "date": "2023-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/yeEgj8NkCDA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/yeEgj8NkCDA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/yeEgj8NkCDA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아리 눈부쇼 | DK vs. GAM 게임 2 하이라이트 | 스위스 스테이지 Day 7 | 10.27 | 2023 월드 챔피언십",
+        "videoId": "aqlRnSps_fo",
+        "winTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Xayah",
+            "Kalista",
+            "Wukong",
+            "Vi"
+          ],
+          "pickList": [
+            "Rumble",
+            "LeeSin",
+            "Ahri",
+            "Sivir",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "GAM Esports",
+          "banList": [
+            "Caitlyn",
+            "Alistar",
+            "RenataGlasc",
+            "Aphelios",
+            "Neeko"
+          ],
+          "pickList": [
+            "KSante",
+            "Nocturne",
+            "Akali",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "date": "2023-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/aqlRnSps_fo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/aqlRnSps_fo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/aqlRnSps_fo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "어서 말을 해 | DK vs. GAM 게임 1 하이라이트 | 스위스 스테이지 Day 7 | 10.27 | 2023 월드 챔피언십",
+        "videoId": "RQbUFUjZ46s",
+        "winTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Wukong",
+            "Kalista",
+            "Aphelios",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "Sylas",
+            "Kaisa",
+            "Rell"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "GAM Esports",
+          "banList": [
+            "Caitlyn",
+            "Alistar",
+            "Xayah",
+            "Neeko",
+            "Azir"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Orianna",
+            "Zeri",
+            "Rakan"
+          ]
+        },
+        "date": "2023-10-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RQbUFUjZ46s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RQbUFUjZ46s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RQbUFUjZ46s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "선물은 승리야! | DK vs. BDS 게임 2 하이라이트 | 스위스 스테이지 Day 5 | 10.23 | 2023 월드 챔피언십",
+        "videoId": "-a2A53M9PYw",
+        "winTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Darius",
+            "Orianna",
+            "Vi",
+            "Garen"
+          ],
+          "pickList": [
+            "Rumble",
+            "LeeSin",
+            "Azir",
+            "Aphelios",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team BDS",
+          "banList": [
+            "Kalista",
+            "Caitlyn",
+            "Xayah",
+            "LeBlanc",
+            "Yasuo"
+          ],
+          "pickList": [
+            "Olaf",
+            "Wukong",
+            "Neeko",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "date": "2023-10-23",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-a2A53M9PYw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-a2A53M9PYw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-a2A53M9PYw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "'천지창조 - 신과 아담' | DK vs. BDS 게임 1 하이라이트 | 스위스 스테이지 Day 5 | 10.23 | 2023 월드 챔피언십",
+        "videoId": "9ouQKLcWAxw",
+        "winTeam": {
+          "teamName": "Dplus KIA",
+          "banList": [
+            "Maokai",
+            "Darius",
+            "Orianna",
+            "Garen",
+            "Malphite"
+          ],
+          "pickList": [
+            "Rumble",
+            "Vi",
+            "Neeko",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team BDS",
+          "banList": [
+            "Kalista",
+            "Xayah",
+            "JarvanIV",
+            "Jax",
+            "Gnar"
+          ],
+          "pickList": [
+            "Volibear",
+            "LeeSin",
+            "LeBlanc",
+            "Kaisa",
+            "Blitzcrank"
+          ]
+        },
+        "date": "2023-10-23",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9ouQKLcWAxw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9ouQKLcWAxw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9ouQKLcWAxw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "조기 졸업 | G2 vs. GEN 게임 2 하이라이트 | 스위스 스테이지 Day 3 | 10.21 | 2023 월드 챔피언십",
+        "videoId": "rPmqmSn9X0s",
+        "winTeam": {
+          "teamName": "KT Rolster",
+          "banList": [
+            "Poppy",
+            "Maokai",
+            "Kalista",
+            "Rell",
+            "RenataGlasc"
+          ],
+          "pickList": [
+            "KSante",
+            "Viego",
+            "Neeko",
+            "Kaisa",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Weibo Gaming",
+          "banList": [
+            "Alistar",
+            "Xayah",
+            "Rakan",
+            "Vi",
+            "Nocturne"
+          ],
+          "pickList": [
+            "Rumble",
+            "JarvanIV",
+            "Orianna",
+            "Sivir",
+            "Leona"
+          ]
+        },
+        "date": "2023-10-22",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rPmqmSn9X0s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rPmqmSn9X0s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rPmqmSn9X0s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "도약 공격 | G2 vs. GEN 게임 1 하이라이트 | 스위스 스테이지 Day 3 | 10.21 | 2023 월드 챔피언십",
+        "videoId": "bz7eaJ7j4t4",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Draven",
+            "Orianna",
+            "Kalista",
+            "Jayce",
+            "Renekton"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Rell",
+            "Akali",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Vi",
+            "Poppy",
+            "Sylas",
+            "Neeko",
+            "Jax"
+          ],
+          "pickList": [
+            "KSante",
+            "Maokai",
+            "Taliyah",
+            "Lucian",
+            "Nautilus"
+          ]
+        },
+        "date": "2023-10-21",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bz7eaJ7j4t4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bz7eaJ7j4t4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bz7eaJ7j4t4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2024 스프링",
     "startDate": "2024-04-14",
     "lastDate": "2024-01-17",

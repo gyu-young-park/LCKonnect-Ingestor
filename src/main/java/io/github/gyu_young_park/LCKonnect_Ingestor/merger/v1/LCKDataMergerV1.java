@@ -96,8 +96,9 @@ public class LCKDataMergerV1 implements LCKDataMerger {
         lckVideoFilter.addRules(new LCKVideoDataWastedVideoFilterRule<LCKVideoModel>());
         lckMatchRawDataFilter.addRules(new LCKCrawlDataPlayedGameFilterRule<>());
         for (LCKCrawlAndYoutubeMapModel mapping : lckCrawlAndYoutubeMapper.get()) {
-            if (mapping.getCrawlMatchDataFilterList() == null || mapping.getCrawlMatchDataFilterList().isEmpty()) continue;
-            lckMatchRawDataFilter.addRules(new LCKCrawlMatchDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
+            if (mapping.getCrawlMatchDataFilterList() != null && !mapping.getCrawlMatchDataFilterList().isEmpty()) {
+                lckMatchRawDataFilter.addRules(new LCKCrawlMatchDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
+            }
         }
     }
 
