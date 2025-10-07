@@ -7,8 +7,8 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawDat
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.*;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKCrawlDataPlayedGameFilterRule;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKCrawlMatchDataFilterRule;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataPlayedGameFilterRule;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKVideoDataWastedVideoFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper.LCKCrawlAndYoutubeMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
@@ -32,7 +32,7 @@ import java.util.*;
 @RequiredArgsConstructor
 public class LCKDataMergerV1 implements LCKDataMerger {
     private static final Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
-    private final LCKCrawlDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
+    private final LCKMatchRawDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
     private final LCKVideoDataFilter<LCKVideoModel> lckVideoFilter;
     private final LCKCrawlAndYoutubeMapper lckCrawlAndYoutubeMapper;
     private final TransformConfiguration transformConfiguration;
@@ -94,10 +94,10 @@ public class LCKDataMergerV1 implements LCKDataMerger {
 
     public void setupFilter() {
         lckVideoFilter.addRules(new LCKVideoDataWastedVideoFilterRule<LCKVideoModel>());
-        lckMatchRawDataFilter.addRules(new LCKCrawlDataPlayedGameFilterRule<>());
+        lckMatchRawDataFilter.addRules(new LCKMatchRawDataPlayedGameFilterRule<>());
         for (LCKCrawlAndYoutubeMapModel mapping : lckCrawlAndYoutubeMapper.get()) {
             if (mapping.getCrawlMatchDataFilterList() != null && !mapping.getCrawlMatchDataFilterList().isEmpty()) {
-                lckMatchRawDataFilter.addRules(new LCKCrawlMatchDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
+                lckMatchRawDataFilter.addRules(new LCKMatchRawDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
             }
         }
     }

@@ -6,10 +6,10 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class LCKCrawlMatchDataFilterRule<T extends LCKMatchRawData> implements LCKDataFilterRule<T>{
+public class LCKMatchRawDataFilterRule<T extends LCKMatchRawData> implements LCKDataFilterRule<T>{
     final private Map<String, String> filterTargetMatchIdMap = new HashMap<>();
 
-    public LCKCrawlMatchDataFilterRule(List<String> filterTargetMatchIdList) {
+    public LCKMatchRawDataFilterRule(List<String> filterTargetMatchIdList) {
         for (String id: filterTargetMatchIdList) {
             filterTargetMatchIdMap.put(id, id);
         }
