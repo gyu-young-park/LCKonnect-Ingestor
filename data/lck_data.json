@@ -13561,6 +13561,1471 @@
     ]
   },
   {
+    "championshipName": "2023 MSI",
+    "startDate": "2023-05-20",
+    "lastDate": "2023-05-09",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "Thank you, T1 | BLG vs. T1 게임4 하이라이트 | 브래킷 스테이지 Day11 | 2023 MSI",
+        "videoId": "g8LdhFgezfY",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Lucian",
+            "KSante",
+            "Jinx",
+            "Kennen",
+            "Lissandra"
+          ],
+          "pickList": [
+            "Fiora",
+            "KhaZix",
+            "Nautilus",
+            "Zeri",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Vi",
+            "Annie",
+            "Kindred",
+            "Nidalee"
+          ],
+          "pickList": [
+            "Jax",
+            "Wukong",
+            "Ahri",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "date": "2023-05-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/g8LdhFgezfY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/g8LdhFgezfY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/g8LdhFgezfY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "괴도오너 | BLG vs. T1 게임3 하이라이트 | 브래킷 스테이지 Day11 | 2023 MSI",
+        "videoId": "3Z5iY43PANY",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Wukong",
+            "Maokai",
+            "Taliyah",
+            "Sion"
+          ],
+          "pickList": [
+            "Jax",
+            "KhaZix",
+            "KSante",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "Jinx",
+            "Kennen",
+            "Gragas"
+          ],
+          "pickList": [
+            "Gwen",
+            "Kindred",
+            "Galio",
+            "Zeri",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3Z5iY43PANY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3Z5iY43PANY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3Z5iY43PANY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Yagaoham | BLG vs. T1 게임2 하이라이트 | 브래킷 스테이지 Day11 | 2023 MSI",
+        "videoId": "Si_ogK0GUag",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "KSante",
+            "Tristana",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Sion",
+            "Kindred",
+            "Sylas",
+            "Jinx",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Wukong",
+            "Gwen",
+            "Ahri",
+            "Jax"
+          ],
+          "pickList": [
+            "Kennen",
+            "Maokai",
+            "Jayce",
+            "Aphelios",
+            "Nautilus"
+          ]
+        },
+        "date": "2023-05-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Si_ogK0GUag/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Si_ogK0GUag/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Si_ogK0GUag/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Zelk | BLG vs. T1 게임1 하이라이트 | 브래킷 스테이지 Day11 | 2023 MSI",
+        "videoId": "ZgTbK8p2GMo",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Lucian",
+            "KSante",
+            "Jinx",
+            "Kennen",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Jax",
+            "Viego",
+            "Annie",
+            "Zeri",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Vi",
+            "KhaZix",
+            "Poppy",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Gragas",
+            "Wukong",
+            "Lissandra",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "date": "2023-05-20",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZgTbK8p2GMo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZgTbK8p2GMo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZgTbK8p2GMo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you, GEN | BLG vs. 젠지 게임3 하이라이트 | 브래킷 스테이지 Day10 | 2023 MSI",
+        "videoId": "DM3IUvILtQI",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Maokai",
+            "KSante",
+            "Wukong",
+            "Rakan",
+            "Lulu"
+          ],
+          "pickList": [
+            "Sion",
+            "Vi",
+            "Ahri",
+            "Jinx",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Nautilus",
+            "Kennen",
+            "Gwen",
+            "Braum"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Annie",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "date": "2023-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DM3IUvILtQI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DM3IUvILtQI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DM3IUvILtQI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "애나빈 | BLG vs. 젠지 게임2 하이라이트 | 브래킷 스테이지 Day10 | 2023 MSI",
+        "videoId": "1xgX9ljVrFo",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Maokai",
+            "KSante",
+            "Gragas",
+            "Lulu",
+            "Thresh"
+          ],
+          "pickList": [
+            "Gwen",
+            "Vi",
+            "Ahri",
+            "Jinx",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Rakan",
+            "Nautilus",
+            "Jax",
+            "Kennen"
+          ],
+          "pickList": [
+            "Ornn",
+            "Wukong",
+            "Annie",
+            "Aphelios",
+            "TahmKench"
+          ]
+        },
+        "date": "2023-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1xgX9ljVrFo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1xgX9ljVrFo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1xgX9ljVrFo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "빈격 | BLG vs. 젠지 게임1 하이라이트 | 브래킷 스테이지 Day10 | 2023 MSI",
+        "videoId": "y3gxFk1PTow",
+        "winTeam": {
+          "teamName": "Bilibili Gaming",
+          "banList": [
+            "Ahri",
+            "KSante",
+            "Jinx",
+            "Rumble",
+            "Kennen"
+          ],
+          "pickList": [
+            "Jax",
+            "Maokai",
+            "Taliyah",
+            "Zeri",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "Nautilus",
+            "Jayce",
+            "Gnar"
+          ],
+          "pickList": [
+            "Gragas",
+            "Vi",
+            "Lissandra",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "date": "2023-05-19",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/y3gxFk1PTow/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/y3gxFk1PTow/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/y3gxFk1PTow/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "꽉 | JDG vs. T1 게임5 하이라이트 | 브래킷 스테이지 Day9 | 2023 MSI",
+        "videoId": "rDe0nbjhj0E",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "KSante",
+            "Tristana",
+            "Jayce"
+          ],
+          "pickList": [
+            "Gragas",
+            "Sejuani",
+            "Sylas",
+            "Jinx",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Wukong",
+            "Ahri",
+            "KhaZix",
+            "Viego"
+          ],
+          "pickList": [
+            "Gwen",
+            "Maokai",
+            "Nautilus",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rDe0nbjhj0E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rDe0nbjhj0E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rDe0nbjhj0E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "오공의 믹서기 | JDG vs. T1 게임4 하이라이트 | 브래킷 스테이지 Day9 | 2023 MSI",
+        "videoId": "rpo52x-xi8Y",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Lucian",
+            "Sion",
+            "KSante",
+            "Poppy",
+            "Rumble"
+          ],
+          "pickList": [
+            "Gragas",
+            "Wukong",
+            "Annie",
+            "Aphelios",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Vi",
+            "Lulu",
+            "Xayah",
+            "Zeri"
+          ],
+          "pickList": [
+            "Malphite",
+            "Kindred",
+            "Nautilus",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "date": "2023-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rpo52x-xi8Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rpo52x-xi8Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rpo52x-xi8Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Path Maker | JDG vs. T1 게임3 하이라이트 | 브래킷 스테이지 Day9 | 2023 MSI",
+        "videoId": "sKVILbFTMZc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Vi",
+            "Wukong",
+            "Gragas",
+            "Viego"
+          ],
+          "pickList": [
+            "Gwen",
+            "KhaZix",
+            "KSante",
+            "Jinx",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Lucian",
+            "Rakan",
+            "Sion",
+            "Rumble",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Ornn",
+            "XinZhao",
+            "Annie",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sKVILbFTMZc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sKVILbFTMZc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sKVILbFTMZc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "빨리 깨! | JDG vs. T1 게임2 하이라이트 | 브래킷 스테이지 Day9 | 2023 MSI",
+        "videoId": "CUSaZ1VmN-g",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Wukong",
+            "Ahri",
+            "KhaZix",
+            "Syndra"
+          ],
+          "pickList": [
+            "Ornn",
+            "Maokai",
+            "Tristana",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "KSante",
+            "Gwen",
+            "Jayce"
+          ],
+          "pickList": [
+            "Sion",
+            "Sejuani",
+            "Cassiopeia",
+            "Jinx",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CUSaZ1VmN-g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CUSaZ1VmN-g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CUSaZ1VmN-g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "티버타임 | JDG vs. T1 게임1 하이라이트 | 브래킷 스테이지 Day9 | 2023 MSI",
+        "videoId": "dT2YlLsb4OY",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Lucian",
+            "Rakan",
+            "Sion",
+            "Rumble",
+            "Lulu"
+          ],
+          "pickList": [
+            "Gragas",
+            "Wukong",
+            "Annie",
+            "Jinx",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Maokai",
+            "Vi",
+            "Ahri",
+            "Gwen",
+            "Malphite"
+          ],
+          "pickList": [
+            "KSante",
+            "Kindred",
+            "Nautilus",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "date": "2023-05-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dT2YlLsb4OY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dT2YlLsb4OY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dT2YlLsb4OY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "호랑이 굴에 여우가 왕이다 | 젠지 vs. C9 게임3 하이라이트 | 브래킷 스테이지 Day8 | 2023 MSI",
+        "videoId": "EXD0iLSZkAw",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Annie",
+            "Nautilus",
+            "Maokai",
+            "Nidalee",
+            "LeBlanc"
+          ],
+          "pickList": [
+            "Gragas",
+            "KhaZix",
+            "Ahri",
+            "Jinx",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Vi",
+            "Lulu",
+            "Wukong",
+            "Sion",
+            "Malphite"
+          ],
+          "pickList": [
+            "Kennen",
+            "LeeSin",
+            "KSante",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2023-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/EXD0iLSZkAw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/EXD0iLSZkAw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/EXD0iLSZkAw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "긴고아의 피넛 | 젠지 vs. C9 게임2 하이라이트 | 브래킷 스테이지 Day8 | 2023 MSI",
+        "videoId": "ZSjIiHhXjvQ",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Annie",
+            "Nautilus",
+            "Maokai",
+            "Poppy",
+            "Kennen"
+          ],
+          "pickList": [
+            "Sion",
+            "Wukong",
+            "Vex",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Vi",
+            "Lulu",
+            "Ahri",
+            "Malphite",
+            "Lissandra"
+          ],
+          "pickList": [
+            "KSante",
+            "KhaZix",
+            "LeBlanc",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2023-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZSjIiHhXjvQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZSjIiHhXjvQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZSjIiHhXjvQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "끌어! 땡겨! | 젠지 vs. C9 게임1 하이라이트 | 브래킷 스테이지 Day8 | 2023 MSI",
+        "videoId": "bhvRAcU7brs",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Rakan",
+            "KSante",
+            "Annie",
+            "Sylas",
+            "LeeSin"
+          ],
+          "pickList": [
+            "Ornn",
+            "KhaZix",
+            "Nautilus",
+            "Jinx",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Vi",
+            "Maokai",
+            "Ahri",
+            "Gwen",
+            "Nidalee"
+          ],
+          "pickList": [
+            "Sion",
+            "Poppy",
+            "Syndra",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bhvRAcU7brs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bhvRAcU7brs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bhvRAcU7brs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "높은 곳에서 다시 만나자 | 젠지 vs. T1 게임5 하이라이트 | 브래킷 스테이지 Day5 | 2023 MSI",
+        "videoId": "rjoXfRH_7Gc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Wukong",
+            "Maokai",
+            "Thresh",
+            "Lulu"
+          ],
+          "pickList": [
+            "Gragas",
+            "Rumble",
+            "KSante",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "Nautilus",
+            "Lissandra",
+            "Elise"
+          ],
+          "pickList": [
+            "Gwen",
+            "Poppy",
+            "Ahri",
+            "Aphelios",
+            "Alistar"
+          ]
+        },
+        "date": "2023-05-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rjoXfRH_7Gc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rjoXfRH_7Gc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rjoXfRH_7Gc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "빠바밤~ | 젠지 vs. T1 게임4 하이라이트 | 브래킷 스테이지 Day5 | 2023 MSI",
+        "videoId": "BwTURgL3muA",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Annie",
+            "Nautilus",
+            "Poppy",
+            "Sion"
+          ],
+          "pickList": [
+            "Gragas",
+            "Wukong",
+            "Lissandra",
+            "Jinx",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Maokai",
+            "KSante",
+            "Blitzcrank",
+            "Thresh"
+          ],
+          "pickList": [
+            "Ornn",
+            "Nocturne",
+            "Ahri",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/BwTURgL3muA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/BwTURgL3muA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/BwTURgL3muA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "신.난.다 | 젠지 vs. T1 게임3 하이라이트 | 브래킷 스테이지 Day5 | 2023 MSI",
+        "videoId": "UHpx-OLLeBs",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Nautilus",
+            "Maokai",
+            "Poppy",
+            "Nocturne"
+          ],
+          "pickList": [
+            "Gnar",
+            "Wukong",
+            "Rumble",
+            "Jinx",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Ahri",
+            "KSante",
+            "Lissandra",
+            "Malphite"
+          ],
+          "pickList": [
+            "Sion",
+            "KhaZix",
+            "Annie",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "date": "2023-05-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UHpx-OLLeBs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UHpx-OLLeBs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UHpx-OLLeBs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "T버소환술 | 젠지 vs. T1 게임2 하이라이트 | 브래킷 스테이지 Day5 | 2023 MSI",
+        "videoId": "ksZVsKiIt1Y",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Maokai",
+            "KSante",
+            "Ahri",
+            "Lissandra"
+          ],
+          "pickList": [
+            "Sion",
+            "Nocturne",
+            "Annie",
+            "Aphelios",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Nautilus",
+            "Lulu",
+            "Poppy",
+            "Thresh"
+          ],
+          "pickList": [
+            "Gragas",
+            "Viego",
+            "AurelionSol",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "date": "2023-05-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ksZVsKiIt1Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ksZVsKiIt1Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ksZVsKiIt1Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "CIVIL WAR | 젠지 vs. T1 게임1 하이라이트 | 브래킷 스테이지 Day5 | 2023 MSI",
+        "videoId": "c-E0ZiD0cHc",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Vi",
+            "Maokai",
+            "KSante",
+            "Malphite",
+            "Gragas"
+          ],
+          "pickList": [
+            "Sion",
+            "Poppy",
+            "Annie",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Nautilus",
+            "Lulu",
+            "Nidalee",
+            "Thresh"
+          ],
+          "pickList": [
+            "Gwen",
+            "Wukong",
+            "Ahri",
+            "Aphelios",
+            "Rakan"
+          ]
+        },
+        "date": "2023-05-13",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c-E0ZiD0cHc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c-E0ZiD0cHc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c-E0ZiD0cHc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "막내손 고무장갑 | MAD vs. T1 게임3 하이라이트 | 브래킷 스테이지 Day2 | 2023 MSI",
+        "videoId": "RCTQPZDY_Ac",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gragas",
+            "Rakan",
+            "Vi",
+            "Pyke",
+            "Kennen"
+          ],
+          "pickList": [
+            "Sion",
+            "Maokai",
+            "Ahri",
+            "Jinx",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Aphelios",
+            "Lulu",
+            "Jayce"
+          ],
+          "pickList": [
+            "KSante",
+            "LeeSin",
+            "TwistedFate",
+            "Ezreal",
+            "Annie"
+          ]
+        },
+        "date": "2023-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RCTQPZDY_Ac/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RCTQPZDY_Ac/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RCTQPZDY_Ac/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "현준조교 | MAD vs. T1 게임2 하이라이트 | 브래킷 스테이지 Day2 | 2023 MSI",
+        "videoId": "g2Vy-3WlDCQ",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gragas",
+            "Rakan",
+            "Vi",
+            "Pyke",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Karma",
+            "Maokai",
+            "KSante",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Jayce",
+            "Nautilus",
+            "Annie"
+          ],
+          "pickList": [
+            "Kennen",
+            "LeeSin",
+            "Lissandra",
+            "Xayah",
+            "Rell"
+          ]
+        },
+        "date": "2023-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/g2Vy-3WlDCQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/g2Vy-3WlDCQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/g2Vy-3WlDCQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "우후 아하 우흐헤 에헤헤 우흐흐헤헤후! | MAD vs. T1 게임1 하이라이트 | 브래킷 스테이지 Day2 | 2023 MSI",
+        "videoId": "wCeeUY7mf-s",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Gragas",
+            "Rakan",
+            "Vi",
+            "Blitzcrank",
+            "Ahri"
+          ],
+          "pickList": [
+            "KSante",
+            "KhaZix",
+            "Nautilus",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Jayce",
+            "Elise",
+            "Lissandra"
+          ],
+          "pickList": [
+            "Kennen",
+            "LeeSin",
+            "Annie",
+            "Xayah",
+            "Pyke"
+          ]
+        },
+        "date": "2023-05-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wCeeUY7mf-s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wCeeUY7mf-s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wCeeUY7mf-s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "'도'를 아십니까 | 젠지 vs. G2 게임4 하이라이트 | 브래킷 스테이지 Day1 | 2023 MSI",
+        "videoId": "VdF3n4FQ5oE",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Nautilus",
+            "Olaf",
+            "Rakan",
+            "Annie",
+            "Thresh"
+          ],
+          "pickList": [
+            "KSante",
+            "Elise",
+            "Tristana",
+            "Jinx",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Vi",
+            "Aphelios",
+            "Maokai",
+            "Malphite",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Kennen",
+            "Poppy",
+            "AurelionSol",
+            "Draven",
+            "Soraka"
+          ]
+        },
+        "date": "2023-05-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VdF3n4FQ5oE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VdF3n4FQ5oE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VdF3n4FQ5oE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Han's 자야 | 젠지 vs. G2 게임3 하이라이트 | 브래킷 스테이지 Day1 | 2023 MSI",
+        "videoId": "Vk8IyZMym1Y",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Vi",
+            "Aphelios",
+            "Maokai",
+            "Lulu",
+            "Jayce"
+          ],
+          "pickList": [
+            "Kennen",
+            "Poppy",
+            "Annie",
+            "Xayah",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Nautilus",
+            "Draven",
+            "Olaf",
+            "KhaZix",
+            "Viego"
+          ],
+          "pickList": [
+            "Malphite",
+            "Nidalee",
+            "KSante",
+            "Zeri",
+            "Rell"
+          ]
+        },
+        "date": "2023-05-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Vk8IyZMym1Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Vk8IyZMym1Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Vk8IyZMym1Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "협곡46머신 | 젠지 vs. G2 게임2 하이라이트 | 브래킷 스테이지 Day1 | 2023 MSI",
+        "videoId": "CvQUby4yEpo",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Nautilus",
+            "Draven",
+            "Olaf",
+            "Sylas",
+            "Rakan"
+          ],
+          "pickList": [
+            "Tristana",
+            "Maokai",
+            "Lissandra",
+            "Aphelios",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "KSante",
+            "Vi",
+            "Nidalee",
+            "Gragas",
+            "Sion"
+          ],
+          "pickList": [
+            "Kennen",
+            "Viego",
+            "Annie",
+            "Jinx",
+            "Thresh"
+          ]
+        },
+        "date": "2023-05-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/CvQUby4yEpo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/CvQUby4yEpo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/CvQUby4yEpo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "어서와, 쵸비는 처음이지? | 젠지 vs. G2 게임1 하이라이트 | 브래킷 스테이지 Day1 | 2023 MSI",
+        "videoId": "ULMm2abCULA",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Nautilus",
+            "Olaf",
+            "Rakan",
+            "Thresh",
+            "Poppy"
+          ],
+          "pickList": [
+            "Fiora",
+            "Vi",
+            "Ahri",
+            "Aphelios",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Annie",
+            "KSante",
+            "Kennen",
+            "Gnar",
+            "Jayce"
+          ],
+          "pickList": [
+            "Darius",
+            "Nidalee",
+            "Lissandra",
+            "Draven",
+            "Braum"
+          ]
+        },
+        "date": "2023-05-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ULMm2abCULA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ULMm2abCULA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ULMm2abCULA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2023 LCK 서머",
     "startDate": "2023-08-20",
     "lastDate": "2023-06-07",
