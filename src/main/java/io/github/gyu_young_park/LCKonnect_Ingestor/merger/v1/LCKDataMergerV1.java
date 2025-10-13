@@ -15,6 +15,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipM
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKCrawlAndYoutubeMapModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKTeamModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKVideoAndInfoModel;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.picker.Picker;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKPlayListModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKVideoModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.youtube.model.LCKYoutubeModel;
@@ -26,6 +27,8 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 import java.util.*;
+import java.util.function.Function;
+import java.util.stream.Collectors;
 
 @Component
 @Data
@@ -120,7 +123,12 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 if (!crawlMap.containsKey(leagueName)) {
                     throw new NoSuchElementException("Missing crawl league: " + leagueName);
                 }
-                matchList.addAll(crawlMap.get(leagueName));
+                matchList.addAll(Picker.pickUpMatch(
+                        mapping.getCrawlMatchPickIdList(),
+                        crawlMap.get(leagueName).stream().
+                                collect(Collectors.toMap(
+                                        LCKMatchRawData::getId, data -> data
+                                ))));
             }
 
             // filter: 플레이 되지 않은 match는 걸러낸다. isPlayed가 false인 것만 골라낸다.

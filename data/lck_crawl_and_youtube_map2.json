@@ -5,6 +5,12 @@
     "youtube_list": ["2022 LCK 서머 스플릿 게임 하이라이트"]
   },
   {
+    "name": "2022 Worlds",
+    "crawl_match_pick_id_list": ["44417", "44413", "44408", "44403", "44398", "44393"],
+    "crawl_list": ["World Championship 2022"],
+    "youtube_list": ["Worlds 2022 LCK 게임 하이라이트"]
+  },
+  {
     "name": "2023 LCK 스프링",
     "crawl_list": ["LCK Spring Playoffs 2023","LCK Spring 2023"],
     "youtube_list": ["2023 LCK 스프링 게임 하이라이트"]
