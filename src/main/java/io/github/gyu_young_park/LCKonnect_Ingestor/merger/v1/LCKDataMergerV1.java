@@ -123,12 +123,7 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 if (!crawlMap.containsKey(leagueName)) {
                     throw new NoSuchElementException("Missing crawl league: " + leagueName);
                 }
-                matchList.addAll(Picker.pickUpMatch(
-                        mapping.getCrawlMatchPickIdList(),
-                        crawlMap.get(leagueName).stream().
-                                collect(Collectors.toMap(
-                                        LCKMatchRawData::getId, data -> data
-                                ))));
+                matchList.addAll(Picker.pickUpMatch(mapping.getCrawlMatchPickIdList(), crawlMap.get(leagueName)));
             }
 
             // filter: 플레이 되지 않은 match는 걸러낸다. isPlayed가 false인 것만 골라낸다.

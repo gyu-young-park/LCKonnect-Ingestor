@@ -1,5 +1,11 @@
 [
   {
+    "name": "2022 LCK 스프링",
+    "crawl_match_filter_list": ["39040"],
+    "crawl_list": ["LCK Spring Playoffs 2022", "LCK Spring 2022"],
+    "youtube_list": ["2022 LCK 스프링 게임 하이라이트"]
+  },
+  {
     "name": "2022 MSI",
     "crawl_match_pick_id_list": ["39988", "39985"],
     "crawl_list": ["MSI 2022"],
@@ -7,7 +13,7 @@
   },
   {
     "name": "2022 LCK 서머",
-    "crawl_list": ["LCK Summer Playoffs 2022","LCK Summer 2022 "],
+    "crawl_list": ["LCK Summer Playoffs 2022","LCK Summer 2022"],
     "youtube_list": ["2022 LCK 서머 스플릿 게임 하이라이트"]
   },
   {
