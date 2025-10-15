@@ -9,3 +9,7 @@ It crawls match results, champion picks and bans, and maps them with official LC
 3. add scheduler code or spring batch
 4. REST API to call crawl and mapping data
 5. Split json data file by league name
+
+## issue
+
+1. failed to crawl 2022 Spring each game, because the form of game is different from current
