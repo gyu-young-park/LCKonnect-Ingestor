@@ -1,5 +1,1470 @@
 [
   {
+    "championshipName": "2021 Worlds",
+    "startDate": "2021-11-06",
+    "lastDate": "2021-10-09",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "Thank you DK | DK vs. EDG 게임 5 하이라이트 | Finals | 11.06 | 2021 월드 챔피언십",
+        "videoId": "26fonRpNNxs",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Yuumi",
+            "LeeSin",
+            "TwistedFate",
+            "Qiyana",
+            "Talon"
+          ],
+          "pickList": [
+            "Kennen",
+            "XinZhao",
+            "Zoe",
+            "Aphelios",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "JarvanIV",
+            "Ryze",
+            "Nami",
+            "Viego",
+            "LeBlanc"
+          ],
+          "pickList": [
+            "Graves",
+            "Trundle",
+            "Syndra",
+            "Ziggs",
+            "Leona"
+          ]
+        },
+        "date": "2021-11-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/26fonRpNNxs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/26fonRpNNxs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/26fonRpNNxs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "마지막 경기로 | DK vs. EDG 게임 4 하이라이트 | Finals | 11.06 | 2021 월드 챔피언십",
+        "videoId": "PaHLKfe-Fvc",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Qiyana",
+            "Aphelios",
+            "TwistedFate",
+            "Kennen",
+            "Jayce"
+          ],
+          "pickList": [
+            "Graves",
+            "Viego",
+            "Zoe",
+            "Lucian",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Yuumi",
+            "JarvanIV",
+            "LeeSin",
+            "Ryze",
+            "LeBlanc"
+          ],
+          "pickList": [
+            "Gwen",
+            "Talon",
+            "Orianna",
+            "Jhin",
+            "Nami"
+          ]
+        },
+        "date": "2021-11-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PaHLKfe-Fvc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PaHLKfe-Fvc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PaHLKfe-Fvc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "두려운가..? | DK vs. EDG 게임 3 하이라이트 | Finals | 11.06 | 2021 월드 챔피언십",
+        "videoId": "VqRBPI2yomI",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Yuumi",
+            "Nami",
+            "JarvanIV",
+            "Ziggs",
+            "Jinx"
+          ],
+          "pickList": [
+            "Gragas",
+            "LeeSin",
+            "Sylas",
+            "Aphelios",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Qiyana",
+            "Rakan",
+            "Graves",
+            "Irelia",
+            "Lucian"
+          ],
+          "pickList": [
+            "Jayce",
+            "XinZhao",
+            "TwistedFate",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "date": "2021-11-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VqRBPI2yomI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VqRBPI2yomI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VqRBPI2yomI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아~ 달다! | DK vs. EDG 게임 2 하이라이트 | Finals | 11.06 | 2021 월드 챔피언십",
+        "videoId": "RTSCVwQCS4Q",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "JarvanIV",
+            "Xayah",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Graves",
+            "Qiyana",
+            "Malzahar",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Yuumi",
+            "TwistedFate",
+            "LeeSin",
+            "Lissandra",
+            "Poppy"
+          ],
+          "pickList": [
+            "Irelia",
+            "XinZhao",
+            "LeBlanc",
+            "Kaisa",
+            "Rakan"
+          ]
+        },
+        "date": "2021-11-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RTSCVwQCS4Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RTSCVwQCS4Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RTSCVwQCS4Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "접바둑 | DK vs. EDG 게임 1 하이라이트 | Finals | 11.06 | 2021 월드 챔피언십",
+        "videoId": "lzjqtN-ptRs",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Yuumi",
+            "TwistedFate",
+            "LeeSin",
+            "Talon",
+            "Qiyana"
+          ],
+          "pickList": [
+            "Graves",
+            "JarvanIV",
+            "Ryze",
+            "Jhin",
+            "Zilean"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "Lissandra",
+            "Kennen",
+            "Leona"
+          ],
+          "pickList": [
+            "Yasuo",
+            "XinZhao",
+            "LeBlanc",
+            "Ziggs",
+            "Rakan"
+          ]
+        },
+        "date": "2021-11-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/lzjqtN-ptRs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/lzjqtN-ptRs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/lzjqtN-ptRs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Thank you GEN | EDG vs. GEN 게임 5 하이라이트 | Semifinals Day 2 | 10.31 | 2021 월드 챔피언십",
+        "videoId": "cuUKtA3tgbs",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Yuumi",
+            "LeeSin",
+            "Aphelios",
+            "Syndra",
+            "Azir"
+          ],
+          "pickList": [
+            "Graves",
+            "JarvanIV",
+            "Ryze",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "TwistedFate",
+            "Lucian",
+            "Zoe",
+            "Kennen"
+          ],
+          "pickList": [
+            "Renekton",
+            "XinZhao",
+            "Orianna",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "date": "2021-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cuUKtA3tgbs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cuUKtA3tgbs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cuUKtA3tgbs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "콕! | EDG vs. GEN 게임 4 하이라이트 | Semifinals Day 2 | 10.31 | 2021 월드 챔피언십",
+        "videoId": "AMTQVMo6rA8",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Syndra",
+            "Aphelios",
+            "LeeSin",
+            "XinZhao",
+            "Poppy"
+          ],
+          "pickList": [
+            "Kennen",
+            "JarvanIV",
+            "Zoe",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "Yuumi",
+            "TwistedFate",
+            "Ryze",
+            "Orianna"
+          ],
+          "pickList": [
+            "Graves",
+            "Viego",
+            "Azir",
+            "MissFortune",
+            "Lulu"
+          ]
+        },
+        "date": "2021-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AMTQVMo6rA8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AMTQVMo6rA8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AMTQVMo6rA8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "단 하나의 수 | EDG vs. GEN 게임 3 하이라이트 | Semifinals Day 2 | 10.31 | 2021 월드 챔피언십",
+        "videoId": "kyIa3ysRMf0",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "Yuumi",
+            "TwistedFate",
+            "Ryze",
+            "Orianna"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Zoe",
+            "MissFortune",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Syndra",
+            "Graves",
+            "Aphelios",
+            "Azir",
+            "Kennen"
+          ],
+          "pickList": [
+            "Gwen",
+            "JarvanIV",
+            "Viktor",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "date": "2021-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kyIa3ysRMf0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kyIa3ysRMf0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kyIa3ysRMf0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "더 클래식 : 사운드 오브 젠지 | EDG vs. GEN 게임 2 하이라이트 | Semifinals Day 2 | 10.31 | 2021 월드 챔피언십",
+        "videoId": "6VFcDFgQZqE",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "TwistedFate",
+            "Lucian",
+            "Ezreal",
+            "Draven"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Azir",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Yuumi",
+            "Syndra",
+            "Aphelios",
+            "Kennen",
+            "Galio"
+          ],
+          "pickList": [
+            "Graves",
+            "JarvanIV",
+            "Ryze",
+            "Jinx",
+            "Lulu"
+          ]
+        },
+        "date": "2021-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/6VFcDFgQZqE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/6VFcDFgQZqE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/6VFcDFgQZqE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "나미물총빵야빵야 | EDG vs. GEN 게임 1 하이라이트 | Semifinals Day 2 | 10.31 | 2021 월드 챔피언십",
+        "videoId": "2T-UBnSJdyU",
+        "winTeam": {
+          "teamName": "Edward Gaming",
+          "banList": [
+            "Syndra",
+            "Aphelios",
+            "Graves",
+            "Azir",
+            "Kennen"
+          ],
+          "pickList": [
+            "Jax",
+            "JarvanIV",
+            "Orianna",
+            "Lucian",
+            "Nami"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "TwistedFate",
+            "LeBlanc",
+            "Yuumi",
+            "Jayce",
+            "Ryze"
+          ],
+          "pickList": [
+            "Gwen",
+            "LeeSin",
+            "Seraphine",
+            "MissFortune",
+            "Lulu"
+          ]
+        },
+        "date": "2021-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2T-UBnSJdyU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2T-UBnSJdyU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2T-UBnSJdyU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LCK | T1 vs. DK 게임 5 하이라이트 | Semifinals Day 1 | 10.30 | 2021 월드 챔피언십",
+        "videoId": "v7zWNZmaHQQ",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "LeeSin",
+            "Yuumi",
+            "TwistedFate",
+            "Lulu",
+            "Thresh"
+          ],
+          "pickList": [
+            "Graves",
+            "Talon",
+            "Zoe",
+            "Ziggs",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "LeBlanc",
+            "JarvanIV",
+            "Ryze",
+            "Qiyana",
+            "Kassadin"
+          ],
+          "pickList": [
+            "Kennen",
+            "XinZhao",
+            "Azir",
+            "Aphelios",
+            "Zilean"
+          ]
+        },
+        "date": "2021-10-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/v7zWNZmaHQQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/v7zWNZmaHQQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/v7zWNZmaHQQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "3대 800 르블랑 | T1 vs. DK 게임 4 하이라이트 | Semifinals Day 1 | 10.30 | 2021 월드 챔피언십",
+        "videoId": "VpNVX1aKR9g",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "Graves",
+            "Jinx",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Gragas",
+            "Qiyana",
+            "LeBlanc",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yuumi",
+            "LeeSin",
+            "TwistedFate",
+            "Kennen",
+            "Irelia"
+          ],
+          "pickList": [
+            "Jayce",
+            "JarvanIV",
+            "Ryze",
+            "Lucian",
+            "Lulu"
+          ]
+        },
+        "date": "2021-10-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VpNVX1aKR9g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VpNVX1aKR9g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VpNVX1aKR9g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "진윅 | T1 vs. DK 게임 3 하이라이트 | Semifinals Day 1 | 10.30 | 2021 월드 챔피언십",
+        "videoId": "1UvgYTgtHp8",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yuumi",
+            "LeeSin",
+            "TwistedFate",
+            "Leona",
+            "Jayce"
+          ],
+          "pickList": [
+            "Kennen",
+            "XinZhao",
+            "Ryze",
+            "Jhin",
+            "Zilean"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "Graves",
+            "Gwen",
+            "Rakan"
+          ],
+          "pickList": [
+            "Lucian",
+            "JarvanIV",
+            "Syndra",
+            "MissFortune",
+            "Maokai"
+          ]
+        },
+        "date": "2021-10-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1UvgYTgtHp8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1UvgYTgtHp8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1UvgYTgtHp8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "압수. | T1 vs. DK 게임 2 하이라이트 | Semifinals Day 1 | 10.30 | 2021 월드 챔피언십",
+        "videoId": "D2BcayRJ89Q",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Ryze",
+            "TwistedFate",
+            "JarvanIV",
+            "MissFortune",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Yasuo",
+            "LeeSin",
+            "Lissandra",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Yuumi",
+            "Aphelios",
+            "Lucian",
+            "Gwen",
+            "Kennen"
+          ],
+          "pickList": [
+            "Graves",
+            "XinZhao",
+            "LeBlanc",
+            "Draven",
+            "Alistar"
+          ]
+        },
+        "date": "2021-10-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/D2BcayRJ89Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/D2BcayRJ89Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/D2BcayRJ89Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "👻할로윈 시즌에 '귀신'같이 폼 오르는 분🎃 | T1 vs. DK 게임 1 하이라이트 | Semifinals Day 1 | 10.30 | 2021 월드 챔피언십",
+        "videoId": "SvM0IXLRQZE",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "Graves",
+            "Thresh",
+            "Jinx"
+          ],
+          "pickList": [
+            "Lucian",
+            "LeeSin",
+            "LeBlanc",
+            "Jhin",
+            "Maokai"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Yuumi",
+            "Syndra",
+            "TwistedFate",
+            "Ziggs",
+            "Rakan"
+          ],
+          "pickList": [
+            "Jayce",
+            "Poppy",
+            "Ryze",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "date": "2021-10-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/SvM0IXLRQZE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/SvM0IXLRQZE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/SvM0IXLRQZE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "𝓯𝓸𝓻𝓽𝓲𝓼𝓼𝓲𝓶𝓸 | GEN vs. C9 게임 3 하이라이트 | Quarterfinals Day 4 | 10.25 | 2021 월드 챔피언십",
+        "videoId": "rzB72PFq1XA",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "TwistedFate",
+            "Yuumi",
+            "Olaf",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Zoe",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "Irelia",
+            "Kennen",
+            "Azir"
+          ],
+          "pickList": [
+            "Graves",
+            "JarvanIV",
+            "Syndra",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "date": "2021-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/rzB72PFq1XA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/rzB72PFq1XA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/rzB72PFq1XA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "𝓶𝓮𝔃𝔃𝓸 𝓯𝓸𝓻𝓽𝓮 | GEN vs. C9 게임 2 하이라이트 | Quarterfinals Day 4 | 10.25 | 2021 월드 챔피언십",
+        "videoId": "Q_l-bK4Zs4c",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "TwistedFate",
+            "Yuumi",
+            "Irelia",
+            "Jayce"
+          ],
+          "pickList": [
+            "Graves",
+            "LeeSin",
+            "Syndra",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Aphelios",
+            "Nami",
+            "JarvanIV",
+            "Azir",
+            "Kennen"
+          ],
+          "pickList": [
+            "Malphite",
+            "Poppy",
+            "Sylas",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "date": "2021-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Q_l-bK4Zs4c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Q_l-bK4Zs4c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Q_l-bK4Zs4c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "클라우드보단 엘더지~ | GEN vs. C9 게임 1 하이라이트 | Quarterfinals Day 4 | 10.25 | 2021 월드 챔피언십",
+        "videoId": "41EyquGRyOY",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "LeBlanc",
+            "Irelia",
+            "TwistedFate",
+            "Rakan",
+            "Leona"
+          ],
+          "pickList": [
+            "Kennen",
+            "XinZhao",
+            "Aatrox",
+            "Aphelios",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Cloud9",
+          "banList": [
+            "Yuumi",
+            "Renekton",
+            "MissFortune",
+            "Azir",
+            "Sett"
+          ],
+          "pickList": [
+            "JarvanIV",
+            "LeeSin",
+            "Yasuo",
+            "Ziggs",
+            "Nautilus"
+          ]
+        },
+        "date": "2021-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/41EyquGRyOY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/41EyquGRyOY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/41EyquGRyOY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "\"R\" | DK vs. MAD 게임 3 하이라이트 | Quarterfinals Day 3 | 10.24 | 2021 월드 챔피언십",
+        "videoId": "i6LM2XUThzg",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Yuumi",
+            "Lucian",
+            "LeBlanc",
+            "JarvanIV",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Jayce",
+            "LeeSin",
+            "Syndra",
+            "Ziggs",
+            "Pyke"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Aphelios",
+            "Graves",
+            "TwistedFate",
+            "Leona",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Wukong",
+            "Gragas",
+            "Viktor",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "date": "2021-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i6LM2XUThzg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i6LM2XUThzg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/i6LM2XUThzg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "내...스펠이...뭐..였드라...? | DK vs. MAD 게임 2 하이라이트 | Quarterfinals Day 3 | 10.24 | 2021 월드 챔피언십",
+        "videoId": "eW-PaZv4_bU",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Lucian",
+            "LeBlanc",
+            "Yuumi",
+            "XinZhao",
+            "Ryze"
+          ],
+          "pickList": [
+            "Kennen",
+            "LeeSin",
+            "Azir",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Aphelios",
+            "TwistedFate",
+            "Graves",
+            "Irelia",
+            "Syndra"
+          ],
+          "pickList": [
+            "Jayce",
+            "JarvanIV",
+            "Orianna",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "date": "2021-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/eW-PaZv4_bU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/eW-PaZv4_bU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/eW-PaZv4_bU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "ㅇ_＜ | DK vs. MAD 게임 1 하이라이트 | Quarterfinals Day 3 | 10.24 | 2021 월드 챔피언십",
+        "videoId": "zTqAbgN6xqA",
+        "winTeam": {
+          "teamName": "DWG KIA",
+          "banList": [
+            "Irelia",
+            "Nami",
+            "JarvanIV",
+            "Thresh",
+            "XinZhao"
+          ],
+          "pickList": [
+            "Gwen",
+            "LeeSin",
+            "Syndra",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "LeBlanc",
+            "Yuumi",
+            "TwistedFate",
+            "Kennen",
+            "Jayce"
+          ],
+          "pickList": [
+            "Gnar",
+            "Graves",
+            "Orianna",
+            "Aphelios",
+            "Leona"
+          ]
+        },
+        "date": "2021-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zTqAbgN6xqA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zTqAbgN6xqA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zTqAbgN6xqA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "인.간.아.펠 | T1 vs. HLE 게임 3 하이라이트 | Quarterfinals Day 1 | 10.22 | 2021 월드 챔피언십",
+        "videoId": "wY1GaNPEyio",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "LeeSin",
+            "TwistedFate",
+            "JarvanIV",
+            "Rakan",
+            "Leona"
+          ],
+          "pickList": [
+            "Gnar",
+            "Talon",
+            "Lissandra",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Jayce",
+            "Yuumi",
+            "Graves",
+            "Gwen",
+            "Kennen"
+          ],
+          "pickList": [
+            "Renekton",
+            "Olaf",
+            "LeBlanc",
+            "Varus",
+            "Braum"
+          ]
+        },
+        "date": "2021-10-22",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wY1GaNPEyio/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wY1GaNPEyio/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wY1GaNPEyio/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "협곡 미용사 김창동 | T1 vs. HLE 게임 2 하이라이트 | Quarterfinals Day 1 | 10.22 | 2021 월드 챔피언십",
+        "videoId": "mUc2h56TYZ4",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "LeeSin",
+            "TwistedFate",
+            "JarvanIV",
+            "Rakan",
+            "Leona"
+          ],
+          "pickList": [
+            "Gwen",
+            "Poppy",
+            "Lissandra",
+            "Aphelios",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Jayce",
+            "Yuumi",
+            "Graves",
+            "Kennen",
+            "Thresh"
+          ],
+          "pickList": [
+            "Renekton",
+            "XinZhao",
+            "LeBlanc",
+            "Varus",
+            "Nautilus"
+          ]
+        },
+        "date": "2021-10-22",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mUc2h56TYZ4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mUc2h56TYZ4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mUc2h56TYZ4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "안녕히 계세요 여러분~! | T1 vs. HLE 게임 1 하이라이트 | Quarterfinals Day 1 | 10.22 | 2021 월드 챔피언십",
+        "videoId": "MOZU5bhDbag",
+        "winTeam": {
+          "teamName": "T1",
+          "banList": [
+            "Sylas",
+            "LeBlanc",
+            "JarvanIV",
+            "Leona",
+            "Rakan"
+          ],
+          "pickList": [
+            "Graves",
+            "Talon",
+            "Orianna",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Yuumi",
+            "LeeSin",
+            "TwistedFate",
+            "Ryze",
+            "Azir"
+          ],
+          "pickList": [
+            "Irelia",
+            "XinZhao",
+            "Zoe",
+            "MissFortune",
+            "Braum"
+          ]
+        },
+        "date": "2021-10-22",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MOZU5bhDbag/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MOZU5bhDbag/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MOZU5bhDbag/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "태조 대 황 건 | HLE vs. BYG 게임 3 하이라이트 | Play-In Stage Day 5 | 10.09 | 2021 월드 챔피언십",
+        "videoId": "j4BTFj8kDqA",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Lucian",
+            "XinZhao",
+            "Lillia",
+            "Rakan",
+            "Gwen"
+          ],
+          "pickList": [
+            "Irelia",
+            "LeeSin",
+            "Orianna",
+            "Kaisa",
+            "Gragas"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Beyond Gaming",
+          "banList": [
+            "LeBlanc",
+            "Sylas",
+            "Azir",
+            "TwistedFate",
+            "Braum"
+          ],
+          "pickList": [
+            "Fiora",
+            "Talon",
+            "Ornn",
+            "MissFortune",
+            "Alistar"
+          ]
+        },
+        "date": "2021-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/j4BTFj8kDqA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/j4BTFj8kDqA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/j4BTFj8kDqA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "시-원하다! | HLE vs. BYG 게임 2 하이라이트 | Play-In Stage Day 5 | 10.09 | 2021 월드 챔피언십",
+        "videoId": "dni7NHnSRHs",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Lucian",
+            "XinZhao",
+            "Lillia",
+            "Ezreal",
+            "Kaisa"
+          ],
+          "pickList": [
+            "JarvanIV",
+            "LeeSin",
+            "Azir",
+            "MissFortune",
+            "Amumu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Beyond Gaming",
+          "banList": [
+            "LeBlanc",
+            "Irelia",
+            "Qiyana",
+            "Sylas",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "Kennen",
+            "Viego",
+            "Kled",
+            "Vayne",
+            "Leona"
+          ]
+        },
+        "date": "2021-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dni7NHnSRHs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dni7NHnSRHs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dni7NHnSRHs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "쵸. 쵸쵹. 쵹. 쵸초쵹. 쵸. 쵸비~~~~~~ | HLE vs. BYG 게임 1 하이라이트 | Play-In Stage Day 5 | 10.09 | 2021 월드 챔피언십",
+        "videoId": "u-ZigDsk48c",
+        "winTeam": {
+          "teamName": "Hanwha Life eSports",
+          "banList": [
+            "Lucian",
+            "XinZhao",
+            "Lillia",
+            "Jax",
+            "Ornn"
+          ],
+          "pickList": [
+            "Irelia",
+            "Nidalee",
+            "Fiora",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Beyond Gaming",
+          "banList": [
+            "LeBlanc",
+            "Qiyana",
+            "Sylas",
+            "Taliyah",
+            "Sejuani"
+          ],
+          "pickList": [
+            "Gwen",
+            "LeeSin",
+            "Tryndamere",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "date": "2021-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/u-ZigDsk48c/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/u-ZigDsk48c/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/u-ZigDsk48c/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2022 LCK 스프링",
     "startDate": "2022-04-02",
     "lastDate": "2022-01-12",
