@@ -1,9 +1,9 @@
 [
   {
     "name": "2021 Worlds",
-    "crawl_match_pick_id_list": ["35402", "35370", "35375", "35347", "35342", "35332", "35223"],
-    "crawl_list": ["World Championship 2021", "World Championship Play-In 2021"],
-    "youtube_list": ["Worlds 2021 LCK 게임 하이라이트"]
+    "crawl_match_pick_id_list": ["35402", "35370", "35375", "35347", "35342", "35332", "35223", "34973", "34970", "34922"],
+    "crawl_list": ["World Championship 2021", "World Championship Play-In 2021", "LCK Regional Finals 2021"],
+    "youtube_list": ["Worlds 2021 LCK 게임 하이라이트", "2021 Worlds LCK 대표 선발전 게임 하이라이트"]
   },
   {
     "name": "2022 LCK 스프링",
