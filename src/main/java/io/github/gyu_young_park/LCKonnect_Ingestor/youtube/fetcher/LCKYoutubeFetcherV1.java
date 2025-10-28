@@ -32,7 +32,7 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
         do {
             LCKPlayListAPIRespDTO lckPlayListAPIRespDTO = lckYoutubeAPI.getLCKPlayList(pageToken);
             for (LCKPlayListAPIRespDTO.Item playList : lckPlayListAPIRespDTO.getItems()) {
-                if (filterPlayList(playList.getSnippet().getTitle())) continue;
+                if (!filterPlayList(playList.getSnippet().getTitle())) continue;
                 LCKPlayListModel lckPlayListModel = lckPlayListMapper.toModel(playList);
                 lckPlayListModel.setLckVideoList(getLckVideos(playList.getId()));
                 lckPlayListModelList.add(lckPlayListModel);
@@ -49,7 +49,7 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
     }
 
     private boolean filterPlayList(String playListTitle) {
-        return !playListTitle.endsWith("게임 하이라이트");
+        return playListTitle.endsWith("게임 하이라이트") || playListTitle.endsWith("게임하이라이트");
     }
 
     private List<LCKVideoModel> getLckVideos(String playListId) {

@@ -7,6 +7,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawDat
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.*;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKGameRawDataFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataPlayedGameFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataFilterRule;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKVideoDataWastedVideoFilterRule;
@@ -35,6 +36,7 @@ import java.util.stream.Collectors;
 @RequiredArgsConstructor
 public class LCKDataMergerV1 implements LCKDataMerger {
     private static final Logger LOGGER = LoggerFactory.getLogger(LCKDataMergerV1.class);
+    private final LCKGameRawDataFilter<LCKGameRawData> lckGameRawDataFilter;
     private final LCKMatchRawDataFilter<LCKMatchRawData> lckMatchRawDataFilter;
     private final LCKVideoDataFilter<LCKVideoModel> lckVideoFilter;
     private final LCKCrawlAndYoutubeMapper lckCrawlAndYoutubeMapper;
@@ -102,6 +104,9 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             if (mapping.getCrawlMatchDataFilterList() != null && !mapping.getCrawlMatchDataFilterList().isEmpty()) {
                 lckMatchRawDataFilter.addRules(new LCKMatchRawDataFilterRule<>(mapping.getCrawlMatchDataFilterList()));
             }
+            if (mapping.getCrawlGameFilterList() != null && !mapping.getCrawlGameFilterList().isEmpty()) {
+                lckGameRawDataFilter.addRules(new LCKGameRawDataFilterRule<>(mapping.getCrawlGameFilterList()));
+            }
         }
     }
 
@@ -155,7 +160,7 @@ public class LCKDataMergerV1 implements LCKDataMerger {
                 }
                 championship.setLastDate(match.getDate());
 
-                List<LCKGameRawData> gameList = match.getLckGameRawDataList();
+                List<LCKGameRawData> gameList = lckGameRawDataFilter.filter(match.getLckGameRawDataList());
                 for (int i = gameList.size() - 1; i >= 0 && videoIndex < videoList.size(); i--, videoIndex++) {
                     LCKGameRawData game = gameList.get(i);
                     LCKVideoModel video = videoList.get(videoIndex);

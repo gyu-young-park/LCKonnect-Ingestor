@@ -2,6 +2,7 @@
   {
     "name": "2021 LCK 스프링",
     "crawl_list": ["LCK Spring Playoffs 2021","LCK Spring 2021"],
+    "crawl_game_filter_list": ["28668", "28377", "28643", "27771"],
     "youtube_list": ["2021 LCK Spring Split 게임하이라이트"]
   },
   {
