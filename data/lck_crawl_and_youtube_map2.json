@@ -1,5 +1,10 @@
 [
   {
+    "name": "2021 LCK 스프링",
+    "crawl_list": ["LCK Spring Playoffs 2021","LCK Spring 2021"],
+    "youtube_list": ["2021 LCK Spring Split 게임하이라이트"]
+  },
+  {
     "name": "2021 MSI",
     "crawl_match_pick_id_list": ["31322", "31317"],
     "crawl_list": ["MSI 2021"],
