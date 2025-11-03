@@ -1,11 +1,12 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
 
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
 import io.github.gyu_young_park.LCKonnect_Ingestor.service.LCKDataService;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
+import io.lettuce.core.dynamic.annotation.Param;
 import lombok.RequiredArgsConstructor;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,5 +19,14 @@ public class LCKDataController {
     @GetMapping()
     public List<LCKChampionshipModel> getLCKData() {
         return lckDataService.getLCKData();
+    }
+
+    @GetMapping("/query/win/{team}/{champion}")
+    public List<String> getQueryData(
+            @PathVariable("team") String team,
+            @PathVariable("champion") String champion) {
+        System.out.println("team: " + team);
+        System.out.println("champion: " + champion);
+        return lckDataService.queryWinTeamAndChampion(TeamResultEnum.WIN, team,champion);
     }
 }

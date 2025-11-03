@@ -8,6 +8,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.TeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.ChampionshipEntityRepository;
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.MatchTeamEntityRepository;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.repository.TeamEntityRepository;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
@@ -23,6 +24,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -37,6 +39,7 @@ public class LCKDataService {
     final private LCKCrawler lckCrawler;
     final private ChampionshipEntityRepository championshipEntityRepository;
     final private TeamEntityRepository teamEntityRepository;
+    final private MatchTeamEntityRepository matchTeamEntityRepository;
     final private DataModelToEntity<LCKChampionshipModel, ChampionshipEntity> lckChampionshipModelToChampionshipEntityConvertor;
     final private DataModelToEntity<LCKTeamModel, TeamEntity> lckTeamModelToTeamEntityConvertor;
     final private DataModelToEntity<LCKTeamModel, MatchTeamEntity> lckTeamModelToMatchTeamEntityConvertor;
@@ -130,4 +133,12 @@ public class LCKDataService {
         LCKYoutubeModel lckYoutubeModel;
     }
 
+    public List<String> queryWinTeamAndChampion(TeamResultEnum resultEnum, String team, String champion) {
+        List<MatchTeamEntity> matchTeamEntityList = matchTeamEntityRepository.findByTeamResultAndChampion(resultEnum,team, champion);
+        List<String> videoIds = new ArrayList<>();
+        for (var matchTeamEntity: matchTeamEntityList) {
+            videoIds.add(matchTeamEntity.getMatchEntity().getVideoId());
+        }
+        return videoIds;
+    }
 }
