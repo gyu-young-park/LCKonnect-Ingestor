@@ -1,5 +1,10 @@
 [
   {
+    "name": "2020 Worlds",
+    "crawl_list": ["World Championship 2020", "World Championship Play-In 2020"],
+    "youtube_list": ["2020 월드 챔피언십 게임하이라이트"]
+  },
+  {
     "name": "2021 LCK 스프링",
     "crawl_list": ["LCK Spring Playoffs 2021","LCK Spring 2021"],
     "crawl_game_filter_list": ["28668", "28377", "28643", "27771"],

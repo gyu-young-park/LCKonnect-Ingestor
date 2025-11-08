@@ -1,5 +1,6168 @@
 [
   {
+    "championshipName": "2020 Worlds",
+    "startDate": "2020-10-31",
+    "lastDate": "2020-09-25",
+    "lckVideoAndInfoModelList": [
+      {
+        "videoTitle": "LCK is Back | DWG vs SN | Finals H/L 10.31 | 2020 월드 챔피언십",
+        "videoId": "I2JZOiMA7g8",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Camille",
+            "Jhin",
+            "Akali",
+            "Ezreal",
+            "Jax"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Syndra",
+            "Caitlyn",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Ashe",
+            "Kennen",
+            "Lulu"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Graves",
+            "Orianna",
+            "Aphelios",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/I2JZOiMA7g8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/I2JZOiMA7g8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/I2JZOiMA7g8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "재미 좀 봤어? | DWG vs SN | Finals H/L 10.31 | 2020 월드 챔피언십",
+        "videoId": "i0qPuQyea_8",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Camille",
+            "Renekton",
+            "Leona",
+            "Bard",
+            "Thresh"
+          ],
+          "pickList": [
+            "Kennen",
+            "Graves",
+            "Syndra",
+            "Jhin",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "TwistedFate",
+            "Ashe",
+            "Lucian",
+            "Lulu",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Jax",
+            "Nidalee",
+            "Akali",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/i0qPuQyea_8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/i0qPuQyea_8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/i0qPuQyea_8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "너로 피오라니라 | DWG vs SN | Finals H/L 10.31 | 2020 월드 챔피언십",
+        "videoId": "xYx0zXLq7hk",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Ashe",
+            "Senna",
+            "Draven"
+          ],
+          "pickList": [
+            "Fiora",
+            "Rengar",
+            "Syndra",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Camille",
+            "Sylas",
+            "Graves",
+            "LeeSin",
+            "Wukong"
+          ],
+          "pickList": [
+            "Ornn",
+            "Evelynn",
+            "Lucian",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/xYx0zXLq7hk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/xYx0zXLq7hk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/xYx0zXLq7hk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "이봐, 친구! 그거 알아? | DWG vs SN | Finals H/L 10.31 | 2020 월드 챔피언십",
+        "videoId": "IOYFDSaoMhw",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Camille",
+            "Syndra",
+            "Jhin",
+            "JarvanIV",
+            "Gangplank"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Nidalee",
+            "Lucian",
+            "TwistedFate",
+            "Thresh",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Wukong",
+            "Shen",
+            "Azir",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-31",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IOYFDSaoMhw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IOYFDSaoMhw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IOYFDSaoMhw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "쿵쿵따리 쿵쿵따 | SN vs TES | Semifinals Day2 H/L 10.25 | 2020 월드 챔피언십",
+        "videoId": "3qGrqibx8VE",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Lucian",
+            "Syndra",
+            "Caitlyn",
+            "Senna",
+            "Jhin"
+          ],
+          "pickList": [
+            "Jax",
+            "JarvanIV",
+            "Akali",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Camille",
+            "Nidalee",
+            "Azir",
+            "Gangplank",
+            "Shen"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Ashe",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/3qGrqibx8VE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/3qGrqibx8VE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/3qGrqibx8VE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "💞💓💞💓 | SN vs TES | Semifinals Day2 H/L 10.25 | 2020 월드 챔피언십",
+        "videoId": "DEcq6lYRU00",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Lucian",
+            "Syndra",
+            "Nidalee",
+            "Azir",
+            "Sylas"
+          ],
+          "pickList": [
+            "Jax",
+            "Shen",
+            "Orianna",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Camille",
+            "Kindred",
+            "Graves",
+            "JarvanIV",
+            "Ornn"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Ekko",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "date": "2020-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DEcq6lYRU00/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DEcq6lYRU00/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DEcq6lYRU00/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "강빠따 | SN vs TES | Semifinals Day2 H/L 10.25 | 2020 월드 챔피언십",
+        "videoId": "NHi9QtucXDM",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Camille",
+            "Nidalee",
+            "Graves",
+            "Thresh",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Gangplank",
+            "LeeSin",
+            "Orianna",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Lucian",
+            "Caitlyn",
+            "Syndra",
+            "Yuumi",
+            "Vladimir"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Zoe",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NHi9QtucXDM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NHi9QtucXDM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NHi9QtucXDM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Bin부격차 | SN vs TES | Semifinals Day2 H/L 10.25 | 2020 월드 챔피언십",
+        "videoId": "9--M8BEgzEM",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Lucian",
+            "Syndra",
+            "Nidalee",
+            "Thresh",
+            "Ornn"
+          ],
+          "pickList": [
+            "Wukong",
+            "LeeSin",
+            "Azir",
+            "Ezreal",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Camille",
+            "Kindred",
+            "Graves",
+            "Leona",
+            "Bard"
+          ],
+          "pickList": [
+            "Jayce",
+            "Sett",
+            "Orianna",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9--M8BEgzEM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9--M8BEgzEM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9--M8BEgzEM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "WON | DWG vs G2 | Semifinals Day1 H/L 10.24 | 2020 월드 챔피언십",
+        "videoId": "fNxkcMU_wyU",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Shen",
+            "Syndra",
+            "Jhin",
+            "TahmKench",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Sett",
+            "Kindred",
+            "TwistedFate",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Ashe",
+            "Camille",
+            "Lulu"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Sylas",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fNxkcMU_wyU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fNxkcMU_wyU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fNxkcMU_wyU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "'SHOWMAKER' is bigger than 'caps' | DWG vs G2 | Semifinals Day1 H/L 10.24 | 2020 월드 챔피언십",
+        "videoId": "NEFI4zhQ2NA",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Ornn",
+            "Volibear",
+            "Sylas",
+            "Bard",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Lulu",
+            "Graves",
+            "Syndra",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Camille",
+            "Nidalee",
+            "Lucian",
+            "Renekton",
+            "Sett"
+          ],
+          "pickList": [
+            "Sion",
+            "Kindred",
+            "Akali",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NEFI4zhQ2NA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NEFI4zhQ2NA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NEFI4zhQ2NA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "🍒카드캡스체리🍒 | DWG vs G2 | Semifinals Day1 H/L 10.24 | 2020 월드 챔피언십",
+        "videoId": "zqAwPPs-xP8",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Lillia",
+            "Renekton",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Camille",
+            "Kindred",
+            "TwistedFate",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Shen",
+            "Syndra",
+            "Jhin",
+            "Caitlyn",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Fiora",
+            "Graves",
+            "Sylas",
+            "Ashe",
+            "Sett"
+          ]
+        },
+        "date": "2020-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zqAwPPs-xP8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zqAwPPs-xP8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zqAwPPs-xP8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "케년타우로스 - 루브르 | DWG vs G2 | Semifinals Day1 H/L 10.24 | 2020 월드 챔피언십",
+        "videoId": "MCNV2LM_Msc",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Ornn",
+            "Volibear",
+            "Shen",
+            "Ashe",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Hecarim",
+            "TwistedFate",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Camille",
+            "Nidalee",
+            "Syndra",
+            "Kennen",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Sylas",
+            "Lucian",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-24",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MCNV2LM_Msc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MCNV2LM_Msc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MCNV2LM_Msc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "궁극기는 뺏어 드세요...... 제발 | GEN vs G2 | Quarterfinals Day4 H/L 10.18 | 2020 월드 챔피언십",
+        "videoId": "HrVnpyAoHWQ",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Sett",
+            "Kalista",
+            "Nidalee",
+            "Karma",
+            "Gragas"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Sylas",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ornn",
+            "Lillia",
+            "Lucian",
+            "Nautilus",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Volibear",
+            "Kindred",
+            "TwistedFate",
+            "Ezreal",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HrVnpyAoHWQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HrVnpyAoHWQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HrVnpyAoHWQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "반G2개 | GEN vs G2 | Quarterfinals Day4 H/L 10.18 | 2020 월드 챔피언십",
+        "videoId": "27pUd9R0U4I",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Sett",
+            "Lucian",
+            "Renekton",
+            "Kalista",
+            "Senna"
+          ],
+          "pickList": [
+            "Shen",
+            "Lillia",
+            "Sylas",
+            "Jhin",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Syndra",
+            "Ornn",
+            "Graves",
+            "Pantheon",
+            "Thresh"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "TwistedFate",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/27pUd9R0U4I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/27pUd9R0U4I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/27pUd9R0U4I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "어서오고 | GEN vs G2 | Quarterfinals Day4 H/L 10.18 | 2020 월드 챔피언십",
+        "videoId": "gGQO4pe5QK8",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Sett",
+            "Lucian",
+            "Renekton",
+            "Gragas",
+            "Galio"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "TwistedFate",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Syndra",
+            "Ornn",
+            "Graves",
+            "Ashe",
+            "Senna"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Azir",
+            "Kalista",
+            "Taric"
+          ]
+        },
+        "date": "2020-10-18",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gGQO4pe5QK8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gGQO4pe5QK8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gGQO4pe5QK8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "¡¡┌ ㅇ ┘ | TES vs FNC | Quarterfinals Day3 H/L 10.17 | 2020 월드 챔피언십",
+        "videoId": "VvHiAGBQqTU",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Lucian",
+            "Orianna",
+            "Graves",
+            "Kindred",
+            "Camille"
+          ],
+          "pickList": [
+            "Vladimir",
+            "LeeSin",
+            "Sylas",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Syndra",
+            "Sett",
+            "Lulu",
+            "Yuumi",
+            "Sion"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Gragas",
+            "TwistedFate",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VvHiAGBQqTU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VvHiAGBQqTU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VvHiAGBQqTU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "칙! 칙! 폭! 폭! | TES vs FNC | Quarterfinals Day3 H/L 10.17 | 2020 월드 챔피언십",
+        "videoId": "X82Oq4MeuXo",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Orianna",
+            "TwistedFate",
+            "Lucian",
+            "Braum",
+            "Rakan"
+          ],
+          "pickList": [
+            "Sion",
+            "Nidalee",
+            "Jayce",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Syndra",
+            "Sylas",
+            "Ezreal",
+            "Renekton",
+            "Camille"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Galio",
+            "Ashe",
+            "Sett"
+          ]
+        },
+        "date": "2020-10-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/X82Oq4MeuXo/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/X82Oq4MeuXo/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/X82Oq4MeuXo/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "아직 승패는 테스형도 모른다고 하네요 | TES vs FNC | Quarterfinals Day3 H/L 10.17 | 2020 월드 챔피언십",
+        "videoId": "RFsdm2DJyeY",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "TwistedFate",
+            "Graves",
+            "Leona",
+            "Akali",
+            "Kindred"
+          ],
+          "pickList": [
+            "Sion",
+            "LeeSin",
+            "Orianna",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Syndra",
+            "Lucian",
+            "Sett",
+            "Yuumi",
+            "Bard"
+          ],
+          "pickList": [
+            "Ornn",
+            "KhaZix",
+            "VelKoz",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/RFsdm2DJyeY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/RFsdm2DJyeY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/RFsdm2DJyeY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "ㄴㅇㄱ !! | TES vs FNC | Quarterfinals Day3 H/L 10.17 | 2020 월드 챔피언십",
+        "videoId": "hGLfzHIhWK4",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Syndra",
+            "Lucian",
+            "Sett",
+            "Camille",
+            "Vladimir"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Orianna",
+            "Ashe",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Rakan",
+            "TwistedFate",
+            "Graves",
+            "Volibear",
+            "Hecarim"
+          ],
+          "pickList": [
+            "Gangplank",
+            "JarvanIV",
+            "Sylas",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hGLfzHIhWK4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hGLfzHIhWK4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hGLfzHIhWK4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "삐-삐-삐-삐-삐-삐-삐-삐-삐 | TES vs FNC | Quarterfinals Day3 H/L 10.17 | 2020 월드 챔피언십",
+        "videoId": "AOxhoY9kdhY",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Syndra",
+            "Lucian",
+            "Sett",
+            "Yuumi",
+            "Bard"
+          ],
+          "pickList": [
+            "Singed",
+            "Kindred",
+            "Galio",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Volibear",
+            "TwistedFate",
+            "Orianna",
+            "Shen",
+            "Camille"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Zoe",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-17",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/AOxhoY9kdhY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/AOxhoY9kdhY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/AOxhoY9kdhY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "진진자라 지리지리자 진진자라 | SN vs JDG | Quarterfinals Day2 H/L 10.16 | 2020 월드 챔피언십",
+        "videoId": "tv-O9-kScmU",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Nidalee",
+            "Lucian",
+            "Caitlyn",
+            "Aphelios"
+          ],
+          "pickList": [
+            "Volibear",
+            "Kindred",
+            "Zoe",
+            "Jhin",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Camille",
+            "Gangplank",
+            "Syndra",
+            "Leona",
+            "Bard"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "TwistedFate",
+            "Ashe",
+            "Blitzcrank"
+          ]
+        },
+        "date": "2020-10-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tv-O9-kScmU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tv-O9-kScmU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tv-O9-kScmU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "1050 | SN vs JDG | Quarterfinals Day2 H/L 10.16 | 2020 월드 챔피언십",
+        "videoId": "sx6IXolV3lE",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Lucian",
+            "Nidalee",
+            "Renekton",
+            "Leona"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Kindred",
+            "Galio",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Camille",
+            "Syndra",
+            "Graves",
+            "Jax",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "TwistedFate",
+            "Ezreal",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sx6IXolV3lE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sx6IXolV3lE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sx6IXolV3lE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Stylish | SN vs JDG | Quarterfinals Day2 H/L 10.16 | 2020 월드 챔피언십",
+        "videoId": "Z4ajhmZCeo8",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "TwistedFate",
+            "Lucian",
+            "Bard",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Graves",
+            "Zoe",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Camille",
+            "Syndra",
+            "Nidalee",
+            "Kennen",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Galio",
+            "MissFortune",
+            "Sett"
+          ]
+        },
+        "date": "2020-10-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z4ajhmZCeo8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z4ajhmZCeo8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Z4ajhmZCeo8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "킹받네... | SN vs JDG | Quarterfinals Day2 H/L 10.16 | 2020 월드 챔피언십",
+        "videoId": "taL3KTy9A-8",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Camille",
+            "Syndra",
+            "Nidalee",
+            "Ezreal",
+            "Ashe"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Zoe",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "TwistedFate",
+            "Lucian",
+            "Caitlyn",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Graves",
+            "Galio",
+            "MissFortune",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-16",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/taL3KTy9A-8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/taL3KTy9A-8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/taL3KTy9A-8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "준비됐어 D? | DWG vs DRX | Quarterfinals Day1 H/L 10.15 | 2020 월드 챔피언십",
+        "videoId": "bSkja-bwGHs",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Lucian",
+            "Caitlyn",
+            "TwistedFate",
+            "Azir",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Orianna",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Syndra",
+            "Camille",
+            "Nidalee",
+            "Aphelios",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Vladimir",
+            "Graves",
+            "VelKoz",
+            "Senna",
+            "Braum"
+          ]
+        },
+        "date": "2020-10-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bSkja-bwGHs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bSkja-bwGHs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bSkja-bwGHs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "이건운명이야이건운명이야이건운명이야이건운명이야이건운명이야 | DWG vs DRX | Quarterfinals Day1 H/L 10.15 | 2020 월드 챔피언십",
+        "videoId": "qI4qNY3Hv10",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Lucian",
+            "Caitlyn",
+            "Renekton",
+            "Sett",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "TwistedFate",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Syndra",
+            "Camille",
+            "Lillia",
+            "Kalista",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Jax",
+            "Nidalee",
+            "Galio",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/qI4qNY3Hv10/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/qI4qNY3Hv10/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/qI4qNY3Hv10/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "너! 구리형! | DWG vs DRX | Quarterfinals Day1 H/L 10.15 | 2020 월드 챔피언십",
+        "videoId": "QMbN9c_XaUQ",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Shen",
+            "Galio",
+            "Lillia",
+            "Ornn",
+            "Lux"
+          ],
+          "pickList": [
+            "Kennen",
+            "Graves",
+            "Syndra",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Lucian",
+            "Pantheon",
+            "Blitzcrank"
+          ],
+          "pickList": [
+            "Jayce",
+            "Kindred",
+            "Orianna",
+            "Caitlyn",
+            "Lulu"
+          ]
+        },
+        "date": "2020-10-15",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QMbN9c_XaUQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QMbN9c_XaUQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QMbN9c_XaUQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DRX vs TES | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "Hizz4fsgZq8",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Lucian",
+            "TwistedFate",
+            "Nidalee",
+            "Camille",
+            "Lux"
+          ],
+          "pickList": [
+            "Vladimir",
+            "Graves",
+            "Orianna",
+            "Ashe",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Syndra",
+            "Renekton",
+            "Lillia",
+            "Blitzcrank",
+            "Morgana"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Galio",
+            "Caitlyn",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Hizz4fsgZq8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Hizz4fsgZq8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Hizz4fsgZq8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs FLY | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "52MbuKJ3i2o",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Swain",
+            "Ornn",
+            "Rakan"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Vayne",
+            "Jhin",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Shen",
+            "Ashe",
+            "Volibear",
+            "Irelia",
+            "Syndra"
+          ],
+          "pickList": [
+            "Malphite",
+            "Graves",
+            "Kassadin",
+            "Twitch",
+            "Lulu"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/52MbuKJ3i2o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/52MbuKJ3i2o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/52MbuKJ3i2o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TES vs FLY | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "dH-iOHaaueM",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Senna",
+            "Ornn",
+            "Camille"
+          ],
+          "pickList": [
+            "Gnar",
+            "Lillia",
+            "Azir",
+            "Ashe",
+            "Blitzcrank"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Shen",
+            "Renekton",
+            "Syndra",
+            "Volibear",
+            "Orianna"
+          ],
+          "pickList": [
+            "Urgot",
+            "Graves",
+            "Galio",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dH-iOHaaueM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dH-iOHaaueM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dH-iOHaaueM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DRX vs UOL | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "2YnG6u0u_rE",
+        "winTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Swain",
+            "Blitzcrank",
+            "Kalista",
+            "Ashe",
+            "Jhin"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Caitlyn",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Nidalee",
+            "Kindred",
+            "TwistedFate",
+            "Renekton",
+            "Lux"
+          ],
+          "pickList": [
+            "Camille",
+            "Lillia",
+            "Lucian",
+            "Ziggs",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2YnG6u0u_rE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2YnG6u0u_rE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2YnG6u0u_rE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs TES | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "hSkBT3_LA_A",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Swain",
+            "Nidalee",
+            "Camille",
+            "Orianna",
+            "Karthus"
+          ],
+          "pickList": [
+            "Sion",
+            "Graves",
+            "Syndra",
+            "Ashe",
+            "Lulu"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Jax",
+            "Gragas",
+            "Renekton",
+            "Ornn",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Wukong",
+            "Lillia",
+            "Lucian",
+            "Ziggs",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hSkBT3_LA_A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hSkBT3_LA_A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hSkBT3_LA_A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FLY vs DRX | Group Stage Day8 H/L 10.11 | 2020 월드 챔피언십",
+        "videoId": "wf5ru1stn_M",
+        "winTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Lucian",
+            "Syndra",
+            "Volibear",
+            "Orianna",
+            "Kassadin"
+          ],
+          "pickList": [
+            "Jayce",
+            "Lillia",
+            "Galio",
+            "Senna",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "TwistedFate",
+            "Nidalee",
+            "Caitlyn",
+            "Sylas",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Azir",
+            "Jhin",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-11",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wf5ru1stn_M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wf5ru1stn_M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wf5ru1stn_M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GEN vs FNC | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "s0lhJWWgLfc",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Evelynn",
+            "Volibear",
+            "Ornn",
+            "Syndra",
+            "Orianna"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Lucian",
+            "Aphelios",
+            "Taric"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Sett",
+            "TwistedFate",
+            "Kalista",
+            "Ezreal",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Malphite",
+            "Graves",
+            "Lulu",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/s0lhJWWgLfc/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/s0lhJWWgLfc/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/s0lhJWWgLfc/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs TSM | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "HjdI0gtxmvM",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Caitlyn",
+            "Syndra",
+            "Ornn",
+            "TahmKench",
+            "Leona"
+          ],
+          "pickList": [
+            "Shen",
+            "Nidalee",
+            "Orianna",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "TwistedFate",
+            "Lucian",
+            "Renekton",
+            "Jax",
+            "Volibear"
+          ],
+          "pickList": [
+            "Camille",
+            "Graves",
+            "Zilean",
+            "Ashe",
+            "Braum"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HjdI0gtxmvM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HjdI0gtxmvM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HjdI0gtxmvM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FNC vs LGD | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "98__9-oLRs4",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "TwistedFate",
+            "Ornn",
+            "Kindred",
+            "TahmKench",
+            "Thresh"
+          ],
+          "pickList": [
+            "Volibear",
+            "Hecarim",
+            "Orianna",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Lucian",
+            "Evelynn",
+            "Syndra",
+            "Lillia",
+            "Jhin"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Zoe",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/98__9-oLRs4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/98__9-oLRs4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/98__9-oLRs4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TSM vs GEN | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "PLKmT37ev7o",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Caitlyn",
+            "TwistedFate",
+            "Camille",
+            "Bard",
+            "Braum"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "Sett",
+            "Kalista",
+            "Renekton",
+            "Syndra",
+            "Leona"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Lucian",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PLKmT37ev7o/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PLKmT37ev7o/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PLKmT37ev7o/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs GEN | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "2_3V1k77wSE",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ornn",
+            "TwistedFate",
+            "Graves",
+            "Leona",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Volibear",
+            "Nidalee",
+            "Azir",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Kalista",
+            "Sett",
+            "Lucian",
+            "Syndra",
+            "Zoe"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Orianna",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2_3V1k77wSE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2_3V1k77wSE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2_3V1k77wSE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FNC vs TSM | Group Stage Day7 H/L 10.10 | 2020 월드 챔피언십",
+        "videoId": "20EShYWzp1I",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "TwistedFate",
+            "Caitlyn",
+            "Sett",
+            "Ezreal",
+            "Rakan"
+          ],
+          "pickList": [
+            "Volibear",
+            "Graves",
+            "Orianna",
+            "Senna",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "Lucian",
+            "Evelynn",
+            "Thresh",
+            "Ornn",
+            "Renekton"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Galio",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-10",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/20EShYWzp1I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/20EShYWzp1I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/20EShYWzp1I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "JDG vs DWG | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "Uv0BuWNQGNA",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Akali",
+            "Pantheon",
+            "Nidalee",
+            "Leona",
+            "Ashe"
+          ],
+          "pickList": [
+            "Camille",
+            "Lillia",
+            "TwistedFate",
+            "MissFortune",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Lucian",
+            "Caitlyn",
+            "Renekton",
+            "Ezreal",
+            "Senna"
+          ],
+          "pickList": [
+            "Sett",
+            "Graves",
+            "Galio",
+            "Kalista",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Uv0BuWNQGNA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Uv0BuWNQGNA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Uv0BuWNQGNA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "PSG vs RGE | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "IaLisIQMwIM",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Hecarim",
+            "Nidalee",
+            "Shen",
+            "Pantheon",
+            "Sett"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Syndra",
+            "Aphelios",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "TwistedFate",
+            "Lucian",
+            "Caitlyn",
+            "Twitch",
+            "Alistar"
+          ],
+          "pickList": [
+            "Irelia",
+            "Lillia",
+            "Orianna",
+            "Senna",
+            "Braum"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/IaLisIQMwIM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/IaLisIQMwIM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/IaLisIQMwIM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "JDG vs PSG | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "Y_MbnvUlU60",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Sett",
+            "Lucian",
+            "Nidalee",
+            "Pantheon",
+            "Bard"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Syndra",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "TwistedFate",
+            "Kalista",
+            "Orianna",
+            "Senna",
+            "Twitch"
+          ],
+          "pickList": [
+            "Kayle",
+            "Graves",
+            "Galio",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Y_MbnvUlU60/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Y_MbnvUlU60/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Y_MbnvUlU60/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DWG vs RGE | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "nhLMXjfcWLY",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Ornn",
+            "Renekton",
+            "Lucian",
+            "Gangplank",
+            "Sett"
+          ],
+          "pickList": [
+            "Kennen",
+            "Graves",
+            "TwistedFate",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "Camille",
+            "Pantheon",
+            "Nidalee",
+            "Bard",
+            "Alistar"
+          ],
+          "pickList": [
+            "Sion",
+            "Lillia",
+            "Ryze",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/nhLMXjfcWLY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/nhLMXjfcWLY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/nhLMXjfcWLY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "RGE vs JDG | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "DQllUYfKQ4A",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Irelia",
+            "Akali",
+            "Lucian",
+            "Ashe",
+            "Senna"
+          ],
+          "pickList": [
+            "Camille",
+            "Sylas",
+            "Ekko",
+            "Jhin",
+            "Sett"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "TwistedFate",
+            "Caitlyn",
+            "Nidalee",
+            "Ezreal",
+            "Twitch"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Kalista",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/DQllUYfKQ4A/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/DQllUYfKQ4A/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/DQllUYfKQ4A/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "PSG vs DWG | Group Stage Day6 H/L 10.09 | 2020 월드 챔피언십",
+        "videoId": "a4c080fb3Cs",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Senna",
+            "Lucian",
+            "Orianna",
+            "Lulu",
+            "Sylas"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Ekko",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "TwistedFate",
+            "Camille",
+            "Nidalee",
+            "Akali",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Kindred",
+            "Syndra",
+            "Ashe",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-09",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/a4c080fb3Cs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/a4c080fb3Cs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/a4c080fb3Cs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SN vs G2 | Group Stage Day5 Tie Match H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "mc31j4qitXI",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Shen",
+            "Lucian",
+            "Kalista",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Graves",
+            "Akali",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Camille",
+            "Ekko",
+            "Bard"
+          ],
+          "pickList": [
+            "Sion",
+            "Lillia",
+            "Syndra",
+            "Senna",
+            "Sett"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/mc31j4qitXI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/mc31j4qitXI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/mc31j4qitXI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SN vs G2 | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "Azolp3YS8JA",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Shen",
+            "Lucian",
+            "Ashe",
+            "Thresh"
+          ],
+          "pickList": [
+            "Camille",
+            "JarvanIV",
+            "Syndra",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Galio",
+            "LeeSin",
+            "Rakan"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Ekko",
+            "Kalista",
+            "Senna"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Azolp3YS8JA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Azolp3YS8JA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Azolp3YS8JA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs MCX | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "1LnIiC0m18M",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Volibear",
+            "Camille",
+            "Lucian",
+            "TahmKench",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Shen",
+            "Lillia",
+            "Syndra",
+            "Senna",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "Sett",
+            "Twitch",
+            "Graves",
+            "Kalista",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Ornn",
+            "LeeSin",
+            "Kassadin",
+            "Ashe",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/1LnIiC0m18M/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/1LnIiC0m18M/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/1LnIiC0m18M/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SN vs TL | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "wRD6P2Fv2kU",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Renekton",
+            "Camille",
+            "Nidalee",
+            "Ezreal",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Malphite",
+            "Lillia",
+            "Sett",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Shen",
+            "Kalista",
+            "Syndra",
+            "Orianna"
+          ],
+          "pickList": [
+            "Jayce",
+            "Graves",
+            "TwistedFate",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wRD6P2Fv2kU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wRD6P2Fv2kU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wRD6P2Fv2kU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "G2 vs MCX | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "VIFFI4pVrVY",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Volibear",
+            "Syndra",
+            "Sett",
+            "Ashe",
+            "Leona"
+          ],
+          "pickList": [
+            "Shen",
+            "Lillia",
+            "Lucian",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "Camille",
+            "TwistedFate",
+            "Nidalee",
+            "Caitlyn",
+            "Twitch"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VIFFI4pVrVY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VIFFI4pVrVY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VIFFI4pVrVY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MCX vs SN | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "5Jiu7NcDxds",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Renekton",
+            "TwistedFate",
+            "Karma",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Irelia",
+            "Graves",
+            "Galio",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "Nidalee",
+            "Camille",
+            "Lillia",
+            "Ezreal",
+            "Wukong"
+          ],
+          "pickList": [
+            "Jayce",
+            "Volibear",
+            "Syndra",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/5Jiu7NcDxds/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/5Jiu7NcDxds/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/5Jiu7NcDxds/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs G2 | Group Stage Day5 H/L 10.08 | 2020 월드 챔피언십",
+        "videoId": "sOeNxoHaUT8",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Ornn",
+            "Graves",
+            "Lillia",
+            "LeeSin",
+            "Kindred"
+          ],
+          "pickList": [
+            "Sylas",
+            "Volibear",
+            "Ekko",
+            "Ashe",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Camille",
+            "Lucian",
+            "TwistedFate",
+            "Nidalee",
+            "Irelia"
+          ],
+          "pickList": [
+            "Lulu",
+            "Hecarim",
+            "Syndra",
+            "Kalista",
+            "Sett"
+          ]
+        },
+        "date": "2020-10-08",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sOeNxoHaUT8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sOeNxoHaUT8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sOeNxoHaUT8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TSM vs LGD | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "zvwPwFwJAZk",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Lucian",
+            "Caitlyn",
+            "TwistedFate",
+            "Twitch",
+            "Jhin"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Orianna",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "Kindred",
+            "Nidalee",
+            "Ornn",
+            "Leona",
+            "Sylas"
+          ],
+          "pickList": [
+            "Shen",
+            "Graves",
+            "LeBlanc",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/zvwPwFwJAZk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/zvwPwFwJAZk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/zvwPwFwJAZk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FNC vs GEN | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "085pd4Qg-p4",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "Kalista",
+            "Sett",
+            "TwistedFate",
+            "Pantheon",
+            "Karma"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Lucian",
+            "Thresh",
+            "Evelynn",
+            "Nautilus",
+            "Syndra"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Azir",
+            "Ezreal",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/085pd4Qg-p4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/085pd4Qg-p4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/085pd4Qg-p4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TES vs UOL | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "f7hMWX7qCF4",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Swain",
+            "Kassadin",
+            "Renekton",
+            "Twitch",
+            "Alistar"
+          ],
+          "pickList": [
+            "Jax",
+            "Gragas",
+            "Lucian",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Nidalee",
+            "Caitlyn",
+            "Ashe",
+            "Leona",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Camille",
+            "LeeSin",
+            "Syndra",
+            "Karthus",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/f7hMWX7qCF4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/f7hMWX7qCF4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/f7hMWX7qCF4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DRX vs FLY | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "REmBvhREdn4",
+        "winTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Syndra",
+            "Volibear",
+            "Renekton",
+            "Blitzcrank",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Maokai",
+            "Kindred",
+            "Zoe",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Lucian",
+            "TwistedFate",
+            "Nidalee",
+            "Sylas",
+            "Camille"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/REmBvhREdn4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/REmBvhREdn4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/REmBvhREdn4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SN vs MCX | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "D37Ac43voiM",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Ornn",
+            "Graves",
+            "Renekton",
+            "Akali",
+            "Kassadin"
+          ],
+          "pickList": [
+            "Jax",
+            "Nidalee",
+            "Syndra",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "TwistedFate",
+            "Camille",
+            "Lucian",
+            "Senna",
+            "Leona"
+          ],
+          "pickList": [
+            "Shen",
+            "Volibear",
+            "Azir",
+            "Ashe",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/D37Ac43voiM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/D37Ac43voiM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/D37Ac43voiM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "G2 vs TL | Group Stage Day4 H/L 10.06 | 2020 월드 챔피언십",
+        "videoId": "MU0clP-hqMw",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Lucian",
+            "Camille",
+            "TwistedFate",
+            "TahmKench",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Volibear",
+            "Graves",
+            "Orianna",
+            "Kalista",
+            "Sett"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Mordekaiser",
+            "Ornn",
+            "Shen",
+            "Leona",
+            "Syndra"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Jayce",
+            "Ashe",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-06",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MU0clP-hqMw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MU0clP-hqMw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MU0clP-hqMw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TES vs DRX | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "83eORIEh0mg",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Lillia",
+            "Caitlyn",
+            "Graves",
+            "Ezreal",
+            "Kalista"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Nocturne",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Lucian",
+            "Syndra",
+            "Ashe",
+            "Galio",
+            "Orianna"
+          ],
+          "pickList": [
+            "Quinn",
+            "LeeSin",
+            "TwistedFate",
+            "Draven",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/83eORIEh0mg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/83eORIEh0mg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/83eORIEh0mg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FLY vs UOL | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "4N9_IOASrus",
+        "winTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Nidalee",
+            "Camille",
+            "Swain",
+            "Twitch",
+            "Lucian"
+          ],
+          "pickList": [
+            "Renekton",
+            "Volibear",
+            "Syndra",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Shen",
+            "Ashe",
+            "Caitlyn",
+            "Ezreal",
+            "Jhin"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4N9_IOASrus/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4N9_IOASrus/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4N9_IOASrus/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "JDG vs RGE | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "UISdM2NXw5k",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Irelia",
+            "Akali",
+            "Shen",
+            "Syndra",
+            "Lulu"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "Zoe",
+            "Caitlyn",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "TwistedFate",
+            "Lucian",
+            "Camille",
+            "Ezreal",
+            "Jhin"
+          ],
+          "pickList": [
+            "Volibear",
+            "Nidalee",
+            "Azir",
+            "Ashe",
+            "Blitzcrank"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/UISdM2NXw5k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/UISdM2NXw5k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/UISdM2NXw5k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DWG vs PSG | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "OHpa2k1zOYI",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Ornn",
+            "Renekton",
+            "Orianna",
+            "Bard",
+            "Jayce"
+          ],
+          "pickList": [
+            "Kennen",
+            "Graves",
+            "Syndra",
+            "Senna",
+            "Thresh"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Camille",
+            "Nidalee",
+            "Lucian",
+            "Irelia",
+            "Wukong"
+          ],
+          "pickList": [
+            "Lulu",
+            "Kindred",
+            "Azir",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/OHpa2k1zOYI/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/OHpa2k1zOYI/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/OHpa2k1zOYI/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs SN | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "N9aYF4uo3wY",
+        "winTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Shen",
+            "Ornn",
+            "TwistedFate",
+            "Mordekaiser",
+            "Graves"
+          ],
+          "pickList": [
+            "Jax",
+            "Nidalee",
+            "Galio",
+            "Draven",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Camille",
+            "Renekton",
+            "Ashe",
+            "Wukong",
+            "Sett"
+          ],
+          "pickList": [
+            "Volibear",
+            "LeeSin",
+            "Syndra",
+            "Twitch",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/N9aYF4uo3wY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/N9aYF4uo3wY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/N9aYF4uo3wY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MCX vs G2 | Group Stage Day3 H/L 10.05 | 2020 월드 챔피언십",
+        "videoId": "znZEBSV8aIw",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Sett",
+            "Ornn",
+            "Renekton",
+            "Volibear",
+            "Wukong"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Galio",
+            "Ashe",
+            "TahmKench"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "TwistedFate",
+            "Shen",
+            "Lucian",
+            "Leona",
+            "Ekko"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "Graves",
+            "Syndra",
+            "Senna",
+            "Pantheon"
+          ]
+        },
+        "date": "2020-10-05",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/znZEBSV8aIw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/znZEBSV8aIw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/znZEBSV8aIw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs FNC | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "-vkXj5MmEuk",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Evelynn",
+            "Lucian",
+            "Shen",
+            "Volibear",
+            "Gangplank"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Ekko",
+            "MissFortune",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "TwistedFate",
+            "Renekton",
+            "Leona",
+            "Ezreal",
+            "Rakan"
+          ],
+          "pickList": [
+            "Sett",
+            "Graves",
+            "Syndra",
+            "Jhin",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/-vkXj5MmEuk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/-vkXj5MmEuk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/-vkXj5MmEuk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GEN vs TSM | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "B2fuzmJIZOY",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Caitlyn",
+            "TwistedFate",
+            "Ornn",
+            "Twitch",
+            "Syndra"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Sett",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "Kalista",
+            "Lucian",
+            "Azir",
+            "Zoe",
+            "Ashe"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Zilean",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/B2fuzmJIZOY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/B2fuzmJIZOY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/B2fuzmJIZOY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "PSG vs JDG | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "oCWx2DazLcE",
+        "winTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Senna",
+            "Rakan",
+            "TwistedFate",
+            "Leona",
+            "Thresh"
+          ],
+          "pickList": [
+            "Sett",
+            "Sylas",
+            "Ekko",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Lucian",
+            "Camille",
+            "Nidalee",
+            "Kindred",
+            "Lillia"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Syndra",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/oCWx2DazLcE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/oCWx2DazLcE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/oCWx2DazLcE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "RGE vs DWG | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "MzSHvxF9o3Y",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Lucian",
+            "Ornn",
+            "Renekton",
+            "Shen",
+            "Rakan"
+          ],
+          "pickList": [
+            "Lulu",
+            "Graves",
+            "Sylas",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "TwistedFate",
+            "Camille",
+            "Nidalee",
+            "Akali",
+            "Vladimir"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Hecarim",
+            "Syndra",
+            "Kalista",
+            "Taric"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/MzSHvxF9o3Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/MzSHvxF9o3Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/MzSHvxF9o3Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "G2 vs SN | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "sqoEtyCbBdE",
+        "winTeam": {
+          "teamName": "G2 Esports",
+          "banList": [
+            "Caitlyn",
+            "Nidalee",
+            "Lillia",
+            "Thresh",
+            "TahmKench"
+          ],
+          "pickList": [
+            "Volibear",
+            "Graves",
+            "TwistedFate",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Suning",
+          "banList": [
+            "Shen",
+            "Lucian",
+            "Ornn",
+            "Kalista",
+            "Twitch"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Syndra",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/sqoEtyCbBdE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/sqoEtyCbBdE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/sqoEtyCbBdE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MCX vs TL | Group Stage Day2 H/L 10.04 | 2020 월드 챔피언십",
+        "videoId": "tV-FGNWmoNk",
+        "winTeam": {
+          "teamName": "Machi E-Sports",
+          "banList": [
+            "TwistedFate",
+            "Twitch",
+            "Shen",
+            "Rakan",
+            "Thresh"
+          ],
+          "pickList": [
+            "Ornn",
+            "Volibear",
+            "Syndra",
+            "Ezreal",
+            "Karma"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Nidalee",
+            "Sett",
+            "Ashe",
+            "Nautilus",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "Graves",
+            "Orianna",
+            "Caitlyn",
+            "Lux"
+          ]
+        },
+        "date": "2020-10-04",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/tV-FGNWmoNk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/tV-FGNWmoNk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/tV-FGNWmoNk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TSM vs FNC | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "7Ffhh30tD1k",
+        "winTeam": {
+          "teamName": "Fnatic",
+          "banList": [
+            "TwistedFate",
+            "Caitlyn",
+            "Renekton",
+            "Leona",
+            "Lulu"
+          ],
+          "pickList": [
+            "Volibear",
+            "Evelynn",
+            "Lucian",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "TSM",
+          "banList": [
+            "Thresh",
+            "Shen",
+            "Gangplank",
+            "Twitch",
+            "Ornn"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Syndra",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/7Ffhh30tD1k/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/7Ffhh30tD1k/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/7Ffhh30tD1k/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "GEN vs LGD | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "gGm7xIg66ig",
+        "winTeam": {
+          "teamName": "Gen.G eSports",
+          "banList": [
+            "Ornn",
+            "Graves",
+            "TwistedFate",
+            "Jhin",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Volibear",
+            "Gragas",
+            "Lucian",
+            "Ashe",
+            "Sett"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Kalista",
+            "Lillia",
+            "Nidalee",
+            "Evelynn",
+            "Zoe"
+          ],
+          "pickList": [
+            "Renekton",
+            "Kindred",
+            "Syndra",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/gGm7xIg66ig/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/gGm7xIg66ig/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/gGm7xIg66ig/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "DWG vs JDG | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "c-1Zu9VPq2E",
+        "winTeam": {
+          "teamName": "DAMWON Gaming",
+          "banList": [
+            "Ornn",
+            "Graves",
+            "Renekton",
+            "Sett",
+            "Thresh"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "TwistedFate",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "JD Gaming",
+          "banList": [
+            "Akali",
+            "Lucian",
+            "Pantheon",
+            "Kalista",
+            "Senna"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Jayce",
+            "Ashe",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/c-1Zu9VPq2E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/c-1Zu9VPq2E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/c-1Zu9VPq2E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "RGE vs PSG | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "2_JfWfh975Y",
+        "winTeam": {
+          "teamName": "Rogue",
+          "banList": [
+            "TwistedFate",
+            "Nidalee",
+            "Mordekaiser",
+            "Syndra",
+            "Azir"
+          ],
+          "pickList": [
+            "Malphite",
+            "Evelynn",
+            "Lucian",
+            "Kalista",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Hecarim",
+            "Lillia",
+            "Ornn",
+            "Gangplank",
+            "Shen"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Orianna",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2_JfWfh975Y/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2_JfWfh975Y/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2_JfWfh975Y/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs DRX | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "JBTy4DleDk0",
+        "winTeam": {
+          "teamName": "DragonX",
+          "banList": [
+            "Swain",
+            "Syndra",
+            "Hecarim",
+            "Braum",
+            "Karma"
+          ],
+          "pickList": [
+            "Ornn",
+            "Nidalee",
+            "Sett",
+            "Ashe",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Caitlyn",
+            "Lucian",
+            "Sylas",
+            "Irelia",
+            "Jayce"
+          ],
+          "pickList": [
+            "Renekton",
+            "Evelynn",
+            "Orianna",
+            "Jhin",
+            "Alistar"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JBTy4DleDk0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JBTy4DleDk0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JBTy4DleDk0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "FLY vs TES | Group Stage Day1 H/L 10.03 | 2020 월드 챔피언십",
+        "videoId": "0aI2obEMGf4",
+        "winTeam": {
+          "teamName": "Top Esports",
+          "banList": [
+            "Shen",
+            "Lucian",
+            "Ashe",
+            "Renekton",
+            "Ornn"
+          ],
+          "pickList": [
+            "Camille",
+            "Graves",
+            "Akali",
+            "Senna",
+            "Sett"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "FlyQuest",
+          "banList": [
+            "Nidalee",
+            "Ekko",
+            "Caitlyn",
+            "Jax",
+            "Jayce"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Syndra",
+            "Jhin",
+            "Thresh"
+          ]
+        },
+        "date": "2020-10-03",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0aI2obEMGf4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0aI2obEMGf4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0aI2obEMGf4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "칭찬은 베인도 구르게 한다 | UOL vs SUP | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "bsmNtvafxTU",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Ornn",
+            "Hecarim",
+            "Azir",
+            "Morgana",
+            "Malphite"
+          ],
+          "pickList": [
+            "Wukong",
+            "Nidalee",
+            "Vayne",
+            "Jhin",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Renekton",
+            "Orianna",
+            "Camille",
+            "Kassadin",
+            "Alistar"
+          ],
+          "pickList": [
+            "Sion",
+            "Lillia",
+            "Sett",
+            "Caitlyn",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/bsmNtvafxTU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/bsmNtvafxTU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/bsmNtvafxTU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "거 죽기 딱 좋은 날씨네 | UOL vs SUP | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "smaUl9_weI0",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Nidalee",
+            "Ornn",
+            "Hecarim",
+            "Lucian",
+            "Sett"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Kassadin",
+            "Ziggs",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Camille",
+            "Orianna",
+            "Twitch",
+            "Karthus",
+            "Swain"
+          ],
+          "pickList": [
+            "Wukong",
+            "Lillia",
+            "Azir",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/smaUl9_weI0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/smaUl9_weI0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/smaUl9_weI0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "까꿍~ | UOL vs SUP | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "Ok-_nnEUCH4",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Azir",
+            "Hecarim",
+            "Ornn",
+            "Leona",
+            "Sett"
+          ],
+          "pickList": [
+            "Wukong",
+            "Nidalee",
+            "Zoe",
+            "Twitch",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Renekton",
+            "Orianna",
+            "Camille",
+            "Kassadin",
+            "Sylas"
+          ],
+          "pickList": [
+            "Malphite",
+            "Lillia",
+            "Galio",
+            "MissFortune",
+            "Rakan"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Ok-_nnEUCH4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Ok-_nnEUCH4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Ok-_nnEUCH4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "골드 카-드 | LGC vs LGD | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "JpG-w929OCk",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Sett",
+            "Ornn",
+            "Nidalee",
+            "Kalista",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Volibear",
+            "Graves",
+            "TwistedFate",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Orianna",
+            "Syndra",
+            "Renekton",
+            "Jhin",
+            "Rakan"
+          ],
+          "pickList": [
+            "Camille",
+            "Lillia",
+            "Galio",
+            "Twitch",
+            "Taric"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JpG-w929OCk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JpG-w929OCk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JpG-w929OCk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "상해구경 | LGC vs LGD | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "2Ysuf4W0aTM",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Sett",
+            "Ornn",
+            "Galio",
+            "Caitlyn",
+            "Kalista"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Kassadin",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Orianna",
+            "Syndra",
+            "Renekton",
+            "Rakan",
+            "Thresh"
+          ],
+          "pickList": [
+            "Poppy",
+            "Lillia",
+            "TwistedFate",
+            "Draven",
+            "Braum"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2Ysuf4W0aTM/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2Ysuf4W0aTM/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2Ysuf4W0aTM/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "엉금엉금 | LGC vs LGD | Play-In Stage Day6 H/L 09.30 | 2020 월드 챔피언십",
+        "videoId": "PXFbTFLbtBs",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Sett",
+            "Ornn",
+            "Lucian",
+            "Caitlyn",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "TwistedFate",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Orianna",
+            "Syndra",
+            "Kindred",
+            "Rakan",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Nidalee",
+            "Galio",
+            "Kalista",
+            "Taric"
+          ]
+        },
+        "date": "2020-09-30",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/PXFbTFLbtBs/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/PXFbTFLbtBs/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/PXFbTFLbtBs/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "\"Game 4번은 개인주의야.\" | SUP vs MAD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "JDyOlXjBBJw",
+        "winTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Lucian",
+            "Syndra",
+            "Cassiopeia"
+          ],
+          "pickList": [
+            "Malphite",
+            "Lillia",
+            "Sett",
+            "Caitlyn",
+            "Morgana"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Hecarim",
+            "Azir",
+            "Ornn",
+            "Shen",
+            "Wukong"
+          ],
+          "pickList": [
+            "Renekton",
+            "Graves",
+            "Corki",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/JDyOlXjBBJw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/JDyOlXjBBJw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/JDyOlXjBBJw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "박수 짝! 짝! 말 파이 트! | SUP vs MAD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "4zTCX_B__4g",
+        "winTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Hecarim",
+            "Nidalee",
+            "Azir",
+            "Senna",
+            "Sylas"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Cassiopeia",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Lucian",
+            "Syndra",
+            "Zoe"
+          ],
+          "pickList": [
+            "Sion",
+            "Lillia",
+            "Sett",
+            "Vayne",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4zTCX_B__4g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4zTCX_B__4g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4zTCX_B__4g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "스노우 선플라워 | SUP vs MAD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "fN_Bbj8lJjw",
+        "winTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Lucian",
+            "Nautilus",
+            "Malphite"
+          ],
+          "pickList": [
+            "Sion",
+            "Lillia",
+            "Azir",
+            "MissFortune",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Hecarim",
+            "Nidalee",
+            "Ornn",
+            "Ezreal",
+            "Ashe"
+          ],
+          "pickList": [
+            "Sett",
+            "Graves",
+            "Syndra",
+            "Wukong",
+            "Senna"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fN_Bbj8lJjw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fN_Bbj8lJjw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fN_Bbj8lJjw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Lion Breath | SUP vs MAD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "ZO091m61BwA",
+        "winTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Nidalee",
+            "Hecarim",
+            "Azir",
+            "Alistar",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Ornn",
+            "Lillia",
+            "Lucian",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Twitch",
+            "Jhin",
+            "Ashe"
+          ],
+          "pickList": [
+            "Shen",
+            "Graves",
+            "Zoe",
+            "Ezreal",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ZO091m61BwA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ZO091m61BwA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ZO091m61BwA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "코리안 듀오 : 알카림 | SUP vs MAD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "ERuRbYKssa4",
+        "winTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Twitch",
+            "Lucian",
+            "Graves"
+          ],
+          "pickList": [
+            "Shen",
+            "Hecarim",
+            "Galio",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Nidalee",
+            "Azir",
+            "Ornn",
+            "Leona",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "Sett",
+            "Syndra",
+            "Wukong",
+            "Senna"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ERuRbYKssa4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ERuRbYKssa4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ERuRbYKssa4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "Happy Peanut | R7 vs LGD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "ajpLxopERDk",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Lucian",
+            "Shen",
+            "Lillia",
+            "Camille",
+            "Braum"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Syndra",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "TwistedFate",
+            "Graves",
+            "Nidalee",
+            "Rakan",
+            "Bard"
+          ],
+          "pickList": [
+            "Kayle",
+            "LeeSin",
+            "Orianna",
+            "Sett",
+            "Senna"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/ajpLxopERDk/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/ajpLxopERDk/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/ajpLxopERDk/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "명령: 충격파 | R7 vs LGD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "kL_5aNC30kQ",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Ornn",
+            "Lucian",
+            "Shen",
+            "Thresh",
+            "Alistar"
+          ],
+          "pickList": [
+            "Gnar",
+            "Kindred",
+            "Orianna",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Nidalee",
+            "TwistedFate",
+            "Renekton",
+            "Ashe",
+            "Camille"
+          ],
+          "pickList": [
+            "Aatrox",
+            "Graves",
+            "Azir",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/kL_5aNC30kQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/kL_5aNC30kQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/kL_5aNC30kQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "마크나이트 | R7 vs LGD | Play-In Stage Day5 H/L 09.29 | 2020 월드 챔피언십",
+        "videoId": "cUGFDedtZs0",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Shen",
+            "Ornn",
+            "Lillia",
+            "Nautilus",
+            "Alistar"
+          ],
+          "pickList": [
+            "Volibear",
+            "Kindred",
+            "TwistedFate",
+            "Tristana",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Lucian",
+            "Nidalee",
+            "Renekton",
+            "Bard",
+            "Kalista"
+          ],
+          "pickList": [
+            "Camille",
+            "Graves",
+            "Galio",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-29",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/cUGFDedtZs0/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/cUGFDedtZs0/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/cUGFDedtZs0/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs LGC | Play-In Stage Day4 Tie Match2 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "0RB6c7UDnu8",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Nidalee",
+            "Lillia",
+            "Sett",
+            "Senna",
+            "Ezreal"
+          ],
+          "pickList": [
+            "Shen",
+            "Graves",
+            "Syndra",
+            "Caitlyn",
+            "Braum"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Orianna",
+            "Twitch",
+            "Azir",
+            "Bard",
+            "Kalista"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Galio",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/0RB6c7UDnu8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/0RB6c7UDnu8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/0RB6c7UDnu8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MAD vs ITZ | Play-In Stage Day4 Tie Match1 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "Z_RxJzHAyaw",
+        "winTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Bard",
+            "Volibear",
+            "Ornn",
+            "LeBlanc",
+            "Alistar"
+          ],
+          "pickList": [
+            "Wukong",
+            "Graves",
+            "Orianna",
+            "Ezreal",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "INTZ e-Sports",
+          "banList": [
+            "Akali",
+            "Shen",
+            "Renekton",
+            "Mordekaiser",
+            "Jax"
+          ],
+          "pickList": [
+            "Camille",
+            "Sett",
+            "KogMaw",
+            "Senna",
+            "TahmKench"
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Z_RxJzHAyaw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Z_RxJzHAyaw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Z_RxJzHAyaw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGC vs SUP | Play-In Stage Day4 H/L 09.28 | 2020 월드 챔피언십",
+        "videoId": "2YLvxW99v98",
+        "winTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Shen",
+            "Azir",
+            "Zoe",
+            "Caitlyn",
+            "Ornn"
+          ],
+          "pickList": [
+            "Lillia",
+            "Sett",
+            "Ezreal",
+            "Karma",
+            "Camille"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Renekton",
+            "Twitch",
+            "Bard",
+            "Thresh",
+            "Wukong"
+          ],
+          "pickList": [
+            "Nidalee",
+            "Lulu",
+            "Aphelios",
+            "Nautilus",
+            null
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/2YLvxW99v98/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/2YLvxW99v98/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/2YLvxW99v98/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "ITZ vs TL | Play-In Stage Day4 H/L 09.28 | 2020 월드 챔피언십",
+        "videoId": "QReT9bgTrM4",
+        "winTeam": {
+          "teamName": "INTZ e-Sports",
+          "banList": [
+            "Twitch",
+            "Shen",
+            "Graves",
+            "Mordekaiser",
+            "Ornn"
+          ],
+          "pickList": [
+            "Camille",
+            "Sett",
+            "Orianna",
+            "Senna",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Bard",
+            "Nidalee",
+            "Volibear",
+            "TahmKench",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "Lillia",
+            "TwistedFate",
+            "Ashe",
+            "Thresh"
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QReT9bgTrM4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QReT9bgTrM4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QReT9bgTrM4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MAD vs LGC | Play-In Stage Day4 H/L 09.28 | 2020 월드 챔피언십",
+        "videoId": "fbmxv5K3Eks",
+        "winTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Akali",
+            "Orianna",
+            "Lucian",
+            "Kalista",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Galio",
+            "Jhin",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Nidalee",
+            "Twitch",
+            "Camille",
+            "Caitlyn",
+            "Senna"
+          ],
+          "pickList": [
+            "Shen",
+            "Lillia",
+            "Syndra",
+            "Ezreal",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/fbmxv5K3Eks/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/fbmxv5K3Eks/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/fbmxv5K3Eks/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SUP vs TL | Play-In Stage Day4 H/L 09.28 | 2020 월드 챔피언십",
+        "videoId": "8xEhI-GkqSQ",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Nidalee",
+            "Senna",
+            "Azir",
+            "MissFortune",
+            "Lucian"
+          ],
+          "pickList": [
+            "Shen",
+            "Graves",
+            "Sylas",
+            "Twitch",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Orianna",
+            "Mordekaiser",
+            "Ornn",
+            "Malphite",
+            "TwistedFate"
+          ],
+          "pickList": [
+            "Wukong",
+            "Lillia",
+            "Akali",
+            "Jhin",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-28",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/8xEhI-GkqSQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/8xEhI-GkqSQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/8xEhI-GkqSQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs V3 | Play-In Stage Day3 Tie Match2 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "VVHB6svHs_Q",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Lillia",
+            "Sion",
+            "Renekton",
+            "Galio",
+            "Thresh"
+          ],
+          "pickList": [
+            "Jax",
+            "Graves",
+            "Orianna",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "V3 Esports",
+          "banList": [
+            "TwistedFate",
+            "Ornn",
+            "Nidalee",
+            "Volibear",
+            "Mordekaiser"
+          ],
+          "pickList": [
+            "Camille",
+            "Elise",
+            "Sett",
+            "Xayah",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/VVHB6svHs_Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/VVHB6svHs_Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/VVHB6svHs_Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs PSG | Play-In Stage Day3 Tie Match1 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "miNrP23pDDQ",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Nidalee",
+            "Evelynn",
+            "Camille",
+            "Kassadin",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Gangplank",
+            "Lillia",
+            "Orianna",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Ornn",
+            "Mordekaiser",
+            "Graves",
+            "Leona",
+            "Alistar"
+          ],
+          "pickList": [
+            "Renekton",
+            "Hecarim",
+            "Ziggs",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/miNrP23pDDQ/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/miNrP23pDDQ/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/miNrP23pDDQ/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs LGD | Play-In Stage Day3 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "dYKeg3cvXc4",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Ornn",
+            "TwistedFate",
+            "Graves",
+            "Leona",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Syndra",
+            "Twitch",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Renekton",
+            "Orianna",
+            "Lucian",
+            "Rakan",
+            "Lulu"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Sylas",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/dYKeg3cvXc4/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/dYKeg3cvXc4/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/dYKeg3cvXc4/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "PSG vs V3 | Play-In Stage Day3 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "QtIBkwy-Q4I",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Nidalee",
+            "Evelynn",
+            "Sett",
+            "Karthus",
+            "Elise"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Syndra",
+            "Senna",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "V3 Esports",
+          "banList": [
+            "Zoe",
+            "Graves",
+            "Lillia",
+            "Orianna",
+            "Bard"
+          ],
+          "pickList": [
+            "Renekton",
+            "Sylas",
+            "Galio",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/QtIBkwy-Q4I/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/QtIBkwy-Q4I/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/QtIBkwy-Q4I/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "R7 vs UOL | Play-In Stage Day3 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "hYpeYAYqZ3E",
+        "winTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Orianna",
+            "Shen",
+            "Ornn",
+            "Graves",
+            "Lillia"
+          ],
+          "pickList": [
+            "Camille",
+            "Evelynn",
+            "Lucian",
+            "Ezreal",
+            "Alistar"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Nidalee",
+            "Ashe",
+            "Renekton",
+            "Rakan",
+            "Ziggs"
+          ],
+          "pickList": [
+            "Wukong",
+            "Skarner",
+            "Cassiopeia",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/hYpeYAYqZ3E/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/hYpeYAYqZ3E/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/hYpeYAYqZ3E/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "V3 vs LGD | Play-In Stage Day3 H/L 09.27 | 2020 월드 챔피언십",
+        "videoId": "NHGZdE6pSr8",
+        "winTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Lillia",
+            "Sion",
+            "Nidalee",
+            "Thresh",
+            "Sett"
+          ],
+          "pickList": [
+            "Ornn",
+            "Kindred",
+            "Syndra",
+            "Jhin",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "V3 Esports",
+          "banList": [
+            "TwistedFate",
+            "Orianna",
+            "Graves",
+            "Leona",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Renekton",
+            "LeeSin",
+            "Zoe",
+            "Ashe",
+            "Braum"
+          ]
+        },
+        "date": "2020-09-27",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/NHGZdE6pSr8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/NHGZdE6pSr8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/NHGZdE6pSr8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs LGC | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "Xd3tVon6gSw",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Nidalee",
+            "Sett",
+            "Lillia",
+            "Camille",
+            "Evelynn"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Ashe",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Kalista",
+            "Shen",
+            "Twitch",
+            "Blitzcrank",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Sylas",
+            "JarvanIV",
+            "Lucian",
+            "Ziggs",
+            "Thresh"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Xd3tVon6gSw/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Xd3tVon6gSw/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Xd3tVon6gSw/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "SUP vs MAD | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "wQAKhvvMEeY",
+        "winTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Renekton",
+            "Akali",
+            "LeeSin",
+            "Orianna",
+            "Shen"
+          ],
+          "pickList": [
+            "Wukong",
+            "Nidalee",
+            "Azir",
+            "Senna",
+            "Leona"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Pantheon",
+            "Caitlyn",
+            "Lillia",
+            "Nautilus",
+            "Alistar"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "Hecarim",
+            "Zoe",
+            "Twitch",
+            "Rakan"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/wQAKhvvMEeY/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/wQAKhvvMEeY/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/wQAKhvvMEeY/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "UOL vs PSG | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "HXjXoamcYnA",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Ornn",
+            "Mordekaiser",
+            "Graves",
+            "Senna",
+            "Bard"
+          ],
+          "pickList": [
+            "Renekton",
+            "Hecarim",
+            "Orianna",
+            "Swain",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Nidalee",
+            "Evelynn",
+            "Camille",
+            "Nautilus",
+            "Thresh"
+          ],
+          "pickList": [
+            "Volibear",
+            "Ekko",
+            "Sett",
+            "Jhin",
+            "Alistar"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/HXjXoamcYnA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/HXjXoamcYnA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/HXjXoamcYnA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs R7 | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "g41s8Iu_RYE",
+        "winTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Ashe",
+            "Kalista",
+            "Lillia",
+            "Quinn",
+            "Ornn"
+          ],
+          "pickList": [
+            "Nidalee",
+            "Orianna",
+            "Ezreal",
+            "Nautilus",
+            null
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Shen",
+            "Lucian",
+            "Galio",
+            "Renekton",
+            "Camille"
+          ],
+          "pickList": [
+            "LeeSin",
+            "TwistedFate",
+            "Twitch",
+            "Rakan",
+            "Sett"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/g41s8Iu_RYE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/g41s8Iu_RYE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/g41s8Iu_RYE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "V3 vs UOL | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "goKwQPlhMsE",
+        "winTeam": {
+          "teamName": "Unicorns Of Love",
+          "banList": [
+            "Lillia",
+            "Ashe",
+            "Nidalee",
+            "Leona",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Camille",
+            "Graves",
+            "Kassadin",
+            "Orianna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "V3 Esports",
+          "banList": [
+            "Evelynn",
+            "Lux",
+            "Lucian",
+            "Bard",
+            "Twitch"
+          ],
+          "pickList": [
+            "Sion",
+            "Karthus",
+            "Galio",
+            "Caitlyn",
+            "Sett"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/goKwQPlhMsE/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/goKwQPlhMsE/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/goKwQPlhMsE/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "ITZ vs SUP | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "j5Rg2sB8XVg",
+        "winTeam": {
+          "teamName": "Papara SuperMassive",
+          "banList": [
+            "Camille",
+            "Bard",
+            "Volibear",
+            "Ezreal",
+            "Ashe"
+          ],
+          "pickList": [
+            "Shen",
+            "Hecarim",
+            "Lulu",
+            "Senna",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "INTZ e-Sports",
+          "banList": [
+            "Caitlyn",
+            "Lillia",
+            "Zoe",
+            "Azir",
+            "VelKoz"
+          ],
+          "pickList": [
+            "Renekton",
+            "Nidalee",
+            "Sylas",
+            "Jhin",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/j5Rg2sB8XVg/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/j5Rg2sB8XVg/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/j5Rg2sB8XVg/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "R7 vs V3 | Play-In Stage Day2 H/L 09.26 | 2020 월드 챔피언십",
+        "videoId": "b24BeFJZc-Q",
+        "winTeam": {
+          "teamName": "V3 Esports",
+          "banList": [
+            "Hecarim",
+            "Graves",
+            "Lucian",
+            "Ornn",
+            "Shen"
+          ],
+          "pickList": [
+            "Renekton",
+            "Elise",
+            "Zoe",
+            "Ashe",
+            "Sett"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Galio",
+            "Kalista",
+            "Lillia",
+            "Leona",
+            "LeeSin"
+          ],
+          "pickList": [
+            "Sion",
+            "Nidalee",
+            "Tristana",
+            "Twitch",
+            "Rakan"
+          ]
+        },
+        "date": "2020-09-26",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/b24BeFJZc-Q/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/b24BeFJZc-Q/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/b24BeFJZc-Q/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGC vs ITZ | Play-In Stage Day1 H/L 09.25 | 2020 월드 챔피언십",
+        "videoId": "Mgs93fJpvZA",
+        "winTeam": {
+          "teamName": "Team Liquid",
+          "banList": [
+            "Renekton",
+            "Akali",
+            "Lillia",
+            "Sett",
+            "Nautilus"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "LeeSin",
+            "TwistedFate",
+            "Twitch",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Lucian",
+            "Kalista",
+            "Graves",
+            "Shen",
+            "Orianna"
+          ],
+          "pickList": [
+            "Camille",
+            "Evelynn",
+            "Syndra",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/Mgs93fJpvZA/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/Mgs93fJpvZA/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/Mgs93fJpvZA/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "TL vs MAD | Play-In Stage Day1 H/L 09.25 | 2020 월드 챔피언십",
+        "videoId": "9LbImjg1QaU",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "TwistedFate",
+            "Nidalee",
+            "Ezreal",
+            "Twitch",
+            "Caitlyn"
+          ],
+          "pickList": [
+            "Ornn",
+            "Graves",
+            "Orianna",
+            "Jhin",
+            "Rakan"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "LGD Gaming",
+          "banList": [
+            "Zoe",
+            "Syndra",
+            "Ekko",
+            "Senna",
+            "Bard"
+          ],
+          "pickList": [
+            "Volibear",
+            "Lillia",
+            "Lucian",
+            "Ashe",
+            "Braum"
+          ]
+        },
+        "date": "2020-09-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/9LbImjg1QaU/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/9LbImjg1QaU/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/9LbImjg1QaU/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "LGD vs PSG | Play-In Stage Day1 H/L 09.25 | 2020 월드 챔피언십",
+        "videoId": "4c8NvHxGM1g",
+        "winTeam": {
+          "teamName": "Legacy eSports",
+          "banList": [
+            "Orianna",
+            "Renekton",
+            "Lucian",
+            "Jax",
+            "Ashe"
+          ],
+          "pickList": [
+            "Camille",
+            "Nidalee",
+            "Sett",
+            "Tristana",
+            "Nautilus"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "INTZ e-Sports",
+          "banList": [
+            "Caitlyn",
+            "Lillia",
+            "Galio",
+            "TwistedFate",
+            "Akali"
+          ],
+          "pickList": [
+            "Vladimir",
+            "Volibear",
+            "Zoe",
+            "Ezreal",
+            "Bard"
+          ]
+        },
+        "date": "2020-09-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/4c8NvHxGM1g/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/4c8NvHxGM1g/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/4c8NvHxGM1g/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "PSG vs R7 | Play-In Stage Day1 H/L 09.25 | 2020 월드 챔피언십",
+        "videoId": "XxqdZsC37m8",
+        "winTeam": {
+          "teamName": "PSG Talon",
+          "banList": [
+            "Shen",
+            "TwistedFate",
+            "Nidalee",
+            "Ornn",
+            "Pantheon"
+          ],
+          "pickList": [
+            "Camille",
+            "Ekko",
+            "Sett",
+            "Senna",
+            "Bard"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "Rainbow7",
+          "banList": [
+            "Lillia",
+            "Lucian",
+            "Graves",
+            "Renekton",
+            "Olaf"
+          ],
+          "pickList": [
+            "Mordekaiser",
+            "Hecarim",
+            "Zoe",
+            "Ashe",
+            "Leona"
+          ]
+        },
+        "date": "2020-09-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/XxqdZsC37m8/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/XxqdZsC37m8/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/XxqdZsC37m8/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      },
+      {
+        "videoTitle": "MAD vs ITZ | Play-In Stage Day1 H/L 09.25 | 2020 월드 챔피언십",
+        "videoId": "a1bIc6-n11s",
+        "winTeam": {
+          "teamName": "MAD Lions",
+          "banList": [
+            "Bard",
+            "Orianna",
+            "Volibear",
+            "Shen",
+            "Ornn"
+          ],
+          "pickList": [
+            "Renekton",
+            "Evelynn",
+            "Lucian",
+            "Jhin",
+            "Pantheon"
+          ]
+        },
+        "loseTeam": {
+          "teamName": "INTZ e-Sports",
+          "banList": [
+            "Lillia",
+            "Caitlyn",
+            "Akali",
+            "Thresh",
+            "Syndra"
+          ],
+          "pickList": [
+            "Urgot",
+            "Gragas",
+            "Tristana",
+            "Ashe",
+            "Alistar"
+          ]
+        },
+        "date": "2020-09-25",
+        "medium": {
+          "url": "https://i.ytimg.com/vi/a1bIc6-n11s/mqdefault.jpg",
+          "width": 320,
+          "height": 180
+        },
+        "high": {
+          "url": "https://i.ytimg.com/vi/a1bIc6-n11s/hqdefault.jpg",
+          "width": 480,
+          "height": 360
+        },
+        "standard": {
+          "url": "https://i.ytimg.com/vi/a1bIc6-n11s/sddefault.jpg",
+          "width": 640,
+          "height": 480
+        }
+      }
+    ]
+  },
+  {
     "championshipName": "2021 LCK 스프링",
     "startDate": "2021-04-10",
     "lastDate": "2021-01-13",

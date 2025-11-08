@@ -22,6 +22,8 @@ spring:
 crawling:
   lck:
     target_match_url:
+      - https://gol.gg/tournament/tournament-matchlist/World%20Championship%20Play-In%202020/
+      - https://gol.gg/tournament/tournament-matchlist/World%20Championship%202020/
       - https://gol.gg/tournament/tournament-matchlist/LCK%20Spring%202021/
       - https://gol.gg/tournament/tournament-matchlist/LCK%20Spring%20Playoffs%202021/
       - https://gol.gg/tournament/tournament-matchlist/MSI%202021/
