@@ -1,5 +1,10 @@
 [
   {
+    "name": "2020 LCK 서머",
+    "crawl_list": ["LCK Summer Playoffs 2020","LCK Summer 2020"],
+    "youtube_list": ["2020 LCK 서머 게임하이라이트"]
+  },
+  {
     "name": "2020 Worlds",
     "crawl_list": ["World Championship 2020", "World Championship Play-In 2020"],
     "youtube_list": ["2020 월드 챔피언십 게임하이라이트"]

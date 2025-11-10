@@ -12,9 +12,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.NoSuchElementException;
+import java.util.*;
 
 @Component
 @Primary
@@ -61,6 +59,17 @@ public class LCKYoutubeFetcherV1 implements LCKYoutubeFetcher {
             videoPageToken = lckPlayListItemListRespDTO.getNextPageToken();
         } while (videoPageToken != null);
 
-        return lckVideoModelList;
+        return removeDuplicatedData(lckVideoModelList);
+    }
+
+    private List<LCKVideoModel> removeDuplicatedData(List<LCKVideoModel> lckVideoModelList) {
+        List<LCKVideoModel> retLCKVideoModelList = new ArrayList<>();
+        Set<String> lckVideoDuplicatedCheckSet = new HashSet<>();
+        for (LCKVideoModel lckVideoModel: lckVideoModelList) {
+            if (lckVideoDuplicatedCheckSet.contains(lckVideoModel.getVideoId())) continue;
+            retLCKVideoModelList.add(lckVideoModel);
+            lckVideoDuplicatedCheckSet.add(lckVideoModel.getVideoId());
+        }
+        return retLCKVideoModelList;
     }
 }
