@@ -1,5 +1,11 @@
 [
   {
+    "name": "2020 LCK 스프링",
+    "crawl_list": ["LCK Spring Playoffs 2020","LCK Spring 2020"],
+    "youtube_video_filter_list": ["l-4eP1z7huE"],
+    "youtube_list": ["2020 LCK 스프링 게임하이라이트"]
+  },
+  {
     "name": "2020 LCK 서머",
     "crawl_list": ["LCK Summer Playoffs 2020","LCK Summer 2020"],
     "youtube_list": ["2020 LCK 서머 게임하이라이트"]

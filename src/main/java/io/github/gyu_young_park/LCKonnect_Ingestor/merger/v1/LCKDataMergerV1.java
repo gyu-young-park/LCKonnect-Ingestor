@@ -7,10 +7,7 @@ import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKLeagueRawDat
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKMatchRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.LCKDataMerger;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.*;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKGameRawDataFilterRule;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataPlayedGameFilterRule;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKMatchRawDataFilterRule;
-import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.LCKVideoDataWastedVideoFilterRule;
+import io.github.gyu_young_park.LCKonnect_Ingestor.merger.filter.rule.*;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.mapper.LCKCrawlAndYoutubeMapper;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKCrawlAndYoutubeMapModel;
@@ -106,6 +103,9 @@ public class LCKDataMergerV1 implements LCKDataMerger {
             }
             if (mapping.getCrawlGameFilterList() != null && !mapping.getCrawlGameFilterList().isEmpty()) {
                 lckGameRawDataFilter.addRules(new LCKGameRawDataFilterRule<>(mapping.getCrawlGameFilterList()));
+            }
+            if (mapping.getYoutubeVideoFilterList() != null && !mapping.getYoutubeVideoFilterList().isEmpty()) {
+                lckVideoFilter.addRules(new LCKVideoDataFilterRule<>(mapping.getYoutubeVideoFilterList()));
             }
         }
     }
