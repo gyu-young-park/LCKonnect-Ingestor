@@ -4,11 +4,7 @@
 It crawls match results, champion picks and bans, and maps them with official LCK YouTube videos to deliver a unified data source for analysis, insights, and fan engagement.
 
 ## TODO
-1. crawl + youtube data -> RDB
-2. mapping the crawl data and youtube video (one-to-one, many-to-many, many-to-one)
-3. add scheduler code or spring batch
-4. REST API to call crawl and mapping data
-5. Split json data file by league name
+1. 필요한 youtube 데이터만 가져오기 -> 현재는 모든 데이터를 가져오고 filter
 
 ## Bug list
 
