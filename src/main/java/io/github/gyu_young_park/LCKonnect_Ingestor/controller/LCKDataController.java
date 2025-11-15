@@ -1,5 +1,6 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
 
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.dto.response.LCKMatchAndVideoResp;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
 import io.github.gyu_young_park.LCKonnect_Ingestor.service.LCKDataService;
@@ -22,7 +23,7 @@ public class LCKDataController {
     }
 
     @GetMapping("/query/win/{team}/{champion}")
-    public List<String> getQueryData(
+    public List<LCKMatchAndVideoResp> getQueryData(
             @PathVariable("team") String team,
             @PathVariable("champion") String champion) {
         System.out.println("team: " + team);

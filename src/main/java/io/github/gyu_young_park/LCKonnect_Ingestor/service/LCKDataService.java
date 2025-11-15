@@ -3,6 +3,7 @@ package io.github.gyu_young_park.LCKonnect_Ingestor.service;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.LCKCrawler;
 import io.github.gyu_young_park.LCKonnect_Ingestor.crawler.model.LCKCrawlRawData;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.convertor.DataModelToEntity;
+import io.github.gyu_young_park.LCKonnect_Ingestor.data.dto.response.LCKMatchAndVideoResp;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.ChampionshipEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
@@ -24,10 +25,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 import java.util.concurrent.*;
 
 @Service
@@ -133,12 +131,23 @@ public class LCKDataService {
         LCKYoutubeModel lckYoutubeModel;
     }
 
-    public List<String> queryWinTeamAndChampion(TeamResultEnum resultEnum, String team, String champion) {
+    public List<LCKMatchAndVideoResp> queryWinTeamAndChampion(TeamResultEnum resultEnum, String team, String champion) {
         List<MatchTeamEntity> matchTeamEntityList = matchTeamEntityRepository.findByTeamResultAndChampion(resultEnum,team, champion);
-        List<String> videoIds = new ArrayList<>();
-        for (var matchTeamEntity: matchTeamEntityList) {
-            videoIds.add(matchTeamEntity.getMatchEntity().getVideoId());
+
+        List<LCKMatchAndVideoResp> lckMatchAndVideoRespList = new ArrayList<>();
+        for (MatchTeamEntity matchTeamEntity: matchTeamEntityList) {
+            LCKMatchAndVideoResp lckMatchAndVideoResp = new LCKMatchAndVideoResp();
+            MatchEntity matchEntity = matchTeamEntity.getMatchEntity();
+            lckMatchAndVideoResp.winTeam = matchTeamEntity.getTeamEntity().getName();
+            if (Objects.equals(matchEntity.getMatchTeamEntityList().get(0).getId(), matchTeamEntity.getId())) {
+                lckMatchAndVideoResp.loseTeam = matchEntity.getMatchTeamEntityList().get(1).getTeamEntity().getName();
+            } else {
+                lckMatchAndVideoResp.loseTeam = matchEntity.getMatchTeamEntityList().get(0).getTeamEntity().getName();
+            }
+            lckMatchAndVideoResp.youtubeVideoId = matchTeamEntity.getMatchEntity().getVideoId();
+            lckMatchAndVideoResp.title = matchTeamEntity.getMatchEntity().getTitle();
+            lckMatchAndVideoRespList.add(lckMatchAndVideoResp);
         }
-        return videoIds;
+        return lckMatchAndVideoRespList;
     }
 }
