@@ -7,7 +7,6 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.reactive.function.client.WebClient;
 
 @Data
-@Component
 @ConfigurationProperties(prefix = "youtube.api")
 public class YoutubeAPIConfiguration {
     private String baseUrl;

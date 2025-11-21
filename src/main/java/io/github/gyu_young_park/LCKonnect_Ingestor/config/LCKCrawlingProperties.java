@@ -6,9 +6,8 @@ import org.springframework.stereotype.Component;
 
 import java.util.List;
 
-@Component
-@ConfigurationProperties(prefix = "crawling.lck")
 @Data
+@ConfigurationProperties(prefix = "crawling.lck")
 public class LCKCrawlingProperties {
     private List<String> targetMatchUrl;
 }
