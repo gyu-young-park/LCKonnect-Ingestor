@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 @Entity(name = "championship")
 @Table(name = "championship")
-public class ChampionshipEntity {
+public class ChampionshipEntity extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

@@ -12,7 +12,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @Entity(name = "match_team_relationship")
 @Table(name = "match_team_relationship")
-public class MatchTeamEntity {
+public class MatchTeamEntity extends BaseEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
