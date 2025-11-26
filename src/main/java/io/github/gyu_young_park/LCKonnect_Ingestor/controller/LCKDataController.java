@@ -1,11 +1,9 @@
 package io.github.gyu_young_park.LCKonnect_Ingestor.controller;
 
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.dto.response.LCKMatchAndVideoResp;
-import io.github.gyu_young_park.LCKonnect_Ingestor.data.entity.MatchTeamEntity;
 import io.github.gyu_young_park.LCKonnect_Ingestor.data.vo.TeamResultEnum;
 import io.github.gyu_young_park.LCKonnect_Ingestor.service.LCKDataService;
 import io.github.gyu_young_park.LCKonnect_Ingestor.merger.model.LCKChampionshipModel;
-import io.lettuce.core.dynamic.annotation.Param;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

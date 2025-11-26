@@ -139,7 +139,7 @@ public class LCKDataService {
             LCKMatchAndVideoResp lckMatchAndVideoResp = new LCKMatchAndVideoResp();
             MatchEntity matchEntity = matchTeamEntity.getMatchEntity();
             lckMatchAndVideoResp.winTeam = matchTeamEntity.getTeamEntity().getName();
-            if (Objects.equals(matchEntity.getMatchTeamEntityList().get(0).getId(), matchTeamEntity.getId())) {
+            if (matchEntity.getMatchTeamEntityList().get(0).getId().equals(matchTeamEntity.getId())) {
                 lckMatchAndVideoResp.loseTeam = matchEntity.getMatchTeamEntityList().get(1).getTeamEntity().getName();
             } else {
                 lckMatchAndVideoResp.loseTeam = matchEntity.getMatchTeamEntityList().get(0).getTeamEntity().getName();
